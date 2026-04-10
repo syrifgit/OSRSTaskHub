@@ -1,0 +1,85 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Wait for CLI Debug",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "restart": false,
+      "localRoot": "${workspaceFolder}",
+      "remoteRoot": "${workspaceFolder}",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "trace": true
+    },
+    {
+      "name": "Debug CLI - Direct Launch",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/cli/index.ts",
+      "args": [],
+      "runtimeArgs": [
+        "--experimental-require-module",
+        "--inspect-brk",
+        "-r",
+        "ts-node/register"
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}",
+      "outputCapture": "std",
+      "restart": true,
+      "stopOnEntry": false,
+      "autoAttachChildProcesses": true
+    },
+    {
+      "name": "Debug CLI with Args",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/cli/index.ts",
+      "args": [
+        "tasks",
+        "combat",
+        "--json"
+      ],
+      "runtimeArgs": [
+        "--experimental-require-module",
+        "-r",
+        "ts-node/register"
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}",
+      "outputCapture": "std",
+      "restart": true,
+      "stopOnEntry": false,
+      "autoAttachChildProcesses": true
+    },
+    {
+      "name": "Attach to CLI:Debug",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "restart": true,
+      "localRoot": "${workspaceFolder}",
+      "remoteRoot": "${workspaceFolder}",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    }
+  ]
+}

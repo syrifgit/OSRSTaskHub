@@ -1,0 +1,52 @@
+{
+  "name": "osrs-task-hub",
+  "version": "1.0.0",
+  "repository": {
+    "url": "git://github.com/syrifgit/OSRSTaskHub.git"
+  },
+  "engines": {
+    "node": "^22.4.0"
+  },
+  "description": "OSRS league task data pipeline: game cache → wiki enrichment → classification → output",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc",
+    "cli": "node --experimental-require-module -r ts-node/register ./src/cli.ts",
+    "test": "jest --silent",
+    "test:dev": "jest",
+    "lint": "eslint \"src/**/*.ts\" --fix"
+  },
+  "dependencies": {
+    "@abextm/cache2": "^0.1.1",
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/jest": "29.5.13",
+    "@types/node": "^22.0.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.0.0",
+    "tsconfig-paths": "^3.10.1",
+    "typescript": "^5.5.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.ts$": "ts-jest",
+      "^.+\\.js$": "babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/(?!@abextm/cache2)"
+    ],
+    "moduleFileExtensions": ["js", "json", "ts"],
+    "testRegex": ".*\\.spec\\.ts$"
+  }
+}
