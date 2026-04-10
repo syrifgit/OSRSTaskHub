@@ -118,6 +118,7 @@ export async function classifyAndMerge(taskTypeName: string): Promise<void> {
 
 /**
  * Re-scrape wiki data without re-extracting from cache.
+ * Preserves classification and location data from previous runs.
  */
 export async function updateWiki(taskTypeName?: string): Promise<void> {
   if (!taskTypeName) {
@@ -160,8 +161,12 @@ export async function updateWiki(taskTypeName?: string): Promise<void> {
       fullTasks[i].completionPercent = wiki.completionPercent;
       changed = true;
     }
-    if (wiki.wikiNotes != null && wiki.wikiNotes !== fullTasks[i].wikiNotes) {
+    if (wiki.wikiNotes !== fullTasks[i].wikiNotes) {
       fullTasks[i].wikiNotes = wiki.wikiNotes;
+      changed = true;
+    }
+    if (wiki.wikiNotesHtml !== fullTasks[i].wikiNotesHtml) {
+      fullTasks[i].wikiNotesHtml = wiki.wikiNotesHtml;
       changed = true;
     }
     if (wiki.skillRequirements?.length > 0) {
@@ -172,7 +177,12 @@ export async function updateWiki(taskTypeName?: string): Promise<void> {
   }
 
   console.log(`Updated ${updated} tasks with wiki data`);
-  const { writeFileSync } = await import('fs');
-  writeFileSync(fullPath, JSON.stringify(fullTasks, null, 2));
+
+  // Use the ordered writer to preserve human-readable field order
+  writeFullJson(fullTasks, outputDir, taskTypeName);
   console.log(`Wrote ${fullPath}`);
+
+  // Regenerate min.json so plugin gets the fresh wiki data
+  const minPath = writeMinJson(fullTasks, outputDir, taskTypeName);
+  console.log(`Wrote ${minPath}`);
 }
