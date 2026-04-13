@@ -100,7 +100,7 @@ tasks
 
 tasks
   .command('scrape-preliminary')
-  .description('Wiki-first preliminary scrape (no game cache needed). Writes full/min/csv with `unconfirmed-<hash>` structIds until cache lands.')
+  .description('Wiki-first preliminary scrape (no game cache needed). Writes full/min/csv with 6-digit placeholder structIds (100000-999999) until cache lands.')
   .argument('<task-type>', 'Task type name (e.g., LEAGUE_6)')
   .action(async (taskType: string) => {
     await scrapePreliminary(taskType);

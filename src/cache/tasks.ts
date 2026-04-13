@@ -195,8 +195,7 @@ export async function hydrateTasks(
   const rawTasks: any[] = [];
 
   for (const task of tasks) {
-    // Cache path only runs with real numeric structIds.
-    const struct = await getStruct(cache, task.structId as number);
+    const struct = await getStruct(cache, task.structId);
 
     // Raw params
     const rawParams: Record<string, string | number> = {};

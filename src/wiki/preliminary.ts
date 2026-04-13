@@ -3,9 +3,9 @@
  *
  * Jagex often publishes league tasks on the wiki before the game cache is
  * updated. This module builds a full.json / min.json from the wiki alone,
- * using `unconfirmed-<hash>` string structIds so web tools have something
- * stable to key by until real numeric structIds arrive and the normal
- * pipeline takes over.
+ * using 6-digit placeholder structIds (range [100000, 999999], safely above
+ * any real league structId seen so far) so web tools have something stable
+ * to key by until real cache data arrives and the normal pipeline takes over.
  *
  * Requires row attributes `data-league-area-for-filtering` and
  * `data-league-tier` on task <tr> elements (present on the Demonic Pacts
@@ -78,7 +78,7 @@ export async function scrapePreliminary(taskTypeName: string): Promise<void> {
     const area = AREA_KEY_TO_DISPLAY[row.areaKey] ?? toTitleCase(row.areaKey);
     const tier = TIER_KEY_TO_NUMERIC[row.tierKey] ?? null;
     const tierName = TIER_KEY_TO_DISPLAY[row.tierKey] ?? toTitleCase(row.tierKey);
-    const structId = makeUnconfirmedId(area, row.tierKey, row.name);
+    const structId = makePlaceholderStructId(area, row.tierKey, row.name);
 
     const task: TaskFull = {
       structId,
@@ -98,15 +98,14 @@ export async function scrapePreliminary(taskTypeName: string): Promise<void> {
     return task;
   });
 
-  // Sanity: ensure structIds are unique. If two rows collide on
+  // Sanity: ensure structIds are unique. If two rows hash-collide on
   // (area, tier, name), disambiguate by mixing sortId into the hash.
-  const seen = new Map<string, number>();
+  const seen = new Set<number>();
   for (const t of fullTasks) {
-    const key = String(t.structId);
-    if (seen.has(key)) {
-      t.structId = makeUnconfirmedId(key, String(t.sortId), '');
+    while (seen.has(t.structId)) {
+      t.structId = makePlaceholderStructId(String(t.structId), String(t.sortId), 'salt');
     }
-    seen.set(String(t.structId), t.sortId);
+    seen.add(t.structId);
   }
 
   const outputDir = resolveOutputDir(taskTypeName);
@@ -133,8 +132,9 @@ export async function scrapePreliminary(taskTypeName: string): Promise<void> {
   console.log('Updated leagues/index.json');
 
   console.log(
-    '\nNote: structIds are `unconfirmed-<hash>` placeholders. Once Jagex updates the game cache, ' +
-    'run `npm run cli -- tasks generate-full ' + taskTypeName + ' --force` to overwrite with real structIds.',
+    '\nNote: structIds are 6-digit placeholders in range [100000, 999999]. Once Jagex updates ' +
+    'the game cache, run `npm run cli -- tasks generate-full ' + taskTypeName + ' --force` to ' +
+    'overwrite with real structIds.',
   );
 }
 
@@ -209,16 +209,17 @@ async function scrapeRows(url: string, columns: WikiColumnConfig): Promise<Preli
   return results;
 }
 
-// `unconfirmed-<6-7 char base36 hash>`. Self-documenting, deterministic
-// across scrapes, and a string so it can't be mistaken for a real numeric
-// structId when cache data eventually arrives.
-function makeUnconfirmedId(a: string, b: string, c: string): string {
+// Deterministic 6-digit int in [100000, 999999]. Real league structIds
+// observed so far cap at ~6000 (L5: 739-5970), so 6 digits is well above
+// any plausible real ID. 900k-bin space keeps 75 items' collision
+// probability negligible (<0.01% birthday-paradox).
+function makePlaceholderStructId(a: string, b: string, c: string): number {
   const key = `${a}|${b}|${c}`;
   let hash = 5381;
   for (let i = 0; i < key.length; i++) {
     hash = ((hash << 5) + hash + key.charCodeAt(i)) | 0;
   }
-  return `unconfirmed-${(hash >>> 0).toString(36)}`;
+  return ((hash >>> 0) % 900_000) + 100_000;
 }
 
 function toTitleCase(s: string): string {

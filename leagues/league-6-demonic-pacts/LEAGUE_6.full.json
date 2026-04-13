@@ -2,7 +2,7 @@
   {
     "name": "Defeat a Troll in Asgarnia",
     "description": "Defeat a Troll in Asgarnia.",
-    "structId": "unconfirmed-12gotbd",
+    "structId": 246281,
     "sortId": 0,
     "area": "Asgarnia",
     "category": null,
@@ -13,7 +13,7 @@
   {
     "name": "Set a mummy ablaze",
     "description": "Set a Mummy on Fire with fire damage.",
-    "structId": "unconfirmed-1ucrfci",
+    "structId": 102610,
     "sortId": 1,
     "area": "Kharidian Desert",
     "category": null,
@@ -32,7 +32,7 @@
   {
     "name": "Defeat a Cockatrice in the Fremennik Province",
     "description": "Defeat a Cockatrice in the Fremennik Province.",
-    "structId": "unconfirmed-wwpaqb",
+    "structId": 945651,
     "sortId": 2,
     "area": "Fremennik Province",
     "category": null,
@@ -50,7 +50,7 @@
   {
     "name": "Defeat a Hill Giant",
     "description": "Defeat a Hill Giant",
-    "structId": "unconfirmed-xcs9t2",
+    "structId": 958278,
     "sortId": 3,
     "area": "Global",
     "category": null,
@@ -61,7 +61,7 @@
   {
     "name": "Complete the Leagues Tutorial",
     "description": "Complete the Leagues Tutorial and begin your adventure.",
-    "structId": "unconfirmed-lxdydw",
+    "structId": 268116,
     "sortId": 4,
     "area": "Global",
     "category": null,
@@ -72,7 +72,7 @@
   {
     "name": "Open the Leagues Menu",
     "description": "Open the Leagues Menu found within the Journal Panel.",
-    "structId": "unconfirmed-19wex72",
+    "structId": 821838,
     "sortId": 5,
     "area": "Global",
     "category": null,
@@ -83,7 +83,7 @@
   {
     "name": "Open 1 Grubby Chest",
     "description": "Open the grubby chest in the Forthos Dungeon.",
-    "structId": "unconfirmed-rgsrly",
+    "structId": 402758,
     "sortId": 6,
     "area": "Kourend & Kebos",
     "category": null,
@@ -101,7 +101,7 @@
   {
     "name": "Defeat a Werewolf in Morytania",
     "description": "Defeat a Werewolf in Morytania.",
-    "structId": "unconfirmed-3mhq3n",
+    "structId": 577059,
     "sortId": 7,
     "area": "Morytania",
     "category": null,
@@ -112,7 +112,7 @@
   {
     "name": "Defeat a Chaos Dwarf in the Wilderness",
     "description": "Defeat a Chaos Dwarf in the Wilderness.",
-    "structId": "unconfirmed-1qqr5ub",
+    "structId": 440211,
     "sortId": 8,
     "area": "Wilderness",
     "category": null,
@@ -123,7 +123,7 @@
   {
     "name": "Defeat Awakened Whisperer",
     "description": "Defeat Awakened Whisperer.",
-    "structId": "unconfirmed-n7hrvc",
+    "structId": 308632,
     "sortId": 9,
     "area": "Asgarnia",
     "category": null,
@@ -134,7 +134,7 @@
   {
     "name": "Equip a Godsword",
     "description": "Equip any Godsword.",
-    "structId": "unconfirmed-1assmck",
+    "structId": 308676,
     "sortId": 10,
     "area": "Asgarnia",
     "category": null,
@@ -169,7 +169,7 @@
   {
     "name": "Equip the Bellator Ring",
     "description": "Obtain and Equip the Bellator Ring.",
-    "structId": "unconfirmed-12y189s",
+    "structId": 579008,
     "sortId": 11,
     "area": "Asgarnia",
     "category": null,
@@ -180,7 +180,7 @@
   {
     "name": "Cast Ice Barrage",
     "description": "Cast the Ice Barrage spell.",
-    "structId": "unconfirmed-15r4bqq",
+    "structId": 264690,
     "sortId": 12,
     "area": "Kharidian Desert",
     "category": null,
@@ -198,7 +198,7 @@
   {
     "name": "Defeat Awakened Leviathan",
     "description": "Defeat Awakened Leviathan.",
-    "structId": "unconfirmed-lbilbb",
+    "structId": 432903,
     "sortId": 13,
     "area": "Kharidian Desert",
     "category": null,
@@ -209,7 +209,7 @@
   {
     "name": "Equip a Dragon Chainbody in the Kharidian Desert",
     "description": "Equip a Dragon Chainbody in the Kharidian Desert.",
-    "structId": "unconfirmed-bz26m5",
+    "structId": 516381,
     "sortId": 14,
     "area": "Kharidian Desert",
     "category": null,
@@ -227,7 +227,7 @@
   {
     "name": "Equip a Piece of Masori Armour",
     "description": "Equip either a Masori Mask, a Masori Body or some Masori chaps.",
-    "structId": "unconfirmed-1pvnalf",
+    "structId": 391651,
     "sortId": 15,
     "area": "Kharidian Desert",
     "category": null,
@@ -250,7 +250,7 @@
   {
     "name": "Equip the Venator Ring",
     "description": "Obtain and Equip the Venator Ring.",
-    "structId": "unconfirmed-1kdfdo6",
+    "structId": 458422,
     "sortId": 16,
     "area": "Kharidian Desert",
     "category": null,
@@ -261,7 +261,7 @@
   {
     "name": "Defeat Vorkath 5 Times Without Special Damage",
     "description": "Defeat Vorkath on Ungael 5 times in a row without taking any damage from his special attacks and without leaving his area. Failing this task requires you to leave the instance to try again.",
-    "structId": "unconfirmed-ipfpvs",
+    "structId": 814952,
     "sortId": 17,
     "area": "Fremennik Province",
     "category": null,
@@ -272,7 +272,7 @@
   {
     "name": "Defeat Awakened Duke Sucellus",
     "description": "Defeat Awakened Duke Sucellus.",
-    "structId": "unconfirmed-d9hm1j",
+    "structId": 198551,
     "sortId": 18,
     "area": "Fremennik Province",
     "category": null,
@@ -283,7 +283,7 @@
   {
     "name": "Equip the Magus Ring",
     "description": "Obtain and Equip the Magus Ring.",
-    "structId": "unconfirmed-1m6lwyv",
+    "structId": 138407,
     "sortId": 19,
     "area": "Fremennik Province",
     "category": null,
@@ -294,7 +294,7 @@
   {
     "name": "Kill 4 unique Echo Bosses",
     "description": "",
-    "structId": "unconfirmed-ox7pae",
+    "structId": 474918,
     "sortId": 20,
     "area": "Global",
     "category": null,
@@ -305,7 +305,7 @@
   {
     "name": "Equip an Abyssal Tentacle",
     "description": "Equip an Abyssal Tentacle.",
-    "structId": "unconfirmed-1b9ii4q",
+    "structId": 490122,
     "sortId": 21,
     "area": "Kandarin",
     "category": null,
@@ -332,7 +332,7 @@
   {
     "name": "Equip an Occult Necklace",
     "description": "Equip an Occult Necklace.",
-    "structId": "unconfirmed-18vgr1n",
+    "structId": 861387,
     "sortId": 22,
     "area": "Kandarin",
     "category": null,
@@ -355,7 +355,7 @@
   {
     "name": "Equip Some Zenyte Jewelry",
     "description": "Equip any piece of Zenyte Jewelry.",
-    "structId": "unconfirmed-5njq7l",
+    "structId": 882481,
     "sortId": 23,
     "area": "Kandarin",
     "category": null,
@@ -373,7 +373,7 @@
   {
     "name": "Equip a Fire Cape",
     "description": "Equip a Fire Cape.",
-    "structId": "unconfirmed-1x004gb",
+    "structId": 771915,
     "sortId": 24,
     "area": "Karamja",
     "category": null,
@@ -386,7 +386,7 @@
   {
     "name": "Equip a piece of Radiant Oathplate",
     "description": "Equip a piece of Radiant oathplate armour.",
-    "structId": "unconfirmed-qmgb3b",
+    "structId": 732999,
     "sortId": 25,
     "area": "Kourend & Kebos",
     "category": null,
@@ -405,7 +405,7 @@
   {
     "name": "Equip any Ancestral piece",
     "description": "Equip either an Ancestral Hat, an Ancestral robe top or an Ancestral robe bottom.",
-    "structId": "unconfirmed-iadj2p",
+    "structId": 718577,
     "sortId": 26,
     "area": "Kourend & Kebos",
     "category": null,
@@ -428,7 +428,7 @@
   {
     "name": "Equip a Dragon Hunter Lance",
     "description": "Obtain and equip a Dragon hunter lance.",
-    "structId": "unconfirmed-wfx6sb",
+    "structId": 660315,
     "sortId": 27,
     "area": "Kourend & Kebos",
     "category": null,
@@ -451,7 +451,7 @@
   {
     "name": "Complete the Theatre of Blood 25 Times",
     "description": "Complete the Theatre of Blood on Normal or Hard Mode 25 times.",
-    "structId": "unconfirmed-1f6ws61",
+    "structId": 382169,
     "sortId": 28,
     "area": "Morytania",
     "category": null,
@@ -462,7 +462,7 @@
   {
     "name": "Defeat Phosani's Nightmare",
     "description": "Defeat Phosani's Nightmare in the Sisterhood Sanctuary.",
-    "structId": "unconfirmed-1xym0go",
+    "structId": 400120,
     "sortId": 29,
     "area": "Morytania",
     "category": null,
@@ -473,7 +473,7 @@
   {
     "name": "Craft a Toxic Blowpipe",
     "description": "Craft a Toxic Blowpipe.",
-    "structId": "unconfirmed-lvnzjv",
+    "structId": 976955,
     "sortId": 30,
     "area": "Tirannwn",
     "category": null,
@@ -491,7 +491,7 @@
   {
     "name": "Use a prayer altar to restore 90 prayer in Prifddinas",
     "description": "Use a prayer altar to restore 90 prayer points in Prifddinas.",
-    "structId": "unconfirmed-1nxub78",
+    "structId": 145908,
     "sortId": 31,
     "area": "Tirannwn",
     "category": null,
@@ -509,7 +509,7 @@
   {
     "name": "Equip Avernic Treads",
     "description": "Equip Avernic treads.",
-    "structId": "unconfirmed-1omse20",
+    "structId": 646696,
     "sortId": 32,
     "area": "Varlamore",
     "category": null,
@@ -540,7 +540,7 @@
   {
     "name": "Complete Wave 12 of Fortis Colosseum",
     "description": "Complete Wave 12 of Fortis Colosseum.",
-    "structId": "unconfirmed-1r74mdq",
+    "structId": 942030,
     "sortId": 33,
     "area": "Varlamore",
     "category": null,
@@ -551,7 +551,7 @@
   {
     "name": "Defeat Awakened Vardorvis",
     "description": "Defeat Awakened Vardorvis.",
-    "structId": "unconfirmed-1ngg4n6",
+    "structId": 630754,
     "sortId": 34,
     "area": "Varlamore",
     "category": null,
@@ -562,7 +562,7 @@
   {
     "name": "Equip a Piece of the Dagon'Hai Set",
     "description": "Equip any piece of the Dagon'hai robe set.",
-    "structId": "unconfirmed-1vcuwbj",
+    "structId": 430751,
     "sortId": 35,
     "area": "Wilderness",
     "category": null,
@@ -585,7 +585,7 @@
   {
     "name": "Imbue a God Cape",
     "description": "Imbue either a Saradomin Cape, a Guthix Cape or a Zamorak Cape.",
-    "structId": "unconfirmed-1u3g4l2",
+    "structId": 658902,
     "sortId": 36,
     "area": "Wilderness",
     "category": null,
@@ -604,7 +604,7 @@
   {
     "name": "Equip the Voidwaker",
     "description": "Obtain and Equip the Voidwaker.",
-    "structId": "unconfirmed-xzyra9",
+    "structId": 292033,
     "sortId": 37,
     "area": "Wilderness",
     "category": null,
@@ -622,7 +622,7 @@
   {
     "name": "Defeat the Royal Titans solo",
     "description": "Defeat the Royal Titans without any other player joining.",
-    "structId": "unconfirmed-1lk421v",
+    "structId": 153635,
     "sortId": 38,
     "area": "Asgarnia",
     "category": null,
@@ -633,7 +633,7 @@
   {
     "name": "Equip a Dragon Defender",
     "description": "Equip a Dragon Defender.",
-    "structId": "unconfirmed-uisla7",
+    "structId": 652319,
     "sortId": 39,
     "area": "Asgarnia",
     "category": null,
@@ -652,7 +652,7 @@
   {
     "name": "Defeat Phantom Muspah",
     "description": "Defeat Phantom Muspah.",
-    "structId": "unconfirmed-99x9lb",
+    "structId": 264207,
     "sortId": 40,
     "area": "Fremennik Province",
     "category": null,
@@ -663,7 +663,7 @@
   {
     "name": "Defeat a Basilisk Knight",
     "description": "Defeat a Basilisk Knight in the Jormungand's Prison.",
-    "structId": "unconfirmed-pxz4hu",
+    "structId": 120514,
     "sortId": 41,
     "area": "Fremennik Province",
     "category": null,
@@ -682,7 +682,7 @@
   {
     "name": "Kill 1 unique Echo Boss",
     "description": "Kill 1 unique Echo Boss.",
-    "structId": "unconfirmed-1csz5vb",
+    "structId": 946263,
     "sortId": 42,
     "area": "Global",
     "category": null,
@@ -693,7 +693,7 @@
   {
     "name": "Kill 2 unique Echo Bosses",
     "description": "Kill 2 unique Echo Bosses.",
-    "structId": "unconfirmed-31jqj4",
+    "structId": 498992,
     "sortId": 43,
     "area": "Global",
     "category": null,
@@ -704,7 +704,7 @@
   {
     "name": "Kill 3 unique Echo Bosses",
     "description": "Kill 3 unique Echo Bosses.",
-    "structId": "unconfirmed-1norxwx",
+    "structId": 218833,
     "sortId": 44,
     "area": "Global",
     "category": null,
@@ -715,7 +715,7 @@
   {
     "name": "Defeat a Demonic Gorilla",
     "description": "Defeat a Demonic Gorilla in the Crash Site Cavern.",
-    "structId": "unconfirmed-1gqfuxj",
+    "structId": 951095,
     "sortId": 45,
     "area": "Kandarin",
     "category": null,
@@ -726,7 +726,7 @@
   {
     "name": "Defeat a Mithril Dragon",
     "description": "Defeat a Mithril Dragon in the Ancient Cavern.",
-    "structId": "unconfirmed-1tqh9he",
+    "structId": 476898,
     "sortId": 46,
     "area": "Kandarin",
     "category": null,
@@ -737,7 +737,7 @@
   {
     "name": "Defeat the Kraken Boss 50 Times",
     "description": "Defeat the Kraken boss in Kraken Cove 50 times.",
-    "structId": "unconfirmed-wp7eug",
+    "structId": 953864,
     "sortId": 47,
     "area": "Kandarin",
     "category": null,
@@ -755,7 +755,7 @@
   {
     "name": "Equip a Trident of the Seas",
     "description": "Equip a Trident of the Seas.",
-    "structId": "unconfirmed-15y8945",
+    "structId": 505221,
     "sortId": 48,
     "area": "Kandarin",
     "category": null,
@@ -778,7 +778,7 @@
   {
     "name": "Complete Tzhaar-Ket-Rak's third challenge",
     "description": "Complete Tzhaar-Ket-Rak's third challenge.",
-    "structId": "unconfirmed-113qzbe",
+    "structId": 846186,
     "sortId": 49,
     "area": "Karamja",
     "category": null,
@@ -789,7 +789,7 @@
   {
     "name": "25 Chambers of Xeric",
     "description": "Complete the Chambers of Xeric Normal or Challenge Mode 25 times.",
-    "structId": "unconfirmed-1k4ck4q",
+    "structId": 510282,
     "sortId": 50,
     "area": "Kourend & Kebos",
     "category": null,
@@ -800,7 +800,7 @@
   {
     "name": "1 Skotizo Kill",
     "description": "Kill Skotizo beneath the Catacombs of Kourend.",
-    "structId": "unconfirmed-1yazroe",
+    "structId": 497310,
     "sortId": 51,
     "area": "Kourend & Kebos",
     "category": null,
@@ -811,7 +811,7 @@
   {
     "name": "Assemble a Slayer Helm",
     "description": "Assemble a Slayer Helm.",
-    "structId": "unconfirmed-1p0pysz",
+    "structId": 648243,
     "sortId": 52,
     "area": "Morytania",
     "category": null,
@@ -834,7 +834,7 @@
   {
     "name": "Create an Amulet of Blood Fury",
     "description": "Create an Amulet of Blood Fury.",
-    "structId": "unconfirmed-v84fqe",
+    "structId": 895398,
     "sortId": 53,
     "area": "Morytania",
     "category": null,
@@ -857,7 +857,7 @@
   {
     "name": "Equip any Full Barrows Armour Set",
     "description": "Equip a full set of any Barrows armour + weapon.",
-    "structId": "unconfirmed-aqatip",
+    "structId": 936593,
     "sortId": 54,
     "area": "Morytania",
     "category": null,
@@ -884,7 +884,7 @@
   {
     "name": "1 Araxxor Kill",
     "description": "Kill the Araxxor in Morytania Spider cave.",
-    "structId": "unconfirmed-l0npo2",
+    "structId": 196050,
     "sortId": 55,
     "area": "Morytania",
     "category": null,
@@ -902,7 +902,7 @@
   {
     "name": "Complete the Corrupted Gauntlet",
     "description": "Complete the Corrupted Gauntlet in Prifddinas.",
-    "structId": "unconfirmed-pookw3",
+    "structId": 712003,
     "sortId": 56,
     "area": "Tirannwn",
     "category": null,
@@ -913,7 +913,7 @@
   {
     "name": "Defeat Zalcano",
     "description": "Defeat Zalcano in Prifddinas.",
-    "structId": "unconfirmed-1iupdby",
+    "structId": 345662,
     "sortId": 57,
     "area": "Tirannwn",
     "category": null,
@@ -924,7 +924,7 @@
   {
     "name": "Equip a Dark Bow in Tirannwn",
     "description": "Equip a Dark Bow in Tirannwn.",
-    "structId": "unconfirmed-b4t3tw",
+    "structId": 104388,
     "sortId": 58,
     "area": "Tirannwn",
     "category": null,
@@ -947,7 +947,7 @@
   {
     "name": "Defeat the Corporeal Beast",
     "description": "Defeat the Corporeal Beast in the Wilderness.",
-    "structId": "unconfirmed-3v9di4",
+    "structId": 904028,
     "sortId": 59,
     "area": "Wilderness",
     "category": null,
@@ -958,7 +958,7 @@
   {
     "name": "Equip a Dragon 2-Handed Sword in the Wilderness",
     "description": "Equip a Dragon 2-Handed Sword in the Wilderness.",
-    "structId": "unconfirmed-ai82jq",
+    "structId": 871398,
     "sortId": 60,
     "area": "Wilderness",
     "category": null,
@@ -976,7 +976,7 @@
   {
     "name": "Equip a Malediction Ward",
     "description": "Equip a Malediction Ward.",
-    "structId": "unconfirmed-1t8oq1k",
+    "structId": 291864,
     "sortId": 61,
     "area": "Wilderness",
     "category": null,
@@ -994,7 +994,7 @@
   {
     "name": "Defeat Nex Solo",
     "description": "Defeat Nex in a private instance without help from any other player.",
-    "structId": "unconfirmed-1vxqxog",
+    "structId": 417824,
     "sortId": 62,
     "area": "Asgarnia",
     "category": null,
@@ -1005,7 +1005,7 @@
   {
     "name": "Equip Osmumten's Fang (or)",
     "description": "Obtain and Equip Osmumten's Fang (or).",
-    "structId": "unconfirmed-1m9jr9b",
+    "structId": 576543,
     "sortId": 63,
     "area": "Kharidian Desert",
     "category": null,
@@ -1024,7 +1024,7 @@
   {
     "name": "Complete Tzhaar-Ket-Rak's Special challenge",
     "description": "Complete Tzhaar-Ket-Rak's league-only challenge.",
-    "structId": "unconfirmed-zuyohp",
+    "structId": 322685,
     "sortId": 64,
     "area": "Karamja",
     "category": null,
@@ -1035,7 +1035,7 @@
   {
     "name": "Equip an Infernal Cape",
     "description": "Equip an Infernal Cape.",
-    "structId": "unconfirmed-vocjuj",
+    "structId": 247835,
     "sortId": 65,
     "area": "Karamja",
     "category": null,
@@ -1048,7 +1048,7 @@
   {
     "name": "Equip a Corrupted Weapon",
     "description": "Equip a Corrupted Blade of Saeldor or Bow of Faerdhinen",
-    "structId": "unconfirmed-8s4gxt",
+    "structId": 967233,
     "sortId": 66,
     "area": "Tirannwn",
     "category": null,
@@ -1075,7 +1075,7 @@
   {
     "name": "Kill 8 penguins within 5 seconds",
     "description": "Kill 8 penguins within 5 seconds.",
-    "structId": "unconfirmed-mgdhfr",
+    "structId": 658855,
     "sortId": 67,
     "area": "Fremennik Province",
     "category": null,
@@ -1086,7 +1086,7 @@
   {
     "name": "Reach Combat Level 50",
     "description": "Reach Combat Level 50.",
-    "structId": "unconfirmed-49rd2d",
+    "structId": 957893,
     "sortId": 68,
     "area": "Global",
     "category": null,
@@ -1097,7 +1097,7 @@
   {
     "name": "Use the Protect from Melee Prayer",
     "description": "Use the Protect from Melee Prayer.",
-    "structId": "unconfirmed-5c96tp",
+    "structId": 815021,
     "sortId": 69,
     "area": "Global",
     "category": null,
@@ -1115,7 +1115,7 @@
   {
     "name": "Defeat a Steel Dragon on Karamja",
     "description": "Defeat a Steel Dragon on Karamja.",
-    "structId": "unconfirmed-zomtez",
+    "structId": 491499,
     "sortId": 70,
     "area": "Karamja",
     "category": null,
@@ -1126,7 +1126,7 @@
   {
     "name": "Defeat a TzHaar",
     "description": "Defeat any TzHaar in Mor Ul Rek.",
-    "structId": "unconfirmed-sr4wll",
+    "structId": 831433,
     "sortId": 71,
     "area": "Karamja",
     "category": null,
@@ -1137,7 +1137,7 @@
   {
     "name": "150 Lizardmen Shaman Kills",
     "description": "Help the Shayzien House by killing 150 Lizardmen shamans.",
-    "structId": "unconfirmed-1m0ws1v",
+    "structId": 467555,
     "sortId": 72,
     "area": "Kourend & Kebos",
     "category": null,
@@ -1148,7 +1148,7 @@
   {
     "name": "Kill a Black Dragon in Tirannwn",
     "description": "Kill a Black Dragon in Tirannwn.",
-    "structId": "unconfirmed-1km6kak",
+    "structId": 763644,
     "sortId": 73,
     "area": "Tirannwn",
     "category": null,
@@ -1159,7 +1159,7 @@
   {
     "name": "1 Hueycoatl Kill",
     "description": "Kill the Hueycoatl in Varlamore.",
-    "structId": "unconfirmed-gxqrua",
+    "structId": 935282,
     "sortId": 74,
     "area": "Varlamore",
     "category": null,
