@@ -11,7 +11,9 @@ export interface TaskSkill {
 
 /** Minimal task data from cache extraction + wiki enrichment */
 export interface Task {
-  structId: number;
+  /** Cache-sourced tasks use a numeric struct id. Wiki-only preliminary
+   *  scrapes use `unconfirmed-<hash>` placeholders until cache data lands. */
+  structId: number | string;
   sortId: number;
   skillRequirements?: TaskSkill[];
   /** Plain text wiki notes (for plugin) */

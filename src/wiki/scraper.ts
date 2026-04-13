@@ -25,7 +25,8 @@ export async function scrapeAndMergeWikiData(
   //    For each task, load its struct and get the varbit index param
   const varbitToTaskIndex = new Map<number, number>();
   for (let i = 0; i < tasks.length; i++) {
-    const struct = await Struct.load(cache, tasks[i].structId);
+    // Cache path only runs with real numeric structIds.
+    const struct = await Struct.load(cache, tasks[i].structId as number);
     const varbitIndex = struct.params.get(varbitIndexParamId) as number;
     if (varbitIndex !== undefined) {
       varbitToTaskIndex.set(varbitIndex, i);

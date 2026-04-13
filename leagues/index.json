@@ -73,8 +73,8 @@
     "active": false,
     "taskTypeName": "LEAGUE_6",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Demonic_Pacts_League/Tasks",
-    "taskCount": null,
+    "taskCount": 75,
     "dir": "league-6-demonic-pacts",
-    "taskFile": null
+    "taskFile": "LEAGUE_6.full.json"
   }
 ]

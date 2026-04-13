@@ -1,0 +1,837 @@
+[
+  {
+    "areaKey": "asgarnia",
+    "tierKey": "easy",
+    "name": "Defeat a Troll in Asgarnia",
+    "description": "Defeat a Troll in Asgarnia.",
+    "skills": []
+  },
+  {
+    "areaKey": "desert",
+    "tierKey": "easy",
+    "name": "Set a mummy ablaze",
+    "description": "Set a Mummy on Fire with fire damage.",
+    "requirements": "or Tirannwn✓ for access to oily cloth",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"13\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 13 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span> or <span class=\"league-region\" data-league-area=\"tirannwn\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Demonic_Pacts_League/Areas/Tirannwn\" title=\"Tirannwn\"><img alt=\"Tirannwn\" src=\"/images/Tirannwn_Area_Badge.png?4b9ee\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Demonic_Pacts_League/Areas/Tirannwn\" title=\"Demonic Pacts League/Areas/Tirannwn\">Tirannwn</a></span><span class=\"league-check\">✓</span></span> for access to <a href=\"/w/Oily_cloth\" title=\"Oily cloth\">oily cloth</a>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 13
+      }
+    ]
+  },
+  {
+    "areaKey": "fremennik",
+    "tierKey": "easy",
+    "name": "Defeat a Cockatrice in the Fremennik Province",
+    "description": "Defeat a Cockatrice in the Fremennik Province.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"25\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 25 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
+    "skills": [
+      {
+        "skill": "SLAYER",
+        "level": 25
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Defeat a Hill Giant",
+    "description": "Defeat a Hill Giant",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Complete the Leagues Tutorial",
+    "description": "Complete the Leagues Tutorial and begin your adventure.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Open the Leagues Menu",
+    "description": "Open the Leagues Menu found within the Journal Panel.",
+    "skills": []
+  },
+  {
+    "areaKey": "kourend",
+    "tierKey": "easy",
+    "name": "Open 1 Grubby Chest",
+    "description": "Open the grubby chest in the Forthos Dungeon.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"57\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 57 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>",
+    "skills": [
+      {
+        "skill": "THIEVING",
+        "level": 57
+      }
+    ]
+  },
+  {
+    "areaKey": "morytania",
+    "tierKey": "easy",
+    "name": "Defeat a Werewolf in Morytania",
+    "description": "Defeat a Werewolf in Morytania.",
+    "skills": []
+  },
+  {
+    "areaKey": "wilderness",
+    "tierKey": "easy",
+    "name": "Defeat a Chaos Dwarf in the Wilderness",
+    "description": "Defeat a Chaos Dwarf in the Wilderness.",
+    "skills": []
+  },
+  {
+    "areaKey": "asgarnia",
+    "tierKey": "elite",
+    "name": "Defeat Awakened Whisperer",
+    "description": "Defeat Awakened Whisperer.",
+    "skills": []
+  },
+  {
+    "areaKey": "asgarnia",
+    "tierKey": "elite",
+    "name": "Equip a Godsword",
+    "description": "Equip any Godsword.",
+    "requirements": ", one of , , , or",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 75 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>, one of <span class=\"scp\" data-skill=\"Hitpoints\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hitpoints\" title=\"Hitpoints\"><img alt=\"Hitpoints\" src=\"/images/Hitpoints_icon.png?a4819\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"20\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"20\"></a></span> 70 <a href=\"/w/Hitpoints\" title=\"Hitpoints\">Hitpoints</a></span>, <span class=\"scp\" data-skill=\"Agility\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 70 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span>, <span class=\"scp\" data-skill=\"Ranged\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 70 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>, or <span class=\"scp\" data-skill=\"Strength\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Strength\" title=\"Strength\"><img alt=\"Strength\" src=\"/images/Strength_icon.png?e6e0c\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"20\" class=\"mw-file-element\" data-file-width=\"16\" data-file-height=\"20\"></a></span> 70 <a href=\"/w/Strength\" title=\"Strength\">Strength</a></span>",
+    "skills": [
+      {
+        "skill": "ATTACK",
+        "level": 75
+      },
+      {
+        "skill": "HITPOINTS",
+        "level": 70
+      },
+      {
+        "skill": "AGILITY",
+        "level": 70
+      },
+      {
+        "skill": "RANGED",
+        "level": 70
+      },
+      {
+        "skill": "STRENGTH",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "areaKey": "asgarnia",
+    "tierKey": "elite",
+    "name": "Equip the Bellator Ring",
+    "description": "Obtain and Equip the Bellator Ring.",
+    "skills": []
+  },
+  {
+    "areaKey": "desert",
+    "tierKey": "elite",
+    "name": "Cast Ice Barrage",
+    "description": "Cast the Ice Barrage spell.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"94\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 94 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 94
+      }
+    ]
+  },
+  {
+    "areaKey": "desert",
+    "tierKey": "elite",
+    "name": "Defeat Awakened Leviathan",
+    "description": "Defeat Awakened Leviathan.",
+    "skills": []
+  },
+  {
+    "areaKey": "desert",
+    "tierKey": "elite",
+    "name": "Equip a Dragon Chainbody in the Kharidian Desert",
+    "description": "Equip a Dragon Chainbody in the Kharidian Desert.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 60 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
+    "skills": [
+      {
+        "skill": "DEFENCE",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "areaKey": "desert",
+    "tierKey": "elite",
+    "name": "Equip a Piece of Masori Armour",
+    "description": "Equip either a Masori Mask, a Masori Body or some Masori chaps.",
+    "requirements": ", Completion of Beneath Cursed Sands",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Ranged\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 80 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>, <span class=\"scp\" data-skill=\"Defence\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 30 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span><br>Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Beneath_Cursed_Sands\" title=\"Beneath Cursed Sands\">Beneath Cursed Sands</a>",
+    "skills": [
+      {
+        "skill": "RANGED",
+        "level": 80
+      },
+      {
+        "skill": "DEFENCE",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "areaKey": "desert",
+    "tierKey": "elite",
+    "name": "Equip the Venator Ring",
+    "description": "Obtain and Equip the Venator Ring.",
+    "skills": []
+  },
+  {
+    "areaKey": "fremennik",
+    "tierKey": "elite",
+    "name": "Defeat Vorkath 5 Times Without Special Damage",
+    "description": "Defeat Vorkath on Ungael 5 times in a row without taking any damage from his special attacks and without leaving his area. Failing this task requires you to leave the instance to try again.",
+    "skills": []
+  },
+  {
+    "areaKey": "fremennik",
+    "tierKey": "elite",
+    "name": "Defeat Awakened Duke Sucellus",
+    "description": "Defeat Awakened Duke Sucellus.",
+    "skills": []
+  },
+  {
+    "areaKey": "fremennik",
+    "tierKey": "elite",
+    "name": "Equip the Magus Ring",
+    "description": "Obtain and Equip the Magus Ring.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "elite",
+    "name": "Kill 4 unique Echo Bosses",
+    "description": "",
+    "skills": []
+  },
+  {
+    "areaKey": "kandarin",
+    "tierKey": "elite",
+    "name": "Equip an Abyssal Tentacle",
+    "description": "Equip an Abyssal Tentacle.",
+    "requirements": ", ,",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"50\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 50 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Attack\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 75 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>, <span class=\"scp\" data-skill=\"Slayer\" data-level=\"87\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 87 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 50
+      },
+      {
+        "skill": "ATTACK",
+        "level": 75
+      },
+      {
+        "skill": "SLAYER",
+        "level": 87
+      }
+    ]
+  },
+  {
+    "areaKey": "kandarin",
+    "tierKey": "elite",
+    "name": "Equip an Occult Necklace",
+    "description": "Equip an Occult Necklace.",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 70 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Slayer\" data-level=\"93\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 93 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 70
+      },
+      {
+        "skill": "SLAYER",
+        "level": 93
+      }
+    ]
+  },
+  {
+    "areaKey": "kandarin",
+    "tierKey": "elite",
+    "name": "Equip Some Zenyte Jewelry",
+    "description": "Equip any piece of Zenyte Jewelry.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Crafting\" data-level=\"89\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 89 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span>",
+    "skills": [
+      {
+        "skill": "CRAFTING",
+        "level": 89
+      }
+    ]
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "elite",
+    "name": "Equip a Fire Cape",
+    "description": "Equip a Fire Cape.",
+    "requirements": "Completion of TzHaar Fight Cave",
+    "requirementsHtml": "Completion of <span class=\"scp\" data-skill=\"Minigames\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Minigames\" title=\"Minigames\"><img alt=\"Minigames\" src=\"/images/Minigame_icon.png?e4ffe\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/TzHaar_Fight_Cave\" title=\"TzHaar Fight Cave\">TzHaar Fight Cave</a>",
+    "skills": []
+  },
+  {
+    "areaKey": "kourend",
+    "tierKey": "elite",
+    "name": "Equip a piece of Radiant Oathplate",
+    "description": "Equip a piece of Radiant oathplate armour.",
+    "requirements": "Aether runes are not required to create it.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"78\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 78 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span><br>Aether runes are not required to create it.",
+    "skills": [
+      {
+        "skill": "DEFENCE",
+        "level": 78
+      }
+    ]
+  },
+  {
+    "areaKey": "kourend",
+    "tierKey": "elite",
+    "name": "Equip any Ancestral piece",
+    "description": "Equip either an Ancestral Hat, an Ancestral robe top or an Ancestral robe bottom.",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 75 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Defence\" data-level=\"65\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 65 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 75
+      },
+      {
+        "skill": "DEFENCE",
+        "level": 65
+      }
+    ]
+  },
+  {
+    "areaKey": "kourend",
+    "tierKey": "elite",
+    "name": "Equip a Dragon Hunter Lance",
+    "description": "Obtain and equip a Dragon hunter lance.",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"95\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 95 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Attack\" data-level=\"78\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 78 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
+    "skills": [
+      {
+        "skill": "SLAYER",
+        "level": 95
+      },
+      {
+        "skill": "ATTACK",
+        "level": 78
+      }
+    ]
+  },
+  {
+    "areaKey": "morytania",
+    "tierKey": "elite",
+    "name": "Complete the Theatre of Blood 25 Times",
+    "description": "Complete the Theatre of Blood on Normal or Hard Mode 25 times.",
+    "skills": []
+  },
+  {
+    "areaKey": "morytania",
+    "tierKey": "elite",
+    "name": "Defeat Phosani's Nightmare",
+    "description": "Defeat Phosani's Nightmare in the Sisterhood Sanctuary.",
+    "skills": []
+  },
+  {
+    "areaKey": "tirannwn",
+    "tierKey": "elite",
+    "name": "Craft a Toxic Blowpipe",
+    "description": "Craft a Toxic Blowpipe.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"78\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 78 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>",
+    "skills": [
+      {
+        "skill": "FLETCHING",
+        "level": 78
+      }
+    ]
+  },
+  {
+    "areaKey": "tirannwn",
+    "tierKey": "elite",
+    "name": "Use a prayer altar to restore 90 prayer in Prifddinas",
+    "description": "Use a prayer altar to restore 90 prayer points in Prifddinas.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Prayer\" data-level=\"90\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Prayer\" title=\"Prayer\"><img alt=\"Prayer\" src=\"/images/Prayer_icon.png?7e70b\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 90 <a href=\"/w/Prayer\" title=\"Prayer\">Prayer</a></span>",
+    "skills": [
+      {
+        "skill": "PRAYER",
+        "level": 90
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "elite",
+    "name": "Equip Avernic Treads",
+    "description": "Equip Avernic treads.",
+    "requirements": ", ,,",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 80 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>, <span class=\"scp\" data-skill=\"Magic\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 80 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>,<span class=\"scp\" data-skill=\"Ranged\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 80 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>, <span class=\"scp\" data-skill=\"Strength\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Strength\" title=\"Strength\"><img alt=\"Strength\" src=\"/images/Strength_icon.png?e6e0c\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"20\" class=\"mw-file-element\" data-file-width=\"16\" data-file-height=\"20\"></a></span> 80 <a href=\"/w/Strength\" title=\"Strength\">Strength</a></span>",
+    "skills": [
+      {
+        "skill": "DEFENCE",
+        "level": 80
+      },
+      {
+        "skill": "MAGIC",
+        "level": 80
+      },
+      {
+        "skill": "RANGED",
+        "level": 80
+      },
+      {
+        "skill": "STRENGTH",
+        "level": 80
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "elite",
+    "name": "Complete Wave 12 of Fortis Colosseum",
+    "description": "Complete Wave 12 of Fortis Colosseum.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "elite",
+    "name": "Defeat Awakened Vardorvis",
+    "description": "Defeat Awakened Vardorvis.",
+    "skills": []
+  },
+  {
+    "areaKey": "wilderness",
+    "tierKey": "elite",
+    "name": "Equip a Piece of the Dagon'Hai Set",
+    "description": "Equip any piece of the Dagon'hai robe set.",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 70 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Defence\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 40 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 70
+      },
+      {
+        "skill": "DEFENCE",
+        "level": 40
+      }
+    ]
+  },
+  {
+    "areaKey": "wilderness",
+    "tierKey": "elite",
+    "name": "Imbue a God Cape",
+    "description": "Imbue either a Saradomin Cape, a Guthix Cape or a Zamorak Cape.",
+    "requirements": "Completion of Mage Arena II",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 75 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span><br>Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Mage_Arena_II\" title=\"Mage Arena II\">Mage Arena II</a>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 75
+      }
+    ]
+  },
+  {
+    "areaKey": "wilderness",
+    "tierKey": "elite",
+    "name": "Equip the Voidwaker",
+    "description": "Obtain and Equip the Voidwaker.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 75 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
+    "skills": [
+      {
+        "skill": "ATTACK",
+        "level": 75
+      }
+    ]
+  },
+  {
+    "areaKey": "asgarnia",
+    "tierKey": "hard",
+    "name": "Defeat the Royal Titans solo",
+    "description": "Defeat the Royal Titans without any other player joining.",
+    "skills": []
+  },
+  {
+    "areaKey": "asgarnia",
+    "tierKey": "hard",
+    "name": "Equip a Dragon Defender",
+    "description": "Equip a Dragon Defender.",
+    "requirements": "Access to the Warriors' Guild",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 60 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span><br>Access to the <span class=\"scp\" data-skill=\"Minigames\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Minigames\" title=\"Minigames\"><img alt=\"Minigames\" src=\"/images/Minigame_icon.png?e4ffe\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Warriors%27_Guild\" title=\"Warriors' Guild\">Warriors' Guild</a>",
+    "skills": [
+      {
+        "skill": "DEFENCE",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "areaKey": "fremennik",
+    "tierKey": "hard",
+    "name": "Defeat Phantom Muspah",
+    "description": "Defeat Phantom Muspah.",
+    "skills": []
+  },
+  {
+    "areaKey": "fremennik",
+    "tierKey": "hard",
+    "name": "Defeat a Basilisk Knight",
+    "description": "Defeat a Basilisk Knight in the Jormungand's Prison.",
+    "requirements": "Completion of The Fremennik Exiles",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 60 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/The_Fremennik_Exiles\" title=\"The Fremennik Exiles\">The Fremennik Exiles</a>",
+    "skills": [
+      {
+        "skill": "SLAYER",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "hard",
+    "name": "Kill 1 unique Echo Boss",
+    "description": "Kill 1 unique Echo Boss.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "hard",
+    "name": "Kill 2 unique Echo Bosses",
+    "description": "Kill 2 unique Echo Bosses.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "hard",
+    "name": "Kill 3 unique Echo Bosses",
+    "description": "Kill 3 unique Echo Bosses.",
+    "skills": []
+  },
+  {
+    "areaKey": "kandarin",
+    "tierKey": "hard",
+    "name": "Defeat a Demonic Gorilla",
+    "description": "Defeat a Demonic Gorilla in the Crash Site Cavern.",
+    "skills": []
+  },
+  {
+    "areaKey": "kandarin",
+    "tierKey": "hard",
+    "name": "Defeat a Mithril Dragon",
+    "description": "Defeat a Mithril Dragon in the Ancient Cavern.",
+    "skills": []
+  },
+  {
+    "areaKey": "kandarin",
+    "tierKey": "hard",
+    "name": "Defeat the Kraken Boss 50 Times",
+    "description": "Defeat the Kraken boss in Kraken Cove 50 times.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"87\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 87 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
+    "skills": [
+      {
+        "skill": "SLAYER",
+        "level": 87
+      }
+    ]
+  },
+  {
+    "areaKey": "kandarin",
+    "tierKey": "hard",
+    "name": "Equip a Trident of the Seas",
+    "description": "Equip a Trident of the Seas.",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 75 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Slayer\" data-level=\"87\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 87 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 75
+      },
+      {
+        "skill": "SLAYER",
+        "level": 87
+      }
+    ]
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "hard",
+    "name": "Complete Tzhaar-Ket-Rak's third challenge",
+    "description": "Complete Tzhaar-Ket-Rak's third challenge.",
+    "skills": []
+  },
+  {
+    "areaKey": "kourend",
+    "tierKey": "hard",
+    "name": "25 Chambers of Xeric",
+    "description": "Complete the Chambers of Xeric Normal or Challenge Mode 25 times.",
+    "skills": []
+  },
+  {
+    "areaKey": "kourend",
+    "tierKey": "hard",
+    "name": "1 Skotizo Kill",
+    "description": "Kill Skotizo beneath the Catacombs of Kourend.",
+    "skills": []
+  },
+  {
+    "areaKey": "morytania",
+    "tierKey": "hard",
+    "name": "Assemble a Slayer Helm",
+    "description": "Assemble a Slayer Helm.",
+    "requirements": ", Unlocked Malevolent Masquerade for 400 Slayer reward points",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"58\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 58 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Crafting\" data-level=\"55\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 55 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span><br>Unlocked <a href=\"/w/Malevolent_Masquerade\" class=\"mw-redirect\" title=\"Malevolent Masquerade\">Malevolent Masquerade</a> for 400 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a>",
+    "skills": [
+      {
+        "skill": "SLAYER",
+        "level": 58
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 55
+      }
+    ]
+  },
+  {
+    "areaKey": "morytania",
+    "tierKey": "hard",
+    "name": "Create an Amulet of Blood Fury",
+    "description": "Create an Amulet of Blood Fury.",
+    "requirements": ", Completion of Sins of the Father",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Crafting\" data-level=\"90\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 90 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span>, <span class=\"scp\" data-skill=\"Magic\" data-level=\"87\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 87 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span><br>Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Sins_of_the_Father\" title=\"Sins of the Father\">Sins of the Father</a>",
+    "skills": [
+      {
+        "skill": "CRAFTING",
+        "level": 90
+      },
+      {
+        "skill": "MAGIC",
+        "level": 87
+      }
+    ]
+  },
+  {
+    "areaKey": "morytania",
+    "tierKey": "hard",
+    "name": "Equip any Full Barrows Armour Set",
+    "description": "Equip a full set of any Barrows armour + weapon.",
+    "requirements": ", one of or",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 70 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>, one of <span class=\"scp\" data-skill=\"Attack\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 70 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span> or <span class=\"scp\" data-skill=\"Ranged\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 70 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>",
+    "skills": [
+      {
+        "skill": "DEFENCE",
+        "level": 70
+      },
+      {
+        "skill": "ATTACK",
+        "level": 70
+      },
+      {
+        "skill": "RANGED",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "areaKey": "morytania",
+    "tierKey": "hard",
+    "name": "1 Araxxor Kill",
+    "description": "Kill the Araxxor in Morytania Spider cave.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"92\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 92 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
+    "skills": [
+      {
+        "skill": "SLAYER",
+        "level": 92
+      }
+    ]
+  },
+  {
+    "areaKey": "tirannwn",
+    "tierKey": "hard",
+    "name": "Complete the Corrupted Gauntlet",
+    "description": "Complete the Corrupted Gauntlet in Prifddinas.",
+    "skills": []
+  },
+  {
+    "areaKey": "tirannwn",
+    "tierKey": "hard",
+    "name": "Defeat Zalcano",
+    "description": "Defeat Zalcano in Prifddinas.",
+    "skills": []
+  },
+  {
+    "areaKey": "tirannwn",
+    "tierKey": "hard",
+    "name": "Equip a Dark Bow in Tirannwn",
+    "description": "Equip a Dark Bow in Tirannwn.",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Ranged\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 60 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>, <span class=\"scp\" data-skill=\"Slayer\" data-level=\"90\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 90 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
+    "skills": [
+      {
+        "skill": "RANGED",
+        "level": 60
+      },
+      {
+        "skill": "SLAYER",
+        "level": 90
+      }
+    ]
+  },
+  {
+    "areaKey": "wilderness",
+    "tierKey": "hard",
+    "name": "Defeat the Corporeal Beast",
+    "description": "Defeat the Corporeal Beast in the Wilderness.",
+    "skills": []
+  },
+  {
+    "areaKey": "wilderness",
+    "tierKey": "hard",
+    "name": "Equip a Dragon 2-Handed Sword in the Wilderness",
+    "description": "Equip a Dragon 2-Handed Sword in the Wilderness.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 60 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
+    "skills": [
+      {
+        "skill": "ATTACK",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "areaKey": "wilderness",
+    "tierKey": "hard",
+    "name": "Equip a Malediction Ward",
+    "description": "Equip a Malediction Ward.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 60 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
+    "skills": [
+      {
+        "skill": "DEFENCE",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "areaKey": "asgarnia",
+    "tierKey": "master",
+    "name": "Defeat Nex Solo",
+    "description": "Defeat Nex in a private instance without help from any other player.",
+    "skills": []
+  },
+  {
+    "areaKey": "desert",
+    "tierKey": "master",
+    "name": "Equip Osmumten's Fang (or)",
+    "description": "Obtain and Equip Osmumten's Fang (or).",
+    "requirements": "Completion of Beneath Cursed Sands",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"82\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 82 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span><br>Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Beneath_Cursed_Sands\" title=\"Beneath Cursed Sands\">Beneath Cursed Sands</a>",
+    "skills": [
+      {
+        "skill": "ATTACK",
+        "level": 82
+      }
+    ]
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "master",
+    "name": "Complete Tzhaar-Ket-Rak's Special challenge",
+    "description": "Complete Tzhaar-Ket-Rak's league-only challenge.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "master",
+    "name": "Equip an Infernal Cape",
+    "description": "Equip an Infernal Cape.",
+    "requirements": "Completion of The Inferno",
+    "requirementsHtml": "Completion of <span class=\"scp\" data-skill=\"Minigames\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Minigames\" title=\"Minigames\"><img alt=\"Minigames\" src=\"/images/Minigame_icon.png?e4ffe\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/The_Inferno\" class=\"mw-redirect\" title=\"The Inferno\">The Inferno</a>",
+    "skills": []
+  },
+  {
+    "areaKey": "tirannwn",
+    "tierKey": "master",
+    "name": "Equip a Corrupted Weapon",
+    "description": "Equip a Corrupted Blade of Saeldor or Bow of Faerdhinen",
+    "requirements": "or and",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 80 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span> or <span class=\"scp\" data-skill=\"Ranged\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 80 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span> and <span class=\"scp\" data-skill=\"Agility\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 70 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span>",
+    "skills": [
+      {
+        "skill": "ATTACK",
+        "level": 80
+      },
+      {
+        "skill": "RANGED",
+        "level": 80
+      },
+      {
+        "skill": "AGILITY",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "areaKey": "fremennik",
+    "tierKey": "medium",
+    "name": "Kill 8 penguins within 5 seconds",
+    "description": "Kill 8 penguins within 5 seconds.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Reach Combat Level 50",
+    "description": "Reach Combat Level 50.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Use the Protect from Melee Prayer",
+    "description": "Use the Protect from Melee Prayer.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Prayer\" data-level=\"43\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Prayer\" title=\"Prayer\"><img alt=\"Prayer\" src=\"/images/Prayer_icon.png?7e70b\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 43 <a href=\"/w/Prayer\" title=\"Prayer\">Prayer</a></span>",
+    "skills": [
+      {
+        "skill": "PRAYER",
+        "level": 43
+      }
+    ]
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Defeat a Steel Dragon on Karamja",
+    "description": "Defeat a Steel Dragon on Karamja.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Defeat a TzHaar",
+    "description": "Defeat any TzHaar in Mor Ul Rek.",
+    "skills": []
+  },
+  {
+    "areaKey": "kourend",
+    "tierKey": "medium",
+    "name": "150 Lizardmen Shaman Kills",
+    "description": "Help the Shayzien House by killing 150 Lizardmen shamans.",
+    "skills": []
+  },
+  {
+    "areaKey": "tirannwn",
+    "tierKey": "medium",
+    "name": "Kill a Black Dragon in Tirannwn",
+    "description": "Kill a Black Dragon in Tirannwn.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "1 Hueycoatl Kill",
+    "description": "Kill the Hueycoatl in Varlamore.",
+    "skills": []
+  }
+]

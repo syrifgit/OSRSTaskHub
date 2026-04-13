@@ -3,6 +3,7 @@
 import { Command } from 'commander';
 import { downloadCache, getLatestCommitHash, getLocalCommitHash } from './cache/downloader';
 import { generateFull, classifyAndMerge, updateWiki } from './pipeline';
+import { scrapePreliminary } from './wiki/preliminary';
 import { mergeLocations } from './output/writers';
 import { resolveOutputDir } from './leagues';
 import { createCacheProvider } from './cache/provider';
@@ -95,6 +96,14 @@ tasks
   .argument('[task-type]', 'Task type name. Auto-detects active league if omitted.')
   .action(async (taskType?: string) => {
     await updateWiki(taskType);
+  });
+
+tasks
+  .command('scrape-preliminary')
+  .description('Wiki-first preliminary scrape (no game cache needed). Writes full/min/csv with `unconfirmed-<hash>` structIds until cache lands.')
+  .argument('<task-type>', 'Task type name (e.g., LEAGUE_6)')
+  .action(async (taskType: string) => {
+    await scrapePreliminary(taskType);
   });
 
 tasks
