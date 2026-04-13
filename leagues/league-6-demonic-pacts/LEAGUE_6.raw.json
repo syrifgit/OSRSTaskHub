@@ -833,5 +833,3730 @@
     "name": "1 Hueycoatl Kill",
     "description": "Kill the Hueycoatl in Varlamore.",
     "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Achieve Your First Level 10",
+    "description": "Reach level 10 in any skill (not including Agility and Hitpoints).",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Achieve Your First Level 5",
+    "description": "Reach level 5 in any skill (not including Agility, Hitpoints and Runecraft).",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Achieve Your First Level Up",
+    "description": "Level up any of your skills for the first time.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Activate a prayer near an altar",
+    "description": "Activate a prayer near an altar",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Attack a dummy",
+    "description": "Attack a dummy.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Burn Some Food",
+    "description": "Burn any kind of food while trying to cook it.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Burn Some Normal Logs",
+    "description": "Burn some Normal Logs.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Burn Some Oak Logs",
+    "description": "Burn some Oak Logs.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Firemaking\" data-level=\"15\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Firemaking\" title=\"Firemaking\"><img alt=\"Firemaking\" src=\"/images/Firemaking_icon.png?45ea0\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 15 <a href=\"/w/Firemaking\" title=\"Firemaking\">Firemaking</a></span>",
+    "skills": [
+      {
+        "skill": "FIREMAKING",
+        "level": 15
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Bury 6 bones",
+    "description": "Bury 6 bones of any kind",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Cast Home Teleport",
+    "description": "Cast the Home Teleport spell.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Catch a Baby Impling",
+    "description": "Catch a Baby Impling.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"17\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 17 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>",
+    "skills": [
+      {
+        "skill": "HUNTER",
+        "level": 17
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Catch a Herring",
+    "description": "Catch a Raw Herring whilst Fishing.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fishing\" data-level=\"10\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 10 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span>",
+    "skills": [
+      {
+        "skill": "FISHING",
+        "level": 10
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Catch a Shrimp",
+    "description": "Catch Raw Shrimp while Fishing.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Catch an Anchovy",
+    "description": "Catch a Raw Anchovy whilst Fishing.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fishing\" data-level=\"15\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 15 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span>",
+    "skills": [
+      {
+        "skill": "FISHING",
+        "level": 15
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Chop Some Logs",
+    "description": "Chop any kind of logs.",
+    "requirements": "Any axe",
+    "requirementsHtml": "Any <a href=\"/w/Axe\" title=\"Axe\">axe</a>",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Chop Some Logs With a Steel Axe",
+    "description": "Chop any kind of logs using a Steel Axe.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"6\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 6 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>",
+    "skills": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Clean 15 Grimy Tarromin",
+    "description": "Clean 15 Grimy Tarromin.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"11\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 11 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span>",
+    "skills": [
+      {
+        "skill": "HERBLORE",
+        "level": 11
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Clean 25 Grimy Guam Leafs",
+    "description": "Clean 25 Grimy Guam Leafs.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Clean a Grimy Guam",
+    "description": "Clean a Grimy Guam.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Complete the Leagues Tutorial",
+    "description": "Complete the Leagues Tutorial and begin your adventure.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Cook Shrimp",
+    "description": "Cook Raw Shrimp.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Cook something with an apron",
+    "description": "Cook something with an apron equipped",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Craft Leather chaps",
+    "description": "Craft Leather chaps",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Crafting\" data-level=\"18\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 18 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span>",
+    "skills": [
+      {
+        "skill": "CRAFTING",
+        "level": 18
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Create a Compost Potion",
+    "description": "Create a Compost Potion.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"22\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 22 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span>",
+    "skills": [
+      {
+        "skill": "HERBLORE",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Create an Antipoison",
+    "description": "Create an Antipoison.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 5 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span>",
+    "skills": [
+      {
+        "skill": "HERBLORE",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Cut a Ruby",
+    "description": "Cut a Ruby",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Crafting\" data-level=\"34\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 34 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span>",
+    "skills": [
+      {
+        "skill": "CRAFTING",
+        "level": 34
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Defeat a Chicken",
+    "description": "Defeat a Chicken",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Defeat a Hill Giant",
+    "description": "Defeat a Hill Giant",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Drink a Strength Potion",
+    "description": "Drink a Strength Potion.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Dye a cape Purple",
+    "description": "Dye a cape Purple",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Eat a Rabbit",
+    "description": "Eat a cooked rabbit.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Eat an Onion",
+    "description": "Eat an Onion, raw.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Enter your Player Owned House",
+    "description": "Enter your Player Owned House.",
+    "requirements": "1,000 or completion of Daddy's Home",
+    "requirementsHtml": "<span class=\"coins inventory-image coins-1000 coins-pos\">1,000</span> or completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Daddy%27s_Home\" title=\"Daddy's Home\">Daddy's Home</a>",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Equip a Tyras helm",
+    "description": "Equip a Tyras helm",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 5 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
+    "skills": [
+      {
+        "skill": "DEFENCE",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Equip an Elemental Staff",
+    "description": "Equip a basic elemental staff.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Equip an Iron dagger",
+    "description": "Equip an Iron dagger.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Feed a dog some bones",
+    "description": "Feed a dog some bones",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Fletch an Oak Shortbow",
+    "description": "Fletch an Oak Shortbow.",
+    "requirements": "if chopping own log",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"20\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 20 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span><br><span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"15\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 15 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span> if chopping own log",
+    "skills": [
+      {
+        "skill": "FLETCHING",
+        "level": 20
+      },
+      {
+        "skill": "WOODCUTTING",
+        "level": 15
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Fletch Some Arrow Shafts",
+    "description": "Fletch some Arrow Shafts.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Get a haircut",
+    "description": "Go and get a haircut.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Defeat a Frog",
+    "description": "Defeat a Frog.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Defeat a Rat",
+    "description": "Defeat a Rat.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Defeat a scorpion",
+    "description": "Defeat a scorpion",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Defeat an Imp with an earth spell",
+    "description": "Defeat an Imp with an earth spell.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"9\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 9 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 9
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Light a Torch",
+    "description": "Light a Torch.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Make an Attack Potion",
+    "description": "Make an Attack Potion.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Mine 5 Tin Ore",
+    "description": "Mine 5 Tin Ore.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Mine some Clay",
+    "description": "Mine some Clay",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Mine some Ore With a Steel Pickaxe",
+    "description": "Mine any ore using a Steel Pickaxe.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Mining\" data-level=\"6\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Mining\" title=\"Mining\"><img alt=\"Mining\" src=\"/images/Mining_icon.png?00870\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 6 <a href=\"/w/Mining\" title=\"Mining\">Mining</a></span>",
+    "skills": [
+      {
+        "skill": "MINING",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Obtain a Bird Nest",
+    "description": "Obtain a Bird Nest whilst cutting down trees.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Obtain a Casket from Fishing",
+    "description": "Obtain a Casket from Fishing.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fishing\" data-level=\"16\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 16 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span>",
+    "skills": [
+      {
+        "skill": "FISHING",
+        "level": 16
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Open the Leagues Menu",
+    "description": "Open the Leagues Menu found within the Journal Panel.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Perform a Special Attack",
+    "description": "Perform any special attack.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Pick 6 flax",
+    "description": "Pick 6 flax",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Pick 6 wheat, 6 cabbages and 6 potatoes",
+    "description": "Pick 6 wheat, 6 cabbages and 6 potatoes",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Pickpocket a Citizen",
+    "description": "Pickpocket a Man or a Woman.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Plant Seeds in an Allotment Patch",
+    "description": "Plant some seeds in an Allotment patch.",
+    "requirements": "Seed dibber",
+    "requirementsHtml": "<a href=\"/w/Seed_dibber\" title=\"Seed dibber\">Seed dibber</a>",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Protect Your Crops",
+    "description": "Pay a farmer to protect any of your crops.",
+    "requirements": "Items requested by the farmer to protect the crop",
+    "requirementsHtml": "Items requested by the farmer to protect the crop",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Purchase a Player Owned House",
+    "description": "Purchase a Player Owned House.",
+    "requirements": "1,000 or completion of Daddy's Home",
+    "requirementsHtml": "<span class=\"coins inventory-image coins-1000 coins-pos\">1,000</span> or completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Daddy%27s_Home\" title=\"Daddy's Home\">Daddy's Home</a>",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Rake a Flower Patch",
+    "description": "Rake a Flower Patch",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Reach Combat Level 25",
+    "description": "Reach Combat Level 25.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Sell some silk to a silk trader",
+    "description": "Sell some silk to a silk trader",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Shoot 6 iron arrows",
+    "description": "Shoot 6 iron arrows",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Smelt a Bronze Bar",
+    "description": "Use a Furnace to smelt a Bronze Bar.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Smelt an Iron Bar",
+    "description": "Use a Furnace to smelt an Iron Bar.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Smithing\" data-level=\"15\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 15 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span>",
+    "skills": [
+      {
+        "skill": "SMITHING",
+        "level": 15
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Snare 15 Tropical Wagtails",
+    "description": "Snare 15 Tropical Wagtails",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"19\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 19 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>",
+    "skills": [
+      {
+        "skill": "HUNTER",
+        "level": 19
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Snare 5 Crimson Swifts",
+    "description": "Snare 5 Crimson Swifts",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Snare a Bird",
+    "description": "Catch any bird with a Bird Snare.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Spin a Ball of Wool",
+    "description": "Use a Spinning Wheel to spin a Ball of Wool.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Steal some bread",
+    "description": "Steal some bread from a Bakery Stall",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 5 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>",
+    "skills": [
+      {
+        "skill": "THIEVING",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Successfully Cut a Red Topaz",
+    "description": "Successfully Cut a Red Topaz.",
+    "requirements": "Chisel",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Crafting\" data-level=\"16\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 16 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span><br><a href=\"/w/Chisel\" title=\"Chisel\">Chisel</a>",
+    "skills": [
+      {
+        "skill": "CRAFTING",
+        "level": 16
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Talk to any Port master",
+    "description": "Talk to any Port master",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Turn any Logs Into a Plank",
+    "description": "Use a Sawmill to turn Logs into a Plank.",
+    "requirements": "Logs and 100",
+    "requirementsHtml": "<a href=\"/w/Logs\" title=\"Logs\">Logs</a> and <span class=\"coins inventory-image coins-100 coins-pos\">100</span>",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
+    "name": "Turn off your run",
+    "description": "Turn off your run",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "1 Easy Clue Scroll",
+    "description": "Open a Reward casket for completing an Easy clue scroll.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "1 Elite Clue Scroll",
+    "description": "Open a Reward casket for completing an Elite clue scroll.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "1 Hard Clue Scroll",
+    "description": "Open a Reward casket for completing a Hard clue scroll.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "1 Medium Clue Scroll",
+    "description": "Open a Reward casket for completing a Medium clue scroll.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "15 Collection log slots",
+    "description": "Obtain 15 unique Collection Log slots.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "25 Easy Clue Scrolls",
+    "description": "Open 25 Reward caskets for completing Easy clue scrolls.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "25 Elite Clue Scrolls",
+    "description": "Open 25 Reward caskets for completing Elite clue scrolls.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "25 Hard Clue Scrolls",
+    "description": "Open 25 Reward caskets for completing Hard clue scrolls.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "25 Medium Clue Scrolls",
+    "description": "Open 25 Reward caskets for completing Medium clue scrolls.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Defeat 25 Superior slayer creatures",
+    "description": "Defeat 25 Superior slayer monsters.",
+    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a>",
+    "skills": [
+      {
+        "skill": "SLAYER",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "30 Collection log slots",
+    "description": "Obtain 30 unique Collection Log slots.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "5 Collection log slots",
+    "description": "Obtain 5 unique Collection Log slots.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "50 Collection log slots",
+    "description": "Obtain 50 unique Collection Log slots.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "75 Easy Clue Scrolls",
+    "description": "Open 75 Reward caskets for completing Easy clue scrolls.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "75 Medium Clue Scrolls",
+    "description": "Open 75 Reward caskets for completing Medium clue scrolls.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Defeat 75 Superior slayer creatures",
+    "description": "",
+    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a>",
+    "skills": [
+      {
+        "skill": "SLAYER",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Achieve Your First Level 20",
+    "description": "Reach level 20 in any skill.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Achieve Your First Level 30",
+    "description": "Reach level 30 in any skill.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Achieve Your First Level 40",
+    "description": "Reach level 40 in any skill.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Achieve Your First Level 50",
+    "description": "Reach level 50 in any skill.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Achieve Your First Level 60",
+    "description": "Reach level 60 in any skill.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Activate Smite",
+    "description": "Activate Smite in your prayer book",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Prayer\" data-level=\"52\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Prayer\" title=\"Prayer\"><img alt=\"Prayer\" src=\"/images/Prayer_icon.png?7e70b\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 52 <a href=\"/w/Prayer\" title=\"Prayer\">Prayer</a></span>",
+    "skills": [
+      {
+        "skill": "PRAYER",
+        "level": 52
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Build a Mahogany Portal",
+    "description": "Build a Mahogany Portal in a Portal Chamber in your Player Owned House.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Construction\" data-level=\"65\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Construction\" title=\"Construction\"><img alt=\"Construction\" src=\"/images/Construction_icon.png?f9bf7\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 65 <a href=\"/w/Construction\" title=\"Construction\">Construction</a></span>",
+    "skills": [
+      {
+        "skill": "CONSTRUCTION",
+        "level": 65
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Build a Room in Your Player Owned House",
+    "description": "Build a room in your Player Owned House.",
+    "requirements": "1,000",
+    "requirementsHtml": "<span class=\"coins inventory-image coins-1000 coins-pos\">1,000</span>",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Build an Oak Larder",
+    "description": "Build an Oak Larder in a Kitchen in your Player Owned House.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Construction\" data-level=\"33\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Construction\" title=\"Construction\"><img alt=\"Construction\" src=\"/images/Construction_icon.png?f9bf7\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 33 <a href=\"/w/Construction\" title=\"Construction\">Construction</a></span>",
+    "skills": [
+      {
+        "skill": "CONSTRUCTION",
+        "level": 33
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Burn 100 Willow Logs",
+    "description": "Burn 100 Willow Logs.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Firemaking\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Firemaking\" title=\"Firemaking\"><img alt=\"Firemaking\" src=\"/images/Firemaking_icon.png?45ea0\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 30 <a href=\"/w/Firemaking\" title=\"Firemaking\">Firemaking</a></span>",
+    "skills": [
+      {
+        "skill": "FIREMAKING",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Burn 25 Maple Logs",
+    "description": "Burn 25 Maple Logs.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Firemaking\" data-level=\"45\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Firemaking\" title=\"Firemaking\"><img alt=\"Firemaking\" src=\"/images/Firemaking_icon.png?45ea0\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 45 <a href=\"/w/Firemaking\" title=\"Firemaking\">Firemaking</a></span>",
+    "skills": [
+      {
+        "skill": "FIREMAKING",
+        "level": 45
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Burn Some Coloured Logs",
+    "description": "Burn some logs that have been coloured with a firelighter.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Bury Some Wyvern or Dragon Bones",
+    "description": "Bury either some Wyvern Bones or some Dragon Bones.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Butter a potato",
+    "description": "Make a potato with butter",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"39\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 39 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span>",
+    "skills": [
+      {
+        "skill": "COOKING",
+        "level": 39
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Cast an Earth Blast Spell",
+    "description": "Cast an Earth Blast Spell",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"53\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 53 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 53
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Cast Low Level Alchemy",
+    "description": "Cast the Low Level Alchemy spell",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"21\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 21 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 21
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Catch 10 Cod",
+    "description": "Catch 10 Cod",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fishing\" data-level=\"23\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 23 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span>",
+    "skills": [
+      {
+        "skill": "FISHING",
+        "level": 23
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Catch 100 Swordfish",
+    "description": "Catch 100 Swordfish",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fishing\" data-level=\"50\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 50 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span>",
+    "skills": [
+      {
+        "skill": "FISHING",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Catch 100 Tuna",
+    "description": "Catch 100 Tuna",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fishing\" data-level=\"35\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 35 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span>",
+    "skills": [
+      {
+        "skill": "FISHING",
+        "level": 35
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Catch 20 mackerel",
+    "description": "Catch 20 Raw mackerel whilst Fishing",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fishing\" data-level=\"16\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 16 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span>",
+    "skills": [
+      {
+        "skill": "FISHING",
+        "level": 16
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Catch 50 Implings in Puro-Puro",
+    "description": "Catch 50 Implings in Puro-Puro.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"17\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 17 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>",
+    "skills": [
+      {
+        "skill": "HUNTER",
+        "level": 17
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Catch 50 Tuna",
+    "description": "Catch 50 Tuna",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fishing\" data-level=\"35\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 35 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span>",
+    "skills": [
+      {
+        "skill": "FISHING",
+        "level": 35
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Catch 75 Lobsters",
+    "description": "Catch 75 Lobsters",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fishing\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 40 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span>",
+    "skills": [
+      {
+        "skill": "FISHING",
+        "level": 40
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Catch 75 Trout",
+    "description": "Catch 75 Raw Trout whilst Fishing",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fishing\" data-level=\"20\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 20 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span>",
+    "skills": [
+      {
+        "skill": "FISHING",
+        "level": 20
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Catch a Butterfly",
+    "description": "Catch any butterfly",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"15\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 15 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>",
+    "skills": [
+      {
+        "skill": "HUNTER",
+        "level": 15
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Catch a Swamp Lizard or Salamander",
+    "description": "Catch either a Swamp Lizard or any kind of Salamander.",
+    "requirements": "Either ( Morytania✓), ( Desert✓), ( Kandarin✓, ( Wilderness✓), ( Varlamore✓)",
+    "requirementsHtml": "Either <span class=\"scp\" data-skill=\"Hunter\" data-level=\"29\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 29 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span> (<span class=\"league-region\" data-league-area=\"morytania\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Morytania\" title=\"Morytania\"><img alt=\"Morytania\" src=\"/images/Morytania_Area_Badge.png?2a1e3\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Morytania\" title=\"Raging Echoes League/Areas/Morytania\">Morytania</a></span><span class=\"league-check\">✓</span></span>), <span class=\"scp\" data-skill=\"Hunter\" data-level=\"47\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 47 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span> (<span class=\"league-region\" data-league-area=\"desert\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Desert\" title=\"Desert\"><img alt=\"Desert\" src=\"/images/Desert_Area_Badge.png?2a1e3\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Desert\" class=\"mw-redirect\" title=\"Raging Echoes League/Areas/Desert\">Desert</a></span><span class=\"league-check\">✓</span></span>), <span class=\"scp\" data-skill=\"Hunter\" data-level=\"59\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 59 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span> (<span class=\"league-region\" data-league-area=\"kandarin\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Kandarin\" title=\"Kandarin\"><img alt=\"Kandarin\" src=\"/images/Kandarin_Area_Badge.png?f8338\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Kandarin\" title=\"Raging Echoes League/Areas/Kandarin\">Kandarin</a></span><span class=\"league-check\">✓</span></span>, <span class=\"scp\" data-skill=\"Hunter\" data-level=\"67\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 67 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span> (<span class=\"league-region\" data-league-area=\"wilderness\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Wilderness\" title=\"Wilderness\"><img alt=\"Wilderness\" src=\"/images/Wilderness_Area_Badge.png?2a1e3\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Wilderness\" title=\"Raging Echoes League/Areas/Wilderness\">Wilderness</a></span><span class=\"league-check\">✓</span></span>), <span class=\"scp\" data-skill=\"Hunter\" data-level=\"79\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 79 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span> (<span class=\"league-region\" data-league-area=\"varlamore\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Varlamore\" title=\"Varlamore\"><img alt=\"Varlamore\" src=\"/images/Varlamore_Area_Badge.png?2e60e\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Varlamore\" title=\"Raging Echoes League/Areas/Varlamore\">Varlamore</a></span><span class=\"league-check\">✓</span></span>)",
+    "skills": [
+      {
+        "skill": "HUNTER",
+        "level": 29
+      },
+      {
+        "skill": "HUNTER",
+        "level": 47
+      },
+      {
+        "skill": "HUNTER",
+        "level": 59
+      },
+      {
+        "skill": "HUNTER",
+        "level": 67
+      },
+      {
+        "skill": "HUNTER",
+        "level": 79
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Check a grown Fruit Tree",
+    "description": "Check the health of any Fruit Tree you've grown.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Farming\" data-level=\"27\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Farming\" title=\"Farming\"><img alt=\"Farming\" src=\"/images/Farming_icon.png?558fa\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 27 <a href=\"/w/Farming\" title=\"Farming\">Farming</a></span>",
+    "skills": [
+      {
+        "skill": "FARMING",
+        "level": 27
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Check a grown Tree",
+    "description": "Check the health of any regular Tree you've grown",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Farming\" data-level=\"15\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Farming\" title=\"Farming\"><img alt=\"Farming\" src=\"/images/Farming_icon.png?558fa\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 15 <a href=\"/w/Farming\" title=\"Farming\">Farming</a></span>",
+    "skills": [
+      {
+        "skill": "FARMING",
+        "level": 15
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Chop 100 Willow Logs",
+    "description": "Chop 100 Willow Logs from Willow Trees.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 30 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>",
+    "skills": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Chop Some Logs With a Rune Axe",
+    "description": "Chop any kind of logs using a Rune Axe.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"41\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 41 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>",
+    "skills": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 41
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Chop some Rising Roots",
+    "description": "Chop some Rising Roots spawned via Forestry.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Churn some butter",
+    "description": "Use a churn to make some butter.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"38\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 38 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span>",
+    "skills": [
+      {
+        "skill": "COOKING",
+        "level": 38
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Clean 50 Grimy Cadantine",
+    "description": "Clean 50 Grimy Cadantine.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"65\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 65 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span>",
+    "skills": [
+      {
+        "skill": "HERBLORE",
+        "level": 65
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Clean 50 Grimy Ranarr Weed",
+    "description": "Clean 50 Grimy Ranarr Weed.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"25\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 25 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span>",
+    "skills": [
+      {
+        "skill": "HERBLORE",
+        "level": 25
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Clean a Grimy Avantoe",
+    "description": "Clean a Grimy Avantoe.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"48\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 48 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span>",
+    "skills": [
+      {
+        "skill": "HERBLORE",
+        "level": 48
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Complete 1 Slayer Task",
+    "description": "Complete 1 Slayer Task.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Complete the Evil Bob random event",
+    "description": "Complete the Evil Bob random event.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Complete the Flowering Bush event",
+    "description": "Complete the Flowering Bush event spawned via Forestry.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Complete the Maze random event",
+    "description": "Complete the Maze random event.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Complete the Pheasant Forestry Event",
+    "description": "Complete the Pheasant event spawned via Forestry.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Complete the Pillory random event",
+    "description": "Complete the Pillory random event",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Complete the Pinball random event",
+    "description": "Complete the Pinball random event",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Complete the Postie Pete random event",
+    "description": "Complete the Postie Pete random event.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Complete the Prison Pete random event",
+    "description": "Complete the Prison Pete random event.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Complete the Ritual Forestry Event",
+    "description": "Complete the Ritual event spawned via Forestry.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Complete the Struggling Sapling event",
+    "description": "Complete the Struggling Sapling event spawned via Forestry.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Complete the Surprise Exam random event",
+    "description": "Complete the Surprise Exam random event.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Convert an item into at least 500 coins",
+    "description": "Cast the High Level Alchemy spell to convert an item into 500 coins or more",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"55\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 55 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 55
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Cook 100 Swordfish",
+    "description": "Cook 100 Swordfish",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"45\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 45 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span>",
+    "skills": [
+      {
+        "skill": "COOKING",
+        "level": 45
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Cook 50 Tuna",
+    "description": "Cook 50 Raw Tuna",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"35\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 35 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span>",
+    "skills": [
+      {
+        "skill": "COOKING",
+        "level": 35
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Craft 20 Silver items",
+    "description": "Craft 20 Silver items using [[|Silver bar|Silver Bars]]",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Craft 200 Essence Into Runes",
+    "description": "Use Runecrafting Altars to craft 200 essence into runes of any type.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Craft a Sapphire Amulet",
+    "description": "Craft a Sapphire Amulet",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Crafting\" data-level=\"24\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 24 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span>",
+    "skills": [
+      {
+        "skill": "CRAFTING",
+        "level": 24
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Craft an Emerald Ring",
+    "description": "Craft an Emerald Ring.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Crafting\" data-level=\"27\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 27 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span>",
+    "skills": [
+      {
+        "skill": "CRAFTING",
+        "level": 27
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Craft Any Combination Rune",
+    "description": "Use a Runecrafting Altar to craft any type of combination rune.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Runecraft\" data-level=\"6\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Runecraft\" title=\"Runecraft\"><img alt=\"Runecraft\" src=\"/images/Runecraft_icon.png?c278c\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 6 <a href=\"/w/Runecraft\" title=\"Runecraft\">Runecraft</a></span>",
+    "skills": [
+      {
+        "skill": "RUNECRAFT",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Create a Green d'hide shield",
+    "description": "Create a Green d'hide shield.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Crafting\" data-level=\"62\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 62 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span>",
+    "skills": [
+      {
+        "skill": "CRAFTING",
+        "level": 62
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Create a Guthix Rest Tea",
+    "description": "Create a Guthix Rest Tea.",
+    "requirements": "Partial completion of One Small Favour, requiring one of Asgarnia✓, Desert✓, Fremennik✓, or Kandarin✓",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"18\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 18 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span><br>Partial completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/One_Small_Favour\" title=\"One Small Favour\">One Small Favour</a>, requiring one of <span class=\"league-region\" data-league-area=\"asgarnia\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Asgarnia\" title=\"Asgarnia\"><img alt=\"Asgarnia\" src=\"/images/Asgarnia_Area_Badge.png?4ec29\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Asgarnia\" title=\"Raging Echoes League/Areas/Asgarnia\">Asgarnia</a></span><span class=\"league-check\">✓</span></span>, <span class=\"league-region\" data-league-area=\"desert\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Desert\" title=\"Desert\"><img alt=\"Desert\" src=\"/images/Desert_Area_Badge.png?2a1e3\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Desert\" class=\"mw-redirect\" title=\"Raging Echoes League/Areas/Desert\">Desert</a></span><span class=\"league-check\">✓</span></span>, <span class=\"league-region\" data-league-area=\"fremennik\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Fremennik\" title=\"Fremennik\"><img alt=\"Fremennik\" src=\"/images/Fremennik_Area_Badge.png?f8338\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Fremennik\" class=\"mw-redirect\" title=\"Raging Echoes League/Areas/Fremennik\">Fremennik</a></span><span class=\"league-check\">✓</span></span>, or <span class=\"league-region\" data-league-area=\"kandarin\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Kandarin\" title=\"Kandarin\"><img alt=\"Kandarin\" src=\"/images/Kandarin_Area_Badge.png?f8338\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Kandarin\" title=\"Raging Echoes League/Areas/Kandarin\">Kandarin</a></span><span class=\"league-check\">✓</span></span>",
+    "skills": [
+      {
+        "skill": "HERBLORE",
+        "level": 18
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Chop 50 Maple Logs",
+    "description": "Chop 50 Maple Logs.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"45\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 45 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>",
+    "skills": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 45
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Defeat a Superior slayer creature",
+    "description": "Defeat a Superior slayer creature.",
+    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 Slayer reward points",
+    "skills": [
+      {
+        "skill": "SLAYER",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Eat a piece of food that restores at least 6 hitpoints",
+    "description": "Eat a piece of food that restores at least 6 hitpoints",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Eat some Purple Sweets",
+    "description": "Eat some Purple Sweets.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip a Full Adamant Set",
+    "description": "Equip an Adamant Platebody, a Adamant Full Helm and either some Adamant Platelegs or an Adamant Plateskirt.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 30 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
+    "skills": [
+      {
+        "skill": "DEFENCE",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip a Full Blue Dragonhide Set",
+    "description": "Equip a Blue Dragonhide Body, some Blue Dragonhide Chaps and some Blue Dragonhide Vambraces.",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Ranged\" data-level=\"50\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 50 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>, <span class=\"scp\" data-skill=\"Defence\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 40 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
+    "skills": [
+      {
+        "skill": "RANGED",
+        "level": 50
+      },
+      {
+        "skill": "DEFENCE",
+        "level": 40
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip a Full Bronze Set",
+    "description": "Equip a Bronze Platebody, a Bronze Full Helm and either some Bronze Platelegs or a Bronze Plateskirt",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip a Full Red Dragonhide Set",
+    "description": "Equip a Red Dragonhide Body, some Red Dragonhide Chaps and some Red Dragonhide Vambraces.",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Ranged\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 60 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>, <span class=\"scp\" data-skill=\"Defence\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 40 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
+    "skills": [
+      {
+        "skill": "RANGED",
+        "level": 60
+      },
+      {
+        "skill": "DEFENCE",
+        "level": 40
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip a Mithril Weapon",
+    "description": "Equip any Mithril weapon.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"20\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 20 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
+    "skills": [
+      {
+        "skill": "ATTACK",
+        "level": 20
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip a Piece of a Mystic Set",
+    "description": "Equip any piece of any Mystic robe set.",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 40 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Defence\" data-level=\"20\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 20 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 40
+      },
+      {
+        "skill": "DEFENCE",
+        "level": 20
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip a piece of Beekeeper's Outfit",
+    "description": "Equip a piece of Beekeeper's Outfit.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip a piece of Camouflage outfit",
+    "description": "Equip a piece of Camouflage outfit.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip a piece of Mime Outfit",
+    "description": "Equip a piece of Mime Outfit.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip a piece of Zombie Outfit",
+    "description": "Equip a piece of Zombie Outfit.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip a Rune Weapon",
+    "description": "Equip any Rune weapon.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 40 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
+    "skills": [
+      {
+        "skill": "ATTACK",
+        "level": 40
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip a Trimmed Amulet",
+    "description": "Equip a Trimmed Amulet.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip a Willow Shield",
+    "description": "Equip a Willow Shield.",
+    "requirements": ", 2 Willow logs ( if chopping yourself)",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 30 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>, <span class=\"scp\" data-skill=\"Fletching\" data-level=\"42\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 42 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span><br>2 <a href=\"/w/Willow_logs\" title=\"Willow logs\">Willow logs</a> (<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 30 </span> if chopping yourself)",
+    "skills": [
+      {
+        "skill": "DEFENCE",
+        "level": 30
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 42
+      },
+      {
+        "skill": "WOODCUTTING",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip a Yew Shortbow",
+    "description": "Equip a Yew Shortbow.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Ranged\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 40 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>",
+    "skills": [
+      {
+        "skill": "RANGED",
+        "level": 40
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip an Adamant Weapon",
+    "description": "Equip any Adamant weapon.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 30 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
+    "skills": [
+      {
+        "skill": "ATTACK",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip an Elemental Battlestaff or Mystic Staff",
+    "description": "Equip either an elemental battlestaff or an elemental mystic staff.",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 30 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Attack\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 30 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 30
+      },
+      {
+        "skill": "ATTACK",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip some Black armour",
+    "description": "Equip either a Black Platebody, some Black Platelegs or a Black Full Helm.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"10\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 10 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
+    "skills": [
+      {
+        "skill": "DEFENCE",
+        "level": 10
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip some Steel armour",
+    "description": "Equip either a Steel Platebody, some Steel Platelegs or a Steel Full Helm.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 5 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
+    "skills": [
+      {
+        "skill": "DEFENCE",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Equip the Forestry Basket",
+    "description": "Equip the Forestry Basket.",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 75 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>, <span class=\"scp\" data-skill=\"Smithing\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 75 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span>",
+    "skills": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 75
+      },
+      {
+        "skill": "SMITHING",
+        "level": 75
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fill 15 Hard Clue Collection Log Slots",
+    "description": "Fill 15 slots in the Hard Clue section of the Collection Log.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fill 20 Easy Clue Collection Log Slots",
+    "description": "Fill 20 slots in the Easy Clue section of the Collection Log.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fill 20 Medium Clue Collection Log Slots",
+    "description": "Fill 20 slots in the Medium Clue section of the Collection Log.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fill 3 Elite Clue Collection Log Slots",
+    "description": "Fill 3 slots in the Elite Clue section of the Collection Log.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fill 3 Hard Clue Collection Log Slots",
+    "description": "Fill 3 slots in the Hard Clue section of the Collection Log.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fill 5 Easy Clue Collection Log Slots",
+    "description": "Fill 5 slots in the Easy Clue section of the Collection Log.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fill 5 Medium Clue Collection Log Slots",
+    "description": "Fill 5 slots in the Medium Clue section of the Collection Log.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fill a Bucket With Supercompost",
+    "description": "Fill a Bucket with Supercompost from a Compost Bin.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fill a Large Pouch",
+    "description": "Fill a Large Pouch with Essence.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Runecraft\" data-level=\"50\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Runecraft\" title=\"Runecraft\"><img alt=\"Runecraft\" src=\"/images/Runecraft_icon.png?c278c\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 50 <a href=\"/w/Runecraft\" title=\"Runecraft\">Runecraft</a></span>",
+    "skills": [
+      {
+        "skill": "RUNECRAFT",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fill a Medium STASH Unit",
+    "description": "Build a Medium STASH unit and fill it with the relevant items.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Construction\" data-level=\"42\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Construction\" title=\"Construction\"><img alt=\"Construction\" src=\"/images/Construction_icon.png?f9bf7\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 42 <a href=\"/w/Construction\" title=\"Construction\">Construction</a></span>",
+    "skills": [
+      {
+        "skill": "CONSTRUCTION",
+        "level": 42
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fletch 1000 arrow shafts",
+    "description": "Fletch 1000 arrow shafts.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fletch 150 Iron Arrows",
+    "description": "Fletch 150 Iron Arrows.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"15\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 15 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>",
+    "skills": [
+      {
+        "skill": "FLETCHING",
+        "level": 15
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fletch 25 Maple longbow (u)",
+    "description": "Fletch 25 Maple longbow (u).",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"55\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 55 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>",
+    "skills": [
+      {
+        "skill": "FLETCHING",
+        "level": 55
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fletch 25 Oak Stocks",
+    "description": "Fletch 25 Oak Stocks.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"24\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 24 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>",
+    "skills": [
+      {
+        "skill": "FLETCHING",
+        "level": 24
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fletch 50 Willow longbow (u)",
+    "description": "Fletch 50 Willow longbow (u).",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 40 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>",
+    "skills": [
+      {
+        "skill": "FLETCHING",
+        "level": 40
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fletch a Willow Shortbow (u)",
+    "description": "Fletch a Willow Shortbow (u).",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"35\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 35 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>",
+    "skills": [
+      {
+        "skill": "FLETCHING",
+        "level": 35
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Fletch some Broad Arrows or Bolts",
+    "description": "Fletch either some Broad Arrows or some Broad Bolts.",
+    "requirements": "Unlocked Broader Fletching using 300 Slayer reward points",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"52\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 52 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span><br>Unlocked <a href=\"/w/Broader_Fletching\" class=\"mw-redirect\" title=\"Broader Fletching\">Broader Fletching</a> using 300 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a>",
+    "skills": [
+      {
+        "skill": "FLETCHING",
+        "level": 52
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Gain 10 Unique Items From Easy Clues",
+    "description": "Gain 10 unique items from Easy Clue Scroll Reward Caskets.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Gain 10 Unique Items From Medium Clues",
+    "description": "Gain 10 unique items from Medium Clue Scroll Reward Caskets.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Gain 20 Unique Items From Hard Clues",
+    "description": "Gain 20 unique items from Hard Clue Scroll Reward Caskets.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Gain 35 Unique Items From Easy Clues",
+    "description": "Gain 35 unique items from Easy Clue Scroll Reward Caskets.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Gain 5 Unique Items From Hard Clues",
+    "description": "Gain 5 unique items from Hard Clue Scroll Reward Caskets.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Gain a Unique Item From a Hard Clue",
+    "description": "Gain a unique item from a Hard Clue Scroll Reward Casket.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Gain a Unique Item From a Master Clue",
+    "description": "Gain a unique item from a Master Clue Scroll Reward Casket.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Gain a Unique Item From a Medium Clue",
+    "description": "Gain a unique item from a Medium Clue Scroll Reward Casket.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Gain a Unique Item From an Easy Clue",
+    "description": "Gain a unique item from an Easy Clue Scroll Reward Casket.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Get a Gem from a Gorak",
+    "description": "Obtain a gem drop from a Gorak.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Give an Entling a haircut",
+    "description": "Give an entling a haircut via Forestry.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Harvest a Ranarr Weed",
+    "description": "Harvest an Ranarr Weed from any Herb patch.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Farming\" data-level=\"32\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Farming\" title=\"Farming\"><img alt=\"Farming\" src=\"/images/Farming_icon.png?558fa\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 32 <a href=\"/w/Farming\" title=\"Farming\">Farming</a></span>",
+    "skills": [
+      {
+        "skill": "FARMING",
+        "level": 32
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Have a Leprechaun send something to the bank",
+    "description": "Have the Forestry leprechaun send something to your bank.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Defeat 5 Bunnies",
+    "description": "Defeat 5 Bunnies.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Defeat 5 creatures with a mace",
+    "description": "Defeat 5 creatures with a mace as the final hit.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Defeat a Scorpion with a Mithril Spear",
+    "description": "Defeat a Scorpion with a mithril spear as the final hit.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"20\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 20 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
+    "skills": [
+      {
+        "skill": "ATTACK",
+        "level": 20
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Defeat 3 chickens in 6 seconds",
+    "description": "Defeat 3 chickens in 6 seconds.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Land a hoop on a stick",
+    "description": "Successfully land a hoop on a stick in the PoH minigame.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Construction\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Construction\" title=\"Construction\"><img alt=\"Construction\" src=\"/images/Construction_icon.png?f9bf7\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 30 <a href=\"/w/Construction\" title=\"Construction\">Construction</a></span>",
+    "skills": [
+      {
+        "skill": "CONSTRUCTION",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Make 20 Stamina Potions",
+    "description": "Make 20 Stamina Potions.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"77\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 77 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span>",
+    "skills": [
+      {
+        "skill": "HERBLORE",
+        "level": 77
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Make 30 Prayer Potions",
+    "description": "Make 30 Prayer Potions.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"38\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 38 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span>",
+    "skills": [
+      {
+        "skill": "HERBLORE",
+        "level": 38
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Make a 4 dose potion",
+    "description": "Make any 4 dose potion using an Amulet of Chemistry.",
+    "requirements": ", Amulet mould to craft a Jade amulet (u) (requires either a 1/128 drop, , or an area unlock).",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"27\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 27 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Crafting\" data-level=\"34\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 34 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span><br><a href=\"/w/Amulet_mould\" title=\"Amulet mould\">Amulet mould</a> to craft a <a href=\"/w/Jade_amulet_(u)\" title=\"Jade amulet (u)\">Jade amulet (u)</a> (requires either a 1/128 drop, <span class=\"scp\" data-skill=\"Construction\" data-level=\"44\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Construction\" title=\"Construction\"><img alt=\"Construction\" src=\"/images/Construction_icon.png?f9bf7\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 44 <a href=\"/w/Construction\" title=\"Construction\">Construction</a></span>, or an area unlock).",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 27
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 34
+      },
+      {
+        "skill": "CONSTRUCTION",
+        "level": 44
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Make a Meat Pizza",
+    "description": "Make a Meat Pizza",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"45\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 45 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span>",
+    "skills": [
+      {
+        "skill": "COOKING",
+        "level": 45
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Make some Flour",
+    "description": "Make some Flour in a windmill.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Mine 10 Silver",
+    "description": "Mine 10 Silver ore",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Mining\" data-level=\"20\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Mining\" title=\"Mining\"><img alt=\"Mining\" src=\"/images/Mining_icon.png?00870\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 20 <a href=\"/w/Mining\" title=\"Mining\">Mining</a></span>",
+    "skills": [
+      {
+        "skill": "MINING",
+        "level": 20
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Mine 50 Iron Ore",
+    "description": "Mine 50 Iron Ore.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Mining\" data-level=\"15\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Mining\" title=\"Mining\"><img alt=\"Mining\" src=\"/images/Mining_icon.png?00870\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 15 <a href=\"/w/Mining\" title=\"Mining\">Mining</a></span>",
+    "skills": [
+      {
+        "skill": "MINING",
+        "level": 15
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Mine 50 Mithril Ore",
+    "description": "Mine 50 Mithril Ore.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Mining\" data-level=\"55\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Mining\" title=\"Mining\"><img alt=\"Mining\" src=\"/images/Mining_icon.png?00870\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 55 <a href=\"/w/Mining\" title=\"Mining\">Mining</a></span>",
+    "skills": [
+      {
+        "skill": "MINING",
+        "level": 55
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Mine some Ore With a Rune Pickaxe",
+    "description": "Mine any ore using a Rune Pickaxe.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Mining\" data-level=\"41\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Mining\" title=\"Mining\"><img alt=\"Mining\" src=\"/images/Mining_icon.png?00870\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 41 <a href=\"/w/Mining\" title=\"Mining\">Mining</a></span>",
+    "skills": [
+      {
+        "skill": "MINING",
+        "level": 41
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Obtain 800 Coins From Coin Pouches At Once",
+    "description": "Open a stack of Coin Pouches and obtain at least 800 Coins.",
+    "requirements": "(can be completed at lower levels depending on luck when pickpocketing NPCs with variable coin amounts)",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 40 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span> (can be completed at lower levels depending on luck when pickpocketing NPCs with variable coin amounts)",
+    "skills": [
+      {
+        "skill": "THIEVING",
+        "level": 40
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Obtain a Clue Geode While Mining",
+    "description": "Obtain any kind of clue geode whilst Mining a rock.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Obtain a Gem While Mining",
+    "description": "Obtain any kind of gem whilst Mining a rock.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Obtain a Kebab from a random event",
+    "description": "Obtain a Kebab from any random event",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Obtain an old boot from a fishing spot",
+    "description": "Obtain an old boot from a fishing spot",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Open 28 Coin Pouches At Once",
+    "description": "Open 28 Coin Pouches at once.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Open the Mystery Box",
+    "description": "A boat is a boat, but the mystery box could be anything, even a boat!",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Pickpocket a Master Farmer",
+    "description": "Successfully pickpocket from a Master farmer.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"38\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 38 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>",
+    "skills": [
+      {
+        "skill": "THIEVING",
+        "level": 38
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Reach a Prayer Bonus of 15",
+    "description": "Equip enough item to reach a Prayer bonus of 15 or more.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Reach Base Level 10",
+    "description": "Reach level 10 in every skill.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Reach Base Level 20",
+    "description": "Reach level 20 in every skill.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Reach Base Level 30",
+    "description": "Reach level 30 in every skill.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Reach Base Level 5",
+    "description": "Reach level 5 in every skill.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Reach Combat Level 50",
+    "description": "Reach Combat Level 50.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Reach Combat Level 75",
+    "description": "Reach Combat Level 75.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Reach Total Level 100",
+    "description": "Reach a Total Level of 100.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Reach Total Level 250",
+    "description": "Reach a Total Level of 250.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Reach Total Level 666",
+    "description": "Reach Total Level 666.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Reach Total Level 750",
+    "description": "Reach a Total Level of 750.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Redecorate your player Owned house",
+    "description": "Redecorate your player Owned house.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Construction\" data-level=\"10\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Construction\" title=\"Construction\"><img alt=\"Construction\" src=\"/images/Construction_icon.png?f9bf7\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 10 <a href=\"/w/Construction\" title=\"Construction\">Construction</a></span>",
+    "skills": [
+      {
+        "skill": "CONSTRUCTION",
+        "level": 10
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Sacrifice something to Deaths coffer",
+    "description": "Sacrifice something to Deaths coffer.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Scrape some Blue Dragonhide",
+    "description": "Scrape some blue dragonhide.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Slay 250 Creatures",
+    "description": "Slay 250 creatures whilst on a Slayer Task.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Smelt a Steel Bar",
+    "description": "Use a Furnace to smelt a Steel Bar.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Smithing\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 30 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span>",
+    "skills": [
+      {
+        "skill": "SMITHING",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Smith 10 Steel bolts (unf)",
+    "description": "Use an Anvil to smith 10 Steel bolts (unf).",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Smithing\" data-level=\"33\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 33 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span>",
+    "skills": [
+      {
+        "skill": "SMITHING",
+        "level": 33
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Smith 150 Iron Arrowtips",
+    "description": "Use an Anvil to smith 150 Iron Arrowtips.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Smithing\" data-level=\"20\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 20 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span>",
+    "skills": [
+      {
+        "skill": "SMITHING",
+        "level": 20
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Smith 250 Mithril bolts (unf)",
+    "description": "Use an Anvil to smith 250 Mithril bolts (unf)",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Smithing\" data-level=\"53\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 53 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span>",
+    "skills": [
+      {
+        "skill": "SMITHING",
+        "level": 53
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Smith a Steel 2h sword",
+    "description": "Use an Anvil to smith a Steel 2h sword.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Smithing\" data-level=\"44\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 44 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span>",
+    "skills": [
+      {
+        "skill": "SMITHING",
+        "level": 44
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Snare a Bird 20 times",
+    "description": "Snare a Bird 20 times.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Successfully Cook 5 Pieces of Food",
+    "description": "Cook 5 pieces of food in a row without burning them.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Successfully pickpocket a Citizen 10 times in a row",
+    "description": "Successfully pickpocket a Citizen 10 times in a row without failing.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Teleport Using Law Runes",
+    "description": "Cast any teleport spell that uses Law Runes.",
+    "requirements": ", or with Kourend✓, or Grimoire",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"25\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 25 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, or <span class=\"scp\" data-skill=\"Magic\" data-level=\"6\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 6 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span> with <span class=\"league-region\" data-league-area=\"kourend\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Kourend\" title=\"Kourend\"><img alt=\"Kourend\" src=\"/images/Kourend_Area_Badge.png?1f79a\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Kourend\" class=\"mw-redirect\" title=\"Raging Echoes League/Areas/Kourend\">Kourend</a></span><span class=\"league-check\">✓</span></span>, or <a href=\"/w/Grimoire\" title=\"Grimoire\">Grimoire</a>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 25
+      },
+      {
+        "skill": "MAGIC",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Trade a herb with Jekyll",
+    "description": "Trade a herb with Jekyll for a potion.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Upset the Sandwich lady",
+    "description": "Make the Sandwich lady quite cross with you.",
+    "skills": []
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Use the Protect from Melee Prayer",
+    "description": "Use the Protect from Melee Prayer.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Prayer\" data-level=\"43\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Prayer\" title=\"Prayer\"><img alt=\"Prayer\" src=\"/images/Prayer_icon.png?7e70b\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 43 <a href=\"/w/Prayer\" title=\"Prayer\">Prayer</a></span>",
+    "skills": [
+      {
+        "skill": "PRAYER",
+        "level": 43
+      }
+    ]
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "easy",
+    "name": "Catch a Karambwanji",
+    "description": "Catch a Karambwanji on Karamja.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fishing\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 5 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span>",
+    "skills": [
+      {
+        "skill": "FISHING",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "easy",
+    "name": "Fill a Crate With Bananas",
+    "description": "Fill a crate with Bananas for Luthas at Musa Point.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "easy",
+    "name": "Defeat a Snake in Karamja",
+    "description": "Defeat a Snake in Karamja.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "easy",
+    "name": "Pick a Pineapple on Karamja",
+    "description": "Pick a Pineapple on Karamja.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "easy",
+    "name": "Receive an Agility Arena Ticket",
+    "description": "Receive an Agility Arena Ticket from the Brimhaven Agility Arena.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Buy a Snapdragon From Pirate Jackie the Fruit",
+    "description": "Buy a Snapdragon From Pirate Jackie the Fruit in Brimhaven.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Catch 50 Karambwan",
+    "description": "Catch 50 Karambwan on Karamja.",
+    "requirements": "Partial completion of Tai Bwo Wannai Trio",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fishing\" data-level=\"65\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 65 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span><br>Partial completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Tai_Bwo_Wannai_Trio\" title=\"Tai Bwo Wannai Trio\">Tai Bwo Wannai Trio</a>",
+    "skills": [
+      {
+        "skill": "FISHING",
+        "level": 65
+      }
+    ]
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Catch a Salmon on Karamja",
+    "description": "Catch a Salmon on Karamja.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fishing\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 30 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span>",
+    "skills": [
+      {
+        "skill": "FISHING",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Chop a dense jungle",
+    "description": "Fully clear a dense jungle in the Tai Bwo Wannai Cleanup.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"35\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 35 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>",
+    "skills": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 35
+      }
+    ]
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Complete the Easy Karamja Diary",
+    "description": "Complete all of the Easy tasks in the Karamja Achievement Diary.",
+    "requirements": "See Karamja Diary#Easy",
+    "requirementsHtml": "See <span class=\"scp\" data-skill=\"Achievement Diary\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Achievement_Diary\" title=\"Achievement Diary\"><img alt=\"Achievement Diary\" src=\"/images/Achievement_Diaries_icon.png?b4e0c\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Karamja_Diary#Easy\" title=\"Karamja Diary\">Karamja Diary#Easy</a>",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Complete the Medium Karamja Diary",
+    "description": "Complete all of the Medium tasks in the Karamja Achievement Diary.",
+    "requirements": "See Karamja Diary#Medium",
+    "requirementsHtml": "See <span class=\"scp\" data-skill=\"Achievement Diary\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Achievement_Diary\" title=\"Achievement Diary\"><img alt=\"Achievement Diary\" src=\"/images/Achievement_Diaries_icon.png?b4e0c\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Karamja_Diary#Medium\" title=\"Karamja Diary\">Karamja Diary#Medium</a>",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Craft 50 Nature Runes",
+    "description": "Craft 50 Nature Runes from Essence at the Nature Altar.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Runecraft\" data-level=\"44\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Runecraft\" title=\"Runecraft\"><img alt=\"Runecraft\" src=\"/images/Runecraft_icon.png?c278c\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 44 <a href=\"/w/Runecraft\" title=\"Runecraft\">Runecraft</a></span>",
+    "skills": [
+      {
+        "skill": "RUNECRAFT",
+        "level": 44
+      }
+    ]
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Defeat a Black Demon on Karamja",
+    "description": "Defeat a Black Demon on Karamja.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Defeat a Steel Dragon on Karamja",
+    "description": "Defeat a Steel Dragon on Karamja.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Defeat a TzHaar",
+    "description": "Defeat any TzHaar in Mor Ul Rek.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Enter the Brimhaven Dungeon",
+    "description": "Enter the Brimhaven Dungeon.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Enter the Tai Bwo Wannai Hardwood Grove",
+    "description": "Enter the Hardwood Grove in Tai Bwo Wannai.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Equip a Full Tai Bwo Wannai Villager Set",
+    "description": "Equip a full set of Tai Bwo Wannai villager clothing.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Equip a Toktz-Ket-Xil",
+    "description": "Equip a Toktz-Ket-Xil.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 60 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
+    "skills": [
+      {
+        "skill": "DEFENCE",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Equip a Toktz-Xil-Ak",
+    "description": "Equip a Toktz-Xil-Ak.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 60 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
+    "skills": [
+      {
+        "skill": "ATTACK",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Equip a Toktz-Xil-Ek",
+    "description": "Equip a Toktz-Xil-Ek.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 60 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
+    "skills": [
+      {
+        "skill": "ATTACK",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Equip an Obsidian Cape",
+    "description": "Equip an Obsidian cape.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Equip any spear (kp)",
+    "description": "Equip any spear poisoned by a karambwan.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Sleep in Paramaya Inn",
+    "description": "Pay the barkeep to sleep in Paramaya Inn, in Shilo Village.",
+    "skills": []
+  },
+  {
+    "areaKey": "karamja",
+    "tierKey": "medium",
+    "name": "Take a Shortcut Across the Shilo Village River",
+    "description": "Use the Stepping Stones Agility Shortcut in Shilo Village.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Agility\" data-level=\"32\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 32 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span>",
+    "skills": [
+      {
+        "skill": "AGILITY",
+        "level": 32
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Admire some beautiful scenery",
+    "description": "Admire some beautiful scenery in Auburnvale or the Auburn Valley.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Bow near a quetzal",
+    "description": "Bow near a quetzal.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Charter a Ship From Sunset Coast to Civitas",
+    "description": "Take a Charter Ship from Sunset Coast to Civitas illa Fortis.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Chop a tree in the Tlati Rainforest",
+    "description": "Chop a tree in the Tlati Rainforest.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Complete the Vale totems miniquest",
+    "description": "Complete the Vale totems miniquest.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"20\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 20 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>",
+    "skills": [
+      {
+        "skill": "FLETCHING",
+        "level": 20
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Cry near a child",
+    "description": "Cry near a child.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Dance near a bard",
+    "description": "Dance near a bard.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Drink a cup of tea in auburn valley",
+    "description": "Drink a cup of tea in auburn valley.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Drink from a bird bath",
+    "description": "Drink from a bird bath.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Drink some moon-lite",
+    "description": "Drink some moon-lite.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Exit civitas via the secret passage",
+    "description": "Exit civitas via the secret passage.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Fill a bucket with sand at the Sunset coast",
+    "description": "Fill a bucket with sand at the Sunset coast.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Fill something up from a water pump",
+    "description": "Fill something up from a water pump.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Give Oli some Stew",
+    "description": "Give Oli some Stew in Civitas illa Fortis.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Inspect a green flame",
+    "description": "Inspect a Green flame, near Salvagers outlook.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Defeat a Buffalo",
+    "description": "Defeat a Buffalo.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Defeat a Guard in Varlamore underground",
+    "description": "Defeat a Guard in Varlamore underground.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Defeat a Seagull",
+    "description": "Defeat a Seagull.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Defeat a thief",
+    "description": "Defeat a thief.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Defeat an Icefiend in Varlamore",
+    "description": "Defeat an Icefiend in Varlamore.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Defeat an Imp in a basement",
+    "description": "Defeat an Imp in the Kastori basement in Varlamore.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Milk a Buffalo",
+    "description": "Milk a Buffalo.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Mine some coal from Stone cutter outpost",
+    "description": "Mine some coal from Stone cutter outpost.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Mining\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Mining\" title=\"Mining\"><img alt=\"Mining\" src=\"/images/Mining_icon.png?00870\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 30 <a href=\"/w/Mining\" title=\"Mining\">Mining</a></span>",
+    "skills": [
+      {
+        "skill": "MINING",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Pet a Caique",
+    "description": "Pet a Caique near the statue of Ates in Kastori or in the north of the Tlati Rainforest.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Pet Renu",
+    "description": "Pet Renu.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Pet Xolo in Civitas",
+    "description": "Pet Xolo in Civitas illa Fortis.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Pick some Sweetcorn from a Field",
+    "description": "Pick some Sweetcorn from a Field.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Salute next to a statue of Quoatlos",
+    "description": "Salute next to a statue of Quoatlos.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Scatter some Ashes in Yama's lair",
+    "description": "Scatter some Ashes in Yama's lair.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Shear an Alpaca",
+    "description": "Shear an Alpaca.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Sit near a stolen cabbage",
+    "description": "Sit near a stolen cabbage.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Step onto an Ent trail",
+    "description": "Step onto an Ent trail.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Talk to a Gladiator",
+    "description": "Talk to a Gladiator.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Travel in Achilka's boat",
+    "description": "Travel in Achilka's boat at one of her destinations along the River Varla.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Travel to Aldarin via Fairy ring",
+    "description": "Travel to Aldarin via Fairy ring.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Travel using the Quetzal Transport System",
+    "description": "Travel using the Quetzal Transport System.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Trim your beard in Cam torum",
+    "description": "Trim your beard in Cam torum.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "easy",
+    "name": "Witness the gemstone Crab burrow away",
+    "description": "Witness the gemstone crab burrow away.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Defeat Amoxliatl 1 Time",
+    "description": "Defeat the Amoxliatl in Varlamore.",
+    "requirements": "The Heart of Darkness, , , , ,",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span><a href=\"/w/The_Heart_of_Darkness\" title=\"The Heart of Darkness\">The Heart of Darkness</a>, <span class=\"scp\" data-skill=\"Mining\" data-level=\"55\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Mining\" title=\"Mining\"><img alt=\"Mining\" src=\"/images/Mining_icon.png?00870\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 55 <a href=\"/w/Mining\" title=\"Mining\">Mining</a></span>, <span class=\"scp\" data-skill=\"Thieving\" data-level=\"48\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 48 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>, <span class=\"scp\" data-skill=\"Slayer\" data-level=\"48\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 48 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Agility\" data-level=\"46\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 46 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span>,",
+    "skills": [
+      {
+        "skill": "MINING",
+        "level": 55
+      },
+      {
+        "skill": "THIEVING",
+        "level": 48
+      },
+      {
+        "skill": "SLAYER",
+        "level": 48
+      },
+      {
+        "skill": "AGILITY",
+        "level": 46
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Defeat Hueycoatl 1 Time",
+    "description": "Defeat the Hueycoatl in Varlamore.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Activate all Statues of Ates",
+    "description": "Activate all statues of ates.",
+    "requirements": "Death on the Isle",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Death_on_the_Isle\" title=\"Death on the Isle\">Death on the Isle</a>",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Activate the Statue of Ates",
+    "description": "Activate the Statue of Ates in Aldarin.",
+    "requirements": "Death on the Isle",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Death_on_the_Isle\" title=\"Death on the Isle\">Death on the Isle</a>",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Break down 10 calcified deposits",
+    "description": "Break down 10 Calcified deposits.",
+    "requirements": "Hammer and any Pickaxe",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Mining\" data-level=\"41\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Mining\" title=\"Mining\"><img alt=\"Mining\" src=\"/images/Mining_icon.png?00870\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 41 <a href=\"/w/Mining\" title=\"Mining\">Mining</a></span><br><a href=\"/w/Hammer\" title=\"Hammer\">Hammer</a> and any <a href=\"/w/Pickaxe\" title=\"Pickaxe\">Pickaxe</a>",
+    "skills": [
+      {
+        "skill": "MINING",
+        "level": 41
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Build a Quetzal Landing Site",
+    "description": "Build a Quetzal Landing Site.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"46\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 46 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>",
+    "skills": [
+      {
+        "skill": "HUNTER",
+        "level": 46
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Bury some wyrm bones near a Wyrm skeleton",
+    "description": "Bury some wyrm bones near a Wyrm skeleton.",
+    "requirements": "Wyrm bones or wyrmling bones",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"62\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 62 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br><a href=\"/w/Wyrm_bones\" title=\"Wyrm bones\">Wyrm bones</a> or <a href=\"/w/Wyrmling_bones\" title=\"Wyrmling bones\">wyrmling bones</a>",
+    "skills": [
+      {
+        "skill": "SLAYER",
+        "level": 62
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Catch a Jerboa",
+    "description": "Catch an Embertailed jerboa.",
+    "requirements": "Box trap",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"39\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 39 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span><br><a href=\"/w/Box_trap\" title=\"Box trap\">Box trap</a>",
+    "skills": [
+      {
+        "skill": "HUNTER",
+        "level": 39
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Catch a Pyre fox",
+    "description": "Catch a Pyre fox.",
+    "requirements": "Knife and Logs",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"57\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 57 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span><br><a href=\"/w/Knife\" title=\"Knife\">Knife</a> and <a href=\"/w/Logs\" title=\"Logs\">Logs</a>",
+    "skills": [
+      {
+        "skill": "HUNTER",
+        "level": 57
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Complete 10 Hunter Rumours",
+    "description": "Complete 10 Hunter Rumours.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"46\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 46 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>",
+    "skills": [
+      {
+        "skill": "HUNTER",
+        "level": 46
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Complete 10 laps of the Varlamore Agility Course",
+    "description": "Complete 10 laps of the Colossal Wyrm Agility Course",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Agility\" data-level=\"50\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 50 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span>",
+    "skills": [
+      {
+        "skill": "AGILITY",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Complete 25 Hunter Rumours",
+    "description": "Complete 25 Hunter Rumours.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"46\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 46 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>",
+    "skills": [
+      {
+        "skill": "HUNTER",
+        "level": 46
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Complete a Hunter Rumour",
+    "description": "Complete a Hunter Rumour.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"46\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 46 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>",
+    "skills": [
+      {
+        "skill": "HUNTER",
+        "level": 46
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Complete a Ribbiting Tale",
+    "description": "Complete a Ribbiting Tale of a Lily Pad Labour Dispute.",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"15\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 15 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>, <span class=\"scp\" data-skill=\"Combat level\" data-level=\"126\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Combat_level\" title=\"Combat level\"><img alt=\"Combat level\" src=\"/images/Attack_style_icon.png?ceb2e\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 126 <a href=\"/w/Combat_level\" title=\"Combat level\">Combat level</a></span>",
+    "skills": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 15
+      },
+      {
+        "skill": "COMBAT LEVEL",
+        "level": 126
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Complete At First Light",
+    "description": "Complete the At First Light quest.",
+    "requirements": ", ,",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"46\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 46 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>, <span class=\"scp\" data-skill=\"Herblore\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 30 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span>, <span class=\"scp\" data-skill=\"Construction\" data-level=\"27\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Construction\" title=\"Construction\"><img alt=\"Construction\" src=\"/images/Construction_icon.png?f9bf7\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 27 <a href=\"/w/Construction\" title=\"Construction\">Construction</a></span>",
+    "skills": [
+      {
+        "skill": "HUNTER",
+        "level": 46
+      },
+      {
+        "skill": "HERBLORE",
+        "level": 30
+      },
+      {
+        "skill": "CONSTRUCTION",
+        "level": 27
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Complete Death on the Isle",
+    "description": "Complete Death on the Isle.",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"34\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 34 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>, <span class=\"scp\" data-skill=\"Agility\" data-level=\"32\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 32 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span>",
+    "skills": [
+      {
+        "skill": "THIEVING",
+        "level": 34
+      },
+      {
+        "skill": "AGILITY",
+        "level": 32
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Complete Meat and Greet",
+    "description": "Complete Meat and Greet.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Complete Shadows of Custodia",
+    "description": "Complete the Shadows of Custodia quest.",
+    "requirements": ", , ,",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"54\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 54 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Fishing\" data-level=\"45\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 45 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span>, <span class=\"scp\" data-skill=\"Construction\" data-level=\"41\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Construction\" title=\"Construction\"><img alt=\"Construction\" src=\"/images/Construction_icon.png?f9bf7\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 41 <a href=\"/w/Construction\" title=\"Construction\">Construction</a></span>, <span class=\"scp\" data-skill=\"Hunter\" data-level=\"36\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 36 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>",
+    "skills": [
+      {
+        "skill": "SLAYER",
+        "level": 54
+      },
+      {
+        "skill": "FISHING",
+        "level": 45
+      },
+      {
+        "skill": "CONSTRUCTION",
+        "level": 41
+      },
+      {
+        "skill": "HUNTER",
+        "level": 36
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Complete the Heart of Darkness",
+    "description": "Complete The Heart of Darkness quest.",
+    "requirements": ", , ,",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Mining\" data-level=\"55\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Mining\" title=\"Mining\"><img alt=\"Mining\" src=\"/images/Mining_icon.png?00870\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 55 <a href=\"/w/Mining\" title=\"Mining\">Mining</a></span>, <span class=\"scp\" data-skill=\"Thieving\" data-level=\"48\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 48 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>, <span class=\"scp\" data-skill=\"Slayer\" data-level=\"48\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 48 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Agility\" data-level=\"46\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 46 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span>",
+    "skills": [
+      {
+        "skill": "MINING",
+        "level": 55
+      },
+      {
+        "skill": "THIEVING",
+        "level": 48
+      },
+      {
+        "skill": "SLAYER",
+        "level": 48
+      },
+      {
+        "skill": "AGILITY",
+        "level": 46
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Complete Wave 1 of Fortis Colosseum",
+    "description": "Complete Wave 1 of Fortis Colosseum.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Create a Quetzal Whistle",
+    "description": "Create a Quetzal Whistle.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"46\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 46 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>",
+    "skills": [
+      {
+        "skill": "HUNTER",
+        "level": 46
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Enter a dark cave in Varlamore",
+    "description": "Enter a dark cave in varlamore, near the Hunter Guild.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"46\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 46 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>",
+    "skills": [
+      {
+        "skill": "HUNTER",
+        "level": 46
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Equip a piece of Alchemists outfit",
+    "description": "Equip a piece of Alchemists outfit from the Mixology shop.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 60 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span>",
+    "skills": [
+      {
+        "skill": "HERBLORE",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Equip a piece of Hueycoatl armour",
+    "description": "Equip a piece of Hueycoatl armour.",
+    "requirements": ", ,",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Crafting\" data-level=\"86\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 86 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span>, <span class=\"scp\" data-skill=\"Ranged\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 70 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>, <span class=\"scp\" data-skill=\"Defence\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 40 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
+    "skills": [
+      {
+        "skill": "CRAFTING",
+        "level": 86
+      },
+      {
+        "skill": "RANGED",
+        "level": 70
+      },
+      {
+        "skill": "DEFENCE",
+        "level": 40
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Equip an egg",
+    "description": "Hold an egg in your hands.",
+    "requirements": "Scrambled!",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Scrambled!\" title=\"Scrambled!\">Scrambled!</a>",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Equip an orange",
+    "description": "Equip an orange.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Equip any piece of armour from the moons of peril",
+    "description": "Equip any piece of armour from the Blood, Frost, or Eclipse moon set.",
+    "requirements": "and one of , , or",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"50\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 50 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span> and one of <span class=\"scp\" data-skill=\"Strength\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Strength\" title=\"Strength\"><img alt=\"Strength\" src=\"/images/Strength_icon.png?e6e0c\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"20\" class=\"mw-file-element\" data-file-width=\"16\" data-file-height=\"20\"></a></span> 75 <a href=\"/w/Strength\" title=\"Strength\">Strength</a></span>, <span class=\"scp\" data-skill=\"Magic\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 75 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, or <span class=\"scp\" data-skill=\"Ranged\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 75 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>",
+    "skills": [
+      {
+        "skill": "DEFENCE",
+        "level": 50
+      },
+      {
+        "skill": "STRENGTH",
+        "level": 75
+      },
+      {
+        "skill": "MAGIC",
+        "level": 75
+      },
+      {
+        "skill": "RANGED",
+        "level": 75
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Equip Earthbound Tecpatl",
+    "description": "Equip the Earthbound tecpatl.",
+    "requirements": "The Final Dawn",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"55\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 55 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span><br><span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/The_Final_Dawn\" title=\"The Final Dawn\">The Final Dawn</a>",
+    "skills": [
+      {
+        "skill": "ATTACK",
+        "level": 55
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Equip Glacial Temotli",
+    "description": "Equip the Glacial temotli.",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"48\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 48 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Attack\" data-level=\"55\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 55 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
+    "skills": [
+      {
+        "skill": "SLAYER",
+        "level": 48
+      },
+      {
+        "skill": "ATTACK",
+        "level": 55
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Equip Pendant of Ates",
+    "description": "Equip the Pendant of ates.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"48\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 48 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
+    "skills": [
+      {
+        "skill": "SLAYER",
+        "level": 48
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Equip Sulphur Blades",
+    "description": "Equip the Sulphur blades.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"55\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 55 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
+    "skills": [
+      {
+        "skill": "ATTACK",
+        "level": 55
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Exchange an Ent seed with an Ent",
+    "description": "Exchange an Ent seed with an Ent.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Fill a Grape Barrel for the Foreman",
+    "description": "Fill a Grape Barrel for the Foreman in Aldarin.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Fish a House Key",
+    "description": "Fish a House Key.",
+    "requirements": "Big fishing net",
+    "requirementsHtml": "<a href=\"/w/Big_fishing_net\" title=\"Big fishing net\">Big fishing net</a>",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Fully decorate a Maple totem in the Auburn Valley",
+    "description": "Fully decorate an Maple totem in the Auburn Valley.",
+    "requirements": "Knife and 5 Maple logs",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"50\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 50 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span><br><a href=\"/w/Knife\" title=\"Knife\">Knife</a> and 5 <a href=\"/w/Maple_logs\" title=\"Maple logs\">Maple logs</a>",
+    "skills": [
+      {
+        "skill": "FLETCHING",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Fully decorate a Willow totem in the Auburn Valley",
+    "description": "Fully decorate a Willow totem in the Auburn Valley.",
+    "requirements": "Knife and 5 Willow logs",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"35\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 35 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span><br><a href=\"/w/Knife\" title=\"Knife\">Knife</a> and 5 <a href=\"/w/Willow_logs\" title=\"Willow logs\">Willow logs</a>",
+    "skills": [
+      {
+        "skill": "FLETCHING",
+        "level": 35
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Fully decorate an Oak totem in the Auburn Valley",
+    "description": "Fully decorate an Oak totem in the Auburn Valley.",
+    "requirements": "Knife and 5 Oak logs",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"20\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 20 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span><br><a href=\"/w/Knife\" title=\"Knife\">Knife</a> and 5 <a href=\"/w/Oak_logs\" title=\"Oak logs\">Oak logs</a>",
+    "skills": [
+      {
+        "skill": "FLETCHING",
+        "level": 20
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Jump on Yama's stepping stones 666 times",
+    "description": "Jump on Yama's stepping stones in his League domain 666 times.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Agility\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 1 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span>",
+    "skills": [
+      {
+        "skill": "AGILITY",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Defeat 10 Frost Crabs",
+    "description": "Defeat 10 Frost Crabs.",
+    "requirements": "The Heart of Darkness, , , , ,",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span><a href=\"/w/The_Heart_of_Darkness\" title=\"The Heart of Darkness\">The Heart of Darkness</a>, <span class=\"scp\" data-skill=\"Mining\" data-level=\"55\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Mining\" title=\"Mining\"><img alt=\"Mining\" src=\"/images/Mining_icon.png?00870\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 55 <a href=\"/w/Mining\" title=\"Mining\">Mining</a></span>, <span class=\"scp\" data-skill=\"Thieving\" data-level=\"48\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 48 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>, <span class=\"scp\" data-skill=\"Slayer\" data-level=\"48\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 48 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Agility\" data-level=\"46\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 46 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span>,",
+    "skills": [
+      {
+        "skill": "MINING",
+        "level": 55
+      },
+      {
+        "skill": "THIEVING",
+        "level": 48
+      },
+      {
+        "skill": "SLAYER",
+        "level": 48
+      },
+      {
+        "skill": "AGILITY",
+        "level": 46
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Defeat a Dire Wolf",
+    "description": "Defeat a Dire Wolf in Varlamore.",
+    "requirements": "Partial completion of Meat and Greet",
+    "requirementsHtml": "Partial completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Meat_and_Greet\" title=\"Meat and Greet\">Meat and Greet</a>",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Defeat a fully grown jaguar without taking any damage from it",
+    "description": "Defeat a fully grown jaguar without taking any damage from it.",
+    "requirements": "A weapon to safespot",
+    "requirementsHtml": "A weapon to safespot",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Defeat a Oryx with melee",
+    "description": "Defeat an Oryx in the Avium Savannah with melee.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Make a Greenman statue",
+    "description": "Make a Greenman statue.",
+    "requirements": "5 Ent branches, Greenman mask, Maple logs, and a Knife",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"53\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 53 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span><br>5 <a href=\"/w/Ent_branch\" title=\"Ent branch\">Ent branches</a>, <a href=\"/w/Greenman_mask\" title=\"Greenman mask\">Greenman mask</a>, <a href=\"/w/Maple_logs\" title=\"Maple logs\">Maple logs</a>, and a <a href=\"/w/Knife\" title=\"Knife\">Knife</a>",
+    "skills": [
+      {
+        "skill": "FLETCHING",
+        "level": 53
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Mine 20 Mithril Ore in the Stonecutter Outpost",
+    "description": "Mine 20 Mithril Ore in the Stonecutter Outpost.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Mining\" data-level=\"55\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Mining\" title=\"Mining\"><img alt=\"Mining\" src=\"/images/Mining_icon.png?00870\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 55 <a href=\"/w/Mining\" title=\"Mining\">Mining</a></span>",
+    "skills": [
+      {
+        "skill": "MINING",
+        "level": 55
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Mine 250 Blessed Bone Shards",
+    "description": "Mine 250 Blessed Bone Shards.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Mining\" data-level=\"41\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Mining\" title=\"Mining\"><img alt=\"Mining\" src=\"/images/Mining_icon.png?00870\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 41 <a href=\"/w/Mining\" title=\"Mining\">Mining</a></span>",
+    "skills": [
+      {
+        "skill": "MINING",
+        "level": 41
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Pay an Urchin for Information",
+    "description": "Pay an Urchin for Information in the Stealing Valuables minigame.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"50\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 50 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>",
+    "skills": [
+      {
+        "skill": "THIEVING",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Pickpocket a knight of varlamore 20 times",
+    "description": "Pickpocket a Knight of Varlamore 20 times.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"55\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 55 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>",
+    "skills": [
+      {
+        "skill": "THIEVING",
+        "level": 55
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Steal 100 Valuables",
+    "description": "Steal 100 Valuables.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"50\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 50 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>",
+    "skills": [
+      {
+        "skill": "THIEVING",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Steal 15 House Keys",
+    "description": "Steal 15 House Keys.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"50\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 50 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>",
+    "skills": [
+      {
+        "skill": "THIEVING",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Steal 25 Valuables",
+    "description": "Steal 25 Valuables.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"50\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 50 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>",
+    "skills": [
+      {
+        "skill": "THIEVING",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Steal a House Key",
+    "description": "Steal a House Key.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"50\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 50 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>",
+    "skills": [
+      {
+        "skill": "THIEVING",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Steal from the Fortis Spice Stall",
+    "description": "Steal from the Fortis Spice Stall.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"65\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 65 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>",
+    "skills": [
+      {
+        "skill": "THIEVING",
+        "level": 65
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Store some bowstrings inside a bowstring spool",
+    "description": "Store some bowstrings inside a bowstring spool.",
+    "requirements": "Vale Totems",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"20\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 20 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span><br><span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Vale_Totems_(miniquest)\" title=\"Vale Totems (miniquest)\">Vale Totems</a>",
+    "skills": [
+      {
+        "skill": "FLETCHING",
+        "level": 20
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Defeat the Moons of Peril",
+    "description": "Defeat the Moons of Peril.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Defeat the Moons of Peril 10 times",
+    "description": "Defeat the Moons of Peril 10 times.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Defeat the Moons of Peril 25 times",
+    "description": "Defeat the Moons of Peril 25 times.",
+    "skills": []
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Teleport to Cam Torum using a Calcified Moth",
+    "description": "Teleport to Cam Torum using a Calcified Moth.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Mining\" data-level=\"41\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Mining\" title=\"Mining\"><img alt=\"Mining\" src=\"/images/Mining_icon.png?00870\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 41 <a href=\"/w/Mining\" title=\"Mining\">Mining</a></span>",
+    "skills": [
+      {
+        "skill": "MINING",
+        "level": 41
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Teleport to Civitas illa Fortis",
+    "description": "Teleport to Civitas illa Fortis using the standard spellbook.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"54\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 54 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>",
+    "skills": [
+      {
+        "skill": "MAGIC",
+        "level": 54
+      }
+    ]
+  },
+  {
+    "areaKey": "varlamore",
+    "tierKey": "medium",
+    "name": "Use the pottery oven in Civitas",
+    "description": "Use the pottery oven in Civitas to make something out of clay.",
+    "skills": []
   }
 ]
