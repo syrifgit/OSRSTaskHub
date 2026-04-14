@@ -33,6 +33,17 @@
       "firstSeen": "2026-04-14",
       "lastSeen": "2026-04-14"
     },
+    "102610": {
+      "structId": 102610,
+      "name": "Set a Mummy ablaze",
+      "normalizedName": "setamummyablaze",
+      "area": "Kharidian Desert",
+      "tier": "Easy",
+      "varbitIndex": 1460,
+      "realStructId": null,
+      "firstSeen": "2026-04-14",
+      "lastSeen": "2026-04-14"
+    },
     "102780": {
       "structId": 102780,
       "name": "Mine a shooting star",
@@ -803,17 +814,6 @@
       "firstSeen": "2026-04-14",
       "lastSeen": "2026-04-14"
     },
-    "187321": {
-      "structId": 187321,
-      "name": "Defeat a Black Dragon in Tirannwn",
-      "normalizedName": "defeatablackdragonintirannwn",
-      "area": "Tirannwn",
-      "tier": "Medium",
-      "varbitIndex": 1103,
-      "realStructId": null,
-      "firstSeen": "2026-04-14",
-      "lastSeen": "2026-04-14"
-    },
     "188659": {
       "structId": 188659,
       "name": "Complete 20 Speed Tasks",
@@ -854,6 +854,17 @@
       "area": "Global",
       "tier": "Easy",
       "varbitIndex": 1468,
+      "realStructId": null,
+      "firstSeen": "2026-04-14",
+      "lastSeen": "2026-04-14"
+    },
+    "196050": {
+      "structId": 196050,
+      "name": "Defeat Araxxor 1 Time",
+      "normalizedName": "defeataraxxor1time",
+      "area": "Morytania",
+      "tier": "Hard",
+      "varbitIndex": 4,
       "realStructId": null,
       "firstSeen": "2026-04-14",
       "lastSeen": "2026-04-14"
@@ -1107,17 +1118,6 @@
       "area": "Global",
       "tier": "Master",
       "varbitIndex": 115,
-      "realStructId": null,
-      "firstSeen": "2026-04-14",
-      "lastSeen": "2026-04-14"
-    },
-    "224510": {
-      "structId": 224510,
-      "name": "Defeat Araxxor 1 Time",
-      "normalizedName": "defeataraxxor1time",
-      "area": "Morytania",
-      "tier": "Hard",
-      "varbitIndex": 4,
       "realStructId": null,
       "firstSeen": "2026-04-14",
       "lastSeen": "2026-04-14"
@@ -2904,17 +2904,6 @@
       "firstSeen": "2026-04-14",
       "lastSeen": "2026-04-14"
     },
-    "435466": {
-      "structId": 435466,
-      "name": "Defeat Skotizo 1 Time",
-      "normalizedName": "defeatskotizo1time",
-      "area": "Kourend & Kebos",
-      "tier": "Hard",
-      "varbitIndex": 14,
-      "realStructId": null,
-      "firstSeen": "2026-04-14",
-      "lastSeen": "2026-04-14"
-    },
     "438931": {
       "structId": 438931,
       "name": "Craft 30 Blue Dragonhide Bodies",
@@ -3201,6 +3190,17 @@
       "firstSeen": "2026-04-14",
       "lastSeen": "2026-04-14"
     },
+    "467555": {
+      "structId": 467555,
+      "name": "Defeat 150 Lizardmen Shaman",
+      "normalizedName": "defeat150lizardmenshaman",
+      "area": "Kourend & Kebos",
+      "tier": "Medium",
+      "varbitIndex": 29,
+      "realStructId": null,
+      "firstSeen": "2026-04-14",
+      "lastSeen": "2026-04-14"
+    },
     "469934": {
       "structId": 469934,
       "name": "Take a Shortcut Across the Shilo Village River",
@@ -3472,6 +3472,17 @@
       "area": "Global",
       "tier": "Medium",
       "varbitIndex": 1040,
+      "realStructId": null,
+      "firstSeen": "2026-04-14",
+      "lastSeen": "2026-04-14"
+    },
+    "497310": {
+      "structId": 497310,
+      "name": "Defeat Skotizo 1 Time",
+      "normalizedName": "defeatskotizo1time",
+      "area": "Kourend & Kebos",
+      "tier": "Hard",
+      "varbitIndex": 14,
       "realStructId": null,
       "firstSeen": "2026-04-14",
       "lastSeen": "2026-04-14"
@@ -4092,6 +4103,17 @@
       "firstSeen": "2026-04-14",
       "lastSeen": "2026-04-14"
     },
+    "576543": {
+      "structId": 576543,
+      "name": "Equip the Osmumten's Fang (or)",
+      "normalizedName": "equiptheosmumtensfangor",
+      "area": "Kharidian Desert",
+      "tier": "Master",
+      "varbitIndex": 925,
+      "realStructId": null,
+      "firstSeen": "2026-04-14",
+      "lastSeen": "2026-04-14"
+    },
     "577059": {
       "structId": 577059,
       "name": "Defeat a Werewolf in Morytania",
@@ -4308,17 +4330,6 @@
       "area": "Global",
       "tier": "Easy",
       "varbitIndex": 85,
-      "realStructId": null,
-      "firstSeen": "2026-04-14",
-      "lastSeen": "2026-04-14"
-    },
-    "596672": {
-      "structId": 596672,
-      "name": "Equip the Osmumten's Fang (or)",
-      "normalizedName": "equiptheosmumtensfangor",
-      "area": "Kharidian Desert",
-      "tier": "Master",
-      "varbitIndex": 925,
       "realStructId": null,
       "firstSeen": "2026-04-14",
       "lastSeen": "2026-04-14"
@@ -4847,6 +4858,17 @@
       "area": "Varlamore",
       "tier": "Medium",
       "varbitIndex": 1085,
+      "realStructId": null,
+      "firstSeen": "2026-04-14",
+      "lastSeen": "2026-04-14"
+    },
+    "658855": {
+      "structId": 658855,
+      "name": "Defeat 8 penguins within 5 seconds",
+      "normalizedName": "defeat8penguinswithin5seconds",
+      "area": "Fremennik Province",
+      "tier": "Medium",
+      "varbitIndex": 1100,
       "realStructId": null,
       "firstSeen": "2026-04-14",
       "lastSeen": "2026-04-14"
@@ -5643,6 +5665,17 @@
       "firstSeen": "2026-04-14",
       "lastSeen": "2026-04-14"
     },
+    "763644": {
+      "structId": 763644,
+      "name": "Defeat a Black Dragon in Tirannwn",
+      "normalizedName": "defeatablackdragonintirannwn",
+      "area": "Tirannwn",
+      "tier": "Medium",
+      "varbitIndex": 1103,
+      "realStructId": null,
+      "firstSeen": "2026-04-14",
+      "lastSeen": "2026-04-14"
+    },
     "764406": {
       "structId": 764406,
       "name": "Fill 20 Easy Clue Collection Log Slots",
@@ -5903,17 +5936,6 @@
       "area": "Global",
       "tier": "Elite",
       "varbitIndex": 1408,
-      "realStructId": null,
-      "firstSeen": "2026-04-14",
-      "lastSeen": "2026-04-14"
-    },
-    "798756": {
-      "structId": 798756,
-      "name": "Defeat 8 penguins within 5 seconds",
-      "normalizedName": "defeat8penguinswithin5seconds",
-      "area": "Fremennik Province",
-      "tier": "Medium",
-      "varbitIndex": 1100,
       "realStructId": null,
       "firstSeen": "2026-04-14",
       "lastSeen": "2026-04-14"
@@ -6578,17 +6600,6 @@
       "firstSeen": "2026-04-14",
       "lastSeen": "2026-04-14"
     },
-    "882829": {
-      "structId": 882829,
-      "name": "Defeat 150 Lizardmen Shaman",
-      "normalizedName": "defeat150lizardmenshaman",
-      "area": "Kourend & Kebos",
-      "tier": "Medium",
-      "varbitIndex": 29,
-      "realStructId": null,
-      "firstSeen": "2026-04-14",
-      "lastSeen": "2026-04-14"
-    },
     "882961": {
       "structId": 882961,
       "name": "Burn 25 Maple Logs",
@@ -6926,17 +6937,6 @@
       "area": "Global",
       "tier": "Elite",
       "varbitIndex": 1225,
-      "realStructId": null,
-      "firstSeen": "2026-04-14",
-      "lastSeen": "2026-04-14"
-    },
-    "929714": {
-      "structId": 929714,
-      "name": "Set a Mummy ablaze",
-      "normalizedName": "setamummyablaze",
-      "area": "Kharidian Desert",
-      "tier": "Easy",
-      "varbitIndex": 1460,
       "realStructId": null,
       "firstSeen": "2026-04-14",
       "lastSeen": "2026-04-14"

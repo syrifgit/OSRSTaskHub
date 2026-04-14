@@ -6,7 +6,7 @@
  * No external task-type definitions needed.
  */
 
-import { ParamID, Struct, Enum as CacheEnum, FlatCacheProvider, ScriptVarType } from '@abextm/cache2';
+import { ParamID, Struct, Enum as CacheEnum, CacheProvider, ScriptVarType } from '@abextm/cache2';
 import { Task, TaskFull } from '../types';
 
 const pid = (n: number) => n as any as ParamID;
@@ -24,20 +24,20 @@ const PARAMS = {
 // Known tier params per league
 const KNOWN_TIER_PARAMS = [1849, 1850, 1851, 1852, 2044];
 
-export async function getStruct(cache: FlatCacheProvider, id: number): Promise<Struct> {
+export async function getStruct(cache: CacheProvider, id: number): Promise<Struct> {
   return Struct.load(cache, id);
 }
 
-async function loadAllStructs(cache: FlatCacheProvider): Promise<Struct[]> {
+async function loadAllStructs(cache: CacheProvider): Promise<Struct[]> {
   const all = await Struct.all(cache);
   return [...all].sort((a, b) => a.id - b.id);
 }
 
-async function loadEnum(cache: FlatCacheProvider, id: number): Promise<CacheEnum> {
+async function loadEnum(cache: CacheProvider, id: number): Promise<CacheEnum> {
   return CacheEnum.load(cache, id);
 }
 
-async function findEnumsContainingStruct(cache: FlatCacheProvider, structId: number): Promise<CacheEnum[]> {
+async function findEnumsContainingStruct(cache: CacheProvider, structId: number): Promise<CacheEnum[]> {
   const all = await CacheEnum.all(cache);
   return [...all].filter(e => {
     if (e.valueTypeChar !== ScriptVarType.struct.char) return false;
@@ -51,7 +51,7 @@ async function findEnumsContainingStruct(cache: FlatCacheProvider, structId: num
 /**
  * Discover name resolution enums from the cache by searching for known values.
  */
-async function discoverStringEnums(cache: FlatCacheProvider): Promise<{
+async function discoverStringEnums(cache: CacheProvider): Promise<{
   area?: CacheEnum;
   category?: CacheEnum;
   tier?: CacheEnum;
@@ -103,7 +103,7 @@ export function resolveTierParam(taskTypeName: string): number {
  * Extract ordered tasks from the cache using a tier param.
  */
 export async function extractTasksFromCache(
-  cache: FlatCacheProvider,
+  cache: CacheProvider,
   tierParam: number,
 ): Promise<Task[]> {
   const tierParamId = pid(tierParam);
@@ -176,7 +176,7 @@ export async function extractTasksFromCache(
  * Discovers name resolution enums directly from the cache.
  */
 export async function hydrateTasks(
-  cache: FlatCacheProvider,
+  cache: CacheProvider,
   tasks: Task[],
   tierParam: number,
 ): Promise<{ fullTasks: TaskFull[]; rawTasks: any[] }> {
@@ -201,7 +201,9 @@ export async function hydrateTasks(
     const rawParams: Record<string, string | number> = {};
     for (const [paramId, value] of struct.params.entries()) {
       const name = paramNames[paramId as number];
-      rawParams[name || String(paramId)] = value;
+      // Param values can be string | number | bigint in cache2 >=0.1.2;
+      // the pipeline only cares about small ints (tier/area/etc) so coerce.
+      rawParams[name || String(paramId)] = typeof value === 'bigint' ? Number(value) : value;
     }
     rawTasks.push({ structId: task.structId, sortId: task.sortId, params: rawParams });
 

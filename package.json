@@ -18,7 +18,7 @@
     "lint": "eslint \"src/**/*.ts\" --fix"
   },
   "dependencies": {
-    "@abextm/cache2": "^0.1.1",
+    "@abextm/cache2": "^0.1.7",
     "axios": "^1.7.0",
     "cheerio": "^1.0.0-rc.12",
     "commander": "^12.1.0"
@@ -46,7 +46,11 @@
     "transformIgnorePatterns": [
       "node_modules/(?!@abextm/cache2)"
     ],
-    "moduleFileExtensions": ["js", "json", "ts"],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
     "testRegex": ".*\\.spec\\.ts$"
   }
 }

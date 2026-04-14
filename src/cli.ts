@@ -4,6 +4,9 @@ import { Command } from 'commander';
 import { downloadCache, getLatestCommitHash, getLocalCommitHash } from './cache/downloader';
 import { generateFull, classifyAndMerge, updateWiki } from './pipeline';
 import { scrapePreliminary } from './wiki/preliminary';
+import { loadRegistry, saveRegistry } from './wiki/idRegistry';
+import { applyRealStructIds, writeMappings } from './output/mappings';
+import { readFileSync } from 'fs';
 import { mergeLocations } from './output/writers';
 import { resolveOutputDir } from './leagues';
 import { createCacheProvider } from './cache/provider';
@@ -96,6 +99,40 @@ tasks
   .argument('[task-type]', 'Task type name. Auto-detects active league if omitted.')
   .action(async (taskType?: string) => {
     await updateWiki(taskType);
+  });
+
+tasks
+  .command('set-real-id')
+  .description('Populate realStructId in the preliminary ID registry (one entry or bulk). Regenerates mapping files.')
+  .argument('<task-type>', 'Task type name (e.g., LEAGUE_6)')
+  .option('--placeholder <id>', 'Placeholder structId to update', parseInt)
+  .option('--real <id>', 'Real structId to assign', parseInt)
+  .option('--from-file <path>', 'JSON file with { "<placeholder>": <realId>, ... } for bulk updates')
+  .action(async (taskType: string, options: { placeholder?: number; real?: number; fromFile?: string }) => {
+    const outputDir = resolveOutputDir(taskType);
+    const registryPath = path.join(outputDir, `${taskType}.id-registry.json`);
+    const registry = loadRegistry(registryPath);
+
+    const updates: Array<{ placeholder: number; real: number }> = [];
+    if (options.fromFile) {
+      const data = JSON.parse(readFileSync(options.fromFile, 'utf-8'));
+      for (const [ph, real] of Object.entries(data)) {
+        updates.push({ placeholder: Number(ph), real: Number(real) });
+      }
+    } else if (options.placeholder != null && options.real != null) {
+      updates.push({ placeholder: options.placeholder, real: options.real });
+    } else {
+      throw new Error('Provide either --placeholder <id> --real <id> or --from-file <path>');
+    }
+
+    const { applied, missing } = applyRealStructIds(registry, updates);
+    saveRegistry(registryPath, registry);
+    console.log(`Applied ${applied} mappings to ${registryPath}`);
+    if (missing.length) {
+      console.log(`Warning: ${missing.length} placeholder IDs not found in registry:`, missing.slice(0, 10));
+    }
+
+    writeMappings(outputDir, taskType, registry);
   });
 
 tasks

@@ -27,6 +27,15 @@
     "league_6_real_structId": null
   },
   {
+    "name": "Set a Mummy ablaze",
+    "area": "Kharidian Desert",
+    "tier": "Easy",
+    "varbitIndex": 1460,
+    "league_5_structId": 2161,
+    "league_6_preliminary_id": 102610,
+    "league_6_real_structId": null
+  },
+  {
     "name": "Mine a shooting star",
     "area": "Global",
     "tier": "Hard",
@@ -657,15 +666,6 @@
     "league_6_real_structId": null
   },
   {
-    "name": "Defeat a Black Dragon in Tirannwn",
-    "area": "Tirannwn",
-    "tier": "Medium",
-    "varbitIndex": 1103,
-    "league_5_structId": null,
-    "league_6_preliminary_id": 187321,
-    "league_6_real_structId": null
-  },
-  {
     "name": "Complete 20 Speed Tasks",
     "area": "Global",
     "tier": "Elite",
@@ -699,6 +699,15 @@
     "varbitIndex": 1468,
     "league_5_structId": 1840,
     "league_6_preliminary_id": 191883,
+    "league_6_real_structId": null
+  },
+  {
+    "name": "Defeat Araxxor 1 Time",
+    "area": "Morytania",
+    "tier": "Hard",
+    "varbitIndex": 4,
+    "league_5_structId": null,
+    "league_6_preliminary_id": 196050,
     "league_6_real_structId": null
   },
   {
@@ -906,15 +915,6 @@
     "varbitIndex": 115,
     "league_5_structId": 2074,
     "league_6_preliminary_id": 221466,
-    "league_6_real_structId": null
-  },
-  {
-    "name": "Defeat Araxxor 1 Time",
-    "area": "Morytania",
-    "tier": "Hard",
-    "varbitIndex": 4,
-    "league_5_structId": null,
-    "league_6_preliminary_id": 224510,
     "league_6_real_structId": null
   },
   {
@@ -2376,15 +2376,6 @@
     "league_6_real_structId": null
   },
   {
-    "name": "Defeat Skotizo 1 Time",
-    "area": "Kourend & Kebos",
-    "tier": "Hard",
-    "varbitIndex": 14,
-    "league_5_structId": null,
-    "league_6_preliminary_id": 435466,
-    "league_6_real_structId": null
-  },
-  {
     "name": "Craft 30 Blue Dragonhide Bodies",
     "area": "Global",
     "tier": "Hard",
@@ -2619,6 +2610,15 @@
     "league_6_real_structId": null
   },
   {
+    "name": "Defeat 150 Lizardmen Shaman",
+    "area": "Kourend & Kebos",
+    "tier": "Medium",
+    "varbitIndex": 29,
+    "league_5_structId": null,
+    "league_6_preliminary_id": 467555,
+    "league_6_real_structId": null
+  },
+  {
     "name": "Take a Shortcut Across the Shilo Village River",
     "area": "Karamja",
     "tier": "Medium",
@@ -2841,6 +2841,15 @@
     "varbitIndex": 1040,
     "league_5_structId": 2613,
     "league_6_preliminary_id": 496369,
+    "league_6_real_structId": null
+  },
+  {
+    "name": "Defeat Skotizo 1 Time",
+    "area": "Kourend & Kebos",
+    "tier": "Hard",
+    "varbitIndex": 14,
+    "league_5_structId": null,
+    "league_6_preliminary_id": 497310,
     "league_6_real_structId": null
   },
   {
@@ -3348,6 +3357,15 @@
     "league_6_real_structId": null
   },
   {
+    "name": "Equip the Osmumten's Fang (or)",
+    "area": "Kharidian Desert",
+    "tier": "Master",
+    "varbitIndex": 925,
+    "league_5_structId": null,
+    "league_6_preliminary_id": 576543,
+    "league_6_real_structId": null
+  },
+  {
     "name": "Defeat a Werewolf in Morytania",
     "area": "Morytania",
     "tier": "Easy",
@@ -3525,15 +3543,6 @@
     "varbitIndex": 85,
     "league_5_structId": null,
     "league_6_preliminary_id": 595182,
-    "league_6_real_structId": null
-  },
-  {
-    "name": "Equip the Osmumten's Fang (or)",
-    "area": "Kharidian Desert",
-    "tier": "Master",
-    "varbitIndex": 925,
-    "league_5_structId": null,
-    "league_6_preliminary_id": 596672,
     "league_6_real_structId": null
   },
   {
@@ -3966,6 +3975,15 @@
     "varbitIndex": 1085,
     "league_5_structId": null,
     "league_6_preliminary_id": 658572,
+    "league_6_real_structId": null
+  },
+  {
+    "name": "Defeat 8 penguins within 5 seconds",
+    "area": "Fremennik Province",
+    "tier": "Medium",
+    "varbitIndex": 1100,
+    "league_5_structId": null,
+    "league_6_preliminary_id": 658855,
     "league_6_real_structId": null
   },
   {
@@ -4617,6 +4635,15 @@
     "league_6_real_structId": null
   },
   {
+    "name": "Defeat a Black Dragon in Tirannwn",
+    "area": "Tirannwn",
+    "tier": "Medium",
+    "varbitIndex": 1103,
+    "league_5_structId": null,
+    "league_6_preliminary_id": 763644,
+    "league_6_real_structId": null
+  },
+  {
     "name": "Fill 20 Easy Clue Collection Log Slots",
     "area": "Global",
     "tier": "Medium",
@@ -4830,15 +4857,6 @@
     "varbitIndex": 1408,
     "league_5_structId": 2694,
     "league_6_preliminary_id": 793240,
-    "league_6_real_structId": null
-  },
-  {
-    "name": "Defeat 8 penguins within 5 seconds",
-    "area": "Fremennik Province",
-    "tier": "Medium",
-    "varbitIndex": 1100,
-    "league_5_structId": null,
-    "league_6_preliminary_id": 798756,
     "league_6_real_structId": null
   },
   {
@@ -5382,15 +5400,6 @@
     "league_6_real_structId": null
   },
   {
-    "name": "Defeat 150 Lizardmen Shaman",
-    "area": "Kourend & Kebos",
-    "tier": "Medium",
-    "varbitIndex": 29,
-    "league_5_structId": null,
-    "league_6_preliminary_id": 882829,
-    "league_6_real_structId": null
-  },
-  {
     "name": "Burn 25 Maple Logs",
     "area": "Global",
     "tier": "Medium",
@@ -5667,15 +5676,6 @@
     "varbitIndex": 1225,
     "league_5_structId": 5788,
     "league_6_preliminary_id": 925973,
-    "league_6_real_structId": null
-  },
-  {
-    "name": "Set a Mummy ablaze",
-    "area": "Kharidian Desert",
-    "tier": "Easy",
-    "varbitIndex": 1460,
-    "league_5_structId": 2161,
-    "league_6_preliminary_id": 929714,
     "league_6_real_structId": null
   },
   {

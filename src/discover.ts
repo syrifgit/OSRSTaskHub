@@ -5,7 +5,7 @@
  * wiki data, and reports irregularities for human review.
  */
 
-import { FlatCacheProvider, Struct, Enum as CacheEnum, ScriptVarType, ParamID, StructID } from '@abextm/cache2';
+import { CacheProvider, Struct, Enum as CacheEnum, ScriptVarType, ParamID, StructID } from '@abextm/cache2';
 
 // Helper to cast numeric IDs to branded types
 const pid = (n: number) => n as any as ParamID;
@@ -58,7 +58,7 @@ function section(title: string, severity: 'info' | 'warning' | 'action' = 'info'
  * Run full discovery scan and produce a report.
  */
 export async function runDiscovery(
-  cache: FlatCacheProvider,
+  cache: CacheProvider,
   options: { wikiUrl?: string; previousLeagueTier?: number } = {},
 ): Promise<DiscoveryReport> {
   const report: DiscoveryReport = { sections: [] };
