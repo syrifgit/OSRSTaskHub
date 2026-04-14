@@ -1,6 +1,6 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import { FlatCacheProvider, Struct, ParamID } from '@abextm/cache2';
+import { CacheProvider, Struct, ParamID } from '@abextm/cache2';
 import { Task, TaskSkill, WikiColumnConfig, WikiTaskData } from '../types';
 
 /**
@@ -14,7 +14,7 @@ import { Task, TaskSkill, WikiColumnConfig, WikiTaskData } from '../types';
  * @param columns - Column positions in the wiki table
  */
 export async function scrapeAndMergeWikiData(
-  cache: FlatCacheProvider,
+  cache: CacheProvider,
   tasks: Task[],
   wikiUrl: string,
   taskIdAttribute: string,
