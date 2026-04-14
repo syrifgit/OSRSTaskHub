@@ -11,6 +11,8 @@ import { mergeLocations } from './output/writers';
 import { resolveOutputDir } from './leagues';
 import { createCacheProvider } from './cache/provider';
 import { runDiscovery, formatReport } from './discover';
+import { exportRealIds } from './export/realIds';
+import { applyWikiExport } from './export/applyWikiExport';
 import * as path from 'path';
 
 const program = new Command();
@@ -141,6 +143,37 @@ tasks
   .argument('<task-type>', 'Task type name (e.g., LEAGUE_6)')
   .action(async (taskType: string) => {
     await scrapePreliminary(taskType);
+  });
+
+// ============================================================
+// Wiki-team handoff commands (branch-only, one-off for L6 launch)
+// ============================================================
+
+tasks
+  .command('export-real-ids')
+  .description('Extract real structIds from a pre-release cache. Four modes via --full and --all flags (see WIKI-TEAM-HANDOFF.md). Default: minimal + wiki-filtered.')
+  .argument('<task-type>', 'Task type name (e.g., LEAGUE_6)')
+  .option('--out <path>', 'Output JSON path (default: ./<task-type>-real-ids[-full].json)')
+  .option('--all', 'Skip the wiki filter and dump every task matching the tier param')
+  .option('--full', 'Include resolved params (description, area, tier, skill, category) in addition to structId/name/varbitIndex')
+  .option('--tier-param <n>', 'Override tier param (auto-discovered otherwise)', parseInt)
+  .action(async (taskType: string, options: { out?: string; all?: boolean; full?: boolean; tierParam?: number }) => {
+    await exportRealIds({
+      taskType,
+      outPath: options.out,
+      all: options.all,
+      full: options.full,
+      tierParam: options.tierParam,
+    });
+  });
+
+tasks
+  .command('apply-wiki-export')
+  .description('Ingest a wiki-team real-ids JSON and populate realStructId in the registry + mappings.')
+  .argument('<task-type>', 'Task type name (e.g., LEAGUE_6)')
+  .requiredOption('--file <path>', 'JSON array of { varbitIndex, name, realStructId } from the wiki team')
+  .action(async (taskType: string, options: { file: string }) => {
+    await applyWikiExport(taskType, options.file);
   });
 
 tasks
