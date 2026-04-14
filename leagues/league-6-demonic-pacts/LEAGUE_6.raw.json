@@ -3,14 +3,14 @@
     "areaKey": "asgarnia",
     "tierKey": "easy",
     "name": "Defeat a Troll in Asgarnia",
-    "description": "Defeat a Troll in Asgarnia. This task earns one Demonic Pact.",
+    "description": "Defeat a Troll in Asgarnia.",
     "skills": []
   },
   {
     "areaKey": "desert",
     "tierKey": "easy",
-    "name": "Set a Mummy ablaze",
-    "description": "Set a Mummy on Fire with fire damage. This task earns one Demonic Pact.",
+    "name": "Set a mummy ablaze",
+    "description": "Set a Mummy on Fire with fire damage.",
     "requirements": "or Tirannwn✓ for access to oily cloth",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"13\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 13 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span> or <span class=\"league-region\" data-league-area=\"tirannwn\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Demonic_Pacts_League/Areas/Tirannwn\" title=\"Tirannwn\"><img alt=\"Tirannwn\" src=\"/images/Tirannwn_Area_Badge.png?4b9ee\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Demonic_Pacts_League/Areas/Tirannwn\" title=\"Demonic Pacts League/Areas/Tirannwn\">Tirannwn</a></span><span class=\"league-check\">✓</span></span> for access to <a href=\"/w/Oily_cloth\" title=\"Oily cloth\">oily cloth</a>",
     "skills": [
@@ -24,7 +24,7 @@
     "areaKey": "fremennik",
     "tierKey": "easy",
     "name": "Defeat a Cockatrice in the Fremennik Province",
-    "description": "Defeat a Cockatrice in the Fremennik Province. This task earns one Demonic Pact.",
+    "description": "Defeat a Cockatrice in the Fremennik Province.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"25\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 25 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
     "skills": [
       {
@@ -37,28 +37,28 @@
     "areaKey": "general",
     "tierKey": "easy",
     "name": "Defeat a Hill Giant",
-    "description": "Defeat a Hill Giant This task earns one Demonic Pact.",
+    "description": "Defeat a Hill Giant",
     "skills": []
   },
   {
     "areaKey": "general",
     "tierKey": "easy",
     "name": "Complete the Leagues Tutorial",
-    "description": "Complete the Leagues Tutorial and begin your adventure. This task earns one Demonic Pact.",
+    "description": "Complete the Leagues Tutorial and begin your adventure.",
     "skills": []
   },
   {
     "areaKey": "general",
     "tierKey": "easy",
     "name": "Open the Leagues Menu",
-    "description": "Open the Leagues Menu found within the Journal Panel. This task earns one Demonic Pact.",
+    "description": "Open the Leagues Menu found within the Journal Panel.",
     "skills": []
   },
   {
     "areaKey": "kourend",
     "tierKey": "easy",
     "name": "Open 1 Grubby Chest",
-    "description": "Open the grubby chest in the Forthos Dungeon. This task earns one Demonic Pact.",
+    "description": "Open the grubby chest in the Forthos Dungeon.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"57\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 57 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>",
     "skills": [
       {
@@ -71,28 +71,28 @@
     "areaKey": "morytania",
     "tierKey": "easy",
     "name": "Defeat a Werewolf in Morytania",
-    "description": "Defeat a Werewolf in Morytania. This task earns one Demonic Pact.",
+    "description": "Defeat a Werewolf in Morytania.",
     "skills": []
   },
   {
     "areaKey": "wilderness",
     "tierKey": "easy",
     "name": "Defeat a Chaos Dwarf in the Wilderness",
-    "description": "Defeat a Chaos Dwarf in the Wilderness. This task earns one Demonic Pact.",
+    "description": "Defeat a Chaos Dwarf in the Wilderness.",
     "skills": []
   },
   {
     "areaKey": "asgarnia",
     "tierKey": "elite",
     "name": "Defeat Awakened Whisperer",
-    "description": "Defeat Awakened Whisperer. This task earns one Demonic Pact.",
+    "description": "Defeat Awakened Whisperer.",
     "skills": []
   },
   {
     "areaKey": "asgarnia",
     "tierKey": "elite",
     "name": "Equip a Godsword",
-    "description": "Equip any Godsword. This task earns one Demonic Pact.",
+    "description": "Equip any Godsword.",
     "requirements": ", , one of , , , or",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 75 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>, <span class=\"scp\" data-skill=\"Smithing\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 80 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span>, one of <span class=\"scp\" data-skill=\"Hitpoints\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hitpoints\" title=\"Hitpoints\"><img alt=\"Hitpoints\" src=\"/images/Hitpoints_icon.png?a4819\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"20\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"20\"></a></span> 70 <a href=\"/w/Hitpoints\" title=\"Hitpoints\">Hitpoints</a></span>, <span class=\"scp\" data-skill=\"Agility\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 70 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span>, <span class=\"scp\" data-skill=\"Ranged\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 70 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>, or <span class=\"scp\" data-skill=\"Strength\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Strength\" title=\"Strength\"><img alt=\"Strength\" src=\"/images/Strength_icon.png?e6e0c\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"20\" class=\"mw-file-element\" data-file-width=\"16\" data-file-height=\"20\"></a></span> 70 <a href=\"/w/Strength\" title=\"Strength\">Strength</a></span>",
     "skills": [
@@ -126,14 +126,14 @@
     "areaKey": "asgarnia",
     "tierKey": "elite",
     "name": "Equip the Bellator Ring",
-    "description": "Equip the Bellator Ring. This task earns one Demonic Pact.",
+    "description": "Obtain and Equip the Bellator Ring.",
     "skills": []
   },
   {
     "areaKey": "desert",
     "tierKey": "elite",
     "name": "Cast Ice Barrage",
-    "description": "Cast the Ice Barrage spell. This task earns one Demonic Pact.",
+    "description": "Cast the Ice Barrage spell.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"94\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 94 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>",
     "skills": [
       {
@@ -146,14 +146,14 @@
     "areaKey": "desert",
     "tierKey": "elite",
     "name": "Defeat Awakened Leviathan",
-    "description": "Defeat Awakened Leviathan. This task earns one Demonic Pact.",
+    "description": "Defeat Awakened Leviathan.",
     "skills": []
   },
   {
     "areaKey": "desert",
     "tierKey": "elite",
     "name": "Equip a Dragon Chainbody in the Kharidian Desert",
-    "description": "Equip a Dragon Chainbody in the Kharidian Desert. This task earns one Demonic Pact.",
+    "description": "Equip a Dragon Chainbody in the Kharidian Desert.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 60 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
     "skills": [
       {
@@ -166,7 +166,7 @@
     "areaKey": "desert",
     "tierKey": "elite",
     "name": "Equip a Piece of Masori Armour",
-    "description": "Equip either a Masori Mask, a Masori Body or some Masori chaps. This task earns one Demonic Pact.",
+    "description": "Equip either a Masori Mask, a Masori Body or some Masori chaps.",
     "requirements": ", Completion of Beneath Cursed Sands",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Ranged\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 80 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>, <span class=\"scp\" data-skill=\"Defence\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 30 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span><br>Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Beneath_Cursed_Sands\" title=\"Beneath Cursed Sands\">Beneath Cursed Sands</a>",
     "skills": [
@@ -184,35 +184,35 @@
     "areaKey": "desert",
     "tierKey": "elite",
     "name": "Equip the Venator Ring",
-    "description": "Equip the Venator Ring. This task earns one Demonic Pact.",
+    "description": "Obtain and Equip the Venator Ring.",
     "skills": []
   },
   {
     "areaKey": "fremennik",
     "tierKey": "elite",
     "name": "Defeat Vorkath 5 Times Without Special Damage",
-    "description": "Defeat Vorkath on Ungael 5 times in a row without taking any damage from his special attacks and without leaving his area. Failing this task requires you to leave the instance to try again. This task earns one Demonic Pact.",
+    "description": "Defeat Vorkath on Ungael 5 times in a row without taking any damage from his special attacks and without leaving his area. Failing this task requires you to leave the instance to try again.",
     "skills": []
   },
   {
     "areaKey": "fremennik",
     "tierKey": "elite",
     "name": "Defeat Awakened Duke Sucellus",
-    "description": "Defeat Awakened Duke Sucellus. This task earns one Demonic Pact.",
+    "description": "Defeat Awakened Duke Sucellus.",
     "skills": []
   },
   {
     "areaKey": "fremennik",
     "tierKey": "elite",
     "name": "Equip the Magus Ring",
-    "description": "Equip the Magus Ring. This task earns one Demonic Pact.",
+    "description": "Obtain and Equip the Magus Ring.",
     "skills": []
   },
   {
     "areaKey": "kandarin",
     "tierKey": "elite",
     "name": "Equip an Abyssal Tentacle",
-    "description": "Equip an Abyssal Tentacle. This task earns one Demonic Pact.",
+    "description": "Equip an Abyssal Tentacle.",
     "requirements": ", ,",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"50\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 50 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Attack\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 75 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>, <span class=\"scp\" data-skill=\"Slayer\" data-level=\"87\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 87 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
     "skills": [
@@ -234,7 +234,7 @@
     "areaKey": "kandarin",
     "tierKey": "elite",
     "name": "Equip an Occult Necklace",
-    "description": "Equip an Occult Necklace. This task earns one Demonic Pact.",
+    "description": "Equip an Occult Necklace.",
     "requirements": ",",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 70 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Slayer\" data-level=\"93\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 93 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
     "skills": [
@@ -252,7 +252,7 @@
     "areaKey": "kandarin",
     "tierKey": "elite",
     "name": "Equip Some Zenyte Jewelry",
-    "description": "Equip any piece of Zenyte Jewelry. This task earns one Demonic Pact.",
+    "description": "Equip any piece of Zenyte Jewelry.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Crafting\" data-level=\"89\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 89 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span>",
     "skills": [
       {
@@ -265,7 +265,7 @@
     "areaKey": "karamja",
     "tierKey": "elite",
     "name": "Equip a Fire Cape",
-    "description": "Equip a Fire Cape. This task earns one Demonic Pact.",
+    "description": "Equip a Fire Cape.",
     "requirements": "Completion of TzHaar Fight Cave",
     "requirementsHtml": "Completion of <span class=\"scp\" data-skill=\"Minigames\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Minigames\" title=\"Minigames\"><img alt=\"Minigames\" src=\"/images/Minigame_icon.png?e4ffe\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/TzHaar_Fight_Cave\" title=\"TzHaar Fight Cave\">TzHaar Fight Cave</a>",
     "skills": []
@@ -274,7 +274,7 @@
     "areaKey": "kourend",
     "tierKey": "elite",
     "name": "Equip a piece of Radiant Oathplate",
-    "description": "Equip a piece of Radiant oathplate armour. This task earns one Demonic Pact.",
+    "description": "Equip a piece of Radiant oathplate armour.",
     "requirements": "Aether runes are not required to create it.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"78\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 78 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span><br>Aether runes are not required to create it.",
     "skills": [
@@ -288,7 +288,7 @@
     "areaKey": "kourend",
     "tierKey": "elite",
     "name": "Equip any Ancestral piece",
-    "description": "Equip either an Ancestral Hat, an Ancestral robe top or an Ancestral robe bottom. This task earns one Demonic Pact.",
+    "description": "Equip either an Ancestral Hat, an Ancestral robe top or an Ancestral robe bottom.",
     "requirements": ",",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 75 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Defence\" data-level=\"65\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 65 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
     "skills": [
@@ -306,7 +306,7 @@
     "areaKey": "kourend",
     "tierKey": "elite",
     "name": "Equip a Dragon Hunter Lance",
-    "description": "Equip a Dragon hunter lance. This task earns one Demonic Pact.",
+    "description": "Obtain and equip a Dragon hunter lance.",
     "requirements": ",",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"95\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 95 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Attack\" data-level=\"78\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 78 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
     "skills": [
@@ -324,21 +324,21 @@
     "areaKey": "morytania",
     "tierKey": "elite",
     "name": "Complete the Theatre of Blood 25 Times",
-    "description": "Complete the Theatre of Blood on Normal or Hard Mode 25 times. This task earns one Demonic Pact.",
+    "description": "Complete the Theatre of Blood on Normal or Hard Mode 25 times.",
     "skills": []
   },
   {
     "areaKey": "morytania",
     "tierKey": "elite",
     "name": "Defeat Phosani's Nightmare",
-    "description": "Defeat Phosani's Nightmare in the Sisterhood Sanctuary. This task earns one Demonic Pact.",
+    "description": "Defeat Phosani's Nightmare in the Sisterhood Sanctuary.",
     "skills": []
   },
   {
     "areaKey": "tirannwn",
     "tierKey": "elite",
     "name": "Craft a Toxic Blowpipe",
-    "description": "Craft a Toxic Blowpipe. This task earns one Demonic Pact.",
+    "description": "Craft a Toxic Blowpipe.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"78\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 78 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>",
     "skills": [
       {
@@ -351,7 +351,7 @@
     "areaKey": "tirannwn",
     "tierKey": "elite",
     "name": "Use a prayer altar to restore 90 prayer in Prifddinas",
-    "description": "Use a prayer altar to restore 90 prayer points in Prifddinas. This task earns one Demonic Pact.",
+    "description": "Use a prayer altar to restore 90 prayer points in Prifddinas.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Prayer\" data-level=\"90\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Prayer\" title=\"Prayer\"><img alt=\"Prayer\" src=\"/images/Prayer_icon.png?7e70b\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 90 <a href=\"/w/Prayer\" title=\"Prayer\">Prayer</a></span>",
     "skills": [
       {
@@ -364,7 +364,7 @@
     "areaKey": "varlamore",
     "tierKey": "elite",
     "name": "Equip Avernic Treads",
-    "description": "Equip Avernic treads. This task earns one Demonic Pact.",
+    "description": "Equip Avernic treads.",
     "requirements": ", ,,",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 80 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>, <span class=\"scp\" data-skill=\"Magic\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 80 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>,<span class=\"scp\" data-skill=\"Ranged\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 80 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>, <span class=\"scp\" data-skill=\"Strength\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Strength\" title=\"Strength\"><img alt=\"Strength\" src=\"/images/Strength_icon.png?e6e0c\" decoding=\"async\" loading=\"lazy\" width=\"16\" height=\"20\" class=\"mw-file-element\" data-file-width=\"16\" data-file-height=\"20\"></a></span> 80 <a href=\"/w/Strength\" title=\"Strength\">Strength</a></span>",
     "skills": [
@@ -390,21 +390,21 @@
     "areaKey": "varlamore",
     "tierKey": "elite",
     "name": "Complete Wave 12 of Fortis Colosseum",
-    "description": "Complete Wave 12 of Fortis Colosseum. This task earns one Demonic Pact.",
+    "description": "Complete Wave 12 of Fortis Colosseum.",
     "skills": []
   },
   {
     "areaKey": "varlamore",
     "tierKey": "elite",
     "name": "Defeat Awakened Vardorvis",
-    "description": "Defeat Awakened Vardorvis. This task earns one Demonic Pact.",
+    "description": "Defeat Awakened Vardorvis.",
     "skills": []
   },
   {
     "areaKey": "wilderness",
     "tierKey": "elite",
     "name": "Equip a Piece of the Dagon'Hai Set",
-    "description": "Equip any piece of the Dagon'hai robe set. This task earns one Demonic Pact.",
+    "description": "Equip any piece of the Dagon'hai robe set.",
     "requirements": ",",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 70 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Defence\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 40 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
     "skills": [
@@ -422,7 +422,7 @@
     "areaKey": "wilderness",
     "tierKey": "elite",
     "name": "Imbue a God Cape",
-    "description": "Imbue either a Saradomin Cape, a Guthix Cape or a Zamorak Cape. This task earns one Demonic Pact.",
+    "description": "Imbue either a Saradomin Cape, a Guthix Cape or a Zamorak Cape.",
     "requirements": "Completion of Mage Arena II",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 75 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span><br>Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Mage_Arena_II\" title=\"Mage Arena II\">Mage Arena II</a>",
     "skills": [
@@ -436,7 +436,7 @@
     "areaKey": "wilderness",
     "tierKey": "elite",
     "name": "Equip the Voidwaker",
-    "description": "Equip the Voidwaker. This task earns one Demonic Pact.",
+    "description": "Obtain and Equip the Voidwaker.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 75 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
     "skills": [
       {
@@ -449,14 +449,14 @@
     "areaKey": "asgarnia",
     "tierKey": "hard",
     "name": "Defeat the Royal Titans solo",
-    "description": "Defeat the Royal Titans without any other player joining. This task earns one Demonic Pact.",
+    "description": "Defeat the Royal Titans without any other player joining.",
     "skills": []
   },
   {
     "areaKey": "asgarnia",
     "tierKey": "hard",
     "name": "Equip a Dragon Defender",
-    "description": "Equip a Dragon Defender. This task earns one Demonic Pact.",
+    "description": "Equip a Dragon Defender.",
     "requirements": "Access to the Warriors' Guild",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 60 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span><br>Access to the <span class=\"scp\" data-skill=\"Minigames\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Minigames\" title=\"Minigames\"><img alt=\"Minigames\" src=\"/images/Minigame_icon.png?e4ffe\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Warriors%27_Guild\" title=\"Warriors' Guild\">Warriors' Guild</a>",
     "skills": [
@@ -470,14 +470,14 @@
     "areaKey": "fremennik",
     "tierKey": "hard",
     "name": "Defeat Phantom Muspah",
-    "description": "Defeat Phantom Muspah. This task earns one Demonic Pact.",
+    "description": "Defeat Phantom Muspah.",
     "skills": []
   },
   {
     "areaKey": "fremennik",
     "tierKey": "hard",
     "name": "Defeat a Basilisk Knight",
-    "description": "Defeat a Basilisk Knight in the Jormungand's Prison. This task earns one Demonic Pact.",
+    "description": "Defeat a Basilisk Knight in the Jormungand's Prison.",
     "requirements": "Completion of The Fremennik Exiles",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 60 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/The_Fremennik_Exiles\" title=\"The Fremennik Exiles\">The Fremennik Exiles</a>",
     "skills": [
@@ -491,21 +491,21 @@
     "areaKey": "kandarin",
     "tierKey": "hard",
     "name": "Defeat a Demonic Gorilla",
-    "description": "Defeat a Demonic Gorilla in the Crash Site Cavern. This task earns one Demonic Pact.",
+    "description": "Defeat a Demonic Gorilla in the Crash Site Cavern.",
     "skills": []
   },
   {
     "areaKey": "kandarin",
     "tierKey": "hard",
     "name": "Defeat a Mithril Dragon",
-    "description": "Defeat a Mithril Dragon in the Ancient Cavern. This task earns one Demonic Pact.",
+    "description": "Defeat a Mithril Dragon in the Ancient Cavern.",
     "skills": []
   },
   {
     "areaKey": "kandarin",
     "tierKey": "hard",
     "name": "Defeat the Kraken Boss 50 Times",
-    "description": "Defeat the Kraken boss in Kraken Cove 50 times. This task earns one Demonic Pact.",
+    "description": "Defeat the Kraken boss in Kraken Cove 50 times.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"87\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 87 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
     "skills": [
       {
@@ -518,7 +518,7 @@
     "areaKey": "kandarin",
     "tierKey": "hard",
     "name": "Equip a Trident of the Seas",
-    "description": "Equip a Trident of the Seas. This task earns one Demonic Pact.",
+    "description": "Equip a Trident of the Seas.",
     "requirements": ",",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 75 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Slayer\" data-level=\"87\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 87 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
     "skills": [
@@ -536,28 +536,28 @@
     "areaKey": "karamja",
     "tierKey": "hard",
     "name": "Complete Tzhaar-Ket-Rak's third challenge",
-    "description": "Complete Tzhaar-Ket-Rak's third challenge. This task earns one Demonic Pact.",
+    "description": "Complete Tzhaar-Ket-Rak's third challenge.",
     "skills": []
   },
   {
     "areaKey": "kourend",
     "tierKey": "hard",
     "name": "25 Chambers of Xeric",
-    "description": "Complete the Chambers of Xeric Normal or Challenge Mode 25 times. This task earns one Demonic Pact.",
+    "description": "Complete the Chambers of Xeric Normal or Challenge Mode 25 times.",
     "skills": []
   },
   {
     "areaKey": "kourend",
     "tierKey": "hard",
-    "name": "Defeat Skotizo 1 Time",
-    "description": "Defeat Skotizo beneath the Catacombs of Kourend. This task earns one Demonic Pact.",
+    "name": "1 Skotizo Kill",
+    "description": "Kill Skotizo beneath the Catacombs of Kourend.",
     "skills": []
   },
   {
     "areaKey": "morytania",
     "tierKey": "hard",
     "name": "Assemble a Slayer Helm",
-    "description": "Assemble a Slayer Helm. This task earns one Demonic Pact.",
+    "description": "Assemble a Slayer Helm.",
     "requirements": ", Unlocked Malevolent Masquerade for 400 Slayer reward points",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"58\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 58 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Crafting\" data-level=\"55\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 55 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span><br>Unlocked <a href=\"/w/Malevolent_Masquerade\" class=\"mw-redirect\" title=\"Malevolent Masquerade\">Malevolent Masquerade</a> for 400 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a>",
     "skills": [
@@ -575,7 +575,7 @@
     "areaKey": "morytania",
     "tierKey": "hard",
     "name": "Create an Amulet of Blood Fury",
-    "description": "Create an Amulet of Blood Fury. This task earns one Demonic Pact.",
+    "description": "Create an Amulet of Blood Fury.",
     "requirements": ", Completion of Sins of the Father",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Crafting\" data-level=\"90\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 90 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span>, <span class=\"scp\" data-skill=\"Magic\" data-level=\"87\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 87 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span><br>Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Sins_of_the_Father\" title=\"Sins of the Father\">Sins of the Father</a>",
     "skills": [
@@ -593,7 +593,7 @@
     "areaKey": "morytania",
     "tierKey": "hard",
     "name": "Equip any Full Barrows Armour Set",
-    "description": "Equip a full set of any Barrows armour + weapon. This task earns one Demonic Pact.",
+    "description": "Equip a full set of any Barrows armour + weapon.",
     "requirements": ", one of or",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 70 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>, one of <span class=\"scp\" data-skill=\"Attack\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 70 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span> or <span class=\"scp\" data-skill=\"Ranged\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 70 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>",
     "skills": [
@@ -614,8 +614,8 @@
   {
     "areaKey": "morytania",
     "tierKey": "hard",
-    "name": "Defeat Araxxor 1 Time",
-    "description": "Defeat the Araxxor in Morytania Spider cave. This task earns one Demonic Pact.",
+    "name": "1 Araxxor Kill",
+    "description": "Kill the Araxxor in Morytania Spider cave.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"92\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 92 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
     "skills": [
       {
@@ -628,21 +628,21 @@
     "areaKey": "tirannwn",
     "tierKey": "hard",
     "name": "Complete the Corrupted Gauntlet",
-    "description": "Complete the Corrupted Gauntlet in Prifddinas. This task earns one Demonic Pact.",
+    "description": "Complete the Corrupted Gauntlet in Prifddinas.",
     "skills": []
   },
   {
     "areaKey": "tirannwn",
     "tierKey": "hard",
     "name": "Defeat Zalcano",
-    "description": "Defeat Zalcano in Prifddinas. This task earns one Demonic Pact.",
+    "description": "Defeat Zalcano in Prifddinas.",
     "skills": []
   },
   {
     "areaKey": "tirannwn",
     "tierKey": "hard",
     "name": "Equip a Dark Bow in Tirannwn",
-    "description": "Equip a Dark Bow in Tirannwn. This task earns one Demonic Pact.",
+    "description": "Equip a Dark Bow in Tirannwn.",
     "requirements": ",",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Ranged\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 60 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>, <span class=\"scp\" data-skill=\"Slayer\" data-level=\"90\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 90 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
     "skills": [
@@ -660,14 +660,14 @@
     "areaKey": "wilderness",
     "tierKey": "hard",
     "name": "Defeat the Corporeal Beast",
-    "description": "Defeat the Corporeal Beast in the Wilderness. This task earns one Demonic Pact.",
+    "description": "Defeat the Corporeal Beast in the Wilderness.",
     "skills": []
   },
   {
     "areaKey": "wilderness",
     "tierKey": "hard",
     "name": "Equip a Dragon 2-Handed Sword in the Wilderness",
-    "description": "Equip a Dragon 2-Handed Sword in the Wilderness. This task earns one Demonic Pact.",
+    "description": "Equip a Dragon 2-Handed Sword in the Wilderness.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 60 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>",
     "skills": [
       {
@@ -680,7 +680,7 @@
     "areaKey": "wilderness",
     "tierKey": "hard",
     "name": "Equip a Malediction Ward",
-    "description": "Equip a Malediction Ward. This task earns one Demonic Pact.",
+    "description": "Equip a Malediction Ward.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Defence\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 60 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
     "skills": [
       {
@@ -693,14 +693,14 @@
     "areaKey": "asgarnia",
     "tierKey": "master",
     "name": "Defeat Nex Solo",
-    "description": "Defeat Nex in a private instance without help from any other player. This task earns one Demonic Pact.",
+    "description": "Defeat Nex in a private instance without help from any other player.",
     "skills": []
   },
   {
     "areaKey": "desert",
     "tierKey": "master",
-    "name": "Equip the Osmumten's Fang (or)",
-    "description": "Equip Osmumten's Fang (or). This task earns one Demonic Pact.",
+    "name": "Equip Osmumten's Fang (or)",
+    "description": "Obtain and Equip Osmumten's Fang (or).",
     "requirements": "Completion of Beneath Cursed Sands",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"82\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 82 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span><br>Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Beneath_Cursed_Sands\" title=\"Beneath Cursed Sands\">Beneath Cursed Sands</a>",
     "skills": [
@@ -714,14 +714,14 @@
     "areaKey": "karamja",
     "tierKey": "master",
     "name": "Complete Tzhaar-Ket-Rak's Special challenge",
-    "description": "Complete Tzhaar-Ket-Rak's league-only challenge. This task earns one Demonic Pact.",
+    "description": "Complete Tzhaar-Ket-Rak's league-only challenge.",
     "skills": []
   },
   {
     "areaKey": "karamja",
     "tierKey": "master",
     "name": "Equip an Infernal Cape",
-    "description": "Equip an Infernal Cape. This task earns one Demonic Pact.",
+    "description": "Equip an Infernal Cape.",
     "requirements": "Completion of The Inferno",
     "requirementsHtml": "Completion of <span class=\"scp\" data-skill=\"Minigames\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Minigames\" title=\"Minigames\"><img alt=\"Minigames\" src=\"/images/Minigame_icon.png?e4ffe\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/The_Inferno\" class=\"mw-redirect\" title=\"The Inferno\">The Inferno</a>",
     "skills": []
@@ -730,7 +730,7 @@
     "areaKey": "tirannwn",
     "tierKey": "master",
     "name": "Equip a Corrupted Weapon",
-    "description": "Equip a Corrupted Blade of Saeldor or Bow of Faerdhinen This task earns one Demonic Pact.",
+    "description": "Equip a Corrupted Blade of Saeldor or Bow of Faerdhinen",
     "requirements": "or and",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Attack\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 80 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span> or <span class=\"scp\" data-skill=\"Ranged\" data-level=\"80\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 80 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span> and <span class=\"scp\" data-skill=\"Agility\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 70 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span>",
     "skills": [
@@ -751,15 +751,15 @@
   {
     "areaKey": "fremennik",
     "tierKey": "medium",
-    "name": "Defeat 8 penguins within 5 seconds",
-    "description": "Defeat 8 penguins within 5 seconds. This task earns one Demonic Pact.",
+    "name": "Kill 8 penguins within 5 seconds",
+    "description": "Kill 8 penguins within 5 seconds.",
     "skills": []
   },
   {
     "areaKey": "general",
     "tierKey": "medium",
     "name": "Use the Protect from Melee Prayer",
-    "description": "Use the Protect from Melee Prayer. This task earns one Demonic Pact.",
+    "description": "Use the Protect from Melee Prayer.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Prayer\" data-level=\"43\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Prayer\" title=\"Prayer\"><img alt=\"Prayer\" src=\"/images/Prayer_icon.png?7e70b\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 43 <a href=\"/w/Prayer\" title=\"Prayer\">Prayer</a></span>",
     "skills": [
       {
@@ -772,21 +772,21 @@
     "areaKey": "karamja",
     "tierKey": "medium",
     "name": "Defeat a Steel Dragon on Karamja",
-    "description": "Defeat a Steel Dragon on Karamja. This task earns one Demonic Pact.",
+    "description": "Defeat a Steel Dragon on Karamja.",
     "skills": []
   },
   {
     "areaKey": "kourend",
     "tierKey": "medium",
-    "name": "Defeat 150 Lizardmen Shaman",
-    "description": "Help the Shayzien House by killing 150 Lizardmen shamans. This task earns one Demonic Pact.",
+    "name": "150 Lizardmen Shaman Kills",
+    "description": "Help the Shayzien House by killing 150 Lizardmen shamans.",
     "skills": []
   },
   {
     "areaKey": "tirannwn",
     "tierKey": "medium",
-    "name": "Defeat a Black Dragon in Tirannwn",
-    "description": "Defeat a Black Dragon in Tirannwn. This task earns one Demonic Pact.",
+    "name": "Kill a Black Dragon in Tirannwn",
+    "description": "Kill a Black Dragon in Tirannwn.",
     "skills": []
   },
   {
@@ -990,6 +990,19 @@
   {
     "areaKey": "general",
     "tierKey": "easy",
+    "name": "Create a Compost Potion",
+    "description": "Create a Compost Potion.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"22\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 22 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span>",
+    "skills": [
+      {
+        "skill": "HERBLORE",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "easy",
     "name": "Create an Antipoison",
     "description": "Create an Antipoison.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 5 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span>",
@@ -1053,8 +1066,8 @@
     "tierKey": "easy",
     "name": "Enter your Player Owned House",
     "description": "Enter your Player Owned House.",
-    "requirements": "1,000",
-    "requirementsHtml": "<span class=\"coins inventory-image coins-1000 coins-pos\">1,000</span>",
+    "requirements": "1,000 or completion of Daddy's Home",
+    "requirementsHtml": "<span class=\"coins inventory-image coins-1000 coins-pos\">1,000</span> or completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Daddy%27s_Home\" title=\"Daddy's Home\">Daddy's Home</a>",
     "skills": []
   },
   {
@@ -1236,7 +1249,7 @@
     "areaKey": "general",
     "tierKey": "easy",
     "name": "Pick 6 wheat, 6 cabbages and 6 potatoes",
-    "description": "Pick 6 wheat, 6 cabbage and 6 potatoes",
+    "description": "Pick 6 wheat, 6 cabbages and 6 potatoes",
     "skills": []
   },
   {
@@ -1269,8 +1282,8 @@
     "tierKey": "easy",
     "name": "Purchase a Player Owned House",
     "description": "Purchase a Player Owned House.",
-    "requirements": "1,000",
-    "requirementsHtml": "<span class=\"coins inventory-image coins-1000 coins-pos\">1,000</span>",
+    "requirements": "1,000 or completion of Daddy's Home",
+    "requirementsHtml": "<span class=\"coins inventory-image coins-1000 coins-pos\">1,000</span> or completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Daddy%27s_Home\" title=\"Daddy's Home\">Daddy's Home</a>",
     "skills": []
   },
   {
@@ -1473,8 +1486,8 @@
     "tierKey": "medium",
     "name": "Defeat 25 Superior slayer creatures",
     "description": "Defeat 25 Superior slayer monsters.",
-    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked",
-    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a> or at least Tier 3 <a href=\"/w/Demonic_Pacts_League/Relics\" title=\"Demonic Pacts League/Relics\">Relic</a> unlocked",
+    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a>",
     "skills": [
       {
         "skill": "SLAYER",
@@ -1522,8 +1535,8 @@
     "tierKey": "medium",
     "name": "Defeat 75 Superior slayer creatures",
     "description": "",
-    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked",
-    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a> or at least Tier 3 <a href=\"/w/Demonic_Pacts_League/Relics\" title=\"Demonic Pacts League/Relics\">Relic</a> unlocked",
+    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a>",
     "skills": [
       {
         "skill": "SLAYER",
@@ -2139,6 +2152,33 @@
   {
     "areaKey": "general",
     "tierKey": "medium",
+    "name": "Create a Green d'hide shield",
+    "description": "Create a Green d'hide shield.",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Crafting\" data-level=\"62\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 62 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span>",
+    "skills": [
+      {
+        "skill": "CRAFTING",
+        "level": 62
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
+    "name": "Create a Guthix Rest Tea",
+    "description": "Create a Guthix Rest Tea.",
+    "requirements": "Partial completion of One Small Favour, requiring one of Asgarnia✓, Desert✓, Fremennik✓, or Kandarin✓",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"18\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 18 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span><br>Partial completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/One_Small_Favour\" title=\"One Small Favour\">One Small Favour</a>, requiring one of <span class=\"league-region\" data-league-area=\"asgarnia\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Asgarnia\" title=\"Asgarnia\"><img alt=\"Asgarnia\" src=\"/images/Asgarnia_Area_Badge.png?4ec29\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Asgarnia\" title=\"Raging Echoes League/Areas/Asgarnia\">Asgarnia</a></span><span class=\"league-check\">✓</span></span>, <span class=\"league-region\" data-league-area=\"desert\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Desert\" title=\"Desert\"><img alt=\"Desert\" src=\"/images/Desert_Area_Badge.png?2a1e3\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Desert\" class=\"mw-redirect\" title=\"Raging Echoes League/Areas/Desert\">Desert</a></span><span class=\"league-check\">✓</span></span>, <span class=\"league-region\" data-league-area=\"fremennik\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Fremennik\" title=\"Fremennik\"><img alt=\"Fremennik\" src=\"/images/Fremennik_Area_Badge.png?f8338\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Fremennik\" class=\"mw-redirect\" title=\"Raging Echoes League/Areas/Fremennik\">Fremennik</a></span><span class=\"league-check\">✓</span></span>, or <span class=\"league-region\" data-league-area=\"kandarin\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Kandarin\" title=\"Kandarin\"><img alt=\"Kandarin\" src=\"/images/Kandarin_Area_Badge.png?f8338\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Kandarin\" title=\"Raging Echoes League/Areas/Kandarin\">Kandarin</a></span><span class=\"league-check\">✓</span></span>",
+    "skills": [
+      {
+        "skill": "HERBLORE",
+        "level": 18
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "medium",
     "name": "Chop 50 Maple Logs",
     "description": "Chop 50 Maple Logs.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"45\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 45 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>",
@@ -2154,8 +2194,8 @@
     "tierKey": "medium",
     "name": "Defeat a Superior slayer creature",
     "description": "Defeat a Superior slayer creature.",
-    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked",
-    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 Slayer reward points or at least Tier 3 <a href=\"/w/Demonic_Pacts_League/Relics\" title=\"Demonic Pacts League/Relics\">Relic</a> unlocked",
+    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 Slayer reward points",
     "skills": [
       {
         "skill": "SLAYER",
@@ -2958,7 +2998,7 @@
     "areaKey": "general",
     "tierKey": "medium",
     "name": "Reach Combat Level 50",
-    "description": "Reach Combat Level 50. This task earns one Demonic Pact.",
+    "description": "Reach Combat Level 50.",
     "skills": []
   },
   {
@@ -3121,12 +3161,12 @@
     "tierKey": "medium",
     "name": "Teleport Using Law Runes",
     "description": "Cast any teleport spell that uses Law Runes.",
-    "requirements": "to cast Teleport to House with a player-owned house, or with Kourend✓, or Grimoire",
-    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 40 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span> to cast <a href=\"/w/Teleport_to_House\" title=\"Teleport to House\">Teleport to House</a> with a <a href=\"/w/Player-owned_house\" title=\"Player-owned house\">player-owned house</a>, or <span class=\"scp\" data-skill=\"Magic\" data-level=\"6\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 6 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span> with <span class=\"league-region\" data-league-area=\"kourend\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Kourend\" title=\"Kourend\"><img alt=\"Kourend\" src=\"/images/Kourend_Area_Badge.png?1f79a\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Kourend\" class=\"mw-redirect\" title=\"Raging Echoes League/Areas/Kourend\">Kourend</a></span><span class=\"league-check\">✓</span></span>, or <a href=\"/w/Grimoire\" title=\"Grimoire\">Grimoire</a>",
+    "requirements": ", or with Kourend✓, or Grimoire",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"25\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 25 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, or <span class=\"scp\" data-skill=\"Magic\" data-level=\"6\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 6 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span> with <span class=\"league-region\" data-league-area=\"kourend\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Raging_Echoes_League/Areas/Kourend\" title=\"Kourend\"><img alt=\"Kourend\" src=\"/images/Kourend_Area_Badge.png?1f79a\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span> <span class=\"league-name\"><a href=\"/w/Raging_Echoes_League/Areas/Kourend\" class=\"mw-redirect\" title=\"Raging Echoes League/Areas/Kourend\">Kourend</a></span><span class=\"league-check\">✓</span></span>, or <a href=\"/w/Grimoire\" title=\"Grimoire\">Grimoire</a>",
     "skills": [
       {
         "skill": "MAGIC",
-        "level": 40
+        "level": 25
       },
       {
         "skill": "MAGIC",
@@ -3471,7 +3511,7 @@
     "areaKey": "general",
     "tierKey": "hard",
     "name": "Defeat 1 unique Echo Boss",
-    "description": "Defeat 1 unique Echo Boss. This task earns one Demonic Pact.",
+    "description": "Defeat 1 unique Echo Boss.",
     "skills": []
   },
   {
@@ -3479,8 +3519,8 @@
     "tierKey": "hard",
     "name": "Defeat 100 Superior slayer creatures",
     "description": "Defeat 100 Superior slayer creatures.",
-    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked",
-    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a> or at least Tier 3 <a href=\"/w/Demonic_Pacts_League/Relics\" title=\"Demonic Pacts League/Relics\">Relic</a> unlocked",
+    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a>",
     "skills": [
       {
         "skill": "SLAYER",
@@ -3492,7 +3532,7 @@
     "areaKey": "general",
     "tierKey": "hard",
     "name": "Defeat 2 unique Echo Bosses",
-    "description": "Defeat 2 unique Echo Bosses. This task earns one Demonic Pact.",
+    "description": "Defeat 2 unique Echo Bosses.",
     "skills": []
   },
   {
@@ -3506,7 +3546,7 @@
     "areaKey": "general",
     "tierKey": "hard",
     "name": "Defeat 3 unique Echo Bosses",
-    "description": "Defeat 3 unique Echo Bosses. This task earns one Demonic Pact.",
+    "description": "Defeat 3 unique Echo Bosses.",
     "skills": []
   },
   {
@@ -3597,8 +3637,8 @@
     "tierKey": "hard",
     "name": "Equip a Mist Battlestaff",
     "description": "Equip a Mist battlestaff.",
-    "requirements": ", , Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked",
-    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Attack\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 30 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>, <span class=\"scp\" data-skill=\"Magic\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 30 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a> or at least Tier 3 <a href=\"/w/Demonic_Pacts_League/Relics\" title=\"Demonic Pacts League/Relics\">Relic</a> unlocked",
+    "requirements": ", , Unlocked Bigger and Badder for 150 Slayer reward points",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Attack\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 30 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>, <span class=\"scp\" data-skill=\"Magic\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 30 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a>",
     "skills": [
       {
         "skill": "SLAYER",
@@ -3982,7 +4022,7 @@
     "areaKey": "general",
     "tierKey": "hard",
     "name": "75 Hard Clue Scrolls",
-    "description": "Open 75 Reward caskets for completing Hard clue scrolls.",
+    "description": "Open 75 Reward caskets for completing Elite clue scrolls.",
     "skills": []
   },
   {
@@ -4174,8 +4214,8 @@
     "tierKey": "hard",
     "name": "Defeat 10 Superior slayer creatures",
     "description": "",
-    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked",
-    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a> or at least Tier 3 <a href=\"/w/Demonic_Pacts_League/Relics\" title=\"Demonic Pacts League/Relics\">Relic</a> unlocked",
+    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked <a href=\"/w/Bigger_and_Badder\" class=\"mw-redirect\" title=\"Bigger and Badder\">Bigger and Badder</a> for 150 <a href=\"/w/Slayer_reward_point\" title=\"Slayer reward point\">Slayer reward points</a>",
     "skills": [
       {
         "skill": "SLAYER",
@@ -4188,12 +4228,30 @@
     "tierKey": "hard",
     "name": "Defeat 20 Superior slayer creatures",
     "description": "",
-    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked",
-    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 <a href=\"/w/Demonic_Pacts_League/Relics\" title=\"Demonic Pacts League/Relics\">Relic</a> unlocked",
+    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked Bigger and Badder for 150 Slayer reward points",
     "skills": [
       {
         "skill": "SLAYER",
         "level": 5
+      }
+    ]
+  },
+  {
+    "areaKey": "general",
+    "tierKey": "elite",
+    "name": "Build a Spirit tree & fairy ring",
+    "description": "",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Construction\" data-level=\"95\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Construction\" title=\"Construction\"><img alt=\"Construction\" src=\"/images/Construction_icon.png?f9bf7\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 95 <a href=\"/w/Construction\" title=\"Construction\">Construction</a></span>, <span class=\"scp\" data-skill=\"Farming\" data-level=\"83\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Farming\" title=\"Farming\"><img alt=\"Farming\" src=\"/images/Farming_icon.png?558fa\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 83 <a href=\"/w/Farming\" title=\"Farming\">Farming</a></span>",
+    "skills": [
+      {
+        "skill": "CONSTRUCTION",
+        "level": 95
+      },
+      {
+        "skill": "FARMING",
+        "level": 83
       }
     ]
   },
@@ -4378,8 +4436,8 @@
     "tierKey": "elite",
     "name": "Equip an Eternal Slayer Ring",
     "description": "Craft and equip an Eternal slayer ring.",
-    "requirements": ", Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked, Unlocked Ring Bling for 300 Slayer reward points,",
-    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Crafting\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 75 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span><br>Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 <a href=\"/w/Demonic_Pacts_League/Relics\" title=\"Demonic Pacts League/Relics\">Relic</a> unlocked, Unlocked Ring Bling for 300 Slayer reward points,",
+    "requirements": ", Unlocked Bigger and Badder for 150 Slayer reward points, Unlocked Ring Bling for 300 Slayer reward points,",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Crafting\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 75 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span><br>Unlocked Bigger and Badder for 150 Slayer reward points, Unlocked Ring Bling for 300 Slayer reward points,",
     "skills": [
       {
         "skill": "SLAYER",
@@ -4402,7 +4460,7 @@
     "areaKey": "general",
     "tierKey": "elite",
     "name": "Defeat 4 unique Echo Bosses",
-    "description": "Defeat 4 unique Echo Bosses. This task earns one Demonic Pact.",
+    "description": "Defeat 4 unique Echo Bosses.",
     "skills": []
   },
   {
@@ -4410,8 +4468,8 @@
     "tierKey": "elite",
     "name": "Defeat 50 Superior slayer creatures",
     "description": "Defeat 50 Superior Slayer Creatures.",
-    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked",
-    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 <a href=\"/w/Demonic_Pacts_League/Relics\" title=\"Demonic Pacts League/Relics\">Relic</a> unlocked",
+    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked Bigger and Badder for 150 Slayer reward points",
     "skills": [
       {
         "skill": "SLAYER",
@@ -4617,7 +4675,7 @@
     "areaKey": "general",
     "tierKey": "elite",
     "name": "Slay an Abyssal Demon",
-    "description": "Slay an Abyssal Demon whilst on an Abyssal Demon Slayer Task.",
+    "description": "Kill an Abyssal Demon whilst on an Abyssal Demon Slayer Task.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"85\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 85 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>",
     "skills": [
       {
@@ -5399,8 +5457,8 @@
     "tierKey": "elite",
     "name": "Activate an Imbued Heart",
     "description": "Obtain and activate an Imbued heart.",
-    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked",
-    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 <a href=\"/w/Demonic_Pacts_League/Relics\" title=\"Demonic Pacts League/Relics\">Relic</a> unlocked",
+    "requirements": "Unlocked Bigger and Badder for 150 Slayer reward points",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"5\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 5 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>Unlocked Bigger and Badder for 150 Slayer reward points",
     "skills": [
       {
         "skill": "SLAYER",
@@ -5440,7 +5498,7 @@
     "areaKey": "general",
     "tierKey": "elite",
     "name": "75 Master Clue Scrolls",
-    "description": "Open 75 Reward caskets for completing Master clue scrolls.",
+    "description": "Open 75 Reward caskets for completing Elite clue scrolls.",
     "skills": []
   },
   {
@@ -6087,7 +6145,7 @@
     "areaKey": "karamja",
     "tierKey": "medium",
     "name": "Defeat a TzHaar",
-    "description": "Defeat any TzHaar in Mor Ul Rek. This task earns one Demonic Pact.",
+    "description": "Defeat any TzHaar in Mor Ul Rek.",
     "skills": []
   },
   {
@@ -6216,7 +6274,7 @@
     "areaKey": "varlamore",
     "tierKey": "easy",
     "name": "Complete the Vale totems miniquest",
-    "description": "Complete the Vale Totems miniquest.",
+    "description": "Complete the Vale totems miniquest.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"20\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 20 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>",
     "skills": [
       {
@@ -6243,7 +6301,7 @@
     "areaKey": "varlamore",
     "tierKey": "easy",
     "name": "Drink a cup of tea in auburn valley",
-    "description": "Drink a cup of tea in the Auburn Valley.",
+    "description": "Drink a cup of tea in auburn valley.",
     "skills": []
   },
   {
@@ -6264,7 +6322,7 @@
     "areaKey": "varlamore",
     "tierKey": "easy",
     "name": "Exit civitas via the secret passage",
-    "description": "Exit Civitas illa Fortis via the secret passage.",
+    "description": "Exit civitas via the secret passage.",
     "skills": []
   },
   {
@@ -6292,7 +6350,7 @@
     "areaKey": "varlamore",
     "tierKey": "easy",
     "name": "Inspect a green flame",
-    "description": "Inspect a Green flame, near the Salvager Overlook.",
+    "description": "Inspect a Green flame, near Salvagers outlook.",
     "skills": []
   },
   {
@@ -6306,7 +6364,7 @@
     "areaKey": "varlamore",
     "tierKey": "easy",
     "name": "Defeat a Guard in Varlamore underground",
-    "description": "Defeat a Guard in the Kualti Headquarters.",
+    "description": "Defeat a Guard in Varlamore underground.",
     "skills": []
   },
   {
@@ -6348,7 +6406,7 @@
     "areaKey": "varlamore",
     "tierKey": "easy",
     "name": "Mine some coal from Stone cutter outpost",
-    "description": "Mine some coal from Stonecutter Outpost.",
+    "description": "Mine some coal from Stone cutter outpost.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Mining\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Mining\" title=\"Mining\"><img alt=\"Mining\" src=\"/images/Mining_icon.png?00870\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 30 <a href=\"/w/Mining\" title=\"Mining\">Mining</a></span>",
     "skills": [
       {
@@ -6452,7 +6510,7 @@
     "areaKey": "varlamore",
     "tierKey": "easy",
     "name": "Trim your beard in Cam torum",
-    "description": "Trim your beard in Cam Torum.",
+    "description": "Trim your beard in Cam torum.",
     "skills": []
   },
   {
@@ -6492,7 +6550,7 @@
     "areaKey": "varlamore",
     "tierKey": "medium",
     "name": "Defeat Hueycoatl 1 Time",
-    "description": "Defeat the Hueycoatl in Varlamore. This task earns one Demonic Pact.",
+    "description": "Defeat the Hueycoatl in Varlamore.",
     "skills": []
   },
   {
@@ -6544,10 +6602,15 @@
     "areaKey": "varlamore",
     "tierKey": "medium",
     "name": "Bury some wyrm bones near a Wyrm skeleton",
-    "description": "Bury some wyrm bones or wyrmling bones near the Colossal Wyrm Remains.",
+    "description": "Bury some wyrm bones or wyrmling bones near a Wyrm skeleton.",
     "requirements": "Wyrm bones or wyrmling bones",
-    "requirementsHtml": "<a href=\"/w/Wyrm_bones\" title=\"Wyrm bones\">Wyrm bones</a> or <a href=\"/w/Wyrmling_bones\" title=\"Wyrmling bones\">wyrmling bones</a>",
-    "skills": []
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"62\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 62 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br><a href=\"/w/Wyrm_bones\" title=\"Wyrm bones\">Wyrm bones</a> or <a href=\"/w/Wyrmling_bones\" title=\"Wyrmling bones\">wyrmling bones</a>",
+    "skills": [
+      {
+        "skill": "SLAYER",
+        "level": 62
+      }
+    ]
   },
   {
     "areaKey": "varlamore",
@@ -6634,11 +6697,16 @@
     "tierKey": "medium",
     "name": "Complete a Ribbiting Tale",
     "description": "Complete a Ribbiting Tale of a Lily Pad Labour Dispute.",
-    "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"15\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 15 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>",
+    "requirements": ",",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"15\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 15 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>, <span class=\"scp\" data-skill=\"Combat level\" data-level=\"126\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Combat_level\" title=\"Combat level\"><img alt=\"Combat level\" src=\"/images/Attack_style_icon.png?ceb2e\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 126 <a href=\"/w/Combat_level\" title=\"Combat level\">Combat level</a></span>",
     "skills": [
       {
         "skill": "WOODCUTTING",
         "level": 15
+      },
+      {
+        "skill": "COMBAT LEVEL",
+        "level": 126
       }
     ]
   },
@@ -6765,7 +6833,7 @@
     "areaKey": "varlamore",
     "tierKey": "medium",
     "name": "Enter a dark cave in Varlamore",
-    "description": "Enter a dark cave in Varlamore, near the Hunter Guild.",
+    "description": "Enter a dark cave in varlamore, near the Hunter Guild.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"46\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 46 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>",
     "skills": [
       {
@@ -6778,7 +6846,7 @@
     "areaKey": "varlamore",
     "tierKey": "medium",
     "name": "Equip a piece of Alchemists outfit",
-    "description": "Equip a piece of Alchemist's outfit from the Mixology shop.",
+    "description": "Equip a piece of Alchemists outfit from the Mixology shop.",
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"60\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 60 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span>",
     "skills": [
       {
@@ -6793,11 +6861,11 @@
     "name": "Equip a piece of Hueycoatl armour",
     "description": "Equip a piece of Hueycoatl armour.",
     "requirements": ", ,",
-    "requirementsHtml": "<span class=\"scp\" data-skill=\"Crafting\" data-level=\"76\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 76 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span>, <span class=\"scp\" data-skill=\"Ranged\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 70 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>, <span class=\"scp\" data-skill=\"Defence\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 40 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
+    "requirementsHtml": "<span class=\"scp\" data-skill=\"Crafting\" data-level=\"86\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Crafting\" title=\"Crafting\"><img alt=\"Crafting\" src=\"/images/Crafting_icon.png?a1f71\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"22\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"22\"></a></span> 86 <a href=\"/w/Crafting\" title=\"Crafting\">Crafting</a></span>, <span class=\"scp\" data-skill=\"Ranged\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Ranged\" title=\"Ranged\"><img alt=\"Ranged\" src=\"/images/Ranged_icon.png?01b0e\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 70 <a href=\"/w/Ranged\" title=\"Ranged\">Ranged</a></span>, <span class=\"scp\" data-skill=\"Defence\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Defence\" title=\"Defence\"><img alt=\"Defence\" src=\"/images/Defence_icon.png?ca0cd\" decoding=\"async\" loading=\"lazy\" width=\"17\" height=\"19\" class=\"mw-file-element\" data-file-width=\"17\" data-file-height=\"19\"></a></span> 40 <a href=\"/w/Defence\" title=\"Defence\">Defence</a></span>",
     "skills": [
       {
         "skill": "CRAFTING",
-        "level": 76
+        "level": 86
       },
       {
         "skill": "RANGED",
@@ -7024,6 +7092,8 @@
     "tierKey": "medium",
     "name": "Defeat a Dire Wolf",
     "description": "Defeat a Dire Wolf in Varlamore.",
+    "requirements": "Partial completion of Meat and Greet",
+    "requirementsHtml": "Partial completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Meat_and_Greet\" title=\"Meat and Greet\">Meat and Greet</a>",
     "skills": []
   },
   {
@@ -7031,14 +7101,9 @@
     "tierKey": "medium",
     "name": "Defeat a fully grown jaguar without taking any damage from it",
     "description": "Defeat a fully grown jaguar without taking any damage from it.",
-    "requirements": "A weapon to safespot or",
-    "requirementsHtml": "A weapon to safespot or <span class=\"scp\" data-skill=\"Prayer\" data-level=\"43\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Prayer\" title=\"Prayer\"><img alt=\"Prayer\" src=\"/images/Prayer_icon.png?7e70b\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"23\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"23\"></a></span> 43 <a href=\"/w/Prayer\" title=\"Prayer\">Prayer</a></span>",
-    "skills": [
-      {
-        "skill": "PRAYER",
-        "level": 43
-      }
-    ]
+    "requirements": "A weapon to safespot",
+    "requirementsHtml": "A weapon to safespot",
+    "skills": []
   },
   {
     "areaKey": "varlamore",
