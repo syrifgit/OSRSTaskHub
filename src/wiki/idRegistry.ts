@@ -1,20 +1,19 @@
 /**
- * Persistent ID registry for preliminary (pre-cache) task data.
+ * Persistent ID registry for wiki-scraped task data.
  *
- * Web tools bind their state to whatever placeholder structIds we publish.
- * If a wiki rescrape shifted those IDs (because an editor renamed a task,
- * moved it between areas, etc.) that state would silently break. The
- * registry pins each placeholder structId to the task identity across
- * rescrapes, with best-effort re-matching when wiki fields change.
+ * Web tools bind their state to whatever structIds we publish. If a wiki
+ * rescrape shifted those IDs (because an editor renamed a task, moved it
+ * between areas, etc.) that state would silently break. The registry pins
+ * each structId to the task identity across rescrapes via name matching,
+ * with a hash-based fallback for genuinely new tasks.
  *
  * Matching priority per wiki row:
- *   1. varbitIndex (data-taskid, if non-zero) - authoritative
- *   2. normalizedName (lowercase, alphanumeric-only)
- *   3. no match -> assign a fresh placeholder
+ *   1. normalizedName (lowercase, alphanumeric-only)
+ *   2. no match -> assign a fresh placeholder
  *
- * The registry also carries `realStructId` per entry, populated once Jagex
- * publishes real cache data. This is what the preliminary-to-real mapping
- * table exports.
+ * `realStructId` is populated once Jagex publishes real cache data, and
+ * `preliminaryId` holds any pre-migration placeholder for web-tool route
+ * translation.
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
@@ -26,7 +25,6 @@ export interface RegistryEntry {
   normalizedName: string;
   area: string;
   tier: string;
-  varbitIndex: number;   // 0 if wiki row has data-taskid=0 (unassigned)
   realStructId: number | null;  // filled once Jagex publishes cache data
   // Placeholder structId from before Jagex's dbrow_id migration. Persisted
   // so web tools can translate user routes that stored the old value.
@@ -42,7 +40,6 @@ export interface Registry {
 
 export interface RegistryIndex {
   reg: Registry;
-  byVarbit: Map<number, RegistryEntry>;
   byName: Map<string, RegistryEntry>;
 }
 
@@ -61,13 +58,11 @@ export function saveRegistry(filePath: string, reg: Registry): void {
 }
 
 export function indexRegistry(reg: Registry): RegistryIndex {
-  const byVarbit = new Map<number, RegistryEntry>();
   const byName = new Map<string, RegistryEntry>();
   for (const entry of Object.values(reg.entries)) {
-    if (entry.varbitIndex > 0) byVarbit.set(entry.varbitIndex, entry);
     byName.set(entry.normalizedName, entry);
   }
-  return { reg, byVarbit, byName };
+  return { reg, byName };
 }
 
 /**
@@ -76,20 +71,11 @@ export function indexRegistry(reg: Registry): RegistryIndex {
  */
 export function assignStructId(
   idx: RegistryIndex,
-  row: { name: string; area: string; tier: string; tierKey: string; varbitIndex: number },
+  row: { name: string; area: string; tier: string; tierKey: string },
   today: string,
 ): number {
   const normalized = normalizeName(row.name);
-
-  // Priority 1: varbitIndex match (most stable when available)
-  let match: RegistryEntry | undefined;
-  if (row.varbitIndex > 0) {
-    match = idx.byVarbit.get(row.varbitIndex);
-  }
-  // Priority 2: exact normalized name match
-  if (!match) {
-    match = idx.byName.get(normalized);
-  }
+  const match = idx.byName.get(normalized);
 
   if (match) {
     // Update the registry entry with latest wiki data (handle renames etc.)
@@ -97,11 +83,8 @@ export function assignStructId(
     match.normalizedName = normalized;
     match.area = row.area;
     match.tier = row.tier;
-    if (row.varbitIndex > 0) match.varbitIndex = row.varbitIndex;
     match.lastSeen = today;
-    // Maintain secondary indices if anything changed
     idx.byName.set(normalized, match);
-    if (row.varbitIndex > 0) idx.byVarbit.set(row.varbitIndex, match);
     return match.structId;
   }
 
@@ -114,14 +97,12 @@ export function assignStructId(
     normalizedName: normalized,
     area: row.area,
     tier: row.tier,
-    varbitIndex: row.varbitIndex,
     realStructId: null,
     preliminaryId: null,
     firstSeen: today,
     lastSeen: today,
   };
   idx.reg.entries[String(newId)] = entry;
-  if (entry.varbitIndex > 0) idx.byVarbit.set(entry.varbitIndex, entry);
   idx.byName.set(normalized, entry);
   return newId;
 }

@@ -14,9 +14,7 @@
  *
  * Requires row attributes `data-league-area-for-filtering` and
  * `data-league-tier` on task <tr> elements (present on the Demonic Pacts
- * Leagues announcement page and likely subsequent leagues). Also captures
- * `data-taskid` as varbitIndex when non-zero, for clean backfill once
- * real cache data arrives.
+ * Leagues announcement page and likely subsequent leagues).
  */
 
 import axios from 'axios';
@@ -55,7 +53,6 @@ const TIER_KEY_TO_DISPLAY: Record<string, string> = {
 interface PreliminaryRow {
   areaKey: string;
   tierKey: string;
-  varbitIndex: number;   // from data-taskid, 0 if unassigned
   name: string;
   description: string;
   requirements?: string;
@@ -92,7 +89,7 @@ export async function scrapePreliminary(taskTypeName: string): Promise<void> {
 
     const structId = assignStructId(
       regIdx,
-      { name: row.name, area, tier: tierName, tierKey: row.tierKey, varbitIndex: row.varbitIndex },
+      { name: row.name, area, tier: tierName, tierKey: row.tierKey },
       today,
     );
 
@@ -157,9 +154,6 @@ async function scrapeRows(url: string, columns: WikiColumnConfig): Promise<Preli
     const tierKey = ($row.attr('data-league-tier') || '').toLowerCase();
     if (!areaKey || !tierKey) return;
 
-    const varbitRaw = parseInt($row.attr('data-taskid') || '', 10);
-    const varbitIndex = isNaN(varbitRaw) ? 0 : varbitRaw;
-
     const cells = $row.find('td');
     const getCell = (idx: number): string => {
       if (idx < 0 || idx >= cells.length) return '';
@@ -208,7 +202,6 @@ async function scrapeRows(url: string, columns: WikiColumnConfig): Promise<Preli
     results.push({
       areaKey,
       tierKey,
-      varbitIndex,
       name,
       description: getCell(columns.descriptionColumnId),
       requirements,

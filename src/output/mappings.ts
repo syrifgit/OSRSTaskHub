@@ -20,7 +20,6 @@ interface MappingEntry {
   name: string;
   area: string;
   tier: string;
-  varbitIndex: number | null;          // null if wiki hasn't assigned one yet
   league_5_structId: number | null;    // null if no L5 task with this name
   // Placeholder structId from before Jagex's dbrow_id migration. Web tools
   // use this to migrate user routes that stored the old value. null for
@@ -50,7 +49,6 @@ export function writeMappings(
     name: e.name,
     area: e.area,
     tier: e.tier,
-    varbitIndex: e.varbitIndex > 0 ? e.varbitIndex : null,
     league_5_structId: l5Index.get(e.normalizedName) ?? null,
     league_6_preliminary_id: e.preliminaryId ?? null,
     league_6_real_structId: e.realStructId,
