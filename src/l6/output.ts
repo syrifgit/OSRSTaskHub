@@ -91,6 +91,10 @@ export function writeL6FullJson(tasks: L6Task[], outputDir: string, taskTypeName
     const o: Record<string, any> = {
       name: t.name,
       description: t.description,
+      // Duplicate dbRowId as structId so existing web tools that key by
+      // structId keep working without a rekey. The DBROW pipeline doesn't
+      // produce real structIds; this is an alias for compatibility only.
+      structId: t.dbRowId,
       dbRowId: t.dbRowId,
       wikiTaskIndex: t.wikiTaskIndex,
       sortId: t.sortId,
