@@ -50,6 +50,17 @@ const TIER_KEY_TO_DISPLAY: Record<string, string> = {
   master: 'Master',
 };
 
+// Plugin's Skill enum only accepts these OSRS skills. Wiki occasionally tags
+// "combat level" or similar as a data-skill attribute; the plugin rejects
+// anything not in this set, so filter here to avoid downstream "invalid skill
+// name X" errors.
+const VALID_SKILLS: Set<string> = new Set([
+  'ATTACK', 'STRENGTH', 'DEFENCE', 'HITPOINTS', 'MAGIC', 'RANGED', 'PRAYER',
+  'AGILITY', 'HERBLORE', 'THIEVING', 'CRAFTING', 'RUNECRAFT', 'SLAYER',
+  'FARMING', 'MINING', 'SMITHING', 'FISHING', 'COOKING', 'FIREMAKING',
+  'WOODCUTTING', 'FLETCHING', 'HUNTER', 'CONSTRUCTION',
+]);
+
 export interface L6WikiRow {
   /**
    * Wiki's data-taskid attribute. As of 2026-04-15 this is the enum 5950 index
@@ -129,7 +140,11 @@ export async function scrapeL6Wiki(options: ScrapeL6Options): Promise<L6WikiRow[
           const skill = $span.attr('data-skill');
           const level = parseInt($span.attr('data-level') || '', 10);
           if (skill && !isNaN(level)) {
-            skills.push({ skill: skill.toUpperCase(), level });
+            const upper = skill.toUpperCase();
+            // Plugin rejects non-OSRS skills (eg "COMBAT LEVEL"); drop them here.
+            if (VALID_SKILLS.has(upper)) {
+              skills.push({ skill: upper, level });
+            }
           }
         });
     }

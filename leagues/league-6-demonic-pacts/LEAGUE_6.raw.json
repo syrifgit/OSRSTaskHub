@@ -2215,12 +2215,7 @@
     "pactTask": false,
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Combat level\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Combat_level\" title=\"Combat level\"><img alt=\"Combat level\" src=\"/images/Attack_style_icon.png?ceb2e\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 40 <a href=\"/w/Combat_level\" title=\"Combat level\">Combat level</a></span>",
     "completionPercent": 0.1,
-    "skills": [
-      {
-        "skill": "COMBAT LEVEL",
-        "level": 40
-      }
-    ]
+    "skills": []
   },
   {
     "wikiTaskIndex": 127,
@@ -9337,12 +9332,7 @@
     "pactTask": false,
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Combat level\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Combat_level\" title=\"Combat level\"><img alt=\"Combat level\" src=\"/images/Attack_style_icon.png?ceb2e\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 70 <a href=\"/w/Combat_level\" title=\"Combat level\">Combat level</a></span>",
     "completionPercent": 0.1,
-    "skills": [
-      {
-        "skill": "COMBAT LEVEL",
-        "level": 70
-      }
-    ]
+    "skills": []
   },
   {
     "wikiTaskIndex": 491,
@@ -9359,12 +9349,7 @@
     "pactTask": false,
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Combat level\" data-level=\"100\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Combat_level\" title=\"Combat level\"><img alt=\"Combat level\" src=\"/images/Attack_style_icon.png?ceb2e\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 100 <a href=\"/w/Combat_level\" title=\"Combat level\">Combat level</a></span>",
     "completionPercent": 0.1,
-    "skills": [
-      {
-        "skill": "COMBAT LEVEL",
-        "level": 100
-      }
-    ]
+    "skills": []
   },
   {
     "wikiTaskIndex": 492,
@@ -10120,12 +10105,7 @@
     "pactTask": false,
     "requirementsHtml": "<span class=\"scp\" data-skill=\"Combat level\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Combat_level\" title=\"Combat level\"><img alt=\"Combat level\" src=\"/images/Attack_style_icon.png?ceb2e\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 40 <a href=\"/w/Combat_level\" title=\"Combat level\">Combat level</a></span>",
     "completionPercent": 0.1,
-    "skills": [
-      {
-        "skill": "COMBAT LEVEL",
-        "level": 40
-      }
-    ]
+    "skills": []
   },
   {
     "wikiTaskIndex": 531,
