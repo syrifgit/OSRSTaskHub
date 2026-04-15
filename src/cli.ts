@@ -136,6 +136,17 @@ tasks
   });
 
 tasks
+  .command('regen-mappings')
+  .description('Regenerate mappings.json from the current registry without re-scraping')
+  .argument('<task-type>', 'Task type name (e.g., LEAGUE_6)')
+  .action(async (taskType: string) => {
+    const outputDir = resolveOutputDir(taskType);
+    const registryPath = path.join(outputDir, `${taskType}.id-registry.json`);
+    const registry = loadRegistry(registryPath);
+    writeMappings(outputDir, taskType, registry);
+  });
+
+tasks
   .command('scrape-preliminary')
   .description('Wiki-first preliminary scrape (no game cache needed). Writes full/min/csv with 6-digit placeholder structIds (100000-999999) until cache lands.')
   .argument('<task-type>', 'Task type name (e.g., LEAGUE_6)')

@@ -28,6 +28,10 @@ export interface RegistryEntry {
   tier: string;
   varbitIndex: number;   // 0 if wiki row has data-taskid=0 (unassigned)
   realStructId: number | null;  // filled once Jagex publishes cache data
+  // Placeholder structId from before Jagex's dbrow_id migration. Persisted
+  // so web tools can translate user routes that stored the old value.
+  // null for entries that never had a placeholder phase (added post-migration).
+  preliminaryId?: number | null;
   firstSeen: string;     // ISO date (YYYY-MM-DD)
   lastSeen: string;      // ISO date
 }
@@ -112,6 +116,7 @@ export function assignStructId(
     tier: row.tier,
     varbitIndex: row.varbitIndex,
     realStructId: null,
+    preliminaryId: null,
     firstSeen: today,
     lastSeen: today,
   };
