@@ -4,6 +4,7 @@ import { Command } from 'commander';
 import { downloadCache, getLatestCommitHash, getLocalCommitHash } from './cache/downloader';
 import { generateFull, classifyAndMerge, updateWiki } from './pipeline';
 import { scrapePreliminary } from './wiki/preliminary';
+import { runL6Pipeline } from './l6/pipeline';
 import { loadRegistry, saveRegistry } from './wiki/idRegistry';
 import { applyRealStructIds, writeMappings } from './output/mappings';
 import { readFileSync } from 'fs';
@@ -152,6 +153,24 @@ tasks
   .argument('<task-type>', 'Task type name (e.g., LEAGUE_6)')
   .action(async (taskType: string) => {
     await scrapePreliminary(taskType);
+  });
+
+tasks
+  .command('l6:scrape')
+  .description('L6 DB-row scraper. Wiki-first (authoritative dbRowIds from data-taskid), optional cache enrichment and classification.')
+  .argument('[task-type]', 'Task type name (default: LEAGUE_6)')
+  .option('--no-cache', 'Skip cache enrichment; produces min/full/csv from wiki only')
+  .option('--no-classify', 'Skip Python classifier step')
+  .option('--wiki <url>', 'Override wiki URL from leagues/index.json')
+  .option('--schema <name>', 'Table schema name (default: action)', 'action')
+  .action(async (taskType: string | undefined, options: { cache: boolean; classify: boolean; wiki?: string; schema: string }) => {
+    await runL6Pipeline({
+      taskType: taskType || 'LEAGUE_6',
+      useCache: options.cache,
+      classify: options.classify,
+      schemaName: options.schema,
+      wikiUrlOverride: options.wiki,
+    });
   });
 
 tasks
