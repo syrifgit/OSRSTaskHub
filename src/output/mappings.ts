@@ -22,8 +22,11 @@ interface MappingEntry {
   tier: string;
   varbitIndex: number | null;          // null if wiki hasn't assigned one yet
   league_5_structId: number | null;    // null if no L5 task with this name
-  league_6_preliminary_id: number;     // always populated
-  league_6_real_structId: number | null; // null until Jagex publishes real cache
+  // Placeholder structId from before Jagex's dbrow_id migration. Web tools
+  // use this to migrate user routes that stored the old value. null for
+  // tasks added post-migration.
+  league_6_preliminary_id: number | null;
+  league_6_real_structId: number | null; // current permanent L6 task ID (dbrow_id)
 }
 
 export function writeMappings(
@@ -49,12 +52,12 @@ export function writeMappings(
     tier: e.tier,
     varbitIndex: e.varbitIndex > 0 ? e.varbitIndex : null,
     league_5_structId: l5Index.get(e.normalizedName) ?? null,
-    league_6_preliminary_id: e.structId,
+    league_6_preliminary_id: e.preliminaryId ?? null,
     league_6_real_structId: e.realStructId,
   }));
 
-  // Sort by preliminary ID for stable diffs across rescrapes
-  mappings.sort((a, b) => a.league_6_preliminary_id - b.league_6_preliminary_id);
+  // Sort by real (current) ID for stable diffs across rescrapes
+  mappings.sort((a, b) => (a.league_6_real_structId ?? 0) - (b.league_6_real_structId ?? 0));
 
   const filePath = path.join(mappingsDir, `${taskTypeName}-mappings.json`);
   writeFileSync(filePath, JSON.stringify(mappings, null, 2));
