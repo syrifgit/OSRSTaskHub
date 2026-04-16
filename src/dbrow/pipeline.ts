@@ -1,7 +1,11 @@
 /**
- * L6 scraper pipeline orchestrator.
+ * DBROW scraper pipeline orchestrator.
  *
- * Tiered fallback plan (from plan file `elegant-mapping-fog.md`):
+ * Used by L6 (Demonic Pacts). Any future league whose tasks live in a DB
+ * table (identity via task-index enum + cache columns) should reuse this
+ * with its own LeagueDbrowConfig - see src/dbrow/config.ts.
+ *
+ * Tiered fallback:
  *   Tier A - wiki only. Always runs. Produces min/full/csv with dbRowId+sortId.
  *   Tier B - wiki + cache enrichment. Runs unless --no-cache. Adds cacheColumns
  *            to full.json for debugging; plugin doesn't need them at runtime
@@ -15,9 +19,10 @@ import * as path from 'path';
 import { execFileSync } from 'child_process';
 import { findLeagueByTaskType, resolveOutputDir, updateLeague, getWikiConfig } from '../leagues';
 import { createCacheProvider } from '../cache/provider';
-import { scrapeL6Wiki, L6WikiRow } from './scrapeWiki';
-import { enrichWithCache, EnrichedRow, loadTaskIndexMap, L6_TASK_INDEX_ENUM } from './enrichCache';
+import { scrapeDbrowWiki, L6WikiRow } from './scrapeWiki';
+import { enrichWithCache, EnrichedRow, loadTaskIndexMap } from './enrichCache';
 import { getSchema } from './tableSchemas';
+import { getLeagueConfig, LeagueDbrowConfig } from './config';
 import {
   combineWikiAndCache,
   writeL6FullJson,
@@ -29,16 +34,19 @@ import {
   L6Task,
 } from './output';
 
-export interface L6PipelineOptions {
+export interface DbrowPipelineOptions {
   taskType: string;              // e.g. "LEAGUE_6"
   useCache: boolean;             // default true
   classify: boolean;             // default true
-  schemaName: string;            // default "action"
-  wikiUrlOverride?: string;      // default pulls from leagues/index.json
+  schemaName?: string;           // override LeagueDbrowConfig.schemaName
+  wikiUrlOverride?: string;      // override leagues/index.json wikiUrl
 }
 
-export async function runL6Pipeline(opts: L6PipelineOptions): Promise<void> {
+export async function runDbrowPipeline(opts: DbrowPipelineOptions): Promise<void> {
   const { taskType } = opts;
+  const config = getLeagueConfig(taskType);
+  const log = (msg: string) => console.log(`${config.logPrefix} ${msg}`);
+
   const league = findLeagueByTaskType(taskType);
   if (!league) {
     throw new Error(`No league entry for "${taskType}" in leagues/index.json`);
@@ -53,26 +61,26 @@ export async function runL6Pipeline(opts: L6PipelineOptions): Promise<void> {
   const outputDir = resolveOutputDir(taskType);
   mkdirSync(outputDir, { recursive: true });
 
+  const schemaName = opts.schemaName ?? config.schemaName;
+
   // --- Tier A: wiki scrape
-  console.log(`[L6] wiki scrape: ${wikiUrl}`);
-  const wikiRows = await scrapeL6Wiki({ wikiUrl });
-  console.log(`[L6] wiki: ${wikiRows.length} tasks`);
-  validateWikiRows(wikiRows);
+  log(`wiki scrape: ${wikiUrl}`);
+  const wikiRows = await scrapeDbrowWiki({ wikiUrl, spec: config.wiki });
+  log(`wiki: ${wikiRows.length} tasks`);
+  validateWikiRows(wikiRows, config);
 
   // --- Tier B: cache enrichment (optional)
-  // Wiki's data-taskid is an index into enum 5950. The real dbRowId in table
-  // 118 is enum5950[index]. We resolve that here before reading columns.
   let enriched: EnrichedRow[] | undefined;
   let resolved = 0;
   if (opts.useCache) {
     try {
-      console.log(`[L6] cache: opening provider`);
+      log(`cache: opening provider`);
       const cache = await createCacheProvider();
 
-      // Resolve wikiTaskIndex -> real dbRowId via enum 5950.
-      console.log(`[L6] cache: loading enum ${L6_TASK_INDEX_ENUM} (task index -> dbRowId)`);
-      const indexMap = await loadTaskIndexMap(cache);
-      console.log(`[L6] cache: enum ${L6_TASK_INDEX_ENUM} has ${indexMap.size} entries`);
+      // Resolve wikiTaskIndex -> real dbRowId via task-index enum.
+      log(`cache: loading enum ${config.taskIndexEnumId} (task index -> dbRowId)`);
+      const indexMap = await loadTaskIndexMap(cache, config.taskIndexEnumId);
+      log(`cache: enum ${config.taskIndexEnumId} has ${indexMap.size} entries`);
       for (const row of wikiRows) {
         const realId = indexMap.get(row.wikiTaskIndex);
         if (realId != null) {
@@ -80,42 +88,42 @@ export async function runL6Pipeline(opts: L6PipelineOptions): Promise<void> {
           resolved++;
         }
       }
-      console.log(`[L6] cache: resolved ${resolved}/${wikiRows.length} wiki indices to real dbRowIds`);
+      log(`cache: resolved ${resolved}/${wikiRows.length} wiki indices to real dbRowIds`);
       const unresolved = wikiRows.filter(r => r.dbRowId == null).map(r => r.wikiTaskIndex);
       if (unresolved.length) {
         console.warn(
-          `[L6] cache: ${unresolved.length} wiki indices missing from enum ${L6_TASK_INDEX_ENUM}: ` +
+          `${config.logPrefix} cache: ${unresolved.length} wiki indices missing from enum ${config.taskIndexEnumId}: ` +
           `${unresolved.slice(0, 10).join(', ')}${unresolved.length > 10 ? '...' : ''}`,
         );
       }
 
-      const schema = getSchema(opts.schemaName);
+      const schema = getSchema(schemaName);
       const dbRowIds = wikiRows
         .map(r => r.dbRowId)
         .filter((id): id is number => id != null);
       enriched = await enrichWithCache(cache, schema, { dbRowIds });
-      console.log(`[L6] cache: enriched ${enriched.length} rows`);
+      log(`cache: enriched ${enriched.length} rows`);
 
       const missingFromCache = dbRowIds.filter(
         id => !enriched!.find(e => e.dbRowId === id),
       );
       if (missingFromCache.length) {
         console.warn(
-          `[L6] cache: ${missingFromCache.length} resolved dbRowIds absent from cache table ${schema.tableId}: ` +
+          `${config.logPrefix} cache: ${missingFromCache.length} resolved dbRowIds absent from cache table ${schema.tableId}: ` +
           `${missingFromCache.slice(0, 10).join(', ')}${missingFromCache.length > 10 ? '...' : ''}`,
         );
       }
     } catch (err: any) {
-      console.warn(`[L6] cache step skipped: ${err.message}`);
+      console.warn(`${config.logPrefix} cache step skipped: ${err.message}`);
       enriched = undefined;
     }
   } else {
-    console.log(`[L6] cache: skipped (--no-cache)`);
-    console.warn(`[L6] WARNING: without cache, dbRowId is null in output.`);
+    log(`cache: skipped (--no-cache)`);
+    console.warn(`${config.logPrefix} WARNING: without cache, dbRowId is null in output.`);
   }
 
   // Build combined task records.
-  const tasks = combineWikiAndCache(wikiRows, enriched);
+  const tasks = combineWikiAndCache(wikiRows, enriched, config.decoders);
 
   // Raw is the master record (wiki + cache nested by source). Written after
   // enrichment so it has resolved dbRowIds and cache column data.
@@ -130,20 +138,20 @@ export async function runL6Pipeline(opts: L6PipelineOptions): Promise<void> {
       runClassifier(shimPath, locationsPath);
       const fullPath = writeL6FullJson(tasks, outputDir, taskType);
       const { merged, withLocation } = mergeL6Locations(fullPath, locationsPath);
-      console.log(`[L6] classify: merged ${merged} entries (${withLocation} with coordinates)`);
+      log(`classify: merged ${merged} entries (${withLocation} with coordinates)`);
       // Reload merged tasks so min.json picks up location data.
       const reloadedTasks: L6Task[] = JSON.parse(readFileSync(fullPath, 'utf-8'));
       writeL6MinJson(reloadedTasks, outputDir, taskType);
       writeL6Csv(reloadedTasks, outputDir, taskType);
     } catch (err: any) {
-      console.warn(`[L6] classify skipped: ${err.message}`);
+      console.warn(`${config.logPrefix} classify skipped: ${err.message}`);
       // Fall through to unclassified outputs.
       writeL6FullJson(tasks, outputDir, taskType);
       writeL6MinJson(tasks, outputDir, taskType);
       writeL6Csv(tasks, outputDir, taskType);
     }
   } else {
-    console.log(`[L6] classify: skipped (--no-classify)`);
+    log(`classify: skipped (--no-classify)`);
     writeL6FullJson(tasks, outputDir, taskType);
     writeL6MinJson(tasks, outputDir, taskType);
     writeL6Csv(tasks, outputDir, taskType);
@@ -154,21 +162,21 @@ export async function runL6Pipeline(opts: L6PipelineOptions): Promise<void> {
     taskFile: `${taskType}.full.json`,
   } as any);
 
-  console.log(`[L6] done. ${tasks.length} tasks written to ${outputDir}/`);
+  log(`done. ${tasks.length} tasks written to ${outputDir}/`);
 }
 
-function validateWikiRows(rows: L6WikiRow[]): void {
+function validateWikiRows(rows: L6WikiRow[], config: LeagueDbrowConfig): void {
   const seen = new Set<number>();
   for (const r of rows) {
     if (!Number.isFinite(r.wikiTaskIndex)) {
-      throw new Error(`[L6] task "${r.name}" has non-numeric wikiTaskIndex ${r.wikiTaskIndex}`);
+      throw new Error(`${config.logPrefix} task "${r.name}" has non-numeric wikiTaskIndex ${r.wikiTaskIndex}`);
     }
     if (seen.has(r.wikiTaskIndex)) {
-      throw new Error(`[L6] duplicate wikiTaskIndex ${r.wikiTaskIndex} ("${r.name}")`);
+      throw new Error(`${config.logPrefix} duplicate wikiTaskIndex ${r.wikiTaskIndex} ("${r.name}")`);
     }
     seen.add(r.wikiTaskIndex);
   }
-  console.log(`[L6] validated: ${rows.length} unique wikiTaskIndices`);
+  console.log(`${config.logPrefix} validated: ${rows.length} unique wikiTaskIndices`);
 }
 
 function runClassifier(inputPath: string, outputPath: string): void {
@@ -176,21 +184,16 @@ function runClassifier(inputPath: string, outputPath: string): void {
   if (!existsSync(classifyScript)) {
     throw new Error(`classifier script not found at ${classifyScript}`);
   }
-  // Use the same args the existing struct-path pipeline uses. The --coords
-  // flag enables coord enrichment when classification = SINGLE.
   const args = [
     classifyScript,
     `--input=${inputPath}`,
     `--output=${outputPath}`,
     '--coords',
-    // Positional OUT_DIR is required by classify.py; we point it at a scratch
-    // dir since the interesting output is the --output file.
     path.dirname(outputPath),
   ];
   try {
     execFileSync('python3', args, { stdio: 'inherit' });
   } catch {
-    // Windows convention: python3 may not be on PATH, but `python` is.
     execFileSync('python', args, { stdio: 'inherit' });
   }
 }

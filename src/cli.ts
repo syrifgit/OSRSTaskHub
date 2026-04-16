@@ -4,7 +4,8 @@ import { Command } from 'commander';
 import { downloadCache, getLatestCommitHash, getLocalCommitHash } from './cache/downloader';
 import { generateFull, classifyAndMerge, updateWiki } from './pipeline';
 import { scrapePreliminary } from './wiki/preliminary';
-import { runL6Pipeline } from './l6/pipeline';
+import { runDbrowPipeline } from './dbrow/pipeline';
+import { buildL6ParamMaps } from './dbrow/paramMap';
 import { loadRegistry, saveRegistry } from './wiki/idRegistry';
 import { applyRealStructIds, writeMappings } from './output/mappings';
 import { readFileSync } from 'fs';
@@ -156,21 +157,36 @@ tasks
   });
 
 tasks
-  .command('l6:scrape')
-  .description('L6 DB-row scraper. Wiki-first (authoritative dbRowIds from data-taskid), optional cache enrichment and classification.')
+  .command('dbrow:scrape')
+  .alias('l6:scrape')
+  .description('DBROW scraper (L6+). Wiki-first (dbRowIds resolved via task-index enum), optional cache enrichment and classification.')
   .argument('[task-type]', 'Task type name (default: LEAGUE_6)')
   .option('--no-cache', 'Skip cache enrichment; produces min/full/csv from wiki only')
   .option('--no-classify', 'Skip Python classifier step')
   .option('--wiki <url>', 'Override wiki URL from leagues/index.json')
-  .option('--schema <name>', 'Table schema name (default: action)', 'action')
-  .action(async (taskType: string | undefined, options: { cache: boolean; classify: boolean; wiki?: string; schema: string }) => {
-    await runL6Pipeline({
+  .option('--schema <name>', 'Override table schema name (default: per-league config)')
+  .action(async (taskType: string | undefined, options: { cache: boolean; classify: boolean; wiki?: string; schema?: string }) => {
+    await runDbrowPipeline({
       taskType: taskType || 'LEAGUE_6',
       useCache: options.cache,
       classify: options.classify,
       schemaName: options.schema,
       wikiUrlOverride: options.wiki,
     });
+  });
+
+tasks
+  .command('dbrow:param-map')
+  .description('Print the intParamMap/stringParamMap block for pasting into syrif-task-json-store/task-types.json')
+  .argument('[task-type]', 'Task type name (default: LEAGUE_6)')
+  .action(async (taskType: string | undefined) => {
+    const tt = (taskType || 'LEAGUE_6').toUpperCase();
+    if (tt !== 'LEAGUE_6') {
+      console.error(`Only LEAGUE_6 supported currently. Add a builder in src/dbrow/paramMap.ts for new leagues.`);
+      process.exit(1);
+    }
+    const maps = buildL6ParamMaps();
+    console.log(JSON.stringify(maps, null, 2));
   });
 
 tasks
