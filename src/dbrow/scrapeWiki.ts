@@ -18,37 +18,7 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { TaskSkill, WikiColumnConfig, DEFAULT_WIKI_COLUMNS } from '../types';
-
-const AREA_KEY_TO_DISPLAY: Record<string, string> = {
-  general: 'Global',
-  asgarnia: 'Asgarnia',
-  desert: 'Kharidian Desert',
-  fremennik: 'Fremennik Province',
-  kandarin: 'Kandarin',
-  karamja: 'Karamja',
-  kourend: 'Kourend & Kebos',
-  misthalin: 'Misthalin',
-  morytania: 'Morytania',
-  tirannwn: 'Tirannwn',
-  varlamore: 'Varlamore',
-  wilderness: 'Wilderness',
-};
-
-const TIER_KEY_TO_NUMERIC: Record<string, number> = {
-  easy: 1,
-  medium: 2,
-  hard: 3,
-  elite: 4,
-  master: 5,
-};
-
-const TIER_KEY_TO_DISPLAY: Record<string, string> = {
-  easy: 'Easy',
-  medium: 'Medium',
-  hard: 'Hard',
-  elite: 'Elite',
-  master: 'Master',
-};
+import { LeagueWikiSpec } from './config';
 
 // Plugin's Skill enum only accepts these OSRS skills. Wiki occasionally tags
 // "combat level" or similar as a data-skill attribute; the plugin rejects
@@ -86,14 +56,17 @@ export interface L6WikiRow {
   skills: TaskSkill[];
 }
 
-export interface ScrapeL6Options {
-  /** Override wiki URL. Defaults to leagues/index.json entry. */
+export interface ScrapeDbrowWikiOptions {
+  /** Wiki URL to scrape. */
   wikiUrl: string;
+  /** Per-league wiki layout (selectors, attribute names, key maps). */
+  spec: LeagueWikiSpec;
   /** Wiki table column layout. Defaults to DEFAULT_WIKI_COLUMNS. */
   columns?: WikiColumnConfig;
 }
 
-export async function scrapeL6Wiki(options: ScrapeL6Options): Promise<L6WikiRow[]> {
+export async function scrapeDbrowWiki(options: ScrapeDbrowWikiOptions): Promise<L6WikiRow[]> {
+  const { spec } = options;
   const columns = options.columns ?? DEFAULT_WIKI_COLUMNS;
   const response = await axios.get(options.wikiUrl);
   const $ = cheerio.load(response.data);
@@ -101,25 +74,23 @@ export async function scrapeL6Wiki(options: ScrapeL6Options): Promise<L6WikiRow[
   const rows: L6WikiRow[] = [];
   const seenIds = new Set<number>();
 
-  // Rows on the L6 page always carry both data-taskid and data-league-tier.
-  // We narrow on data-taskid so we don't catch stray tables with league-tier but no task.
-  $('tr[data-taskid][data-league-tier]').each((_, el) => {
+  $(spec.rowSelector).each((_, el) => {
     const $row = $(el);
-    const wikiTaskIndex = parseInt($row.attr('data-taskid') || '', 10);
+    const wikiTaskIndex = parseInt($row.attr(spec.taskIndexAttr) || '', 10);
     if (!Number.isFinite(wikiTaskIndex)) return;
     if (seenIds.has(wikiTaskIndex)) {
-      console.warn(`  duplicate data-taskid=${wikiTaskIndex}, keeping first`);
+      console.warn(`  duplicate ${spec.taskIndexAttr}=${wikiTaskIndex}, keeping first`);
       return;
     }
 
-    const areaKey = ($row.attr('data-league-area-for-filtering') || '').toLowerCase();
-    const tierKey = ($row.attr('data-league-tier') || '').toLowerCase();
+    const areaKey = ($row.attr(spec.areaAttr) || '').toLowerCase();
+    const tierKey = ($row.attr(spec.tierAttr) || '').toLowerCase();
     if (!areaKey || !tierKey) return;
 
-    const pointsAttr = $row.attr('data-league-points');
+    const pointsAttr = $row.attr(spec.pointsAttr);
     const points = pointsAttr ? parseInt(pointsAttr, 10) : null;
 
-    const pactAttr = $row.attr('data-pact-task');
+    const pactAttr = spec.pactTaskAttr ? $row.attr(spec.pactTaskAttr) : undefined;
     const pactTask = pactAttr == null ? null : pactAttr === 'yes';
 
     const cells = $row.find('td');
@@ -185,15 +156,15 @@ export async function scrapeL6Wiki(options: ScrapeL6Options): Promise<L6WikiRow[
       dbRowId: null,
       // sortId = wikiTaskIndex: the plugin uses sortId as the varbit index
       // into the packed taskVarps array. L6 packs 1592 completion bits across
-      // ~51 varps of 32 bits each; sortId must match the enum-index position
+      // ~50 varps of 32 bits each; sortId must match the enum-index position
       // or completion tracking reads the wrong bit.
       sortId: wikiTaskIndex,
       name,
       description: getCell(columns.descriptionColumnId),
-      area: AREA_KEY_TO_DISPLAY[areaKey] ?? toTitleCase(areaKey),
+      area: spec.areaKeyToDisplay[areaKey] ?? toTitleCase(areaKey),
       areaKey,
-      tier: TIER_KEY_TO_NUMERIC[tierKey] ?? null,
-      tierName: TIER_KEY_TO_DISPLAY[tierKey] ?? toTitleCase(tierKey),
+      tier: spec.tierKeyToNumeric[tierKey] ?? null,
+      tierName: spec.tierKeyToDisplay[tierKey] ?? toTitleCase(tierKey),
       tierKey,
       points,
       pactTask,

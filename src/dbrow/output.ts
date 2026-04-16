@@ -12,16 +12,7 @@ import * as path from 'path';
 import { TaskSkill } from '../types';
 import { L6WikiRow } from './scrapeWiki';
 import { EnrichedRow, CellValue } from './enrichCache';
-
-/** Cache col 35 → category label. */
-const CATEGORY_NAME: Record<number, string> = {
-  1: 'Skill',
-  2: 'Combat',
-  3: 'Quest',
-  4: 'Achievement',
-  5: 'Minigame',
-  6: 'Other',
-};
+import { LeagueDecoders } from './config';
 
 export interface L6Task {
   dbRowId: number | null;
@@ -58,7 +49,8 @@ export interface L6LocationEntry {
  */
 export function combineWikiAndCache(
   wikiRows: L6WikiRow[],
-  enriched?: EnrichedRow[],
+  enriched: EnrichedRow[] | undefined,
+  decoders: LeagueDecoders,
 ): L6Task[] {
   const cacheByDbRowId = new Map<number, EnrichedRow>();
   if (enriched) {
@@ -89,7 +81,7 @@ export function combineWikiAndCache(
       const catVal = Array.isArray(catCell) ? (catCell[0] as number) : (catCell as number | null);
       if (typeof catVal === 'number') {
         task.category = catVal;
-        task.categoryName = CATEGORY_NAME[catVal] ?? null;
+        task.categoryName = decoders.categoryName[catVal] ?? null;
       }
       task._cacheColumns = enrichedRow.columns;
     }
