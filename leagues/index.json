@@ -70,7 +70,7 @@
     "shortName": "Demonic Pacts",
     "startDate": "2026-04-15",
     "endDate": null,
-    "active": false,
+    "active": true,
     "taskTypeName": "LEAGUE_6",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Demonic_Pacts_League/Tasks",
     "taskCount": 1592,
