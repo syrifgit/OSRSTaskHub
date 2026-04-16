@@ -59,9 +59,6 @@ export async function runL6Pipeline(opts: L6PipelineOptions): Promise<void> {
   console.log(`[L6] wiki: ${wikiRows.length} tasks`);
   validateWikiRows(wikiRows);
 
-  // Raw wiki dump always written first for diagnostics.
-  writeL6RawJson(wikiRows, outputDir, taskType);
-
   // --- Tier B: cache enrichment (optional)
   // Wiki's data-taskid is an index into enum 5950. The real dbRowId in table
   // 118 is enum5950[index]. We resolve that here before reading columns.
@@ -114,11 +111,15 @@ export async function runL6Pipeline(opts: L6PipelineOptions): Promise<void> {
     }
   } else {
     console.log(`[L6] cache: skipped (--no-cache)`);
-    console.warn(`[L6] WARNING: without cache, dbRowId is null in output. min.json carries wikiTaskIndex as fallback.`);
+    console.warn(`[L6] WARNING: without cache, dbRowId is null in output.`);
   }
 
   // Build combined task records.
   const tasks = combineWikiAndCache(wikiRows, enriched);
+
+  // Raw is the master record (wiki + cache nested by source). Written after
+  // enrichment so it has resolved dbRowIds and cache column data.
+  writeL6RawJson(tasks, outputDir, taskType);
 
   // --- Tier C: classification (optional)
   if (opts.classify) {
