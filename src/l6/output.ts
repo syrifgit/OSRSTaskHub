@@ -1,7 +1,10 @@
 /**
- * L6 output writers. Mirror the shape of src/output/writers.ts but emit
- * `dbRowId` in place of `structId`. Separate file so we don't break existing
- * struct-path writers.
+ * L6 output writers.
+ *
+ * Three output shapes:
+ *   min.json  - plugin only. {dbRowId, sortId} + wiki-only fields plugin can't derive from cache.
+ *   full.json - web tools/planners. Clean display-ready fields, no internals.
+ *   raw.json  - master record. Everything from both wiki + cache, nested by source.
  */
 
 import { writeFileSync, readFileSync } from 'fs';
@@ -10,12 +13,21 @@ import { TaskSkill } from '../types';
 import { L6WikiRow } from './scrapeWiki';
 import { EnrichedRow, CellValue } from './enrichCache';
 
+/** Cache col 35 → category label. */
+const CATEGORY_NAME: Record<number, string> = {
+  1: 'Skill',
+  2: 'Combat',
+  3: 'Quest',
+  4: 'Achievement',
+  5: 'Minigame',
+  6: 'Other',
+};
+
 export interface L6Task {
-  /** Real dbRowId in cache table 118. null if enum 5950 resolution hasn't happened. */
   dbRowId: number | null;
-  /** Wiki's data-taskid, which is the enum-5950 index (varbit index). */
-  wikiTaskIndex: number;
   sortId: number;
+  category?: number | null;
+  categoryName?: string | null;
   name: string;
   description: string;
   area: string | null;
@@ -27,14 +39,12 @@ export interface L6Task {
   completionPercent?: number;
   wikiNotes?: string;
   wikiNotesHtml?: string;
-
-  /** Optional cache-enrichment data. */
-  cacheColumns?: Record<string, CellValue>;
-  cacheMissingColumns?: string[];
-
-  /** From classifier. */
-  classification?: string;
   location?: { x: number; y: number; plane: number };
+
+  /** Internal: wiki row for raw.json generation. */
+  _wikiRow?: L6WikiRow;
+  /** Internal: cache columns for raw.json generation. */
+  _cacheColumns?: Record<string, CellValue>;
 }
 
 export interface L6LocationEntry {
@@ -44,8 +54,7 @@ export interface L6LocationEntry {
 }
 
 /**
- * Combine wiki rows with optional cache enrichment into L6Task records
- * keyed by dbRowId.
+ * Combine wiki rows with optional cache enrichment into L6Task records.
  */
 export function combineWikiAndCache(
   wikiRows: L6WikiRow[],
@@ -59,7 +68,6 @@ export function combineWikiAndCache(
   return wikiRows.map(r => {
     const task: L6Task = {
       dbRowId: r.dbRowId,
-      wikiTaskIndex: r.wikiTaskIndex,
       sortId: r.sortId,
       name: r.name,
       description: r.description,
@@ -68,6 +76,7 @@ export function combineWikiAndCache(
       tierName: r.tierName,
       points: r.points,
       pactTask: r.pactTask,
+      _wikiRow: r,
     };
     if (r.skills.length > 0) task.skillRequirements = r.skills;
     if (r.completionPercent != null) task.completionPercent = r.completionPercent;
@@ -76,14 +85,21 @@ export function combineWikiAndCache(
 
     const enrichedRow = cacheByDbRowId.get(r.dbRowId);
     if (enrichedRow) {
-      task.cacheColumns = enrichedRow.columns;
-      if (enrichedRow.missingColumns.length > 0) {
-        task.cacheMissingColumns = enrichedRow.missingColumns;
+      const catCell = enrichedRow.columns.league_category;
+      const catVal = Array.isArray(catCell) ? (catCell[0] as number) : (catCell as number | null);
+      if (typeof catVal === 'number') {
+        task.category = catVal;
+        task.categoryName = CATEGORY_NAME[catVal] ?? null;
       }
+      task._cacheColumns = enrichedRow.columns;
     }
     return task;
   });
 }
+
+// ============================================================
+// full.json - clean, display-ready for web tools / planners
+// ============================================================
 
 export function writeL6FullJson(tasks: L6Task[], outputDir: string, taskTypeName: string): string {
   const filePath = path.join(outputDir, `${taskTypeName}.full.json`);
@@ -91,12 +107,8 @@ export function writeL6FullJson(tasks: L6Task[], outputDir: string, taskTypeName
     const o: Record<string, any> = {
       name: t.name,
       description: t.description,
-      // Duplicate dbRowId as structId so existing web tools that key by
-      // structId keep working without a rekey. The DBROW pipeline doesn't
-      // produce real structIds; this is an alias for compatibility only.
       structId: t.dbRowId,
       dbRowId: t.dbRowId,
-      wikiTaskIndex: t.wikiTaskIndex,
       sortId: t.sortId,
       area: t.area,
       tier: t.tier,
@@ -104,21 +116,22 @@ export function writeL6FullJson(tasks: L6Task[], outputDir: string, taskTypeName
     };
     if (t.points != null) o.points = t.points;
     if (t.pactTask != null) o.pactTask = t.pactTask;
+    if (t.category != null) o.category = t.category;
+    if (t.categoryName) o.categoryName = t.categoryName;
     if (t.completionPercent != null) o.completionPercent = t.completionPercent;
     if (t.skillRequirements?.length) o.skillRequirements = t.skillRequirements;
     if (t.wikiNotes) o.wikiNotes = t.wikiNotes;
     if (t.wikiNotesHtml) o.wikiNotesHtml = t.wikiNotesHtml;
-    if (t.classification) o.classification = t.classification;
     if (t.location) o.location = t.location;
-    if (t.cacheColumns && Object.keys(t.cacheColumns).length > 0) {
-      o.cacheColumns = t.cacheColumns;
-    }
-    if (t.cacheMissingColumns?.length) o.cacheMissingColumns = t.cacheMissingColumns;
     return o;
   });
   writeFileSync(filePath, JSON.stringify(ordered, null, 2));
   return filePath;
 }
+
+// ============================================================
+// min.json - plugin only: identity + wiki-derived fields
+// ============================================================
 
 export function writeL6MinJson(tasks: L6Task[], outputDir: string, taskTypeName: string): string {
   const filePath = path.join(outputDir, `${taskTypeName}.min.json`);
@@ -127,14 +140,6 @@ export function writeL6MinJson(tasks: L6Task[], outputDir: string, taskTypeName:
       dbRowId: t.dbRowId,
       sortId: t.sortId,
     };
-    if (t.dbRowId == null) min.wikiTaskIndex = t.wikiTaskIndex;
-    // Filter / display data pre-baked from wiki so plugin doesn't need to
-    // resolve cache enums for tier/area labels.
-    if (t.tier != null) min.tier = t.tier;
-    if (t.tierName) min.tierName = t.tierName;
-    if (t.area) min.area = t.area;
-    if (t.points != null) min.points = t.points;
-    if (t.pactTask != null) min.pactTask = t.pactTask;
     if (t.skillRequirements?.length) min.skills = t.skillRequirements;
     if (t.wikiNotes) min.wikiNotes = t.wikiNotes;
     if (t.completionPercent != null) min.completionPercent = t.completionPercent;
@@ -145,18 +150,51 @@ export function writeL6MinJson(tasks: L6Task[], outputDir: string, taskTypeName:
   return filePath;
 }
 
-export function writeL6RawJson(rawRows: any[], outputDir: string, taskTypeName: string): string {
+// ============================================================
+// raw.json - master record: wiki + cache sources nested separately
+// ============================================================
+
+export function writeL6RawJson(tasks: L6Task[], outputDir: string, taskTypeName: string): string {
   const filePath = path.join(outputDir, `${taskTypeName}.raw.json`);
-  writeFileSync(filePath, JSON.stringify(rawRows, null, 2));
+  const rawTasks = tasks.map(t => {
+    const r: Record<string, any> = {
+      dbRowId: t.dbRowId,
+      sortId: t.sortId,
+    };
+    if (t._wikiRow) {
+      r.wiki = {
+        name: t._wikiRow.name,
+        description: t._wikiRow.description,
+        areaKey: t._wikiRow.areaKey,
+        tierKey: t._wikiRow.tierKey,
+        tier: t._wikiRow.tier,
+        points: t._wikiRow.points,
+        pactTask: t._wikiRow.pactTask,
+        completionPercent: t._wikiRow.completionPercent ?? null,
+        skills: t._wikiRow.skills,
+        requirements: t._wikiRow.requirements ?? null,
+        requirementsHtml: t._wikiRow.requirementsHtml ?? null,
+      };
+    }
+    if (t._cacheColumns && Object.keys(t._cacheColumns).length > 0) {
+      r.cache = t._cacheColumns;
+    }
+    return r;
+  });
+  writeFileSync(filePath, JSON.stringify(rawTasks, null, 2));
   return filePath;
 }
+
+// ============================================================
+// csv - flat export
+// ============================================================
 
 export function writeL6Csv(tasks: L6Task[], outputDir: string, taskTypeName: string): string {
   const filePath = path.join(outputDir, `${taskTypeName}.csv`);
   const headers = [
     'dbRowId', 'sortId', 'name', 'description', 'area',
-    'tier', 'tierName', 'points', 'pactTask',
-    'completionPercent', 'skillRequirements', 'wikiNotes', 'classification',
+    'tier', 'tierName', 'points', 'pactTask', 'category', 'categoryName',
+    'completionPercent', 'skillRequirements', 'wikiNotes',
   ];
   const escape = (v: any): string => {
     if (v === null || v === undefined) return '';
@@ -167,18 +205,18 @@ export function writeL6Csv(tasks: L6Task[], outputDir: string, taskTypeName: str
     const skillsStr = t.skillRequirements?.map(s => `${s.skill} ${s.level}`).join('; ') ?? '';
     return [
       t.dbRowId, t.sortId, t.name, t.description, t.area,
-      t.tier, t.tierName, t.points, t.pactTask,
-      t.completionPercent, skillsStr, t.wikiNotes, t.classification,
+      t.tier, t.tierName, t.points, t.pactTask, t.category, t.categoryName,
+      t.completionPercent, skillsStr, t.wikiNotes,
     ].map(escape).join(',');
   });
   writeFileSync(filePath, [headers.join(','), ...rows].join('\n') + '\n');
   return filePath;
 }
 
-/**
- * Merge classifier output (keyed by whatever ID field was emitted) into an
- * existing L6 full.json. Expected keys: the dbRowId as a string.
- */
+// ============================================================
+// Classifier integration
+// ============================================================
+
 export function mergeL6Locations(
   fullJsonPath: string,
   locationsPath: string,
@@ -189,10 +227,8 @@ export function mergeL6Locations(
   let merged = 0;
   let withLocation = 0;
   for (const t of tasks) {
-    const key = String(t.dbRowId ?? t.wikiTaskIndex);
-    const loc = locations[key];
+    const loc = locations[String(t.dbRowId)];
     if (!loc) continue;
-    t.classification = loc.classification;
     if (loc.location) {
       t.location = loc.location;
       withLocation++;
@@ -203,20 +239,13 @@ export function mergeL6Locations(
   return { merged, withLocation };
 }
 
-/**
- * Write a classifier-shim input file. classify.py currently expects `structId`
- * as the task key. We duplicate dbRowId into that field to reuse the classifier
- * without forking it. Output keys land as dbRowIds because that's what the
- * duplicated structId holds.
- */
 export function writeClassifierInput(
   tasks: L6Task[],
   outputPath: string,
 ): string {
   const shim = tasks.map(t => ({
-    structId: t.dbRowId ?? t.wikiTaskIndex,
+    structId: t.dbRowId,
     dbRowId: t.dbRowId,
-    wikiTaskIndex: t.wikiTaskIndex,
     sortId: t.sortId,
     name: t.name,
     description: t.description,

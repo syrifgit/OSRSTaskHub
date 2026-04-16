@@ -119,10 +119,10 @@ export const TABLE_118_ACTION: TableSchema = {
       type: 'bool',
       note: 'Always 1 on L6 tasks. Populates on exactly 1592 rows = full L6 task set.',
     },
-    league_bucket: {
+    league_category: {
       idx: 35,
       type: 'int',
-      note: 'Values 1-6. Skill category or pact type, TBC. 2082 rows populated.',
+      note: 'Task category. 1=Skill, 2=Combat, 3=Quest, 4=Achievement, 5=Minigame, 6=Other. Confirmed via distribution cross-tab against task names.',
     },
     league_area: {
       idx: 36,
