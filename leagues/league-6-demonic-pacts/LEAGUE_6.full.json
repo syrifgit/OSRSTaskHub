@@ -6332,7 +6332,9 @@
     "pactTask": false,
     "category": 5,
     "categoryName": "Minigame",
-    "completionPercent": 13.7
+    "completionPercent": 13.7,
+    "wikiNotes": "Use the right-click deposit option. Using items on the leprechaun to deposit will not count.",
+    "wikiNotesHtml": "Use the right-click deposit option. Using items on the leprechaun to deposit will not count."
   },
   {
     "name": "Land a hoop on a stick",
@@ -29089,10 +29091,10 @@
     "skillRequirements": [
       {
         "skill": "AGILITY",
-        "level": 89
+        "level": 65
       }
     ],
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Agility\" data-level=\"89\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 89 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span>"
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Agility\" data-level=\"65\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 65 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span>"
   },
   {
     "name": "Dagannoth Kings Combat Achievements",
