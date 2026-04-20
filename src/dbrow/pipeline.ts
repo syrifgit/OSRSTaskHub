@@ -165,6 +165,82 @@ export async function runDbrowPipeline(opts: DbrowPipelineOptions): Promise<void
   log(`done. ${tasks.length} tasks written to ${outputDir}/`);
 }
 
+/**
+ * Wiki-only refresh for DBROW leagues. Reads existing full.json, re-scrapes
+ * the wiki, overwrites wiki-sourced fields on each task, and re-emits
+ * full.json + min.json. Cache and classifier are NOT re-run - use
+ * runDbrowPipeline() for a full rebuild.
+ *
+ * Keyed by sortId, which for DBROW tasks equals wikiTaskIndex. This avoids
+ * needing cache access (no enum 5950 lookup required) since dbRowId is
+ * already present on every existing full.json entry.
+ */
+export async function updateWikiDbrow(
+  taskType: string,
+  existingTasks: L6Task[],
+  outputDir: string,
+): Promise<void> {
+  const config = getLeagueConfig(taskType);
+  const log = (msg: string) => console.log(`${config.logPrefix} ${msg}`);
+
+  const wikiConfig = getWikiConfig(taskType);
+  if (!wikiConfig) {
+    throw new Error(`No wikiUrl for "${taskType}" in leagues/index.json`);
+  }
+
+  log(`wiki refresh: ${wikiConfig.url}`);
+  const wikiRows = await scrapeDbrowWiki({ wikiUrl: wikiConfig.url, spec: config.wiki });
+  log(`wiki: ${wikiRows.length} rows scraped`);
+  validateWikiRows(wikiRows, config);
+
+  // Index wiki rows by wikiTaskIndex (which equals sortId for DBROW tasks)
+  const wikiBySortId = new Map<number, L6WikiRow>();
+  for (const r of wikiRows) wikiBySortId.set(r.wikiTaskIndex, r);
+
+  let updated = 0;
+  let missing = 0;
+  for (const task of existingTasks) {
+    const wiki = wikiBySortId.get(task.sortId);
+    if (!wiki) {
+      missing++;
+      continue;
+    }
+
+    let changed = false;
+    if (wiki.completionPercent != null && wiki.completionPercent !== task.completionPercent) {
+      task.completionPercent = wiki.completionPercent;
+      changed = true;
+    }
+    if (wiki.requirements !== task.wikiNotes) {
+      task.wikiNotes = wiki.requirements ?? undefined;
+      changed = true;
+    }
+    if (wiki.requirementsHtml !== task.wikiNotesHtml) {
+      task.wikiNotesHtml = wiki.requirementsHtml ?? undefined;
+      changed = true;
+    }
+    if (wiki.skills.length > 0) {
+      const fresh = JSON.stringify(wiki.skills);
+      const existing = JSON.stringify(task.skillRequirements ?? []);
+      if (fresh !== existing) {
+        task.skillRequirements = wiki.skills;
+        changed = true;
+      }
+    }
+    if (wiki.points != null && wiki.points !== task.points) {
+      task.points = wiki.points;
+      changed = true;
+    }
+    if (changed) updated++;
+  }
+
+  log(`merged: ${updated} tasks changed, ${missing} full.json entries had no wiki match`);
+
+  writeL6FullJson(existingTasks, outputDir, taskType);
+  writeL6MinJson(existingTasks, outputDir, taskType);
+  log(`wrote full.json + min.json`);
+}
+
 function validateWikiRows(rows: L6WikiRow[], config: LeagueDbrowConfig): void {
   const seen = new Set<number>();
   for (const r of rows) {

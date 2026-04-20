@@ -82,6 +82,8 @@ export interface LeagueMetadata {
   endDate: string;
   active: boolean;
   taskTypeName: string;
+  /** STRUCT = L1-L5 struct-based. DBROW = L6+ DB-row based. Controls which pipeline handles the league. */
+  sourceType?: 'STRUCT' | 'DBROW';
   wikiUrl?: string;
   taskCount?: number;
   dir: string;

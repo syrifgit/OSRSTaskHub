@@ -13,7 +13,7 @@ import { createCacheProvider } from './cache/provider';
 import { extractTasksFromCache, hydrateTasks, resolveTierParam } from './cache/tasks';
 import { scrapeAndMergeWikiData } from './wiki/scraper';
 import { writeFullJson, writeRawJson, writeMinJson, writeCsv, mergeLocations } from './output/writers';
-import { findActiveLeague, resolveOutputDir, updateLeague, getWikiConfig, isLeagueEnded } from './leagues';
+import { findActiveLeague, findLeagueByTaskType, resolveOutputDir, updateLeague, getWikiConfig, isLeagueEnded } from './leagues';
 import { DEFAULT_WIKI_COLUMNS, PARAM_IDS } from './types';
 
 /**
@@ -134,6 +134,20 @@ export async function updateWiki(taskTypeName?: string): Promise<void> {
   const { readFileSync } = await import('fs');
   const fullTasks = JSON.parse(readFileSync(fullPath, 'utf-8'));
   console.log(`Loaded ${fullTasks.length} tasks from ${fullPath}`);
+
+  // Dispatch DBROW leagues (L6+) to the dbrow wiki-refresh path. STRUCT path
+  // (L1-L5, Combat) falls through to the original logic below.
+  // Note: L6 full.json aliases structId to dbRowId for classifier compat, so
+  // we can't detect DBROW by structId absence. dbRowId presence is the
+  // reliable signal - STRUCT tasks never have a dbRowId field.
+  const league = findLeagueByTaskType(taskTypeName);
+  const isDbrow = league?.sourceType === 'DBROW'
+    || (fullTasks.length > 0 && fullTasks[0].dbRowId != null);
+  if (isDbrow) {
+    const { updateWikiDbrow } = await import('./dbrow/pipeline');
+    await updateWikiDbrow(taskTypeName, fullTasks, outputDir);
+    return;
+  }
 
   const wikiConfig = getWikiConfig(taskTypeName);
   if (!wikiConfig) throw new Error(`No wiki URL for "${taskTypeName}" in leagues.json`);
