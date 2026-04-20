@@ -32770,9 +32770,18 @@
       {
         "skill": "FARMING",
         "level": 83
+      },
+      {
+        "skill": "CONSTRUCTION",
+        "level": 75
+      },
+      {
+        "skill": "FARMING",
+        "level": 88
       }
     ],
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Farming\" data-level=\"83\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Farming\" title=\"Farming\"><img alt=\"Farming\" src=\"/images/Farming_icon.png?558fa\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 83 <a href=\"/w/Farming\" title=\"Farming\">Farming</a></span>"
+    "wikiNotes": "and or",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Farming\" data-level=\"83\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Farming\" title=\"Farming\"><img alt=\"Farming\" src=\"/images/Farming_icon.png?558fa\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 83 <a href=\"/w/Farming\" title=\"Farming\">Farming</a></span> and <span class=\"scp\" data-skill=\"Construction\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Construction\" title=\"Construction\"><img alt=\"Construction\" src=\"/images/Construction_icon.png?f9bf7\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 75 <a href=\"/w/Construction\" title=\"Construction\">Construction</a></span> or <span class=\"scp\" data-skill=\"Farming\" data-level=\"88\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Farming\" title=\"Farming\"><img alt=\"Farming\" src=\"/images/Farming_icon.png?558fa\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 88 <a href=\"/w/Farming\" title=\"Farming\">Farming</a></span>"
   },
   {
     "name": "Turn in 50 Summer Sq'irkjuices to Osman",
