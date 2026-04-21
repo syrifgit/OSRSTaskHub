@@ -17560,7 +17560,8 @@
         "level": 79
       }
     ],
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"79\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 79 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>"
+    "wikiNotes": "5 Ent branches, Greenman mask, Yew logs, and a Knife",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"79\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 79 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span><br>5 <a href=\"/w/Ent_branch\" title=\"Ent branch\">Ent branches</a>, <a href=\"/w/Greenman_mask\" title=\"Greenman mask\">Greenman mask</a>, <a href=\"/w/Yew_logs\" title=\"Yew logs\">Yew logs</a>, and a <a href=\"/w/Knife\" title=\"Knife\">Knife</a>"
   },
   {
     "name": "Obtain the Huntsman's Kit",
