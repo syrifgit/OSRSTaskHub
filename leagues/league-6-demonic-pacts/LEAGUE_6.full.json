@@ -17588,10 +17588,10 @@
     "skillRequirements": [
       {
         "skill": "HUNTER",
-        "level": 46
+        "level": 57
       }
     ],
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"46\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 46 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>"
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"57\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 57 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>"
   },
   {
     "name": "Open a chest with the moon key",
