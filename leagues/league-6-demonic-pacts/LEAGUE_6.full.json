@@ -15309,7 +15309,8 @@
         "level": 10
       }
     ],
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"10\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 10 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span>"
+    "wikiNotes": "NOTE: using the Bake Pie spell does not count towards the task.",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"10\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 10 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span><br><b>NOTE:</b> using the <a href=\"/w/Bake_Pie\" title=\"Bake Pie\">Bake Pie</a> spell does not count towards the task."
   },
   {
     "name": "Cook 25 Meat Pies",
@@ -15331,7 +15332,8 @@
         "level": 20
       }
     ],
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"20\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 20 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span>"
+    "wikiNotes": "NOTE: using the Bake Pie spell does not count towards the task.",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"20\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 20 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span><br><b>NOTE:</b> using the <a href=\"/w/Bake_Pie\" title=\"Bake Pie\">Bake Pie</a> spell does not count towards the task."
   },
   {
     "name": "Craft 100 Unpowered Orbs",
