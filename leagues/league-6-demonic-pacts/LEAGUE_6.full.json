@@ -24538,7 +24538,9 @@
     "pactTask": false,
     "category": 2,
     "categoryName": "Combat",
-    "completionPercent": 0.1
+    "completionPercent": 0.1,
+    "wikiNotes": "See Thermonuclear Smoke Devil § Combat AchievementsKnown issue: Completing all Combat Achievements doesn't currently complete this task (all)",
+    "wikiNotesHtml": "See <a href=\"/w/Thermonuclear_Smoke_Devil#Combat_Achievements\" class=\"mw-redirect\" title=\"Thermonuclear Smoke Devil\">Thermonuclear Smoke Devil § Combat Achievements</a><br><span style=\"color: var(--color-destructive);\"><i><b>Known issue:</b></i> Completing all Combat Achievements doesn't currently complete this task <sup>(<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://secure.runescape.com/m=news/leagues-vi-demonic-pacts---fixes--issues?oldschool=1\">all</a>)</sup></span>"
   },
   {
     "name": "Thieve a Diamond from a Gem Stall in Tirannwn",
