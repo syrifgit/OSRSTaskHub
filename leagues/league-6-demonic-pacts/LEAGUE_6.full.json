@@ -10818,8 +10818,8 @@
     "category": 2,
     "categoryName": "Combat",
     "completionPercent": 0.1,
-    "wikiNotes": "Completion of Tower of LifeNote: This task is impossible, as it requires access to Misthalin to obtain giant frog legs and raw cave eel.",
-    "wikiNotesHtml": "Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Tower_of_Life\" title=\"Tower of Life\">Tower of Life</a><i>Note: This task is impossible, as it requires access to Misthalin to obtain <a href=\"/w/Giant_frog_legs\" title=\"Giant frog legs\">giant frog legs</a> and <a href=\"/w/Raw_cave_eel\" title=\"Raw cave eel\">raw cave eel</a>.</i>",
+    "wikiNotes": "Completion of Tower of LifeNote: This task is impossible, as it requires access to Misthalin to obtain giant frog legs and Misthalin or Asgarnia to obtain raw cave eel.",
+    "wikiNotesHtml": "Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Tower_of_Life\" title=\"Tower of Life\">Tower of Life</a><i>Note: This task is impossible, as it requires access to Misthalin to obtain <a href=\"/w/Giant_frog_legs\" title=\"Giant frog legs\">giant frog legs</a> and Misthalin or Asgarnia to obtain <a href=\"/w/Raw_cave_eel\" title=\"Raw cave eel\">raw cave eel</a>.</i>",
     "location": {
       "x": 2648,
       "y": 3219,
