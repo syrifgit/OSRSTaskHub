@@ -16708,8 +16708,8 @@
     "category": 2,
     "categoryName": "Combat",
     "completionPercent": 3,
-    "wikiNotes": "See Amoxliatl#Combat AchievementsSee Amoxliatl#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Amoxliatl#Combat_Achievements\" title=\"Amoxliatl\">Amoxliatl#Combat Achievements</a><br>See <a href=\"/w/Amoxliatl#Combat_Achievements\" title=\"Amoxliatl\">Amoxliatl#Combat Achievements</a>",
+    "wikiNotes": "See Amoxliatl#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Amoxliatl#Combat_Achievements\" title=\"Amoxliatl\">Amoxliatl#Combat Achievements</a>",
     "location": {
       "x": 1362,
       "y": 4511,
@@ -23716,10 +23716,10 @@
     "skillRequirements": [
       {
         "skill": "FLETCHING",
-        "level": 53
+        "level": 78
       }
     ],
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"53\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 53 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>"
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"78\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 78 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>"
   },
   {
     "name": "Make 100 Mahogany Planks in Prifddinas",
@@ -28137,8 +28137,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 1.3,
-    "wikiNotes": "See Alchemical Hydra#Combat AchievementsSee Alchemical Hydra#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Alchemical_Hydra#Combat_Achievements\" title=\"Alchemical Hydra\">Alchemical Hydra#Combat Achievements</a><br>See <a href=\"/w/Alchemical_Hydra#Combat_Achievements\" title=\"Alchemical Hydra\">Alchemical Hydra#Combat Achievements</a>",
+    "wikiNotes": "See Alchemical Hydra#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Alchemical_Hydra#Combat_Achievements\" title=\"Alchemical Hydra\">Alchemical Hydra#Combat Achievements</a>",
     "location": {
       "x": 1364,
       "y": 10265,
@@ -28159,8 +28159,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 1.1,
-    "wikiNotes": "See Araxxor#Combat AchievementsSee Araxxor#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Araxxor#Combat_Achievements\" title=\"Araxxor\">Araxxor#Combat Achievements</a><br>See <a href=\"/w/Araxxor#Combat_Achievements\" title=\"Araxxor\">Araxxor#Combat Achievements</a>",
+    "wikiNotes": "See Araxxor#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Araxxor#Combat_Achievements\" title=\"Araxxor\">Araxxor#Combat Achievements</a>",
     "location": {
       "x": 3635,
       "y": 9815,
@@ -29133,8 +29133,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 2.1,
-    "wikiNotes": "See Dagannoth Kings#Combat AchievementsSee Dagannoth Kings#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Dagannoth_Kings#Combat_Achievements\" title=\"Dagannoth Kings\">Dagannoth Kings#Combat Achievements</a><br>See <a href=\"/w/Dagannoth_Kings#Combat_Achievements\" title=\"Dagannoth Kings\">Dagannoth Kings#Combat Achievements</a>",
+    "wikiNotes": "See Dagannoth Kings#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Dagannoth_Kings#Combat_Achievements\" title=\"Dagannoth Kings\">Dagannoth Kings#Combat Achievements</a>",
     "location": {
       "x": 2631,
       "y": 9667,
@@ -29777,8 +29777,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.9,
-    "wikiNotes": "See Duke Sucellus#Combat AchievementsSee Duke Sucellus#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Duke_Sucellus#Combat_Achievements\" title=\"Duke Sucellus\">Duke Sucellus#Combat Achievements</a><br>See <a href=\"/w/Duke_Sucellus#Combat_Achievements\" title=\"Duke Sucellus\">Duke Sucellus#Combat Achievements</a>",
+    "wikiNotes": "See Duke Sucellus#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Duke_Sucellus#Combat_Achievements\" title=\"Duke Sucellus\">Duke Sucellus#Combat Achievements</a>",
     "location": {
       "x": 3039,
       "y": 6454,
@@ -32275,7 +32275,7 @@
     "skillRequirements": [
       {
         "skill": "FLETCHING",
-        "level": 53
+        "level": 78
       },
       {
         "skill": "HUNTER",
@@ -32287,7 +32287,7 @@
       }
     ],
     "wikiNotes": ", either or to obtain the darts",
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"53\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 53 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>, either <span class=\"scp\" data-skill=\"Hunter\" data-level=\"83\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 83 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span> or <span class=\"scp\" data-skill=\"Fletching\" data-level=\"95\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 95 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span> to obtain the darts"
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"78\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 78 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>, either <span class=\"scp\" data-skill=\"Hunter\" data-level=\"83\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 83 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span> or <span class=\"scp\" data-skill=\"Fletching\" data-level=\"95\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 95 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span> to obtain the darts"
   },
   {
     "name": "Loot a dragonstone from the Rogues Castle",
@@ -32559,8 +32559,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.3,
-    "wikiNotes": "See Phantom Muspah#Combat AchievementsSee Phantom Muspah#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Phantom_Muspah#Combat_Achievements\" title=\"Phantom Muspah\">Phantom Muspah#Combat Achievements</a><br>See <a href=\"/w/Phantom_Muspah#Combat_Achievements\" title=\"Phantom Muspah\">Phantom Muspah#Combat Achievements</a>",
+    "wikiNotes": "See Phantom Muspah#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Phantom_Muspah#Combat_Achievements\" title=\"Phantom Muspah\">Phantom Muspah#Combat Achievements</a>",
     "location": {
       "x": 2909,
       "y": 10317,
@@ -32725,8 +32725,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.1,
-    "wikiNotes": "See The Leviathan#Combat AchievementsSee The Leviathan#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/The_Leviathan#Combat_Achievements\" title=\"The Leviathan\">The Leviathan#Combat Achievements</a><br>See <a href=\"/w/The_Leviathan#Combat_Achievements\" title=\"The Leviathan\">The Leviathan#Combat Achievements</a>",
+    "wikiNotes": "See The Leviathan#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/The_Leviathan#Combat_Achievements\" title=\"The Leviathan\">The Leviathan#Combat Achievements</a>",
     "location": {
       "x": 2081,
       "y": 6372,
@@ -32767,8 +32767,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.1,
-    "wikiNotes": "See The Whisperer#Combat AchievementsSee The Whisperer#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/The_Whisperer#Combat_Achievements\" title=\"The Whisperer\">The Whisperer#Combat Achievements</a><br>See <a href=\"/w/The_Whisperer#Combat_Achievements\" title=\"The Whisperer\">The Whisperer#Combat Achievements</a>",
+    "wikiNotes": "See The Whisperer#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/The_Whisperer#Combat_Achievements\" title=\"The Whisperer\">The Whisperer#Combat Achievements</a>",
     "location": {
       "x": 2656,
       "y": 6369,
@@ -32901,8 +32901,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.3,
-    "wikiNotes": "See Vorkath#Combat AchievementsSee Vorkath#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Vorkath#Combat_Achievements\" title=\"Vorkath\">Vorkath#Combat Achievements</a><br>See <a href=\"/w/Vorkath#Combat_Achievements\" title=\"Vorkath\">Vorkath#Combat Achievements</a>",
+    "wikiNotes": "See Vorkath#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Vorkath#Combat_Achievements\" title=\"Vorkath\">Vorkath#Combat Achievements</a>",
     "location": {
       "x": 2269,
       "y": 4062,
@@ -33176,8 +33176,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.1,
-    "wikiNotes": "See Fortis Colosseum#Combat AchievementsSee Fortis Colosseum#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Fortis_Colosseum#Combat_Achievements\" title=\"Fortis Colosseum\">Fortis Colosseum#Combat Achievements</a><br>See <a href=\"/w/Fortis_Colosseum#Combat_Achievements\" title=\"Fortis Colosseum\">Fortis Colosseum#Combat Achievements</a>",
+    "wikiNotes": "See Fortis Colosseum#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Fortis_Colosseum#Combat_Achievements\" title=\"Fortis Colosseum\">Fortis Colosseum#Combat Achievements</a>",
     "location": {
       "x": 1805,
       "y": 9508,
@@ -33198,8 +33198,8 @@
     "category": 2,
     "categoryName": "Combat",
     "completionPercent": 0.1,
-    "wikiNotes": "See Doom of Mokhaiotl#Combat AchievementsSee Doom of Mokhaiotl#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Doom_of_Mokhaiotl#Combat_Achievements\" title=\"Doom of Mokhaiotl\">Doom of Mokhaiotl#Combat Achievements</a><br>See <a href=\"/w/Doom_of_Mokhaiotl#Combat_Achievements\" title=\"Doom of Mokhaiotl\">Doom of Mokhaiotl#Combat Achievements</a>"
+    "wikiNotes": "See Doom of Mokhaiotl#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Doom_of_Mokhaiotl#Combat_Achievements\" title=\"Doom of Mokhaiotl\">Doom of Mokhaiotl#Combat Achievements</a>"
   },
   {
     "name": "Equip Blessed Dizana's Quiver",
@@ -33257,8 +33257,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.1,
-    "wikiNotes": "See Chambers of Xeric#Combat AchievementsSee Chambers of Xeric#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Chambers_of_Xeric#Combat_Achievements\" title=\"Chambers of Xeric\">Chambers of Xeric#Combat Achievements</a><br>See <a href=\"/w/Chambers_of_Xeric#Combat_Achievements\" title=\"Chambers of Xeric\">Chambers of Xeric#Combat Achievements</a>",
+    "wikiNotes": "See Chambers of Xeric#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Chambers_of_Xeric#Combat_Achievements\" title=\"Chambers of Xeric\">Chambers of Xeric#Combat Achievements</a>",
     "location": {
       "x": 1232,
       "y": 3573,
@@ -33804,8 +33804,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.1,
-    "wikiNotes": "See General Graardor#Combat Achievements, Kree'arra#Combat Achievements, Commander Zilyana#Combat Achievements, K'ril Tsutsaroth#Combat Achievements and Nex#Combat AchievementsSee General Graardor#Combat Achievements, Kree'arra#Combat Achievements, Commander Zilyana#Combat Achievements, K'ril Tsutsaroth#Combat Achievements and Nex#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/General_Graardor#Combat_Achievements\" title=\"General Graardor\">General Graardor#Combat Achievements</a>, <a href=\"/w/Kree%27arra#Combat_Achievements\" title=\"Kree'arra\">Kree'arra#Combat Achievements</a>, <a href=\"/w/Commander_Zilyana#Combat_Achievements\" title=\"Commander Zilyana\">Commander Zilyana#Combat Achievements</a>, <a href=\"/w/K%27ril_Tsutsaroth#Combat_Achievements\" title=\"K'ril Tsutsaroth\">K'ril Tsutsaroth#Combat Achievements</a> and <a href=\"/w/Nex#Combat_Achievements\" title=\"Nex\">Nex#Combat Achievements</a><br>See <a href=\"/w/General_Graardor#Combat_Achievements\" title=\"General Graardor\">General Graardor#Combat Achievements</a>, <a href=\"/w/Kree%27arra#Combat_Achievements\" title=\"Kree'arra\">Kree'arra#Combat Achievements</a>, <a href=\"/w/Commander_Zilyana#Combat_Achievements\" title=\"Commander Zilyana\">Commander Zilyana#Combat Achievements</a>, <a href=\"/w/K%27ril_Tsutsaroth#Combat_Achievements\" title=\"K'ril Tsutsaroth\">K'ril Tsutsaroth#Combat Achievements</a> and <a href=\"/w/Nex#Combat_Achievements\" title=\"Nex\">Nex#Combat Achievements</a>"
+    "wikiNotes": "See General Graardor#Combat Achievements, Kree'arra#Combat Achievements, Commander Zilyana#Combat Achievements, K'ril Tsutsaroth#Combat Achievements and Nex#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/General_Graardor#Combat_Achievements\" title=\"General Graardor\">General Graardor#Combat Achievements</a>, <a href=\"/w/Kree%27arra#Combat_Achievements\" title=\"Kree'arra\">Kree'arra#Combat Achievements</a>, <a href=\"/w/Commander_Zilyana#Combat_Achievements\" title=\"Commander Zilyana\">Commander Zilyana#Combat Achievements</a>, <a href=\"/w/K%27ril_Tsutsaroth#Combat_Achievements\" title=\"K'ril Tsutsaroth\">K'ril Tsutsaroth#Combat Achievements</a> and <a href=\"/w/Nex#Combat_Achievements\" title=\"Nex\">Nex#Combat Achievements</a>"
   },
   {
     "name": "Obtain Every Revenant Weapon",
@@ -33836,8 +33836,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.1,
-    "wikiNotes": "See TzHaar Fight Cave#Combat AchievementsSee TzHaar Fight Cave#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/TzHaar_Fight_Cave#Combat_Achievements\" title=\"TzHaar Fight Cave\">TzHaar Fight Cave#Combat Achievements</a><br>See <a href=\"/w/TzHaar_Fight_Cave#Combat_Achievements\" title=\"TzHaar Fight Cave\">TzHaar Fight Cave#Combat Achievements</a>",
+    "wikiNotes": "See TzHaar Fight Cave#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/TzHaar_Fight_Cave#Combat_Achievements\" title=\"TzHaar Fight Cave\">TzHaar Fight Cave#Combat Achievements</a>",
     "location": {
       "x": 2437,
       "y": 5168,
@@ -33858,8 +33858,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.1,
-    "wikiNotes": "See Inferno#Combat AchievementsSee Inferno#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Inferno#Combat_Achievements\" title=\"Inferno\">Inferno#Combat Achievements</a><br>See <a href=\"/w/Inferno#Combat_Achievements\" title=\"Inferno\">Inferno#Combat Achievements</a>",
+    "wikiNotes": "See Inferno#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Inferno#Combat_Achievements\" title=\"Inferno\">Inferno#Combat Achievements</a>",
     "location": {
       "x": 2496,
       "y": 5115,
@@ -33880,6 +33880,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.1,
+    "wikiNotes": "See Theatre of Blood#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Theatre_of_Blood#Combat_Achievements\" title=\"Theatre of Blood\">Theatre of Blood#Combat Achievements</a>",
     "location": {
       "x": 3651,
       "y": 3208,
@@ -33900,8 +33902,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.1,
-    "wikiNotes": "See Tombs of Amascut#Combat AchievementsSee Tombs of Amascut#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Tombs_of_Amascut#Combat_Achievements\" title=\"Tombs of Amascut\">Tombs of Amascut#Combat Achievements</a><br>See <a href=\"/w/Tombs_of_Amascut#Combat_Achievements\" title=\"Tombs of Amascut\">Tombs of Amascut#Combat Achievements</a>",
+    "wikiNotes": "See Tombs of Amascut#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Tombs_of_Amascut#Combat_Achievements\" title=\"Tombs of Amascut\">Tombs of Amascut#Combat Achievements</a>",
     "location": {
       "x": 3348,
       "y": 2722,
@@ -33922,8 +33924,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.1,
-    "wikiNotes": "See TzHaar-Ket-Rak's Challenges#Combat AchievementsSee TzHaar-Ket-Rak's Challenges#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/TzHaar-Ket-Rak%27s_Challenges#Combat_Achievements\" title=\"TzHaar-Ket-Rak's Challenges\">TzHaar-Ket-Rak's Challenges#Combat Achievements</a><br>See <a href=\"/w/TzHaar-Ket-Rak%27s_Challenges#Combat_Achievements\" title=\"TzHaar-Ket-Rak's Challenges\">TzHaar-Ket-Rak's Challenges#Combat Achievements</a>",
+    "wikiNotes": "See TzHaar-Ket-Rak's Challenges#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/TzHaar-Ket-Rak%27s_Challenges#Combat_Achievements\" title=\"TzHaar-Ket-Rak's Challenges\">TzHaar-Ket-Rak's Challenges#Combat Achievements</a>",
     "location": {
       "x": 2543,
       "y": 5111,
