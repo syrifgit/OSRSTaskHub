@@ -279,7 +279,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14796,277,Cook 50 Tuna,Cook 50 Raw Tuna,Global,2,Medium,30,false,1,Skill,75,COOKING 30,
 14800,278,Craft 20 Silver items,Craft 20 Silver items using Silver Bars,Global,2,Medium,30,false,1,Skill,58,,
 14801,279,Craft 200 Essence Into Runes,Use Runecrafting Altars to craft 200 essence into runes of any type,Global,2,Medium,30,false,1,Skill,17.3,,
-14809,280,Craft Any Combination Rune,Use a Runecrafting Altar to craft any type of combination rune,Global,2,Medium,30,false,1,Skill,7.4,RUNECRAFT 6; RUNECRAFT 15; RUNECRAFT 33,"Either ( Asgarnia✓), ( Desert✓), ( Varlamore✓"
+14809,280,Craft Any Combination Rune,Use a Runecrafting Altar to craft any type of combination rune,Global,2,Medium,30,false,1,Skill,7.4,RUNECRAFT 6; RUNECRAFT 15; RUNECRAFT 33,"Either ( Asgarnia✓), ( Desert✓), ( Varlamore✓)"
 14806,281,Craft a Sapphire Amulet,Craft a Sapphire Amulet,Global,2,Medium,30,false,1,Skill,61.7,CRAFTING 24,
 14807,282,Craft an Emerald Ring,Craft an Emerald Ring,Global,2,Medium,30,false,1,Skill,63.7,CRAFTING 27,
 13622,283,Defeat 25 Superior slayer creatures,Defeat 25 Superior slayer creatures,Global,2,Medium,30,false,2,Combat,18.4,SLAYER 5,Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked
