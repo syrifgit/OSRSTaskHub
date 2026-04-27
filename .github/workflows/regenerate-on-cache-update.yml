@@ -5,6 +5,11 @@ on:
     # Check every 6 hours
     - cron: '0 */6 * * *'
   workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force full rebuild even if upstream cache is unchanged'
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -30,11 +35,15 @@ jobs:
           fi
           echo "current_cache=$CURRENT" >> "$GITHUB_OUTPUT"
 
-          if [ "$LATEST" = "$CURRENT" ]; then
+          if [ "$LATEST" = "$CURRENT" ] && [ "${{ inputs.force }}" != "true" ]; then
             echo "Cache unchanged"
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "Cache updated: $CURRENT -> $LATEST"
+            if [ "${{ inputs.force }}" = "true" ] && [ "$LATEST" = "$CURRENT" ]; then
+              echo "Cache unchanged but force=true; rebuilding anyway"
+            else
+              echo "Cache updated: $CURRENT -> $LATEST"
+            fi
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
