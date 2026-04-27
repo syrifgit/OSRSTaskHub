@@ -57,29 +57,36 @@ jobs:
         if: steps.check-cache.outputs.changed == 'true'
         id: check-active
         run: |
-          ACTIVE=$(python3 -c "
+          read ACTIVE SOURCE_TYPE < <(python3 -c "
           import json
           leagues = json.load(open('leagues/index.json'))
           for l in leagues:
             if l.get('active') and l.get('taskTypeName'):
-              print(l['taskTypeName'])
+              print(l['taskTypeName'], l.get('sourceType', 'STRUCT'))
               break
           ")
           if [ -z "$ACTIVE" ]; then
             echo "No active league, skipping regeneration"
             echo "active=false" >> "$GITHUB_OUTPUT"
           else
-            echo "Active league: $ACTIVE"
+            echo "Active league: $ACTIVE (source: $SOURCE_TYPE)"
             echo "active=true" >> "$GITHUB_OUTPUT"
             echo "task_type=$ACTIVE" >> "$GITHUB_OUTPUT"
+            echo "source_type=$SOURCE_TYPE" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Generate full task JSON
-        if: steps.check-active.outputs.active == 'true'
+      # DBROW path: single command handles cache enrichment + wiki + classifier
+      - name: Regenerate (DBROW - full pipeline with classifier)
+        if: steps.check-active.outputs.active == 'true' && steps.check-active.outputs.source_type == 'DBROW'
+        run: npm run cli -- tasks dbrow:scrape ${{ steps.check-active.outputs.task_type }}
+
+      # STRUCT path: extract -> wiki scrape -> classify -> merge are separate steps
+      - name: Generate full task JSON (STRUCT)
+        if: steps.check-active.outputs.active == 'true' && steps.check-active.outputs.source_type == 'STRUCT'
         run: npm run cli -- tasks generate-full ${{ steps.check-active.outputs.task_type }}
 
-      - name: Classify task locations
-        if: steps.check-active.outputs.active == 'true'
+      - name: Classify task locations (STRUCT)
+        if: steps.check-active.outputs.active == 'true' && steps.check-active.outputs.source_type == 'STRUCT'
         run: |
           LEAGUE_DIR=$(python3 -c "
           import json
