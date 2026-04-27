@@ -19,12 +19,21 @@ import * as path from 'path';
 import { execFileSync } from 'child_process';
 import { findLeagueByTaskType, resolveOutputDir, updateLeague, getWikiConfig } from '../leagues';
 import { createCacheProvider } from '../cache/provider';
+import { Enum } from '@abextm/cache2';
 import { scrapeDbrowWiki, L6WikiRow } from './scrapeWiki';
-import { enrichWithCache, EnrichedRow, loadTaskIndexMap } from './enrichCache';
+import {
+  enrichWithCache,
+  EnrichedRow,
+  loadTaskIndexMap,
+  invertTaskIndexMap,
+  findActiveDbRowIds,
+  loadFlagEnum,
+} from './enrichCache';
 import { getSchema } from './tableSchemas';
 import { getLeagueConfig, LeagueDbrowConfig } from './config';
 import {
   combineWikiAndCache,
+  combineCacheAndWiki,
   writeL6FullJson,
   writeL6MinJson,
   writeL6RawJson,
@@ -63,67 +72,89 @@ export async function runDbrowPipeline(opts: DbrowPipelineOptions): Promise<void
 
   const schemaName = opts.schemaName ?? config.schemaName;
 
-  // --- Tier A: wiki scrape
+  // Wiki scrape always runs - provides display supplements (skills, notes,
+  // completionPercent) not present in cache.
   log(`wiki scrape: ${wikiUrl}`);
   const wikiRows = await scrapeDbrowWiki({ wikiUrl, spec: config.wiki });
   log(`wiki: ${wikiRows.length} tasks`);
   validateWikiRows(wikiRows, config);
 
-  // --- Tier B: cache enrichment (optional)
-  let enriched: EnrichedRow[] | undefined;
-  let resolved = 0;
+  let tasks: L6Task[];
+
   if (opts.useCache) {
-    try {
-      log(`cache: opening provider`);
-      const cache = await createCacheProvider();
+    // --- Cache-authoritative path. Cache determines task membership and
+    //     baseline fields; wiki supplements skills/notes/completion%.
+    log(`cache: opening provider`);
+    const cache = await createCacheProvider();
+    const schema = getSchema(schemaName);
 
-      // Resolve wikiTaskIndex -> real dbRowId via task-index enum.
-      log(`cache: loading enum ${config.taskIndexEnumId} (task index -> dbRowId)`);
-      const indexMap = await loadTaskIndexMap(cache, config.taskIndexEnumId);
-      log(`cache: enum ${config.taskIndexEnumId} has ${indexMap.size} entries`);
-      for (const row of wikiRows) {
-        const realId = indexMap.get(row.wikiTaskIndex);
-        if (realId != null) {
-          row.dbRowId = realId;
-          resolved++;
-        }
-      }
-      log(`cache: resolved ${resolved}/${wikiRows.length} wiki indices to real dbRowIds`);
-      const unresolved = wikiRows.filter(r => r.dbRowId == null).map(r => r.wikiTaskIndex);
-      if (unresolved.length) {
-        console.warn(
-          `${config.logPrefix} cache: ${unresolved.length} wiki indices missing from enum ${config.taskIndexEnumId}: ` +
-          `${unresolved.slice(0, 10).join(', ')}${unresolved.length > 10 ? '...' : ''}`,
-        );
-      }
+    log(`cache: finding active tasks via marker column "${config.markerColumn}"`);
+    const activeIds = await findActiveDbRowIds(cache, schema, config.markerColumn);
+    log(`cache: ${activeIds.size} active tasks (col "${config.markerColumn}" = 1)`);
 
-      const schema = getSchema(schemaName);
-      const dbRowIds = wikiRows
-        .map(r => r.dbRowId)
-        .filter((id): id is number => id != null);
-      enriched = await enrichWithCache(cache, schema, { dbRowIds });
-      log(`cache: enriched ${enriched.length} rows`);
+    log(`cache: loading enum ${config.taskIndexEnumId} for sortId lookup`);
+    const forwardIndex = await loadTaskIndexMap(cache, config.taskIndexEnumId);
+    const reverseIndex = invertTaskIndexMap(forwardIndex);
+    log(`cache: enum ${config.taskIndexEnumId} has ${forwardIndex.size} entries (${forwardIndex.size - activeIds.size} reserved/deprecated)`);
 
-      const missingFromCache = dbRowIds.filter(
-        id => !enriched!.find(e => e.dbRowId === id),
-      );
-      if (missingFromCache.length) {
-        console.warn(
-          `${config.logPrefix} cache: ${missingFromCache.length} resolved dbRowIds absent from cache table ${schema.tableId}: ` +
-          `${missingFromCache.slice(0, 10).join(', ')}${missingFromCache.length > 10 ? '...' : ''}`,
-        );
-      }
-    } catch (err: any) {
-      console.warn(`${config.logPrefix} cache step skipped: ${err.message}`);
-      enriched = undefined;
+    const pactTaskIds = config.pactTaskEnumId != null
+      ? await loadFlagEnum(cache, config.pactTaskEnumId)
+      : new Set<number>();
+    if (config.pactTaskEnumId != null) {
+      log(`cache: enum ${config.pactTaskEnumId} (pact tasks): ${pactTaskIds.size} entries`);
     }
-  } else {
-    log(`cache: skipped (--no-cache)`);
-    console.warn(`${config.logPrefix} WARNING: without cache, dbRowId is null in output.`);
-  }
 
-  // Build combined task records.
-  const tasks = combineWikiAndCache(wikiRows, enriched, config.decoders);
+    const tierPoints = await loadTierPoints(cache, 2671);
+    log(`cache: tier-points enum 2671: ${tierPoints.size} tiers`);
+
+    const enriched = await enrichWithCache(cache, schema, { dbRowIds: [...activeIds] });
+    log(`cache: enriched ${enriched.length} rows`);
+
+    // Build wiki-row map keyed by dbRowId (resolve via forward enum)
+    const wikiByDbRowId = new Map<number, L6WikiRow>();
+    for (const wr of wikiRows) {
+      const dbId = forwardIndex.get(wr.wikiTaskIndex);
+      if (dbId != null) {
+        wr.dbRowId = dbId;
+        wikiByDbRowId.set(dbId, wr);
+      }
+    }
+
+    // Log cache-vs-wiki mismatches. These indicate Jagex made a change in-game
+    // before the wiki was updated (or vice-versa). Cache wins - wiki fields
+    // silently absent for cache-only tasks, wiki-only tasks silently dropped.
+    const wikiIds = new Set([...wikiByDbRowId.keys()]);
+    const cacheNotWiki = [...activeIds].filter(id => !wikiIds.has(id));
+    const wikiNotCache = [...wikiIds].filter(id => !activeIds.has(id));
+    if (cacheNotWiki.length) {
+      console.warn(`${config.logPrefix} mismatch: ${cacheNotWiki.length} active cache tasks not yet on wiki:`);
+      for (const id of cacheNotWiki.slice(0, 5)) {
+        const r = enriched.find(e => e.dbRowId === id);
+        const name = r ? (Array.isArray(r.columns.action_name) ? r.columns.action_name[0] : r.columns.action_name) : '?';
+        console.warn(`  ${id}: "${name}"`);
+      }
+      if (cacheNotWiki.length > 5) console.warn(`  ...+${cacheNotWiki.length - 5} more`);
+    }
+    if (wikiNotCache.length) {
+      console.warn(`${config.logPrefix} mismatch: ${wikiNotCache.length} wiki tasks not active in cache (stale wiki entries):`);
+      for (const id of wikiNotCache.slice(0, 5)) {
+        const w = wikiByDbRowId.get(id);
+        console.warn(`  ${id}: "${w?.name}"`);
+      }
+      if (wikiNotCache.length > 5) console.warn(`  ...+${wikiNotCache.length - 5} more`);
+    }
+
+    tasks = combineCacheAndWiki(
+      { enriched, wikiByDbRowId, sortIdByDbRowId: reverseIndex, pactTaskIds, tierPoints },
+      config.decoders,
+    );
+  } else {
+    // --- Tier A fallback: wiki-only. Degraded - may include stale wiki entries
+    //     and misses cache-only tasks. Only useful pre-cache-drop.
+    log(`cache: skipped (--no-cache) - wiki drives membership, may be stale`);
+    console.warn(`${config.logPrefix} WARNING: --no-cache produces degraded output; wiki lags in-game state`);
+    tasks = combineWikiAndCache(wikiRows, undefined, config.decoders);
+  }
 
   // Raw is the master record (wiki + cache nested by source). Written after
   // enrichment so it has resolved dbRowIds and cache column data.
@@ -253,6 +284,16 @@ function validateWikiRows(rows: L6WikiRow[], config: LeagueDbrowConfig): void {
     seen.add(r.wikiTaskIndex);
   }
   console.log(`${config.logPrefix} validated: ${rows.length} unique wikiTaskIndices`);
+}
+
+async function loadTierPoints(cache: any, enumId: number): Promise<Map<number, number>> {
+  const e = await Enum.load(cache, enumId as any);
+  const out = new Map<number, number>();
+  if (!e) return out;
+  for (const [k, v] of (e as any).map) {
+    if (typeof k === 'number' && typeof v === 'number') out.set(k, v);
+  }
+  return out;
 }
 
 function runClassifier(inputPath: string, outputPath: string): void {

@@ -19,6 +19,9 @@ export const LEAGUE_6_CONFIG: LeagueDbrowConfig = {
   logPrefix: '[L6]',
   taskIndexEnumId: 5950,
   schemaName: 'action',
+  markerColumn: 'league_task_marker',
+  pactTaskEnumId: 5952,
+  pactResetEnumId: 5953,
 
   wiki: {
     rowSelector: 'tr[data-taskid][data-league-tier]',

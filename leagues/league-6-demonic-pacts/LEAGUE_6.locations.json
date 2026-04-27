@@ -1,4 +1,8 @@
 {
+  "6809": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Auburn Valley"
+  },
   "13326": {
     "classification": "SINGLE",
     "reason": "[rule:substring] Fixed-location minigame",
@@ -165,6 +169,10 @@
       "plane": 0
     }
   },
+  "13387": {
+    "classification": "SINGLE",
+    "reason": "[rule:substring] Boss-specific combat achievements"
+  },
   "13389": {
     "classification": "SINGLE",
     "reason": "[rule:substring] Fixed-location raid",
@@ -225,6 +233,10 @@
       "y": 6116,
       "plane": 0
     }
+  },
+  "13445": {
+    "classification": "SINGLE",
+    "reason": "[rule:substring] Boss-specific combat achievements"
   },
   "13447": {
     "classification": "SINGLE",
@@ -471,7 +483,7 @@
   },
   "13587": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: ranging guild.",
+    "reason": "[structural] Enter specific location: ranging guild",
     "location": {
       "x": 2661,
       "y": 3435,
@@ -480,7 +492,7 @@
   },
   "13589": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: wizards' guild in yanille.",
+    "reason": "[structural] Enter specific location: wizards' guild in yanille",
     "location": {
       "x": 2592,
       "y": 3088,
@@ -520,7 +532,7 @@
   },
   "13632": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'yak' 6 spawns within 8 tiles (~2322,3793)",
+    "reason": "[npc_fallback] 'Yak' 6 spawns within 8 tiles (~2322,3793)",
     "location": {
       "x": 2322,
       "y": 3793,
@@ -529,7 +541,7 @@
   },
   "13635": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Salarin the twisted' has 1 spawn",
+    "reason": "[npc_fallback] 'Salarin the Twisted' has 1 spawn",
     "location": {
       "x": 2613,
       "y": 9523,
@@ -538,7 +550,7 @@
   },
   "13636": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Alchemical hydra' has 1 spawn",
+    "reason": "[npc_fallback] 'Alchemical Hydra' has 1 spawn",
     "location": {
       "x": 1364,
       "y": 10265,
@@ -619,7 +631,7 @@
   },
   "13647": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Alchemical hydra' has 1 spawn",
+    "reason": "[npc_fallback] 'Alchemical Hydra' has 1 spawn",
     "location": {
       "x": 1364,
       "y": 10265,
@@ -664,7 +676,7 @@
   },
   "13652": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Alchemical hydra' has 1 spawn",
+    "reason": "[npc_fallback] 'Alchemical Hydra' has 1 spawn",
     "location": {
       "x": 1364,
       "y": 10265,
@@ -835,7 +847,7 @@
   },
   "13678": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'brine rat' 7 spawns within 10 tiles (~2706,10133)",
+    "reason": "[npc_fallback] 'Brine Rat' 7 spawns within 10 tiles (~2706,10133)",
     "location": {
       "x": 2706,
       "y": 10133,
@@ -844,7 +856,7 @@
   },
   "13679": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'suqah' 27 spawns within 98 tiles (~2120,3912)",
+    "reason": "[npc_fallback] 'Suqah' 27 spawns within 98 tiles (~2120,3912)",
     "location": {
       "x": 2129,
       "y": 3916,
@@ -880,7 +892,7 @@
   },
   "13692": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Al Kharid warrior' 9 spawns within 19 tiles (~3292,3171)",
+    "reason": "[npc_fallback] 'Al Kharid Warrior' 9 spawns within 19 tiles (~3292,3171)",
     "location": {
       "x": 3282,
       "y": 3176,
@@ -889,7 +901,7 @@
   },
   "13693": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'cockatrice' 7 spawns within 14 tiles (~2791,10034)",
+    "reason": "[npc_fallback] 'Cockatrice' 7 spawns within 14 tiles (~2791,10034)",
     "location": {
       "x": 2791,
       "y": 10034,
@@ -898,7 +910,7 @@
   },
   "13700": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'snail' 10 spawns within 164 tiles (~3547,3419)",
+    "reason": "[npc_fallback] 'Snail' 10 spawns within 164 tiles (~3547,3419)",
     "location": {
       "x": 3547,
       "y": 3419,
@@ -907,7 +919,7 @@
   },
   "13701": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'mammoth' 8 spawns within 14 tiles (~3167,3593)",
+    "reason": "[npc_fallback] 'Mammoth' 8 spawns within 14 tiles (~3167,3593)",
     "location": {
       "x": 3167,
       "y": 3593,
@@ -916,10 +928,37 @@
   },
   "13702": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'zombie pirate' 34 spawns within 28 tiles (~3238,3609)",
+    "reason": "[npc_fallback] 'Zombie Pirate' 34 spawns within 28 tiles (~3238,3609)",
     "location": {
       "x": 3238,
       "y": 3609,
+      "plane": 0
+    }
+  },
+  "13703": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Callisto or Artio",
+    "location": {
+      "x": 3291,
+      "y": 3849,
+      "plane": 0
+    }
+  },
+  "13706": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Venenatis or Spindel",
+    "location": {
+      "x": 3319,
+      "y": 3798,
+      "plane": 0
+    }
+  },
+  "13707": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Vet'ion or Calvar'ion",
+    "location": {
+      "x": 3219,
+      "y": 3788,
       "plane": 0
     }
   },
@@ -931,6 +970,10 @@
       "y": 9952,
       "plane": 0
     }
+  },
+  "13710": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Awakened Leviathan"
   },
   "13711": {
     "classification": "SINGLE",
@@ -986,13 +1029,13 @@
       "plane": 0
     }
   },
-  "13722": {
+  "13721": {
     "classification": "SINGLE",
-    "reason": "[named_location] god wars dungeon",
+    "reason": "[npc_fallback] 'Awakened Duke Sucellus' has 1 spawn",
     "location": {
-      "x": 2872,
-      "y": 5311,
-      "plane": 2
+      "x": 3039,
+      "y": 6454,
+      "plane": 0
     }
   },
   "13723": {
@@ -1066,6 +1109,10 @@
       "y": 4062,
       "plane": 0
     }
+  },
+  "13735": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Awakened Whisperer"
   },
   "13738": {
     "classification": "SINGLE",
@@ -1166,6 +1213,15 @@
       "plane": 0
     }
   },
+  "13762": {
+    "classification": "SINGLE",
+    "reason": "[npc_fallback] 'Vorkath' has 1 spawn",
+    "location": {
+      "x": 2269,
+      "y": 4062,
+      "plane": 0
+    }
+  },
   "13763": {
     "classification": "SINGLE",
     "reason": "[npc_fallback] 'Duke Sucellus' has 1 spawn",
@@ -1238,12 +1294,39 @@
       "plane": 0
     }
   },
+  "13771": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Callisto or Artio",
+    "location": {
+      "x": 3291,
+      "y": 3849,
+      "plane": 0
+    }
+  },
+  "13772": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Callisto or Artio",
+    "location": {
+      "x": 3291,
+      "y": 3849,
+      "plane": 0
+    }
+  },
   "13773": {
     "classification": "SINGLE",
     "reason": "[npc_fallback] 'Scorpia' has 1 spawn",
     "location": {
       "x": 3233,
       "y": 10341,
+      "plane": 0
+    }
+  },
+  "13774": {
+    "classification": "SINGLE",
+    "reason": "[npc_fallback] 'Phantom Muspah' has 1 spawn",
+    "location": {
+      "x": 2909,
+      "y": 10317,
       "plane": 0
     }
   },
@@ -1328,6 +1411,15 @@
       "plane": 0
     }
   },
+  "13788": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Awakened Vardorvis",
+    "location": {
+      "x": 1128,
+      "y": 3417,
+      "plane": 0
+    }
+  },
   "13789": {
     "classification": "SINGLE",
     "reason": "[npc_fallback] 'Commander Zilyana' has 1 spawn",
@@ -1409,6 +1501,15 @@
       "plane": 0
     }
   },
+  "13799": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Venenatis or Spindel",
+    "location": {
+      "x": 3319,
+      "y": 3798,
+      "plane": 0
+    }
+  },
   "13800": {
     "classification": "SINGLE",
     "reason": "[rule:substring] Slayer Tower rooftop",
@@ -1424,6 +1525,15 @@
     "location": {
       "x": 1128,
       "y": 3417,
+      "plane": 0
+    }
+  },
+  "13802": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Venenatis or Spindel",
+    "location": {
+      "x": 3319,
+      "y": 3798,
       "plane": 0
     }
   },
@@ -1526,9 +1636,27 @@
       "plane": 0
     }
   },
+  "13815": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Vet'ion or Calvar'ion",
+    "location": {
+      "x": 3219,
+      "y": 3788,
+      "plane": 0
+    }
+  },
+  "13816": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Vet'ion or Calvar'ion",
+    "location": {
+      "x": 3219,
+      "y": 3788,
+      "plane": 0
+    }
+  },
   "13817": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'demonic gorilla' 28 spawns within 85 tiles (~2107,5661)",
+    "reason": "[npc_fallback] 'Demonic Gorilla' 28 spawns within 85 tiles (~2107,5661)",
     "location": {
       "x": 2107,
       "y": 5661,
@@ -1546,7 +1674,7 @@
   },
   "13819": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'mithril dragon' 7 spawns within 30 tiles (~1834,5401)",
+    "reason": "[npc_fallback] 'Mithril Dragon' 7 spawns within 30 tiles (~1834,5401)",
     "location": {
       "x": 1834,
       "y": 5401,
@@ -1690,7 +1818,16 @@
   },
   "13844": {
     "classification": "SINGLE",
-    "reason": "[named_location] karuulm slayer dungeon"
+    "reason": "[named_location] mount karuulm",
+    "location": {
+      "x": 1324,
+      "y": 3824,
+      "plane": 0
+    }
+  },
+  "13845": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Royal Titans"
   },
   "13846": {
     "classification": "SINGLE",
@@ -1820,7 +1957,7 @@
   },
   "13874": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'turoth' 22 spawns within 20 tiles (~2723,10005)",
+    "reason": "[npc_fallback] 'Turoth' 22 spawns within 20 tiles (~2723,10005)",
     "location": {
       "x": 2723,
       "y": 10005,
@@ -1835,6 +1972,10 @@
       "y": 5189,
       "plane": 0
     }
+  },
+  "13880": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Royal Titans"
   },
   "13890": {
     "classification": "SINGLE",
@@ -2610,6 +2751,10 @@
       "plane": 0
     }
   },
+  "14436": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Forestry"
+  },
   "14455": {
     "classification": "SINGLE",
     "reason": "[structural] Specific transport route",
@@ -2621,7 +2766,7 @@
   },
   "14456": {
     "classification": "SINGLE",
-    "reason": "[structural] Visit specific location: harmony island.",
+    "reason": "[structural] Visit specific location: harmony island",
     "location": {
       "x": 3792,
       "y": 2856,
@@ -2630,10 +2775,19 @@
   },
   "14462": {
     "classification": "SINGLE",
-    "reason": "[structural] Visit specific location: mos le'harmless.",
+    "reason": "[structural] Visit specific location: mos le'harmless",
     "location": {
       "x": 3678,
       "y": 2959,
+      "plane": 0
+    }
+  },
+  "14463": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Land's End",
+    "location": {
+      "x": 1512,
+      "y": 3421,
       "plane": 0
     }
   },
@@ -2648,10 +2802,19 @@
   },
   "14471": {
     "classification": "SINGLE",
-    "reason": "[structural] Visit specific location: port phasmatys.",
+    "reason": "[structural] Visit specific location: port phasmatys",
     "location": {
       "x": 3675,
       "y": 3469,
+      "plane": 0
+    }
+  },
+  "14472": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Beehives",
+    "location": {
+      "x": 2760,
+      "y": 3443,
       "plane": 0
     }
   },
@@ -2679,7 +2842,7 @@
   },
   "14476": {
     "classification": "SINGLE",
-    "reason": "[named_location] warriors' guild",
+    "reason": "[named_location] warriors guild",
     "location": {
       "x": 2845,
       "y": 3541,
@@ -2697,19 +2860,10 @@
   },
   "14479": {
     "classification": "SINGLE",
-    "reason": "[structural] Visit specific location: tree gnome stronghold.",
+    "reason": "[structural] Visit specific location: tree gnome stronghold",
     "location": {
       "x": 2465,
       "y": 3489,
-      "plane": 0
-    }
-  },
-  "14480": {
-    "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Malignius Mortifer' has 1 spawn",
-    "location": {
-      "x": 2990,
-      "y": 3268,
       "plane": 0
     }
   },
@@ -2724,7 +2878,7 @@
   },
   "14482": {
     "classification": "SINGLE",
-    "reason": "[structural] Visit specific location: tree gnome village.",
+    "reason": "[structural] Visit specific location: tree gnome village",
     "location": {
       "x": 2504,
       "y": 3191,
@@ -2754,6 +2908,15 @@
     "location": {
       "x": 1653,
       "y": 3103,
+      "plane": 0
+    }
+  },
+  "14488": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Mount Quidamortem",
+    "location": {
+      "x": 1254,
+      "y": 3571,
       "plane": 0
     }
   },
@@ -2795,7 +2958,7 @@
   },
   "14497": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: taverley dungeon.",
+    "reason": "[structural] Enter specific location: taverley dungeon",
     "location": {
       "x": 2884,
       "y": 9798,
@@ -2905,9 +3068,13 @@
       "plane": 0
     }
   },
+  "14517": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Salvager Overlook"
+  },
   "14520": {
     "classification": "SINGLE",
-    "reason": "[structural] Visit specific location: ferox enclave.",
+    "reason": "[structural] Visit specific location: ferox enclave",
     "location": {
       "x": 3138,
       "y": 3633,
@@ -2916,7 +3083,7 @@
   },
   "14521": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: wilderness god wars dungeon.",
+    "reason": "[structural] Enter specific location: wilderness god wars dungeon",
     "location": {
       "x": 2872,
       "y": 5311,
@@ -2925,7 +3092,7 @@
   },
   "14522": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: wilderness resource area.",
+    "reason": "[structural] Enter specific location: wilderness resource area",
     "location": {
       "x": 3184,
       "y": 3944,
@@ -2934,7 +3101,7 @@
   },
   "14524": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: 3rd level of the chasm of fire in shayzien.",
+    "reason": "[structural] Enter specific location: 3rd level of the chasm of fire in shayzien",
     "location": {
       "x": 1480,
       "y": 3593,
@@ -2950,10 +3117,6 @@
       "plane": 0
     }
   },
-  "14530": {
-    "classification": "SINGLE",
-    "reason": "[structural] Specific drinking location"
-  },
   "14531": {
     "classification": "SINGLE",
     "reason": "[rule:substring] One location"
@@ -2967,12 +3130,12 @@
       "plane": 0
     }
   },
-  "14534": {
+  "14535": {
     "classification": "SINGLE",
-    "reason": "[named_location] civitas illa fortis",
+    "reason": "[named_location] Sunset Coast",
     "location": {
-      "x": 1676,
-      "y": 3113,
+      "x": 1522,
+      "y": 2985,
       "plane": 0
     }
   },
@@ -2991,6 +3154,15 @@
     "location": {
       "x": 3288,
       "y": 3931,
+      "plane": 0
+    }
+  },
+  "14542": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Chest",
+    "location": {
+      "x": 1700,
+      "y": 3100,
       "plane": 0
     }
   },
@@ -3023,7 +3195,7 @@
   },
   "14546": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: myths' guild.",
+    "reason": "[structural] Enter specific location: myths' guild",
     "location": {
       "x": 2465,
       "y": 2848,
@@ -3061,6 +3233,15 @@
       "plane": 0
     }
   },
+  "14571": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Gnomeball",
+    "location": {
+      "x": 2393,
+      "y": 3488,
+      "plane": 0
+    }
+  },
   "14574": {
     "classification": "SINGLE",
     "reason": "[named_location] shilo village",
@@ -3081,7 +3262,7 @@
   },
   "14599": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: brimhaven dungeon.",
+    "reason": "[structural] Enter specific location: brimhaven dungeon",
     "location": {
       "x": 2712,
       "y": 9471,
@@ -3090,7 +3271,7 @@
   },
   "14600": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: hardwood grove in tai bwo wannai.",
+    "reason": "[structural] Enter specific location: hardwood grove in tai bwo wannai",
     "location": {
       "x": 2822,
       "y": 3082,
@@ -3135,7 +3316,7 @@
   },
   "14622": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: a dark cave in varlamore, near the hunter guild."
+    "reason": "[structural] Enter specific location: a dark cave in varlamore, near the hunter guild"
   },
   "14623": {
     "classification": "SINGLE",
@@ -3159,16 +3340,34 @@
     "classification": "SINGLE",
     "reason": "[rule:substring] One area"
   },
+  "14634": {
+    "classification": "SINGLE",
+    "reason": "[named_location] The Old Nite",
+    "location": {
+      "x": 3654,
+      "y": 3468,
+      "plane": 0
+    }
+  },
   "14635": {
     "classification": "SINGLE",
     "reason": "[rule:substring] One specific location"
   },
   "14636": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: deep wilderness dungeon.",
+    "reason": "[structural] Enter specific location: deep wilderness dungeon",
     "location": {
       "x": 3046,
       "y": 10332,
+      "plane": 0
+    }
+  },
+  "14640": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Taverley",
+    "location": {
+      "x": 2914,
+      "y": 3454,
       "plane": 0
     }
   },
@@ -3230,6 +3429,10 @@
     "classification": "SINGLE",
     "reason": "[rule:substring] One specific tree"
   },
+  "14679": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Isle"
+  },
   "14742": {
     "classification": "SINGLE",
     "reason": "[rule:substring] POH entertainment room"
@@ -3252,9 +3455,32 @@
       "plane": 0
     }
   },
-  "14820": {
+  "14746": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: your player-owned house."
+    "reason": "[rule:regex] Activity inside POH",
+    "location": {
+      "x": 2953,
+      "y": 3224,
+      "plane": 0
+    }
+  },
+  "14747": {
+    "classification": "SINGLE",
+    "reason": "[rule:regex] Activity inside POH",
+    "location": {
+      "x": 2953,
+      "y": 3224,
+      "plane": 0
+    }
+  },
+  "14749": {
+    "classification": "SINGLE",
+    "reason": "[rule:regex] Activity inside POH",
+    "location": {
+      "x": 2953,
+      "y": 3224,
+      "plane": 0
+    }
   },
   "14821": {
     "classification": "SINGLE",
@@ -3285,7 +3511,7 @@
   },
   "14827": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Crimson Swift' constrained to: feldip hills.",
+    "reason": "[npc_fallback] 'Crimson Swift' constrained to: feldip hills",
     "location": {
       "x": 2065,
       "y": 3049,
@@ -3298,6 +3524,15 @@
     "location": {
       "x": 2107,
       "y": 3916,
+      "plane": 0
+    }
+  },
+  "14833": {
+    "classification": "SINGLE",
+    "reason": "[scenery] 'arctic pine tree' (arctic pine tree) 46 spawns within 298 tiles (~2390,3789)",
+    "location": {
+      "x": 2338,
+      "y": 3827,
       "plane": 0
     }
   },
@@ -3359,12 +3594,21 @@
       "plane": 1
     }
   },
+  "14872": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Tlati Rainforest",
+    "location": {
+      "x": 1444,
+      "y": 3179,
+      "plane": 0
+    }
+  },
   "14876": {
     "classification": "SINGLE",
     "reason": "[named_location] farming guild",
     "location": {
-      "x": 1248,
-      "y": 3726,
+      "x": 1232,
+      "y": 3736,
       "plane": 0
     }
   },
@@ -3390,8 +3634,8 @@
     "classification": "SINGLE",
     "reason": "[named_location] catherby",
     "location": {
-      "x": 2810,
-      "y": 3435,
+      "x": 2861,
+      "y": 3434,
       "plane": 0
     }
   },
@@ -3403,6 +3647,10 @@
       "y": 3297,
       "plane": 0
     }
+  },
+  "14896": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Wrath Altar"
   },
   "14904": {
     "classification": "SINGLE",
@@ -3426,6 +3674,15 @@
     "classification": "SINGLE",
     "reason": "[rule:substring] One fishing area"
   },
+  "14909": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Mixology shop",
+    "location": {
+      "x": 1394,
+      "y": 9327,
+      "plane": 0
+    }
+  },
   "14911": {
     "classification": "SINGLE",
     "reason": "[npc_fallback] 'Moonlight Antelopes' 4 spawns within 7 tiles (~1558,9419)",
@@ -3435,12 +3692,25 @@
       "plane": 0
     }
   },
+  "14912": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Auburn Valley"
+  },
   "14913": {
     "classification": "SINGLE",
     "reason": "[named_location] chaos temple",
     "location": {
       "x": 3235,
       "y": 3638,
+      "plane": 0
+    }
+  },
+  "14916": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Dusuri's Star Shop",
+    "location": {
+      "x": 3022,
+      "y": 3341,
       "plane": 0
     }
   },
@@ -3457,8 +3727,8 @@
     "classification": "SINGLE",
     "reason": "[named_location] weiss",
     "location": {
-      "x": 2858,
-      "y": 3953,
+      "x": 2848,
+      "y": 3934,
       "plane": 0
     }
   },
@@ -3537,8 +3807,8 @@
     "classification": "SINGLE",
     "reason": "[named_location] farming guild",
     "location": {
-      "x": 1248,
-      "y": 3726,
+      "x": 1232,
+      "y": 3736,
       "plane": 0
     }
   },
@@ -3560,6 +3830,10 @@
       "plane": 0
     }
   },
+  "15017": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Auburn Valley"
+  },
   "15021": {
     "classification": "SINGLE",
     "reason": "[named_location] farming guild",
@@ -3573,8 +3847,8 @@
     "classification": "SINGLE",
     "reason": "[named_location] tree gnome stronghold",
     "location": {
-      "x": 2465,
-      "y": 3489,
+      "x": 2476,
+      "y": 3446,
       "plane": 0
     }
   },
@@ -3614,6 +3888,24 @@
       "plane": 0
     }
   },
+  "15031": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Mixology shop",
+    "location": {
+      "x": 1394,
+      "y": 9327,
+      "plane": 0
+    }
+  },
+  "15034": {
+    "classification": "SINGLE",
+    "reason": "[rule:regex] Teleport tablets crafted at player owned house lectern",
+    "location": {
+      "x": 2953,
+      "y": 3224,
+      "plane": 0
+    }
+  },
   "15036": {
     "classification": "SINGLE",
     "reason": "[npc_fallback] 'Sunlight Antelopes' 9 spawns within 20 tiles (~1745,3008)",
@@ -3625,7 +3917,7 @@
   },
   "15037": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: high tier of the farming guild in the kebos lowlands.",
+    "reason": "[structural] Enter specific location: high tier of the farming guild in the kebos lowlands",
     "location": {
       "x": 1248,
       "y": 3726,
@@ -3744,7 +4036,7 @@
     "classification": "SINGLE",
     "reason": "[named_location] troll stronghold",
     "location": {
-      "x": 2845,
+      "x": 2826,
       "y": 3694,
       "plane": 0
     }
@@ -3766,6 +4058,10 @@
       "y": 3469,
       "plane": 0
     }
+  },
+  "15139": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Auburn Valley"
   },
   "15141": {
     "classification": "SINGLE",
@@ -3789,8 +4085,8 @@
     "classification": "SINGLE",
     "reason": "[named_location] prifddinas",
     "location": {
-      "x": 3266,
-      "y": 6069,
+      "x": 3246,
+      "y": 6115,
       "plane": 0
     }
   },
@@ -3798,8 +4094,8 @@
     "classification": "SINGLE",
     "reason": "[named_location] prifddinas",
     "location": {
-      "x": 3266,
-      "y": 6069,
+      "x": 3292,
+      "y": 6119,
       "plane": 0
     }
   },
@@ -3839,9 +4135,18 @@
       "plane": 0
     }
   },
+  "15160": {
+    "classification": "SINGLE",
+    "reason": "[scenery] 'volcanic sulphur' (volcanic sulphur (rock)) 5 spawns within 23 tiles (~1437,3868)",
+    "location": {
+      "x": 1437,
+      "y": 3868,
+      "plane": 0
+    }
+  },
   "15171": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Knight of Varlamore' 17 spawns within 46 tiles (~1664,3156)",
+    "reason": "[npc_fallback] 'knight of varlamore' 17 spawns within 46 tiles (~1664,3156)",
     "location": {
       "x": 1664,
       "y": 3156,
@@ -3854,6 +4159,15 @@
     "location": {
       "x": 1634,
       "y": 3502,
+      "plane": 0
+    }
+  },
+  "15176": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Uzer",
+    "location": {
+      "x": 3467,
+      "y": 3110,
       "plane": 0
     }
   },
@@ -3906,8 +4220,8 @@
     "classification": "SINGLE",
     "reason": "[named_location] al kharid",
     "location": {
-      "x": 3282,
-      "y": 3176,
+      "x": 3316,
+      "y": 3203,
       "plane": 0
     }
   },
@@ -3915,7 +4229,7 @@
     "classification": "SINGLE",
     "reason": "[rule:substring] One farming patch",
     "location": {
-      "x": 2795,
+      "x": 2796,
       "y": 3101,
       "plane": 0
     }
@@ -3956,6 +4270,15 @@
       "plane": 0
     }
   },
+  "15211": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Fortis Spice Stall",
+    "location": {
+      "x": 1685,
+      "y": 3098,
+      "plane": 0
+    }
+  },
   "15212": {
     "classification": "SINGLE",
     "reason": "[scenery] 'blisterwood' (root (blisterwood tree)) 5 spawns within 6 tiles (~3629,3363)",
@@ -3969,8 +4292,8 @@
     "classification": "SINGLE",
     "reason": "[named_location] hosidius",
     "location": {
-      "x": 1702,
-      "y": 3528,
+      "x": 1733,
+      "y": 3573,
       "plane": 0
     }
   },
@@ -4048,10 +4371,10 @@
   },
   "15254": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Embertailed jerboa' 19 spawns within 161 tiles (~1580,3027)",
+    "reason": "[npc_fallback] 'Jerboa' 54 spawns within 251 tiles (~1654,3047)",
     "location": {
-      "x": 1517,
-      "y": 3046,
+      "x": 1654,
+      "y": 3047,
       "plane": 0
     }
   },
@@ -4198,6 +4521,15 @@
       "plane": 0
     }
   },
+  "15305": {
+    "classification": "SINGLE",
+    "reason": "[rule:regex] Teleport tablets crafted at player owned house lectern",
+    "location": {
+      "x": 2953,
+      "y": 3224,
+      "plane": 0
+    }
+  },
   "15306": {
     "classification": "SINGLE",
     "reason": "[rule:substring] Fire Altar",
@@ -4283,6 +4615,10 @@
       "plane": 0
     }
   },
+  "15349": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Swifts"
+  },
   "15350": {
     "classification": "SINGLE",
     "reason": "[rule:substring] Fixed-location activity",
@@ -4303,7 +4639,7 @@
   },
   "15366": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: farming guild in the kebos lowlands.",
+    "reason": "[structural] Enter specific location: farming guild in the kebos lowlands",
     "location": {
       "x": 1248,
       "y": 3726,
@@ -4312,12 +4648,20 @@
   },
   "15367": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: woodcutting guild in hosidius.",
+    "reason": "[structural] Enter specific location: woodcutting guild in hosidius",
     "location": {
       "x": 1634,
       "y": 3502,
       "plane": 0
     }
+  },
+  "15374": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Auburn Valley"
+  },
+  "15375": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Auburn Valley"
   },
   "15378": {
     "classification": "SINGLE",
@@ -4339,7 +4683,7 @@
   },
   "15380": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: crafting guild.",
+    "reason": "[structural] Enter specific location: crafting guild",
     "location": {
       "x": 2933,
       "y": 3290,
@@ -4411,19 +4755,10 @@
   },
   "15389": {
     "classification": "SINGLE",
-    "reason": "[structural] Enter specific location: fishing guild.",
+    "reason": "[structural] Enter specific location: fishing guild",
     "location": {
       "x": 2596,
       "y": 3413,
-      "plane": 0
-    }
-  },
-  "15390": {
-    "classification": "SINGLE",
-    "reason": "[rule:substring] Fixed-location minigame",
-    "location": {
-      "x": 3363,
-      "y": 3148,
       "plane": 0
     }
   },
@@ -4449,8 +4784,8 @@
     "classification": "SINGLE",
     "reason": "[named_location] lletya",
     "location": {
-      "x": 2353,
-      "y": 3164,
+      "x": 2347,
+      "y": 3162,
       "plane": 0
     }
   },
@@ -4490,6 +4825,10 @@
       "plane": 0
     }
   },
+  "15401": {
+    "classification": "SINGLE",
+    "reason": "[named_location] Revenant Caves"
+  },
   "13328": {
     "classification": "MULTI",
     "reason": "[rule:substring] Diary spans multiple locations"
@@ -4503,6 +4842,10 @@
     "reason": "[rule:substring] Diary spans multiple locations"
   },
   "13337": {
+    "classification": "MULTI",
+    "reason": "[rule:substring] Diary spans multiple locations"
+  },
+  "13342": {
     "classification": "MULTI",
     "reason": "[rule:substring] Diary spans multiple locations"
   },
@@ -4557,6 +4900,10 @@
   "13372": {
     "classification": "MULTI",
     "reason": "[rule:regex] Generic combat achievement count"
+  },
+  "13374": {
+    "classification": "MULTI",
+    "reason": "[rule:substring] Diary spans multiple locations"
   },
   "13375": {
     "classification": "MULTI",
@@ -4625,6 +4972,14 @@
   "13415": {
     "classification": "MULTI",
     "reason": "[structural] Processing verb 'obtain' - can be done anywhere"
+  },
+  "13419": {
+    "classification": "MULTI",
+    "reason": "[rule:substring] Diary spans multiple locations"
+  },
+  "13420": {
+    "classification": "MULTI",
+    "reason": "[rule:substring] Diary spans multiple locations"
   },
   "13421": {
     "classification": "MULTI",
@@ -4964,15 +5319,15 @@
   },
   "13626": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Barbarian' 30 spawns across kourend."
+    "reason": "[npc_fallback] 'Barbarian' 30 spawns across kourend"
   },
   "13627": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Guard' 80 spawns across varlamore underground."
+    "reason": "[npc_fallback] 'Guard' 80 spawns across varlamore underground"
   },
   "13628": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Rooster' 4 spawns across fremennik province."
+    "reason": "[npc_fallback] 'Rooster' 4 spawns across fremennik province"
   },
   "13629": {
     "classification": "MULTI",
@@ -4988,15 +5343,15 @@
   },
   "13633": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Icefiend' 42 spawns across varlamore."
+    "reason": "[npc_fallback] 'Icefiend' 42 spawns across varlamore"
   },
   "13634": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Imp' 124 spawns across kastori basement in varlamore."
+    "reason": "[npc_fallback] 'Imp' 124 spawns across kastori basement in varlamore"
   },
   "13637": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Snake' 56 spawns across karamja."
+    "reason": "[npc_fallback] 'Snake' 56 spawns across karamja"
   },
   "13658": {
     "classification": "MULTI",
@@ -5004,55 +5359,63 @@
   },
   "13665": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Dire Wolf' 22 spawns across varlamore."
+    "reason": "[npc_fallback] 'Dire Wolf' 22 spawns across varlamore"
+  },
+  "13680": {
+    "classification": "MULTI",
+    "reason": "[npc_fallback] 'Wallasalki' has 47 spawn locations"
   },
   "13683": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'black dragon' 26 spawns across tirannwn. this task earns one demonic pact."
+    "reason": "[npc_fallback] 'Black Dragon' 26 spawns across tirannwn"
   },
   "13685": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Moss Giant' 106 spawns across tirannwn."
+    "reason": "[npc_fallback] 'Moss Giant' 106 spawns across tirannwn"
   },
   "13686": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'werewolf' 35 spawns across morytania. this task earns one demonic pact."
+    "reason": "[npc_fallback] 'Werewolf' 35 spawns across morytania"
   },
   "13687": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'troll' 7 spawns across asgarnia. this task earns one demonic pact."
+    "reason": "[npc_fallback] 'Troll' 7 spawns across asgarnia"
   },
   "13694": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Fire Giant' 91 spawns across kandarin."
+    "reason": "[npc_fallback] 'Fire Giant' 91 spawns across kandarin"
   },
   "13695": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'chaos dwarf' 17 spawns across wilderness. this task earns one demonic pact."
+    "reason": "[npc_fallback] 'Chaos Dwarf' 17 spawns across wilderness"
   },
   "13696": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Pyrefiend' 73 spawns across fremennik province."
+    "reason": "[npc_fallback] 'Pyrefiend' 73 spawns across fremennik province"
   },
   "13698": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Fire Giant' 91 spawns across wilderness."
+    "reason": "[npc_fallback] 'Fire Giant' 91 spawns across wilderness"
   },
   "13699": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Rock Crab' 103 spawns across fremennik province."
+    "reason": "[npc_fallback] 'Rock Crab' 103 spawns across fremennik province"
   },
   "13704": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Corporeal Beast' 2 spawns across wilderness 150 times."
+    "reason": "[npc_fallback] 'Corporeal Beast' 2 spawns across wilderness"
   },
   "13705": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Corporeal Beast' 2 spawns across wilderness 250 times."
+    "reason": "[npc_fallback] 'Corporeal Beast' 2 spawns across wilderness"
+  },
+  "13722": {
+    "classification": "MULTI",
+    "reason": "[structural] Processing verb 'reach' - can be done anywhere"
   },
   "13736": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'steel dragon' 15 spawns across karamja. this task earns one demonic pact."
+    "reason": "[npc_fallback] 'Steel Dragon' 15 spawns across karamja"
   },
   "13754": {
     "classification": "MULTI",
@@ -5060,7 +5423,7 @@
   },
   "13776": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Corporeal Beast' 2 spawns across wilderness. this task earns one demonic pact."
+    "reason": "[npc_fallback] 'Corporeal Beast' 2 spawns across wilderness"
   },
   "13779": {
     "classification": "MULTI",
@@ -5068,19 +5431,15 @@
   },
   "13782": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Corporeal Beast' 2 spawns across wilderness 50 times."
+    "reason": "[npc_fallback] 'Corporeal Beast' 2 spawns across wilderness"
   },
   "13804": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'dust devil' 66 spawns across desert smoke dungeon."
+    "reason": "[npc_fallback] 'Dust Devil' 66 spawns across kharidian desert"
   },
   "13828": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Abyssal Demon' 62 spawns across morytania."
-  },
-  "13829": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Rock Crab' has 103 spawn locations"
+    "reason": "[npc_fallback] 'Abyssal Demon' 62 spawns across morytania"
   },
   "13835": {
     "classification": "MULTI",
@@ -5088,67 +5447,67 @@
   },
   "13838": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Dark Beast' 29 spawns across tirannwn."
+    "reason": "[npc_fallback] 'Dark Beast' 29 spawns across tirannwn"
   },
   "13839": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Nechryael' 23 spawns across tirannwn."
+    "reason": "[npc_fallback] 'Nechryael' 23 spawns across tirannwn"
   },
   "13853": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Black Demon' 56 spawns across asgarnia."
+    "reason": "[npc_fallback] 'Black Demon' 56 spawns across asgarnia"
   },
   "13854": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Blue Dragon' 44 spawns across asgarnia."
+    "reason": "[npc_fallback] 'Blue Dragon' 44 spawns across asgarnia"
   },
   "13858": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Bloodveld' 67 spawns across kandarin."
+    "reason": "[npc_fallback] 'Bloodveld' 67 spawns across kandarin"
   },
   "13861": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Green Dragon' 32 spawns across wilderness."
+    "reason": "[npc_fallback] 'Green Dragon' 32 spawns across wilderness"
   },
   "13868": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Tortoise with riders' 5 spawns across kandarin."
+    "reason": "[npc_fallback] 'Tortoise with riders' 5 spawns across kandarin"
   },
   "13870": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'dagannoth' 98 spawns across fremennik province."
+    "reason": "[npc_fallback] 'Dagannoth' 98 spawns across fremennik province"
   },
   "13871": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'jelly' 24 spawns across fremennik province."
+    "reason": "[npc_fallback] 'Jelly' 24 spawns across fremennik province"
   },
   "13872": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'kurask' 36 spawns across fremennik province."
+    "reason": "[npc_fallback] 'Kurask' 36 spawns across fremennik province"
   },
   "13873": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'troll' 7 spawns across fremennik province."
+    "reason": "[npc_fallback] 'Troll' 7 spawns across fremennik province"
   },
   "13876": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Bloodveld' 67 spawns across tirannwn."
+    "reason": "[npc_fallback] 'Bloodveld' 67 spawns across tirannwn"
   },
   "13877": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Kurask' 36 spawns across tirannwn."
+    "reason": "[npc_fallback] 'Kurask' 36 spawns across tirannwn"
   },
   "13878": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Black Demon' 56 spawns across karamja."
+    "reason": "[npc_fallback] 'Black Demon' 56 spawns across karamja"
   },
   "13881": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Elf' 4 spawns across tirannwn."
+    "reason": "[npc_fallback] 'Elf' 4 spawns across tirannwn"
   },
   "13883": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Black Knight' 79 spawns across asgarnia."
+    "reason": "[npc_fallback] 'Black Knight' 79 spawns across asgarnia"
   },
   "13884": {
     "classification": "MULTI",
@@ -5164,7 +5523,11 @@
   },
   "13887": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'chicken' has 161 spawn locations"
+    "reason": "[npc_fallback] 'Chicken' has 161 spawn locations"
+  },
+  "13888": {
+    "classification": "MULTI",
+    "reason": "[npc_fallback] 'Hill Giant' has 91 spawn locations"
   },
   "13901": {
     "classification": "MULTI",
@@ -5172,11 +5535,11 @@
   },
   "13904": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'frog' has 51 spawn locations"
+    "reason": "[npc_fallback] 'Frog' has 51 spawn locations"
   },
   "13906": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'rat' has 733 spawn locations"
+    "reason": "[npc_fallback] 'Rat' has 733 spawn locations"
   },
   "13907": {
     "classification": "MULTI",
@@ -5303,10 +5666,6 @@
     "reason": "[rule:verb] Equipping happens anywhere"
   },
   "13955": {
-    "classification": "MULTI",
-    "reason": "[rule:verb] Equipping happens anywhere"
-  },
-  "13956": {
     "classification": "MULTI",
     "reason": "[rule:verb] Equipping happens anywhere"
   },
@@ -6602,6 +6961,10 @@
     "classification": "MULTI",
     "reason": "[structural] Processing verb 'drink' - can be done anywhere"
   },
+  "14493": {
+    "classification": "MULTI",
+    "reason": "[npc_fallback] 'Renu' has 15 spawn locations"
+  },
   "14506": {
     "classification": "MULTI",
     "reason": "[structural] Processing verb 'scatter' - can be done anywhere"
@@ -6613,6 +6976,10 @@
   "14526": {
     "classification": "MULTI",
     "reason": "[structural] Processing verb 'cut' - can be done anywhere"
+  },
+  "14530": {
+    "classification": "MULTI",
+    "reason": "[structural] Processing verb 'drink' - can be done anywhere"
   },
   "14533": {
     "classification": "MULTI",
@@ -6825,18 +7192,6 @@
   "14743": {
     "classification": "MULTI",
     "reason": "[structural] Processing verb 'blow' - can be done anywhere"
-  },
-  "14746": {
-    "classification": "MULTI",
-    "reason": "[structural] Processing verb 'build' - can be done anywhere"
-  },
-  "14747": {
-    "classification": "MULTI",
-    "reason": "[structural] Processing verb 'build' - can be done anywhere"
-  },
-  "14749": {
-    "classification": "MULTI",
-    "reason": "[structural] Processing verb 'build' - can be done anywhere"
   },
   "14750": {
     "classification": "MULTI",
@@ -7102,6 +7457,10 @@
     "classification": "MULTI",
     "reason": "[structural] Processing verb 'drink' - can be done anywhere"
   },
+  "14820": {
+    "classification": "MULTI",
+    "reason": "[rule:regex] POH portals in many locations"
+  },
   "14828": {
     "classification": "MULTI",
     "reason": "[rule:regex] Anywhere"
@@ -7228,7 +7587,7 @@
   },
   "14897": {
     "classification": "MULTI",
-    "reason": "[structural] Processing verb 'create' - can be done anywhere"
+    "reason": "[structural] Processing verb 'make' - can be done anywhere"
   },
   "14898": {
     "classification": "MULTI",
@@ -7236,7 +7595,7 @@
   },
   "14899": {
     "classification": "MULTI",
-    "reason": "[structural] Processing verb 'create' - can be done anywhere"
+    "reason": "[structural] Processing verb 'make' - can be done anywhere"
   },
   "14900": {
     "classification": "MULTI",
@@ -7248,15 +7607,19 @@
   },
   "14905": {
     "classification": "MULTI",
-    "reason": "[structural] Processing verb 'make' - can be done anywhere"
+    "reason": "[rule:regex] Herblore anywhere"
   },
   "14921": {
     "classification": "MULTI",
     "reason": "[structural] Global gathering action 'harvest'"
   },
+  "14932": {
+    "classification": "MULTI",
+    "reason": "[rule:regex] Anywhere"
+  },
   "14933": {
     "classification": "MULTI",
-    "reason": "[structural] Processing verb 'make' - can be done anywhere"
+    "reason": "[rule:regex] Herblore anywhere"
   },
   "14934": {
     "classification": "MULTI",
@@ -7264,7 +7627,7 @@
   },
   "14935": {
     "classification": "MULTI",
-    "reason": "[structural] Processing verb 'make' - can be done anywhere"
+    "reason": "[rule:regex] Herblore anywhere"
   },
   "14936": {
     "classification": "MULTI",
@@ -7532,11 +7895,11 @@
   },
   "15018": {
     "classification": "MULTI",
-    "reason": "[structural] Processing verb 'make' - can be done anywhere"
+    "reason": "[rule:regex] Herblore anywhere"
   },
   "15019": {
     "classification": "MULTI",
-    "reason": "[structural] Processing verb 'make' - can be done anywhere"
+    "reason": "[rule:regex] Herblore anywhere"
   },
   "15022": {
     "classification": "MULTI",
@@ -7553,10 +7916,6 @@
   "15032": {
     "classification": "MULTI",
     "reason": "[structural] Processing verb 'fletch' - can be done anywhere"
-  },
-  "15034": {
-    "classification": "MULTI",
-    "reason": "[structural] Processing verb 'create' - can be done anywhere"
   },
   "15035": {
     "classification": "MULTI",
@@ -7580,7 +7939,7 @@
   },
   "15060": {
     "classification": "MULTI",
-    "reason": "[structural] Processing verb 'make' - can be done anywhere"
+    "reason": "[rule:regex] Herblore anywhere"
   },
   "15061": {
     "classification": "MULTI",
@@ -7713,6 +8072,10 @@
   "15112": {
     "classification": "MULTI",
     "reason": "[rule:regex] Multiple patches"
+  },
+  "15113": {
+    "classification": "MULTI",
+    "reason": "[rule:regex] Estate agents in multiple cities"
   },
   "15114": {
     "classification": "MULTI",
@@ -7852,7 +8215,7 @@
   },
   "15214": {
     "classification": "MULTI",
-    "reason": "[structural] Processing verb 'create' - can be done anywhere"
+    "reason": "[structural] Processing verb 'make' - can be done anywhere"
   },
   "15215": {
     "classification": "MULTI",
@@ -7868,7 +8231,7 @@
   },
   "15221": {
     "classification": "MULTI",
-    "reason": "[structural] Processing verb 'create' - can be done anywhere"
+    "reason": "[structural] Processing verb 'make' - can be done anywhere"
   },
   "15223": {
     "classification": "MULTI",
@@ -7948,7 +8311,7 @@
   },
   "15259": {
     "classification": "MULTI",
-    "reason": "[structural] Processing verb 'make' - can be done anywhere"
+    "reason": "[rule:regex] Herblore anywhere"
   },
   "15263": {
     "classification": "MULTI",
@@ -8013,10 +8376,6 @@
   "15297": {
     "classification": "MULTI",
     "reason": "[rule:regex] Teleport anywhere"
-  },
-  "15305": {
-    "classification": "MULTI",
-    "reason": "[rule:regex] POH"
   },
   "15308": {
     "classification": "MULTI",
@@ -8136,11 +8495,15 @@
   },
   "15376": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'moonlight moth barehanded' has 91 spawn locations"
+    "reason": "[npc_fallback] 'moonlight moth bare-handed' has 91 spawn locations"
   },
   "15381": {
     "classification": "MULTI",
     "reason": "[npc_fallback] 'Snowy Knight' has 21 spawn locations"
+  },
+  "15390": {
+    "classification": "MULTI",
+    "reason": "[structural] Processing verb 'drink' - can be done anywhere"
   },
   "15395": {
     "classification": "MULTI",
@@ -8154,35 +8517,7 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "6809": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13342": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13374": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13387": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
   "13417": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13419": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13420": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13445": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
@@ -8294,66 +8629,6 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "13680": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13703": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13706": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13707": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13710": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13721": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13735": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13771": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13772": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13774": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13788": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13799": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13802": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13815": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13816": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
   "13821": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
@@ -8362,7 +8637,7 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "13845": {
+  "13829": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
@@ -8370,15 +8645,7 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "13880": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
   "13882": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "13888": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
@@ -8426,10 +8693,6 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "14436": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
   "14437": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
@@ -8442,23 +8705,11 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "14463": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "14472": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "14488": {
+  "14480": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
   "14492": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "14493": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
@@ -8478,10 +8729,6 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "14517": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
   "14518": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
@@ -8498,7 +8745,7 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "14535": {
+  "14534": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
@@ -8507,14 +8754,6 @@
     "reason": "No rule or lookup matched"
   },
   "14541": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "14542": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "14571": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
@@ -8538,15 +8777,7 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "14634": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
   "14637": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "14640": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
@@ -8590,10 +8821,6 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "14679": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
   "14688": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
@@ -8622,14 +8849,6 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "14833": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "14872": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
   "14879": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
@@ -8650,34 +8869,6 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "14896": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "14909": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "14912": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "14916": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "14932": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "15017": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "15031": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
   "15033": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
@@ -8690,10 +8881,6 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "15113": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
   "15121": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
@@ -8702,19 +8889,7 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "15139": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "15160": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
   "15175": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "15176": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
@@ -8734,10 +8909,6 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "15211": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
   "15218": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
@@ -8751,10 +8922,6 @@
     "reason": "No rule or lookup matched"
   },
   "15336": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "15349": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
@@ -8774,14 +8941,6 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "15374": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "15375": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
   "15377": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
@@ -8791,10 +8950,6 @@
     "reason": "No rule or lookup matched"
   },
   "15392": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "15401": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },

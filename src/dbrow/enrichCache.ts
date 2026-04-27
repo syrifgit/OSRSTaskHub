@@ -40,6 +40,33 @@ export async function loadTaskIndexMap(
   return out;
 }
 
+/** Inverse of loadTaskIndexMap: dbRowId -> wikiTaskIndex (sortId). */
+export function invertTaskIndexMap(forward: Map<number, number>): Map<number, number> {
+  const out = new Map<number, number>();
+  for (const [k, v] of forward) out.set(v, k);
+  return out;
+}
+
+/**
+ * Load a "dbRowId in set" lookup from a boolean-flag enum.
+ *
+ * Several L6 meta enums follow the pattern `{ dbRowId: 1 }` to mark a subset
+ * of tasks with a boolean property. Enum 5952 = pact tasks. Enum 5953 =
+ * pact-reset-granting tasks. Returns the dbRowId keyset.
+ */
+export async function loadFlagEnum(
+  cache: CacheProvider,
+  enumId: number,
+): Promise<Set<number>> {
+  const e = await Enum.load(cache, enumId);
+  if (!e) return new Set();
+  const out = new Set<number>();
+  for (const k of e.map.keys()) {
+    if (typeof k === 'number') out.add(k);
+  }
+  return out;
+}
+
 export type CellValue = number | string | null | Array<number | string | null>;
 
 export interface EnrichedRow {
@@ -55,6 +82,36 @@ export interface EnrichOptions {
   dbRowIds?: number[];
   /** Logging callback for progress/warnings. Defaults to console. */
   logger?: (msg: string) => void;
+}
+
+/**
+ * Authoritative L6 task membership: dbRowIds where a boolean marker column
+ * is set to 1. For L6 that's `league_task_marker` (col 34). Filters out
+ * legacy Gridmaster rows that share table 118 but aren't L6 tasks.
+ *
+ * This is the source of truth for "which dbRowIds are L6 tasks RIGHT NOW."
+ * Wiki and enum 5950 both lag this - enum 5950 retains reserved slots for
+ * deprecated tasks (e.g. 13956 Dragon Crossbow after the Vorkath 15 swap).
+ */
+export async function findActiveDbRowIds(
+  cache: CacheProvider,
+  schema: TableSchema,
+  markerColumnName: string,
+): Promise<Set<number>> {
+  const markerCol = schema.columns[markerColumnName];
+  if (!markerCol) {
+    throw new Error(`Schema "${schema.name}" has no column "${markerColumnName}"`);
+  }
+  const allRows = [...(await DBRow.all(cache))];
+  const out = new Set<number>();
+  for (const r of allRows) {
+    if (r.table !== schema.tableId) continue;
+    const v = r.values[markerCol.idx];
+    if (!v) continue;
+    const first = Array.isArray(v) ? v[0] : v;
+    if (first === 1) out.add(r.id);
+  }
+  return out;
 }
 
 export async function enrichWithCache(

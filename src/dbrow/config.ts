@@ -41,6 +41,19 @@ export interface LeagueDbrowConfig {
   /** Name of the table schema (key into SCHEMAS registry). */
   schemaName: string;
 
+  /**
+   * Boolean-marker column in the task table identifying active league tasks.
+   * Populated on exactly the authoritative task set. For L6 = "league_task_marker"
+   * (col 34). This is the source of truth for "is this dbRowId currently an L6 task".
+   */
+  markerColumn: string;
+
+  /** Enum where key set = dbRowIds that award a pact point. L6 = 5952. */
+  pactTaskEnumId?: number;
+
+  /** Enum where key set = dbRowIds that award a pact reset. L6 = 5953. */
+  pactResetEnumId?: number;
+
   /** Wiki structure - per-league because attributes / row markup can vary. */
   wiki: LeagueWikiSpec;
 

@@ -1,0 +1,21 @@
+# Force LF line endings on text files. Prevents Windows / Linux mixed-checkout
+# diffs from showing the entire file as changed when only line endings differ.
+# Particularly important for the league JSON outputs which are 1500+ lines and
+# get regenerated on every CI run.
+
+*.json text eol=lf
+*.csv text eol=lf
+*.ts text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Binary - never normalize
+*.flatcache binary
+*.dat2 binary
+*.idx* binary
+*.png binary
+*.jpg binary

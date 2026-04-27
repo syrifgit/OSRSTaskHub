@@ -44,6 +44,102 @@ export interface L6LocationEntry {
   location?: { x: number; y: number; plane: number };
 }
 
+export interface CacheFirstInputs {
+  /** Cache-enriched rows, one per active L6 task (col 34 = 1). Authoritative. */
+  enriched: EnrichedRow[];
+  /** dbRowId -> wiki row, for supplement merging. Missing entries are fine. */
+  wikiByDbRowId: Map<number, L6WikiRow>;
+  /** dbRowId -> sortId (from enum 5950 reverse lookup). */
+  sortIdByDbRowId: Map<number, number>;
+  /** Set of dbRowIds that award a Demonic Pact (enum 5952). */
+  pactTaskIds: Set<number>;
+  /** tier (1..5) -> default points at that tier (from enum 2671). */
+  tierPoints: Map<number, number>;
+}
+
+/**
+ * Cache-authoritative task assembly. Iterates enriched cache rows as the base
+ * truth; wiki rows merge in as supplements for fields cache doesn't have
+ * (skillRequirements, wikiNotes, completionPercent).
+ *
+ * This is the shipping path once a league is live and settled. Handles cases
+ * where wiki lags cache (e.g. the Vorkath 15 / Dragon Crossbow swap Jagex
+ * made post-launch without updating the wiki).
+ */
+export function combineCacheAndWiki(
+  inputs: CacheFirstInputs,
+  decoders: LeagueDecoders,
+): L6Task[] {
+  const { enriched, wikiByDbRowId, sortIdByDbRowId, pactTaskIds, tierPoints } = inputs;
+
+  return enriched.map(e => {
+    const dbRowId = e.dbRowId;
+    const cols = e.columns;
+
+    const name = cellAsString(cols.action_name) ?? '(unknown)';
+    const description = cellAsString(cols.action_description) ?? '';
+    const tier = cellAsInt(cols.league_tier);
+    const area = cellAsInt(cols.league_area);
+    const category = cellAsInt(cols.league_category);
+    const sortId = sortIdByDbRowId.get(dbRowId) ?? -1;
+
+    const task: L6Task = {
+      dbRowId,
+      sortId,
+      name,
+      description,
+      area: area != null ? (decoders.areaName[area] ?? `area_${area}`) : null,
+      tier,
+      tierName: tier != null ? tierLabel(tier) : null,
+      points: tier != null ? (tierPoints.get(tier) ?? null) : null,
+      pactTask: pactTaskIds.has(dbRowId),
+      category,
+      categoryName: category != null ? (decoders.categoryName[category] ?? null) : null,
+      _cacheColumns: cols,
+    };
+
+    // Wiki supplements (skills, notes, completion %). When wiki lags cache
+    // (e.g. the Vorkath 15 swap), this entry is empty - logged upstream.
+    const wiki = wikiByDbRowId.get(dbRowId);
+    if (wiki) {
+      if (wiki.skills.length > 0) task.skillRequirements = wiki.skills;
+      if (wiki.completionPercent != null) task.completionPercent = wiki.completionPercent;
+      if (wiki.requirements) task.wikiNotes = wiki.requirements;
+      if (wiki.requirementsHtml) task.wikiNotesHtml = wiki.requirementsHtml;
+      // Prefer wiki's per-task points value when present (cache tier enum is
+      // only the tier default - usually identical but wiki may reflect per-task
+      // overrides if Jagex ever ships any).
+      if (wiki.points != null) task.points = wiki.points;
+      task._wikiRow = wiki;
+    }
+
+    return task;
+  }).sort((a, b) => a.sortId - b.sortId);
+}
+
+function cellAsString(v: CellValue | undefined): string | null {
+  if (v == null) return null;
+  const first = Array.isArray(v) ? v[0] : v;
+  return typeof first === 'string' ? first : null;
+}
+
+function cellAsInt(v: CellValue | undefined): number | null {
+  if (v == null) return null;
+  const first = Array.isArray(v) ? v[0] : v;
+  return typeof first === 'number' ? first : null;
+}
+
+function tierLabel(tier: number): string {
+  switch (tier) {
+    case 1: return 'Easy';
+    case 2: return 'Medium';
+    case 3: return 'Hard';
+    case 4: return 'Elite';
+    case 5: return 'Master';
+    default: return `Tier ${tier}`;
+  }
+}
+
 /**
  * Combine wiki rows with optional cache enrichment into L6Task records.
  */
