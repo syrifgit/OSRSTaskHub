@@ -1,7 +1,12 @@
 {
   "6809": {
     "classification": "SINGLE",
-    "reason": "[named_location] Auburn Valley"
+    "reason": "[named_location] Auburn Valley",
+    "location": {
+      "x": 1361,
+      "y": 3305,
+      "plane": 0
+    }
   },
   "13326": {
     "classification": "SINGLE",
@@ -305,8 +310,8 @@
     "classification": "SINGLE",
     "reason": "[rule:substring] Fixed chest location",
     "location": {
-      "x": 3092,
-      "y": 3862,
+      "x": 3089,
+      "y": 3859,
       "plane": 0
     }
   },
@@ -523,16 +528,34 @@
   },
   "13625": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Buffalo' 22 spawns within 49 tiles (~1590,3105)",
+    "reason": "[wiki] 'buffalo' has 1 location: Ortus Farm",
     "location": {
-      "x": 1486,
-      "y": 3213,
+      "x": 1590,
+      "y": 3105,
+      "plane": 0
+    }
+  },
+  "13626": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'barbarian' has 1 location: Barbarian Camp",
+    "location": {
+      "x": 1583,
+      "y": 3434,
+      "plane": 0
+    }
+  },
+  "13629": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'seagull' has 1 location: Aldarin",
+    "location": {
+      "x": 1442,
+      "y": 2968,
       "plane": 0
     }
   },
   "13632": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Yak' 6 spawns within 8 tiles (~2322,3793)",
+    "reason": "[wiki] 'yak' has 1 location: Neitiznot",
     "location": {
       "x": 2322,
       "y": 3793,
@@ -541,7 +564,7 @@
   },
   "13635": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Salarin the Twisted' has 1 spawn",
+    "reason": "[wiki] 'salarin the twisted' has 1 location: Yanille Agility Dungeon",
     "location": {
       "x": 2613,
       "y": 9523,
@@ -550,7 +573,7 @@
   },
   "13636": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Alchemical Hydra' has 1 spawn",
+    "reason": "[wiki] 'alchemical hydra' has 1 location: Karuulm Slayer Dungeon",
     "location": {
       "x": 1364,
       "y": 10265,
@@ -559,7 +582,7 @@
   },
   "13638": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Araxxor' has 1 spawn",
+    "reason": "[wiki] 'araxxor' has 1 location: Morytania Spider Cave",
     "location": {
       "x": 3635,
       "y": 9815,
@@ -568,7 +591,7 @@
   },
   "13640": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Alchemical Hydra' has 1 spawn",
+    "reason": "[wiki] 'alchemical hydra' has 1 location: Karuulm Slayer Dungeon",
     "location": {
       "x": 1364,
       "y": 10265,
@@ -577,7 +600,7 @@
   },
   "13641": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Araxxor' has 1 spawn",
+    "reason": "[wiki] 'araxxor' has 1 location: Morytania Spider Cave",
     "location": {
       "x": 3635,
       "y": 9815,
@@ -586,7 +609,7 @@
   },
   "13642": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Araxxor' has 1 spawn",
+    "reason": "[wiki] 'araxxor' has 1 location: Morytania Spider Cave",
     "location": {
       "x": 3635,
       "y": 9815,
@@ -604,7 +627,7 @@
   },
   "13644": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Araxxor' has 1 spawn",
+    "reason": "[wiki] 'araxxor' has 1 location: Morytania Spider Cave",
     "location": {
       "x": 3635,
       "y": 9815,
@@ -613,7 +636,7 @@
   },
   "13645": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Skotizo' has 1 spawn",
+    "reason": "[wiki] 'skotizo' has 1 location: Catacombs of Kourend",
     "location": {
       "x": 2271,
       "y": 5661,
@@ -631,7 +654,7 @@
   },
   "13647": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Alchemical Hydra' has 1 spawn",
+    "reason": "[wiki] 'alchemical hydra' has 1 location: Karuulm Slayer Dungeon",
     "location": {
       "x": 1364,
       "y": 10265,
@@ -640,7 +663,7 @@
   },
   "13648": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Sarachnis' has 1 spawn",
+    "reason": "[wiki] 'sarachnis' has 1 location: Forthos Dungeon — Burial tomb",
     "location": {
       "x": 1840,
       "y": 9900,
@@ -658,7 +681,7 @@
   },
   "13650": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Sarachnis' has 1 spawn",
+    "reason": "[wiki] 'sarachnis' has 1 location: Forthos Dungeon — Burial tomb",
     "location": {
       "x": 1840,
       "y": 9900,
@@ -676,7 +699,7 @@
   },
   "13652": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Alchemical Hydra' has 1 spawn",
+    "reason": "[wiki] 'alchemical hydra' has 1 location: Karuulm Slayer Dungeon",
     "location": {
       "x": 1364,
       "y": 10265,
@@ -694,7 +717,7 @@
   },
   "13656": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Amoxliatl' has 1 spawn",
+    "reason": "[wiki] 'amoxliatl' has 1 location: Ruins of Tapoyauik",
     "location": {
       "x": 1362,
       "y": 4511,
@@ -703,7 +726,7 @@
   },
   "13657": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Hueycoatl' has 1 spawn",
+    "reason": "[wiki] 'the hueycoatl' has 1 location: The Darkfrost",
     "location": {
       "x": 1509,
       "y": 3290,
@@ -730,7 +753,7 @@
   },
   "13662": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Hueycoatl' has 1 spawn",
+    "reason": "[wiki] 'the hueycoatl' has 1 location: The Darkfrost",
     "location": {
       "x": 1509,
       "y": 3290,
@@ -739,7 +762,7 @@
   },
   "13663": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Amoxliatl' has 1 spawn",
+    "reason": "[wiki] 'amoxliatl' has 1 location: Ruins of Tapoyauik",
     "location": {
       "x": 1362,
       "y": 4511,
@@ -748,16 +771,25 @@
   },
   "13664": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Frost Crabs' 23 spawns within 27 tiles (~1711,9615)",
+    "reason": "[wiki] 'frost crab' has 1 location: Ruins of Tapoyauik",
     "location": {
-      "x": 1711,
-      "y": 9615,
+      "x": 1703,
+      "y": 9627,
+      "plane": 0
+    }
+  },
+  "13665": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'dire wolf' has 1 location: Wolf Den",
+    "location": {
+      "x": 1501,
+      "y": 3126,
       "plane": 0
     }
   },
   "13667": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Oryx' 11 spawns within 239 tiles (~1584,3023)",
+    "reason": "[wiki] 'oryx' has 1 location: Avium Savannah",
     "location": {
       "x": 1584,
       "y": 3023,
@@ -775,7 +807,7 @@
   },
   "13669": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Sarachnis' has 1 spawn",
+    "reason": "[wiki] 'sarachnis' has 1 location: Forthos Dungeon — Burial tomb",
     "location": {
       "x": 1840,
       "y": 9900,
@@ -809,15 +841,6 @@
       "plane": 0
     }
   },
-  "13673": {
-    "classification": "SINGLE",
-    "reason": "[npc_fallback] 'King Sand Crab' 19 spawns within 182 tiles (~1709,9927)",
-    "location": {
-      "x": 1713,
-      "y": 9995,
-      "plane": 0
-    }
-  },
   "13675": {
     "classification": "SINGLE",
     "reason": "[named_location] shayzien",
@@ -829,7 +852,7 @@
   },
   "13676": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Sarachnis' has 1 spawn",
+    "reason": "[wiki] 'sarachnis' has 1 location: Forthos Dungeon — Burial tomb",
     "location": {
       "x": 1840,
       "y": 9900,
@@ -847,19 +870,10 @@
   },
   "13678": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Brine Rat' 7 spawns within 10 tiles (~2706,10133)",
+    "reason": "[wiki] 'brine rat' has 1 location: Brine Rat Cavern",
     "location": {
       "x": 2706,
       "y": 10133,
-      "plane": 0
-    }
-  },
-  "13679": {
-    "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Suqah' 27 spawns within 98 tiles (~2120,3912)",
-    "location": {
-      "x": 2129,
-      "y": 3916,
       "plane": 0
     }
   },
@@ -881,6 +895,15 @@
       "plane": 0
     }
   },
+  "13683": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'black dragon' has 1 location: Mynydd",
+    "location": {
+      "x": 2155,
+      "y": 3427,
+      "plane": 0
+    }
+  },
   "13684": {
     "classification": "SINGLE",
     "reason": "[named_location] tower of life",
@@ -890,9 +913,18 @@
       "plane": 0
     }
   },
+  "13685": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'moss giant' has 1 location: Prifddinas",
+    "location": {
+      "x": 2301,
+      "y": 3381,
+      "plane": 0
+    }
+  },
   "13692": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Al Kharid Warrior' 9 spawns within 19 tiles (~3292,3171)",
+    "reason": "[wiki] 'al kharid warrior' has 1 location: Al Kharid",
     "location": {
       "x": 3282,
       "y": 3176,
@@ -901,10 +933,28 @@
   },
   "13693": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Cockatrice' 7 spawns within 14 tiles (~2791,10034)",
+    "reason": "[wiki] 'cockatrice' has 1 location: Fremennik Slayer Cave",
     "location": {
       "x": 2791,
       "y": 10034,
+      "plane": 0
+    }
+  },
+  "13696": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'pyrefiend' has 1 location: Fremennik Slayer Cave",
+    "location": {
+      "x": 2760,
+      "y": 10004,
+      "plane": 0
+    }
+  },
+  "13698": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'fire giant' has 1 location: Deep Wilderness Dungeon",
+    "location": {
+      "x": 3049,
+      "y": 10341,
       "plane": 0
     }
   },
@@ -919,7 +969,7 @@
   },
   "13701": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Mammoth' 8 spawns within 14 tiles (~3167,3593)",
+    "reason": "[wiki] 'mammoth' has 1 location: of Ferox Enclave",
     "location": {
       "x": 3167,
       "y": 3593,
@@ -928,7 +978,7 @@
   },
   "13702": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Zombie Pirate' 34 spawns within 28 tiles (~3238,3609)",
+    "reason": "[wiki] 'zombie pirate' has 1 location: Chaos Temple (Wilderness)",
     "location": {
       "x": 3238,
       "y": 3609,
@@ -941,6 +991,24 @@
     "location": {
       "x": 3291,
       "y": 3849,
+      "plane": 0
+    }
+  },
+  "13704": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'corporeal beast' has 1 location: Corporeal Beast's Lair",
+    "location": {
+      "x": 3313,
+      "y": 10078,
+      "plane": 0
+    }
+  },
+  "13705": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'corporeal beast' has 1 location: Corporeal Beast's Lair",
+    "location": {
+      "x": 3313,
+      "y": 10078,
       "plane": 0
     }
   },
@@ -973,11 +1041,16 @@
   },
   "13710": {
     "classification": "SINGLE",
-    "reason": "[named_location] Awakened Leviathan"
+    "reason": "[wiki] 'the leviathan' has 1 location: The Scar",
+    "location": {
+      "x": 2081,
+      "y": 6372,
+      "plane": 0
+    }
   },
   "13711": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Demonic Gorillas' 28 spawns within 85 tiles (~2107,5661)",
+    "reason": "[wiki] 'demonic gorilla' has 1 location: Crash Site Cavern",
     "location": {
       "x": 2107,
       "y": 5661,
@@ -1013,7 +1086,7 @@
   },
   "13716": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Demonic Gorillas' 28 spawns within 85 tiles (~2107,5661)",
+    "reason": "[wiki] 'demonic gorilla' has 1 location: Crash Site Cavern",
     "location": {
       "x": 2107,
       "y": 5661,
@@ -1031,7 +1104,7 @@
   },
   "13721": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Awakened Duke Sucellus' has 1 spawn",
+    "reason": "[wiki] 'duke sucellus' has 1 location: Ghorrock Prison - Asylum",
     "location": {
       "x": 3039,
       "y": 6454,
@@ -1040,7 +1113,7 @@
   },
   "13723": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Duke Sucellus' has 1 spawn",
+    "reason": "[wiki] 'duke sucellus' has 1 location: Ghorrock Prison - Asylum",
     "location": {
       "x": 3039,
       "y": 6454,
@@ -1058,7 +1131,7 @@
   },
   "13726": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Leviathan' has 1 spawn",
+    "reason": "[wiki] 'the leviathan' has 1 location: The Scar",
     "location": {
       "x": 2081,
       "y": 6372,
@@ -1076,7 +1149,7 @@
   },
   "13730": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Phantom Muspah' has 1 spawn",
+    "reason": "[wiki] 'phantom muspah' has 1 location: Ghorrock Dungeon",
     "location": {
       "x": 2909,
       "y": 10317,
@@ -1085,7 +1158,7 @@
   },
   "13731": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Vorkath' has 1 spawn",
+    "reason": "[wiki] 'vorkath' has 1 location: Ungael",
     "location": {
       "x": 2269,
       "y": 4062,
@@ -1094,7 +1167,7 @@
   },
   "13732": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Zalcano' has 1 spawn",
+    "reason": "[wiki] 'zalcano' has 1 location: Volcanic caverns beneath Prifddinas",
     "location": {
       "x": 3031,
       "y": 6048,
@@ -1103,7 +1176,7 @@
   },
   "13733": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Vorkath' has 1 spawn",
+    "reason": "[wiki] 'vorkath' has 1 location: Ungael",
     "location": {
       "x": 2269,
       "y": 4062,
@@ -1112,11 +1185,25 @@
   },
   "13735": {
     "classification": "SINGLE",
-    "reason": "[named_location] Awakened Whisperer"
+    "reason": "[wiki] 'the whisperer' has 1 location: Lassar Undercity - Sunken Cathedral",
+    "location": {
+      "x": 2656,
+      "y": 6369,
+      "plane": 0
+    }
+  },
+  "13736": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'steel dragon' has 1 location: Brimhaven Dungeon",
+    "location": {
+      "x": 2715,
+      "y": 9446,
+      "plane": 0
+    }
   },
   "13738": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Cerberus' 3 spawns within 128 tiles (~1302,1271)",
+    "reason": "[wiki] 'cerberus' at specific location: Cerberus' Lair",
     "location": {
       "x": 1310,
       "y": 1251,
@@ -1152,7 +1239,7 @@
   },
   "13744": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Whisperer' has 1 spawn",
+    "reason": "[wiki] 'the whisperer' has 1 location: Lassar Undercity - Sunken Cathedral",
     "location": {
       "x": 2656,
       "y": 6369,
@@ -1170,7 +1257,7 @@
   },
   "13753": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Basilisk Knight' 20 spawns within 57 tiles (~2431,10386)",
+    "reason": "[wiki] 'basilisk knight' has 1 location: Jormungand's Prison",
     "location": {
       "x": 2431,
       "y": 10386,
@@ -1181,14 +1268,14 @@
     "classification": "SINGLE",
     "reason": "[rule:substring] Sisterhood Sanctuary",
     "location": {
-      "x": 3871,
-      "y": 9952,
+      "x": 3863,
+      "y": 9942,
       "plane": 0
     }
   },
   "13758": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Urium Shade' 11 spawns within 17 tiles (~3507,9677)",
+    "reason": "[wiki] 'urium shade' has 1 location: Shade Catacombs",
     "location": {
       "x": 3507,
       "y": 9677,
@@ -1197,7 +1284,7 @@
   },
   "13760": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Callisto' has 1 spawn",
+    "reason": "[wiki] 'callisto' has 1 location: Callisto's Den",
     "location": {
       "x": 3291,
       "y": 3849,
@@ -1206,7 +1293,7 @@
   },
   "13761": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Duke Sucellus' has 1 spawn",
+    "reason": "[wiki] 'duke sucellus' has 1 location: Ghorrock Prison - Asylum",
     "location": {
       "x": 3039,
       "y": 6454,
@@ -1215,7 +1302,7 @@
   },
   "13762": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Vorkath' has 1 spawn",
+    "reason": "[wiki] 'vorkath' has 1 location: Ungael",
     "location": {
       "x": 2269,
       "y": 4062,
@@ -1224,7 +1311,7 @@
   },
   "13763": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Duke Sucellus' has 1 spawn",
+    "reason": "[wiki] 'duke sucellus' has 1 location: Ghorrock Prison - Asylum",
     "location": {
       "x": 3039,
       "y": 6454,
@@ -1233,7 +1320,7 @@
   },
   "13764": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Duke Sucellus' has 1 spawn",
+    "reason": "[wiki] 'duke sucellus' has 1 location: Ghorrock Prison - Asylum",
     "location": {
       "x": 3039,
       "y": 6454,
@@ -1278,7 +1365,7 @@
   },
   "13769": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Cerberus' 3 spawns within 128 tiles (~1302,1271)",
+    "reason": "[wiki] 'cerberus' has 1 location: Cerberus' Lair",
     "location": {
       "x": 1310,
       "y": 1251,
@@ -1287,7 +1374,7 @@
   },
   "13770": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Cerberus' 3 spawns within 128 tiles (~1302,1271)",
+    "reason": "[wiki] 'cerberus' at specific location: Cerberus' Lair",
     "location": {
       "x": 1310,
       "y": 1251,
@@ -1314,7 +1401,7 @@
   },
   "13773": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Scorpia' has 1 spawn",
+    "reason": "[wiki] 'scorpia' has 1 location: Cave in the Scorpion Pit (north-east Wilderness)",
     "location": {
       "x": 3233,
       "y": 10341,
@@ -1323,7 +1410,7 @@
   },
   "13774": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Phantom Muspah' has 1 spawn",
+    "reason": "[wiki] 'phantom muspah' has 1 location: Ghorrock Dungeon",
     "location": {
       "x": 2909,
       "y": 10317,
@@ -1332,16 +1419,25 @@
   },
   "13775": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Chaos Elemental' has 1 spawn",
+    "reason": "[wiki] 'chaos elemental' has 1 location: of the Rogues' Castle",
     "location": {
       "x": 3261,
       "y": 3927,
       "plane": 0
     }
   },
+  "13776": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'corporeal beast' has 1 location: Corporeal Beast's Lair",
+    "location": {
+      "x": 3313,
+      "y": 10078,
+      "plane": 0
+    }
+  },
   "13777": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Phantom Muspah' has 1 spawn",
+    "reason": "[wiki] 'phantom muspah' has 1 location: Ghorrock Dungeon",
     "location": {
       "x": 2909,
       "y": 10317,
@@ -1350,7 +1446,7 @@
   },
   "13778": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Phantom Muspah' has 1 spawn",
+    "reason": "[wiki] 'phantom muspah' has 1 location: Ghorrock Dungeon",
     "location": {
       "x": 2909,
       "y": 10317,
@@ -1366,9 +1462,18 @@
       "plane": 0
     }
   },
+  "13782": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'corporeal beast' has 1 location: Corporeal Beast's Lair",
+    "location": {
+      "x": 3313,
+      "y": 10078,
+      "plane": 0
+    }
+  },
   "13783": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Vorkath' has 1 spawn",
+    "reason": "[wiki] 'vorkath' has 1 location: Ungael",
     "location": {
       "x": 2269,
       "y": 4062,
@@ -1377,7 +1482,7 @@
   },
   "13784": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Cerberus' 3 spawns within 128 tiles (~1302,1271)",
+    "reason": "[wiki] 'cerberus' at specific location: Cerberus' Lair",
     "location": {
       "x": 1310,
       "y": 1251,
@@ -1386,7 +1491,7 @@
   },
   "13785": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Vorkath' has 1 spawn",
+    "reason": "[wiki] 'vorkath' has 1 location: Ungael",
     "location": {
       "x": 2269,
       "y": 4062,
@@ -1395,7 +1500,7 @@
   },
   "13786": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Vorkath' has 1 spawn",
+    "reason": "[wiki] 'vorkath' has 1 location: Ungael",
     "location": {
       "x": 2269,
       "y": 4062,
@@ -1404,7 +1509,7 @@
   },
   "13787": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'King Black Dragon' has 1 spawn",
+    "reason": "[wiki] 'king black dragon' has 1 location: King Black Dragon Lair (Wilderness)",
     "location": {
       "x": 3109,
       "y": 10265,
@@ -1413,7 +1518,7 @@
   },
   "13788": {
     "classification": "SINGLE",
-    "reason": "[named_location] Awakened Vardorvis",
+    "reason": "[wiki] 'vardorvis' has 1 location: The Stranglewood - Ritual Site",
     "location": {
       "x": 1128,
       "y": 3417,
@@ -1422,7 +1527,7 @@
   },
   "13789": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Commander Zilyana' has 1 spawn",
+    "reason": "[wiki] 'commander zilyana' has 1 location: God Wars Dungeon (Saradomin boss room)",
     "location": {
       "x": 2905,
       "y": 5237,
@@ -1431,16 +1536,16 @@
   },
   "13790": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'General Graardor' has 1 spawn",
+    "reason": "[wiki] 'general graardor' has 1 location: God Wars Dungeon (Bandos boss room)",
     "location": {
-      "x": 3024,
-      "y": 9976,
+      "x": 2872,
+      "y": 5358,
       "plane": 0
     }
   },
   "13791": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Venenatis' has 1 spawn",
+    "reason": "[wiki] 'venenatis' has 1 location: Silk Chasm",
     "location": {
       "x": 3319,
       "y": 3798,
@@ -1449,7 +1554,7 @@
   },
   "13792": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Kree'arra' has 1 spawn",
+    "reason": "[wiki] 'kree'arra' has 1 location: God Wars Dungeon (Armadyl boss room)",
     "location": {
       "x": 2832,
       "y": 5302,
@@ -1458,7 +1563,7 @@
   },
   "13793": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'K'ril Tsutsaroth' has 1 spawn",
+    "reason": "[wiki] 'k'ril tsutsaroth' has 1 location: God Wars Dungeon (Zamorak boss room)",
     "location": {
       "x": 2925,
       "y": 5322,
@@ -1485,7 +1590,7 @@
   },
   "13797": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Whisperer' has 1 spawn",
+    "reason": "[wiki] 'the whisperer' has 1 location: Lassar Undercity - Sunken Cathedral",
     "location": {
       "x": 2656,
       "y": 6369,
@@ -1494,7 +1599,7 @@
   },
   "13798": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Whisperer' has 1 spawn",
+    "reason": "[wiki] 'the whisperer' has 1 location: Lassar Undercity - Sunken Cathedral",
     "location": {
       "x": 2656,
       "y": 6369,
@@ -1521,7 +1626,7 @@
   },
   "13801": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Vardorvis' has 1 spawn",
+    "reason": "[wiki] 'vardorvis' has 1 location: The Stranglewood - Ritual Site",
     "location": {
       "x": 1128,
       "y": 3417,
@@ -1539,16 +1644,25 @@
   },
   "13803": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Demonic Gorillas' 28 spawns within 85 tiles (~2107,5661)",
+    "reason": "[wiki] 'demonic gorilla' has 1 location: Crash Site Cavern",
     "location": {
       "x": 2107,
       "y": 5661,
       "plane": 0
     }
   },
+  "13804": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'dust devil' has 1 location: Smoke Dungeon",
+    "location": {
+      "x": 3216,
+      "y": 9374,
+      "plane": 0
+    }
+  },
   "13805": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Cave Kraken' 26 spawns within 53 tiles (~2271,10011)",
+    "reason": "[wiki] 'cave kraken' has 1 location: Kraken Cove",
     "location": {
       "x": 2271,
       "y": 10011,
@@ -1575,7 +1689,7 @@
   },
   "13808": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Leviathan' has 1 spawn",
+    "reason": "[wiki] 'the leviathan' has 1 location: The Scar",
     "location": {
       "x": 2081,
       "y": 6372,
@@ -1593,7 +1707,7 @@
   },
   "13810": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Leviathan' has 1 spawn",
+    "reason": "[wiki] 'the leviathan' has 1 location: The Scar",
     "location": {
       "x": 2081,
       "y": 6372,
@@ -1602,7 +1716,7 @@
   },
   "13811": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Whisperer' has 1 spawn",
+    "reason": "[wiki] 'the whisperer' has 1 location: Lassar Undercity - Sunken Cathedral",
     "location": {
       "x": 2656,
       "y": 6369,
@@ -1611,7 +1725,7 @@
   },
   "13812": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Vet'ion' has 1 spawn",
+    "reason": "[wiki] 'vet'ion' has 1 location: Vet'ion's Rest",
     "location": {
       "x": 3219,
       "y": 3788,
@@ -1620,7 +1734,7 @@
   },
   "13813": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Leviathan' has 1 spawn",
+    "reason": "[wiki] 'the leviathan' has 1 location: The Scar",
     "location": {
       "x": 2081,
       "y": 6372,
@@ -1656,7 +1770,7 @@
   },
   "13817": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Demonic Gorilla' 28 spawns within 85 tiles (~2107,5661)",
+    "reason": "[wiki] 'demonic gorilla' has 1 location: Crash Site Cavern",
     "location": {
       "x": 2107,
       "y": 5661,
@@ -1674,7 +1788,7 @@
   },
   "13819": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Mithril Dragon' 7 spawns within 30 tiles (~1834,5401)",
+    "reason": "[wiki] 'mithril dragon' has 1 location: Ancient Cavern",
     "location": {
       "x": 1834,
       "y": 5401,
@@ -1683,7 +1797,7 @@
   },
   "13820": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Smoke Devil' 36 spawns within 71 tiles (~2394,9443)",
+    "reason": "[wiki] 'smoke devil' has 1 location: Smoke Devil Dungeon",
     "location": {
       "x": 2394,
       "y": 9443,
@@ -1710,19 +1824,19 @@
   },
   "13824": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Kalphite Queen' has 1 spawn",
+    "reason": "[wiki] 'kalphite queen' has 1 location: Kalphite Lair",
     "location": {
-      "x": 3199,
-      "y": 9428,
+      "x": 3186,
+      "y": 9424,
       "plane": 0
     }
   },
   "13825": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Kalphite Queen' has 1 spawn",
+    "reason": "[wiki] 'kalphite queen' has 1 location: Kalphite Lair",
     "location": {
-      "x": 3199,
-      "y": 9428,
+      "x": 3186,
+      "y": 9424,
       "plane": 0
     }
   },
@@ -1735,18 +1849,27 @@
       "plane": 0
     }
   },
+  "13828": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'abyssal demon' has 1 location: Slayer Tower",
+    "location": {
+      "x": 3417,
+      "y": 3568,
+      "plane": 2
+    }
+  },
   "13830": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Kalphite Queen' has 1 spawn",
+    "reason": "[wiki] 'kalphite queen' has 1 location: Kalphite Lair",
     "location": {
-      "x": 3199,
-      "y": 9428,
+      "x": 3186,
+      "y": 9424,
       "plane": 0
     }
   },
   "13832": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Vardorvis' has 1 spawn",
+    "reason": "[wiki] 'vardorvis' has 1 location: The Stranglewood - Ritual Site",
     "location": {
       "x": 1128,
       "y": 3417,
@@ -1755,19 +1878,10 @@
   },
   "13833": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Vardorvis' has 1 spawn",
+    "reason": "[wiki] 'vardorvis' has 1 location: The Stranglewood - Ritual Site",
     "location": {
       "x": 1128,
       "y": 3417,
-      "plane": 0
-    }
-  },
-  "13834": {
-    "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Kalphite Guardian' 9 spawns within 141 tiles (~3284,9473)",
-    "location": {
-      "x": 3340,
-      "y": 9483,
       "plane": 0
     }
   },
@@ -1780,9 +1894,18 @@
       "plane": 0
     }
   },
+  "13839": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'greater nechryael' has 1 location: Iorwerth Dungeon",
+    "location": {
+      "x": 3225,
+      "y": 12439,
+      "plane": 0
+    }
+  },
   "13840": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Fiyr Shade' 10 spawns within 26 tiles (~3462,9707)",
+    "reason": "[wiki] 'fiyr shade' has 1 location: Shade Catacombs",
     "location": {
       "x": 3462,
       "y": 9707,
@@ -1791,16 +1914,16 @@
   },
   "13841": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Vyrewatch Sentinel' 19 spawns within 65 tiles (~3606,3361)",
+    "reason": "[wiki] 'vyrewatch sentinel' has 1 location: Darkmeyer",
     "location": {
-      "x": 3611,
-      "y": 3359,
+      "x": 3606,
+      "y": 3361,
       "plane": 0
     }
   },
   "13842": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Vardorvis' has 1 spawn",
+    "reason": "[wiki] 'vardorvis' has 1 location: The Stranglewood - Ritual Site",
     "location": {
       "x": 1128,
       "y": 3417,
@@ -1831,7 +1954,7 @@
   },
   "13846": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Zalcano' has 1 spawn",
+    "reason": "[wiki] 'zalcano' has 1 location: Volcanic caverns beneath Prifddinas",
     "location": {
       "x": 3031,
       "y": 6048,
@@ -1840,7 +1963,7 @@
   },
   "13847": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Zalcano' has 1 spawn",
+    "reason": "[wiki] 'zalcano' has 1 location: Volcanic caverns beneath Prifddinas",
     "location": {
       "x": 3031,
       "y": 6048,
@@ -1865,9 +1988,18 @@
       "plane": 0
     }
   },
+  "13853": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'black demon' has 1 location: Taverley Dungeon",
+    "location": {
+      "x": 2850,
+      "y": 9783,
+      "plane": 0
+    }
+  },
   "13855": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Sol Heredit' has 1 spawn",
+    "reason": "[wiki] 'sol heredit' has 1 location: Fortis Colosseum",
     "location": {
       "x": 1804,
       "y": 9493,
@@ -1876,7 +2008,7 @@
   },
   "13856": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Sol Heredit' has 1 spawn",
+    "reason": "[wiki] 'sol heredit' has 1 location: Fortis Colosseum",
     "location": {
       "x": 1804,
       "y": 9493,
@@ -1885,16 +2017,25 @@
   },
   "13857": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Skeletal Wyvern' 22 spawns within 53 tiles (~3058,9561)",
+    "reason": "[wiki] 'skeletal wyvern' has 1 location: Asgarnian Ice Dungeon",
     "location": {
       "x": 3058,
       "y": 9561,
       "plane": 0
     }
   },
+  "13858": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'bloodveld' has 1 location: Stronghold Slayer Cave",
+    "location": {
+      "x": 2460,
+      "y": 9823,
+      "plane": 0
+    }
+  },
   "13859": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Giant Mole' has 1 spawn",
+    "reason": "[wiki] 'giant mole' has 1 location: Mole Hole (Under Falador Park)",
     "location": {
       "x": 1759,
       "y": 5189,
@@ -1903,7 +2044,7 @@
   },
   "13860": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Giant Mole' has 1 spawn",
+    "reason": "[wiki] 'giant mole' has 1 location: Mole Hole (Under Falador Park)",
     "location": {
       "x": 1759,
       "y": 5189,
@@ -1912,7 +2053,7 @@
   },
   "13862": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Lava Dragon' 8 spawns within 37 tiles (~3205,3824)",
+    "reason": "[wiki] 'lava dragon' has 1 location: Lava Dragon Isle",
     "location": {
       "x": 3205,
       "y": 3824,
@@ -1921,7 +2062,7 @@
   },
   "13865": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Chaos Fanatic' has 1 spawn",
+    "reason": "[wiki] 'chaos fanatic' has 1 location: of the Lava Maze",
     "location": {
       "x": 2979,
       "y": 3846,
@@ -1930,7 +2071,7 @@
   },
   "13866": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Drake' 13 spawns within 55 tiles (~1175,10199)",
+    "reason": "[wiki] 'drake' has 1 location: Karuulm Slayer Dungeon",
     "location": {
       "x": 1175,
       "y": 10199,
@@ -1939,7 +2080,7 @@
   },
   "13867": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Crazy Archaeologist' has 1 spawn",
+    "reason": "[wiki] 'crazy archaeologist' has 1 location: Ruins (west)",
     "location": {
       "x": 2977,
       "y": 3702,
@@ -1948,16 +2089,34 @@
   },
   "13869": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Thermonuclear Smoke Devil' has 1 spawn",
+    "reason": "[wiki] 'thermonuclear smoke devil' has 1 location: Smoke Devil Dungeon",
     "location": {
       "x": 2360,
       "y": 9452,
       "plane": 0
     }
   },
+  "13871": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'jelly' has 1 location: Fremennik Slayer Dungeon",
+    "location": {
+      "x": 2704,
+      "y": 10027,
+      "plane": 0
+    }
+  },
+  "13872": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'kurask' has 1 location: Fremennik Slayer Dungeon",
+    "location": {
+      "x": 2697,
+      "y": 9996,
+      "plane": 0
+    }
+  },
   "13874": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Turoth' 22 spawns within 20 tiles (~2723,10005)",
+    "reason": "[wiki] 'turoth' has 1 location: Fremennik Slayer Dungeon",
     "location": {
       "x": 2723,
       "y": 10005,
@@ -1966,10 +2125,37 @@
   },
   "13875": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Giant Mole' has 1 spawn",
+    "reason": "[wiki] 'giant mole' has 1 location: Mole Hole (Under Falador Park)",
     "location": {
       "x": 1759,
       "y": 5189,
+      "plane": 0
+    }
+  },
+  "13876": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'mutated bloodveld' has 1 location: Iorwerth Dungeon",
+    "location": {
+      "x": 3243,
+      "y": 12427,
+      "plane": 0
+    }
+  },
+  "13877": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'kurask' has 1 location: Iorwerth Dungeon",
+    "location": {
+      "x": 3232,
+      "y": 12371,
+      "plane": 0
+    }
+  },
+  "13878": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'black demon' has 1 location: Brimhaven Dungeon",
+    "location": {
+      "x": 2706,
+      "y": 9483,
       "plane": 0
     }
   },
@@ -1979,7 +2165,7 @@
   },
   "13890": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Abyssal Sire' 4 spawns within 140 tiles (~3038,4823)",
+    "reason": "[wiki] 'abyssal sire' has 1 location: Abyssal Nexus",
     "location": {
       "x": 3107,
       "y": 4791,
@@ -1988,7 +2174,7 @@
   },
   "13891": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Abyssal Sire' 4 spawns within 140 tiles (~3038,4823)",
+    "reason": "[wiki] 'abyssal sire' has 1 location: Abyssal Nexus",
     "location": {
       "x": 3107,
       "y": 4791,
@@ -1997,7 +2183,7 @@
   },
   "13892": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Abyssal Sire' 4 spawns within 140 tiles (~3038,4823)",
+    "reason": "[wiki] 'abyssal sire' has 1 location: Abyssal Nexus",
     "location": {
       "x": 3107,
       "y": 4791,
@@ -2006,7 +2192,7 @@
   },
   "13893": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Abyssal Sire' 4 spawns within 140 tiles (~3038,4823)",
+    "reason": "[wiki] 'abyssal sire' has 1 location: Abyssal Nexus",
     "location": {
       "x": 3107,
       "y": 4791,
@@ -2078,28 +2264,28 @@
   },
   "13917": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Yama' has 1 spawn",
+    "reason": "[wiki] 'yama' at specific location: Yama's Domain",
     "location": {
       "x": 1503,
-      "y": 10093,
+      "y": 10091,
       "plane": 0
     }
   },
   "13918": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Yama' has 1 spawn",
+    "reason": "[wiki] 'yama' at specific location: Yama's Domain",
     "location": {
       "x": 1503,
-      "y": 10093,
+      "y": 10091,
       "plane": 0
     }
   },
   "13919": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Yama' has 1 spawn",
+    "reason": "[wiki] 'yama' at specific location: Yama's Domain",
     "location": {
       "x": 1503,
-      "y": 10093,
+      "y": 10091,
       "plane": 0
     }
   },
@@ -2287,8 +2473,8 @@
     "classification": "SINGLE",
     "reason": "[rule:substring] Giants' Foundry",
     "location": {
-      "x": 3367,
-      "y": 7317,
+      "x": 3363,
+      "y": 3148,
       "plane": 0
     }
   },
@@ -2296,8 +2482,8 @@
     "classification": "SINGLE",
     "reason": "[rule:substring] Giants' Foundry",
     "location": {
-      "x": 3367,
-      "y": 7317,
+      "x": 3363,
+      "y": 3148,
       "plane": 0
     }
   },
@@ -2548,8 +2734,8 @@
     "classification": "SINGLE",
     "reason": "[rule:substring] Giants' Foundry",
     "location": {
-      "x": 3367,
-      "y": 7317,
+      "x": 3363,
+      "y": 3148,
       "plane": 0
     }
   },
@@ -2891,7 +3077,12 @@
   },
   "14485": {
     "classification": "SINGLE",
-    "reason": "[structural] Specific bank location"
+    "reason": "[structural] Specific bank location",
+    "location": {
+      "x": 2406,
+      "y": 3807,
+      "plane": 0
+    }
   },
   "14486": {
     "classification": "SINGLE",
@@ -2922,10 +3113,10 @@
   },
   "14489": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Buffalo' 22 spawns within 49 tiles (~1590,3105)",
+    "reason": "[wiki] 'buffalo' has 1 location: Ortus Farm",
     "location": {
-      "x": 1486,
-      "y": 3213,
+      "x": 1590,
+      "y": 3105,
       "plane": 0
     }
   },
@@ -3002,15 +3193,6 @@
     "location": {
       "x": 2409,
       "y": 9817,
-      "plane": 0
-    }
-  },
-  "14507": {
-    "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Alpaca' 12 spawns within 271 tiles (~1470,3207)",
-    "location": {
-      "x": 1560,
-      "y": 3116,
       "plane": 0
     }
   },
@@ -3148,15 +3330,6 @@
       "plane": 0
     }
   },
-  "14540": {
-    "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Rogue' 32 spawns within 221 tiles (~3273,3933)",
-    "location": {
-      "x": 3288,
-      "y": 3931,
-      "plane": 0
-    }
-  },
   "14542": {
     "classification": "SINGLE",
     "reason": "[named_location] Chest",
@@ -3253,7 +3426,7 @@
   },
   "14588": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Taxidermist' has 1 spawn",
+    "reason": "[wiki] 'taxidermist' at specific location: Canifis",
     "location": {
       "x": 3479,
       "y": 3484,
@@ -3431,7 +3604,12 @@
   },
   "14679": {
     "classification": "SINGLE",
-    "reason": "[named_location] Isle"
+    "reason": "[named_location] Isle",
+    "location": {
+      "x": 2203,
+      "y": 2911,
+      "plane": 0
+    }
   },
   "14742": {
     "classification": "SINGLE",
@@ -3511,10 +3689,10 @@
   },
   "14827": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Crimson Swift' constrained to: feldip hills",
+    "reason": "[wiki] 'crimson swift' has 1 location: Eastern Feldip Hunter area",
     "location": {
-      "x": 2065,
-      "y": 3049,
+      "x": 2605,
+      "y": 2909,
       "plane": 0
     }
   },
@@ -3525,6 +3703,24 @@
       "x": 2107,
       "y": 3916,
       "plane": 0
+    }
+  },
+  "14830": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'cerulean twitch' has 1 location: Rellekka Hunter area",
+    "location": {
+      "x": 2716,
+      "y": 3823,
+      "plane": 0
+    }
+  },
+  "14831": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'polar kebbit' has 1 location: Rellekka Hunter area",
+    "location": {
+      "x": 2714,
+      "y": 3824,
+      "plane": 1
     }
   },
   "14833": {
@@ -3574,7 +3770,7 @@
   },
   "14855": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Anglerfish' 3 spawns within 7 tiles (~1828,3769)",
+    "reason": "[wiki] 'raw anglerfish' has 1 location: Port Piscarilius",
     "location": {
       "x": 1828,
       "y": 3769,
@@ -3583,7 +3779,12 @@
   },
   "14870": {
     "classification": "SINGLE",
-    "reason": "[named_location] stonecutter outpost"
+    "reason": "[named_location] stonecutter outpost",
+    "location": {
+      "x": 1740,
+      "y": 2950,
+      "plane": 0
+    }
   },
   "14871": {
     "classification": "SINGLE",
@@ -3630,6 +3831,15 @@
       "plane": 0
     }
   },
+  "14888": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'carnivorous chinchompa' has 1 location: Gwenith Hunter area",
+    "location": {
+      "x": 2272,
+      "y": 3407,
+      "plane": 0
+    }
+  },
   "14893": {
     "classification": "SINGLE",
     "reason": "[named_location] catherby",
@@ -3672,7 +3882,12 @@
   },
   "14908": {
     "classification": "SINGLE",
-    "reason": "[rule:substring] One fishing area"
+    "reason": "[rule:substring] One fishing area",
+    "location": {
+      "x": 3349,
+      "y": 3805,
+      "plane": 0
+    }
   },
   "14909": {
     "classification": "SINGLE",
@@ -3694,7 +3909,12 @@
   },
   "14912": {
     "classification": "SINGLE",
-    "reason": "[named_location] Auburn Valley"
+    "reason": "[named_location] Auburn Valley",
+    "location": {
+      "x": 1361,
+      "y": 3305,
+      "plane": 0
+    }
   },
   "14913": {
     "classification": "SINGLE",
@@ -3734,7 +3954,7 @@
   },
   "14920": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Sabre-toothed Kyatt' 6 spawns within 45 tiles (~2717,3789)",
+    "reason": "[wiki] 'sabre-toothed kyatt' has 1 location: Rellekka Hunter area",
     "location": {
       "x": 2717,
       "y": 3789,
@@ -3832,7 +4052,12 @@
   },
   "15017": {
     "classification": "SINGLE",
-    "reason": "[named_location] Auburn Valley"
+    "reason": "[named_location] Auburn Valley",
+    "location": {
+      "x": 1361,
+      "y": 3305,
+      "plane": 0
+    }
   },
   "15021": {
     "classification": "SINGLE",
@@ -4009,8 +4234,8 @@
     "classification": "SINGLE",
     "reason": "[scenery] 'granite' (granite rocks) 39 spawns within 218 tiles (~3189,2885)",
     "location": {
-      "x": 3170,
-      "y": 2911,
+      "x": 3317,
+      "y": 2708,
       "plane": 0
     }
   },
@@ -4061,7 +4286,12 @@
   },
   "15139": {
     "classification": "SINGLE",
-    "reason": "[named_location] Auburn Valley"
+    "reason": "[named_location] Auburn Valley",
+    "location": {
+      "x": 1361,
+      "y": 3305,
+      "plane": 0
+    }
   },
   "15141": {
     "classification": "SINGLE",
@@ -4144,15 +4374,6 @@
       "plane": 0
     }
   },
-  "15171": {
-    "classification": "SINGLE",
-    "reason": "[npc_fallback] 'knight of varlamore' 17 spawns within 46 tiles (~1664,3156)",
-    "location": {
-      "x": 1664,
-      "y": 3156,
-      "plane": 0
-    }
-  },
   "15173": {
     "classification": "SINGLE",
     "reason": "[named_location] woodcutting guild",
@@ -4164,10 +4385,10 @@
   },
   "15176": {
     "classification": "SINGLE",
-    "reason": "[named_location] Uzer",
+    "reason": "[wiki] 'orange salamander (hunter)' at specific location: Uzer Hunter area",
     "location": {
-      "x": 3467,
-      "y": 3110,
+      "x": 3408,
+      "y": 3098,
       "plane": 0
     }
   },
@@ -4175,8 +4396,8 @@
     "classification": "SINGLE",
     "reason": "[rule:substring] One fishing spot",
     "location": {
-      "x": 2714,
-      "y": 2792,
+      "x": 2913,
+      "y": 3116,
       "plane": 0
     }
   },
@@ -4204,15 +4425,6 @@
     "location": {
       "x": 2796,
       "y": 3101,
-      "plane": 0
-    }
-  },
-  "15196": {
-    "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Swamp Lizard' 35 spawns within 172 tiles (~3639,3419)",
-    "location": {
-      "x": 3687,
-      "y": 3406,
       "plane": 0
     }
   },
@@ -4456,7 +4668,7 @@
   },
   "15276": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Pyre fox' 11 spawns within 12 tiles (~1616,2998)",
+    "reason": "[wiki] 'pyre fox' has 1 location: Avium Savannah",
     "location": {
       "x": 1616,
       "y": 2998,
@@ -4471,8 +4683,8 @@
     "classification": "SINGLE",
     "reason": "[named_location] shayzien",
     "location": {
-      "x": 1573,
-      "y": 3559,
+      "x": 1542,
+      "y": 3584,
       "plane": 0
     }
   },
@@ -4539,6 +4751,15 @@
       "plane": 0
     }
   },
+  "15310": {
+    "classification": "SINGLE",
+    "reason": "[wiki] 'knight of ardougne' has 1 location: Ardougne",
+    "location": {
+      "x": 2661,
+      "y": 3307,
+      "plane": 0
+    }
+  },
   "15317": {
     "classification": "SINGLE",
     "reason": "[scenery] 'juniper' (mature juniper tree) 16 spawns within 126 tiles (~1724,3526)",
@@ -4559,7 +4780,7 @@
   },
   "15320": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Sabre-toothed Kebbit' 12 spawns within 16 tiles (~2713,3771)",
+    "reason": "[wiki] 'sabre-toothed kebbit' has 1 location: Rellekka Hunter area",
     "location": {
       "x": 2713,
       "y": 3771,
@@ -4577,7 +4798,12 @@
   },
   "15339": {
     "classification": "SINGLE",
-    "reason": "[rule:substring] Isafdar only"
+    "reason": "[rule:substring] Isafdar only",
+    "location": {
+      "x": 2238,
+      "y": 3177,
+      "plane": 0
+    }
   },
   "15343": {
     "classification": "SINGLE",
@@ -4657,11 +4883,21 @@
   },
   "15374": {
     "classification": "SINGLE",
-    "reason": "[named_location] Auburn Valley"
+    "reason": "[named_location] Auburn Valley",
+    "location": {
+      "x": 1361,
+      "y": 3305,
+      "plane": 0
+    }
   },
   "15375": {
     "classification": "SINGLE",
-    "reason": "[named_location] Auburn Valley"
+    "reason": "[named_location] Auburn Valley",
+    "location": {
+      "x": 1361,
+      "y": 3305,
+      "plane": 0
+    }
   },
   "15378": {
     "classification": "SINGLE",
@@ -4719,7 +4955,7 @@
   },
   "15385": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Spined Larupia' 5 spawns within 29 tiles (~2557,2896)",
+    "reason": "[wiki] 'spined larupia' has 1 location: Feldip Hunter area",
     "location": {
       "x": 2557,
       "y": 2896,
@@ -4730,14 +4966,14 @@
     "classification": "SINGLE",
     "reason": "[rule:substring] Piscatoris Fishing Colony",
     "location": {
-      "x": 2247,
-      "y": 3080,
+      "x": 2327,
+      "y": 3701,
       "plane": 0
     }
   },
   "15387": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Red Salamander' 9 spawns within 30 tiles (~2461,3233)",
+    "reason": "[wiki] 'red salamander (hunter)' has 1 location: Ourania Hunter area",
     "location": {
       "x": 2461,
       "y": 3233,
@@ -4800,7 +5036,7 @@
   },
   "15398": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Black Chinchompa' 12 spawns within 25 tiles (~3144,3775)",
+    "reason": "[wiki] 'black chinchompa (hunter)' has 1 location: of the Lava Maze",
     "location": {
       "x": 3144,
       "y": 3775,
@@ -4809,7 +5045,7 @@
   },
   "15399": {
     "classification": "SINGLE",
-    "reason": "[npc_fallback] 'Black Salamander' 6 spawns within 13 tiles (~3295,3672)",
+    "reason": "[wiki] 'black salamander (hunter)' has 1 location: Boneyard Hunter area",
     "location": {
       "x": 3295,
       "y": 3672,
@@ -4827,7 +5063,12 @@
   },
   "15401": {
     "classification": "SINGLE",
-    "reason": "[named_location] Revenant Caves"
+    "reason": "[named_location] Revenant Caves",
+    "location": {
+      "x": 3171,
+      "y": 10154,
+      "plane": 0
+    }
   },
   "13328": {
     "classification": "MULTI",
@@ -5317,65 +5558,53 @@
     "classification": "MULTI",
     "reason": "[rule:regex] Anywhere"
   },
-  "13626": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Barbarian' 30 spawns across kourend"
-  },
   "13627": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Guard' 80 spawns across varlamore underground"
+    "reason": "[wiki] 'guard (aldarin)' has 2 locations: Aldarin - market, Aldarin - town square"
   },
   "13628": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Rooster' 4 spawns across fremennik province"
-  },
-  "13629": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Seagull' has 42 spawn locations"
+    "reason": "[wiki] 'rooster' has 3 locations: Etceteria, Miscellania, Rellekka chicken pen"
   },
   "13630": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Billy Goat' has 13 spawn locations"
+    "reason": "[wiki] 'billy goat' has 2 locations: Kharidian Desert, of the Ruins of Unkah"
   },
   "13631": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'thief' has 23 spawn locations"
+    "reason": "[wiki] 'thief (varlamore)' has 4 locations: Building between the Grand Museum and Fortis Cothon, Outer Fortis, Tunnel... (+1 more)"
   },
   "13633": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Icefiend' 42 spawns across varlamore"
+    "reason": "[wiki] 'icefiend' has 3 locations: Mons Gratia, Ralos' Rise, Ruins of Tapoyauik"
   },
   "13634": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Imp' 124 spawns across kastori basement in varlamore"
+    "reason": "[wiki] 'imp' has 8 locations: Avium Savannah, Citlalli's, Civitas illa Fortis... (+5 more)"
   },
   "13637": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Snake' 56 spawns across karamja"
+    "reason": "[wiki] 'snake' has 2 locations: Karamja, Musa Point"
   },
   "13658": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Bandits' has 17 spawn locations"
+    "reason": "[wiki] 'bandit' has 2 locations: Bandit Camp (Wilderness), Wilderness Slayer Cave"
   },
-  "13665": {
+  "13673": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Dire Wolf' 22 spawns across varlamore"
+    "reason": "[wiki] 'king sand crab' has 2 locations: Catacombs of Kourend, Crabclaw Caves"
+  },
+  "13679": {
+    "classification": "MULTI",
+    "reason": "[wiki] 'suqah' has 2 locations: Lady Zay, Lunar Isle"
   },
   "13680": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Wallasalki' has 47 spawn locations"
-  },
-  "13683": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Black Dragon' 26 spawns across tirannwn"
-  },
-  "13685": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Moss Giant' 106 spawns across tirannwn"
+    "reason": "[wiki] 'wallasalki' has 5 locations: Waterbirth Dungeon (Sub-level 1 Room 2 (Centre)), Waterbirth Dungeon (Sub-level 2 Room 4), Waterbirth Dungeon (Sub-level 3 Room 9)... (+2 more)"
   },
   "13686": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Werewolf' 35 spawns across morytania"
+    "reason": "[wiki] 'werewolf' has 2 locations: God Wars Dungeon, Wilderness God Wars Dungeon"
   },
   "13687": {
     "classification": "MULTI",
@@ -5383,91 +5612,47 @@
   },
   "13694": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Fire Giant' 91 spawns across kandarin"
+    "reason": "[wiki] 'fire giant' has 2 locations: Stronghold Slayer Dungeon, Waterfall Dungeon"
   },
   "13695": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Chaos Dwarf' 17 spawns across wilderness"
-  },
-  "13696": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Pyrefiend' 73 spawns across fremennik province"
-  },
-  "13698": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Fire Giant' 91 spawns across wilderness"
+    "reason": "[wiki] 'chaos dwarf' has 3 locations: Deep Wilderness Dungeon, of Lava Dragon Isle, of Wilderness Bandit Camp"
   },
   "13699": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Rock Crab' 103 spawns across fremennik province"
-  },
-  "13704": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Corporeal Beast' 2 spawns across wilderness"
-  },
-  "13705": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Corporeal Beast' 2 spawns across wilderness"
+    "reason": "[wiki] 'rock crab' has 4 locations: Brine Rat Cavern, Waterbirth Island, Waterbirth Island Dungeon... (+1 more)"
   },
   "13722": {
     "classification": "MULTI",
     "reason": "[structural] Processing verb 'reach' - can be done anywhere"
   },
-  "13736": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Steel Dragon' 15 spawns across karamja"
-  },
   "13754": {
     "classification": "MULTI",
     "reason": "[rule:regex] Weapon constraint doesn't fix location"
-  },
-  "13776": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Corporeal Beast' 2 spawns across wilderness"
   },
   "13779": {
     "classification": "MULTI",
     "reason": "[rule:regex] Weapon constraint doesn't fix location"
   },
-  "13782": {
+  "13834": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Corporeal Beast' 2 spawns across wilderness"
-  },
-  "13804": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Dust Devil' 66 spawns across kharidian desert"
-  },
-  "13828": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Abyssal Demon' 62 spawns across morytania"
+    "reason": "[wiki] 'kalphite guardian' has 2 locations: Kalphite Cave, Kalphite Lair"
   },
   "13835": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Scarab Mage' has 39 spawn locations"
+    "reason": "[wiki] 'scarab mage' has 3 locations: Scabaras Dungeon, Sophanem Dungeon (cavern level), Sophanem Dungeon (maze level)"
   },
   "13838": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Dark Beast' 29 spawns across tirannwn"
-  },
-  "13839": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Nechryael' 23 spawns across tirannwn"
-  },
-  "13853": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Black Demon' 56 spawns across asgarnia"
+    "reason": "[wiki] 'dark beast' has 2 locations: Iorwerth Dungeon, Mourner Tunnels"
   },
   "13854": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Blue Dragon' 44 spawns across asgarnia"
-  },
-  "13858": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Bloodveld' 67 spawns across kandarin"
+    "reason": "[wiki] 'blue dragon' has 2 locations: Heroes' Guild, Taverley Dungeon"
   },
   "13861": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Green Dragon' 32 spawns across wilderness"
+    "reason": "[wiki] 'green dragon' has 5 locations: Wilderness Slayer Cave, of the Boneyard Hunter area, of the Dark Warriors' Fortress... (+2 more)"
   },
   "13868": {
     "classification": "MULTI",
@@ -5475,31 +5660,11 @@
   },
   "13870": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Dagannoth' 98 spawns across fremennik province"
-  },
-  "13871": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Jelly' 24 spawns across fremennik province"
-  },
-  "13872": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Kurask' 36 spawns across fremennik province"
+    "reason": "[wiki] 'dagannoth' has 2 locations: Jormungand's Prison, Lighthouse"
   },
   "13873": {
     "classification": "MULTI",
     "reason": "[npc_fallback] 'Troll' 7 spawns across fremennik province"
-  },
-  "13876": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Bloodveld' 67 spawns across tirannwn"
-  },
-  "13877": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Kurask' 36 spawns across tirannwn"
-  },
-  "13878": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Black Demon' 56 spawns across karamja"
   },
   "13881": {
     "classification": "MULTI",
@@ -5507,7 +5672,7 @@
   },
   "13883": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Black Knight' 79 spawns across asgarnia"
+    "reason": "[wiki] 'black knight' has 2 locations: Black Knights' Fortress (location), Taverley Dungeon"
   },
   "13884": {
     "classification": "MULTI",
@@ -5523,11 +5688,11 @@
   },
   "13887": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Chicken' has 161 spawn locations"
+    "reason": "[wiki] 'chicken' has 30 locations: Aldarin windmill, Barbarian Agility Course, Between Ardougne and Witchaven... (+27 more)"
   },
   "13888": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Hill Giant' has 91 spawn locations"
+    "reason": "[wiki] 'hill giant' has 13 locations: Avium Savannah, Boneyard Hunter area, Catacombs of Kourend... (+10 more)"
   },
   "13901": {
     "classification": "MULTI",
@@ -5535,19 +5700,19 @@
   },
   "13904": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Frog' has 51 spawn locations"
+    "reason": "[wiki] 'frog' has 3 locations: Lumbridge Swamp, The Great Conch, Tlati Rainforest"
   },
   "13906": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Rat' has 733 spawn locations"
+    "reason": "[wiki] 'rat' has 82 locations: Abandoned Mine (Level 2), Abandoned Mine (Level 4), Aldarin... (+79 more)"
   },
   "13907": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'scorpion' has 126 spawn locations"
+    "reason": "[wiki] 'scorpion' has 20 locations: Abalone Cliffs, Al Kharid (South of bank), Al Kharid mine... (+17 more)"
   },
   "13910": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'chickens' has 161 spawn locations"
+    "reason": "[wiki] 'chicken' has 30 locations: Aldarin windmill, Barbarian Agility Course, Between Ardougne and Witchaven... (+27 more)"
   },
   "13920": {
     "classification": "MULTI",
@@ -6969,6 +7134,10 @@
     "classification": "MULTI",
     "reason": "[structural] Processing verb 'scatter' - can be done anywhere"
   },
+  "14507": {
+    "classification": "MULTI",
+    "reason": "[wiki] 'alpaca' has 3 locations: Custodia Pass, Ortus Farm, Quetzacalli Gorge"
+  },
   "14514": {
     "classification": "MULTI",
     "reason": "[rule:substring] Multiple start points"
@@ -6984,6 +7153,10 @@
   "14533": {
     "classification": "MULTI",
     "reason": "[structural] Processing verb 'drink' - can be done anywhere"
+  },
+  "14540": {
+    "classification": "MULTI",
+    "reason": "[wiki] 'rogue' has 2 locations: Rogues' Castle, of Mage Arena"
   },
   "14575": {
     "classification": "MULTI",
@@ -7465,10 +7638,6 @@
     "classification": "MULTI",
     "reason": "[rule:regex] Anywhere"
   },
-  "14830": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Cerulean Twitch' has 18 spawn locations"
-  },
   "14832": {
     "classification": "MULTI",
     "reason": "[rule:substring] Generic hunter creature, multiple spots"
@@ -7580,6 +7749,10 @@
   "14885": {
     "classification": "MULTI",
     "reason": "[structural] Processing verb 'cook' - can be done anywhere"
+  },
+  "14891": {
+    "classification": "MULTI",
+    "reason": "[wiki] 'carnivorous chinchompa' has 2 locations: Feldip Hunter area, Red chinchompa hunting ground"
   },
   "14894": {
     "classification": "MULTI",
@@ -7891,7 +8064,7 @@
   },
   "15015": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'gnome' has 142 spawn locations"
+    "reason": "[wiki] 'gnome' has 7 locations: Battlefield, Inside Tree Gnome Stronghold, outside the Grand Tree,, Inside the Grand Tree (2nd Floor)... (+4 more)"
   },
   "15018": {
     "classification": "MULTI",
@@ -8161,6 +8334,10 @@
     "classification": "MULTI",
     "reason": "[rule:regex] XP can be gained anywhere"
   },
+  "15171": {
+    "classification": "MULTI",
+    "reason": "[wiki] 'knight of varlamore' has 3 locations: Kualti Headquarters, Kualti Headquarters -, Sunrise Palace -"
+  },
   "15174": {
     "classification": "MULTI",
     "reason": "[rule:regex] XP can be gained anywhere"
@@ -8188,6 +8365,10 @@
   "15195": {
     "classification": "MULTI",
     "reason": "[rule:regex] XP can be gained anywhere"
+  },
+  "15196": {
+    "classification": "MULTI",
+    "reason": "[wiki] 'swamp lizard (hunter)' has 2 locations: Canifis Hunter area, of Slepe"
   },
   "15197": {
     "classification": "MULTI",
@@ -8385,10 +8566,6 @@
     "classification": "MULTI",
     "reason": "[structural] Processing verb 'craft' - can be done anywhere"
   },
-  "15310": {
-    "classification": "MULTI",
-    "reason": "[npc_fallback] 'Knight of Ardougne' has 17 spawn locations"
-  },
   "15312": {
     "classification": "MULTI",
     "reason": "[structural] Processing verb 'use a furnace' - can be done anywhere"
@@ -8499,7 +8676,7 @@
   },
   "15381": {
     "classification": "MULTI",
-    "reason": "[npc_fallback] 'Snowy Knight' has 21 spawn locations"
+    "reason": "[wiki] 'snowy knight' has 2 locations: Rellekka Hunter area, Weiss"
   },
   "15390": {
     "classification": "MULTI",
@@ -8845,15 +9022,7 @@
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
-  "14831": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
   "14879": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "14888": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },
@@ -8862,10 +9031,6 @@
     "reason": "No rule or lookup matched"
   },
   "14890": {
-    "classification": "UNCLEAR",
-    "reason": "No rule or lookup matched"
-  },
-  "14891": {
     "classification": "UNCLEAR",
     "reason": "No rule or lookup matched"
   },

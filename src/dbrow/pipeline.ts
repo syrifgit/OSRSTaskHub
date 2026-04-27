@@ -175,11 +175,23 @@ export async function runDbrowPipeline(opts: DbrowPipelineOptions): Promise<void
       writeL6MinJson(reloadedTasks, outputDir, taskType);
       writeL6Csv(reloadedTasks, outputDir, taskType);
     } catch (err: any) {
-      console.warn(`${config.logPrefix} classify skipped: ${err.message}`);
-      // Fall through to unclassified outputs.
-      writeL6FullJson(tasks, outputDir, taskType);
-      writeL6MinJson(tasks, outputDir, taskType);
-      writeL6Csv(tasks, outputDir, taskType);
+      // Classifier failed (Python missing, data files missing, classifier error).
+      // Re-merge prior locations from existing locations.json instead of writing
+      // outputs without coords - which would silently strip user-facing location
+      // data on every CI failure.
+      console.warn(`${config.logPrefix} classify FAILED: ${err.message}`);
+      console.warn(`${config.logPrefix} preserving prior locations.json content`);
+      const fullPath = writeL6FullJson(tasks, outputDir, taskType);
+      if (existsSync(locationsPath)) {
+        const { merged, withLocation } = mergeL6Locations(fullPath, locationsPath);
+        log(`classify: re-merged prior locations (${merged} entries, ${withLocation} with coords)`);
+        const reloadedTasks: L6Task[] = JSON.parse(readFileSync(fullPath, 'utf-8'));
+        writeL6MinJson(reloadedTasks, outputDir, taskType);
+        writeL6Csv(reloadedTasks, outputDir, taskType);
+      } else {
+        writeL6MinJson(tasks, outputDir, taskType);
+        writeL6Csv(tasks, outputDir, taskType);
+      }
     }
   } else {
     // --no-classify: don't run Python, but preserve location data from a prior
@@ -315,10 +327,16 @@ function runClassifier(inputPath: string, outputPath: string): void {
   if (!existsSync(classifyScript)) {
     throw new Error(`classifier script not found at ${classifyScript}`);
   }
+  // classify.py defaults look at workspace-level paths (TaskWebTool/data_osrs/
+  // for scenery/items/monsters). On CI only the OSRSTaskHub repo is checked
+  // out, so those defaults fail. Always pass --data-dir to use the bundled
+  // copies under classify/data/ instead.
+  const dataDir = path.resolve('./classify/data');
   const args = [
     classifyScript,
     `--input=${inputPath}`,
     `--output=${outputPath}`,
+    `--data-dir=${dataDir}`,
     '--coords',
     path.dirname(outputPath),
   ];
