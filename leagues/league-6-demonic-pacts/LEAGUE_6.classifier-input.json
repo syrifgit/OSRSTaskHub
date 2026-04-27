@@ -10687,8 +10687,16 @@
     "category": null,
     "skillRequirements": [
       {
+        "skill": "FLETCHING",
+        "level": 87
+      },
+      {
         "skill": "CRAFTING",
         "level": 76
+      },
+      {
+        "skill": "SMITHING",
+        "level": 74
       }
     ]
   },
@@ -19539,7 +19547,7 @@
     "skillRequirements": [
       {
         "skill": "FLETCHING",
-        "level": 90
+        "level": 80
       }
     ]
   },
