@@ -1,4 +1,4 @@
-name: Update wiki data (completion %, skills, notes)
+name: Update task data (cache-first scrape for active league)
 
 on:
   schedule:
@@ -46,13 +46,22 @@ jobs:
         run: npm ci
 
       - name: Download game cache
-        # STRUCT path needs cache to load structs for varbit-index params.
-        # DBROW path merges by sortId (= wikiTaskIndex) and skips cache entirely.
-        if: steps.check-active.outputs.active == 'true' && steps.check-active.outputs.source_type == 'STRUCT'
+        # Both STRUCT (struct lookups) and DBROW (col 34 active set + enum reads)
+        # require fresh cache.
+        if: steps.check-active.outputs.active == 'true'
         run: npm run cli -- cache update
 
-      - name: Re-scrape wiki data
-        if: steps.check-active.outputs.active == 'true'
+      - name: Refresh task data (DBROW - cache-first, no classifier)
+        # dbrow:scrape determines membership from cache (col 34 = 1) and merges
+        # wiki for supplementary fields. --no-classify preserves prior coords
+        # without running Python; manual workflow trigger or local run handles
+        # classifier refresh after membership changes.
+        if: steps.check-active.outputs.active == 'true' && steps.check-active.outputs.source_type == 'DBROW'
+        run: npm run cli -- tasks dbrow:scrape ${{ steps.check-active.outputs.task_type }} --no-classify
+
+      - name: Refresh wiki data (STRUCT)
+        # STRUCT leagues use the lighter wiki-merge path against existing full.json.
+        if: steps.check-active.outputs.active == 'true' && steps.check-active.outputs.source_type == 'STRUCT'
         run: npm run cli -- tasks update-wiki ${{ steps.check-active.outputs.task_type }}
 
       - name: Commit and push if changed
@@ -64,6 +73,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update wiki data for ${{ steps.check-active.outputs.task_type }}"
+            git commit -m "Refresh task data for ${{ steps.check-active.outputs.task_type }}"
             git push
           fi

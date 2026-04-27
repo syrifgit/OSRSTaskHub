@@ -182,10 +182,24 @@ export async function runDbrowPipeline(opts: DbrowPipelineOptions): Promise<void
       writeL6Csv(tasks, outputDir, taskType);
     }
   } else {
+    // --no-classify: don't run Python, but preserve location data from a prior
+    // classifier run if locations.json exists. This is what hourly CI wants -
+    // refresh wiki+cache cheaply, keep existing coords. Without this, every
+    // hourly run wipes location fields until the next manual classifier pass.
     log(`classify: skipped (--no-classify)`);
-    writeL6FullJson(tasks, outputDir, taskType);
-    writeL6MinJson(tasks, outputDir, taskType);
-    writeL6Csv(tasks, outputDir, taskType);
+    const fullPath = writeL6FullJson(tasks, outputDir, taskType);
+    const locationsPath = path.join(outputDir, `${taskType}.locations.json`);
+    if (existsSync(locationsPath)) {
+      const { merged, withLocation } = mergeL6Locations(fullPath, locationsPath);
+      log(`classify: re-merged prior locations (${merged} entries, ${withLocation} with coords)`);
+      const reloadedTasks: L6Task[] = JSON.parse(readFileSync(fullPath, 'utf-8'));
+      writeL6MinJson(reloadedTasks, outputDir, taskType);
+      writeL6Csv(reloadedTasks, outputDir, taskType);
+    } else {
+      log(`classify: no locations.json found; output has no coords until next classifier run`);
+      writeL6MinJson(tasks, outputDir, taskType);
+      writeL6Csv(tasks, outputDir, taskType);
+    }
   }
 
   updateLeague(taskType, {
