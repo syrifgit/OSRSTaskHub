@@ -263,7 +263,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14788,261,Clean 50 Grimy Ranarr Weed,Clean 50 Grimy Ranarr Weed,Global,2,Medium,30,false,1,Skill,53.6,HERBLORE 25,
 14789,262,Clean a Grimy Avantoe,Clean a Grimy Avantoe,Global,2,Medium,30,false,1,Skill,52.3,HERBLORE 48,
 13597,263,Complete 1 Slayer Task,Complete 1 Slayer Task,Global,2,Medium,30,false,2,Combat,70.8,,
-14444,264,Complete the Evil Bob random event,Complete the Evil Bob random event,Global,2,Medium,30,false,6,Other,32.2,,
+14444,264,Complete the Evil Bob random event,Complete the Evil Bob random event,Global,2,Medium,30,false,6,Other,32.2,,Refers to the island event; the prison event will not complete this task.
 14286,265,Complete the Flowering Bush event,Complete the Flowering Bush event spawned via Forestry,Global,2,Medium,30,false,5,Minigame,20.6,,
 14446,266,Complete the Maze random event,Complete the Maze random event,Global,2,Medium,30,false,6,Other,38.7,,
 14287,267,Complete the Pheasant Forestry Event,Complete the Pheasant event spawned via Forestry,Global,2,Medium,30,false,5,Minigame,45.3,,

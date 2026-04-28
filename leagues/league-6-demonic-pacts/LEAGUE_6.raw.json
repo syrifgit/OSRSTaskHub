@@ -7021,7 +7021,7 @@
     "sortId": 264,
     "wiki": {
       "name": "Complete the Evil Bob random event",
-      "description": "Complete Evil Bob's Island random event.",
+      "description": "Complete the Evil Bob random event.",
       "areaKey": "general",
       "tierKey": "medium",
       "tier": 2,
@@ -7029,8 +7029,8 @@
       "pactTask": false,
       "completionPercent": 32.2,
       "skills": [],
-      "requirements": null,
-      "requirementsHtml": null
+      "requirements": "Refers to the island event; the prison event will not complete this task.",
+      "requirementsHtml": "Refers to the island event; the prison event will not complete this task."
     },
     "cache": {
       "action_name": "Complete the Evil Bob random event",

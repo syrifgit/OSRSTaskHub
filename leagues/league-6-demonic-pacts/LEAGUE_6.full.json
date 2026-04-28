@@ -5001,7 +5001,9 @@
     "pactTask": false,
     "category": 6,
     "categoryName": "Other",
-    "completionPercent": 32.2
+    "completionPercent": 32.2,
+    "wikiNotes": "Refers to the island event; the prison event will not complete this task.",
+    "wikiNotesHtml": "Refers to the island event; the prison event will not complete this task."
   },
   {
     "name": "Complete the Flowering Bush event",
