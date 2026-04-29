@@ -484,7 +484,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14698,482,Complete Shadow of the Storm,Complete the Shadow of the Storm quest,Desert,2,Medium,30,false,3,Quest,89.8,CRAFTING 30,"Completion of The Golem, Demon Slayer"
 14701,483,Complete Sleeping Giants,Complete Sleeping Giants quest,Desert,2,Medium,30,false,3,Quest,40.1,SMITHING 15,
 14702,484,Complete Spirits of the Elid,Complete the Spirits of the Elid quest,Desert,2,Medium,30,false,3,Quest,29.2,MAGIC 33; RANGED 37; MINING 37; THIEVING 37,", , ,"
-14703,485,Complete The Golem,Complete The Golem quest,Desert,2,Medium,30,false,3,Quest,100.2,CRAFTING 20; THIEVING 25,","
+14703,485,Complete The Golem,Complete The Golem quest,Desert,2,Medium,30,false,3,Quest,100,CRAFTING 20; THIEVING 25,","
 14721,486,Complete Throne of Miscellania,Complete the Throne of Miscellania quest,Fremennik,2,Medium,30,false,3,Quest,30.3,,
 14726,487,Complete Tower of Life,Complete the Tower of Life quest,Kandarin,2,Medium,30,false,3,Quest,26.4,CONSTRUCTION 10,
 14728,488,Complete Witch's Potion,Complete the Witch's Potion quest,Asgarnia,2,Medium,30,false,3,Quest,18.7,,
@@ -1162,7 +1162,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14906,1160,Sacrifice Some Dragon Bones at the Chaos Temple,Sacrifice some Dragon Bones at the Western Chaos Temple altar,Wilderness,3,Hard,80,false,1,Skill,73.9,,
 15053,1161,Sacrifice a Dagannoth bone on a Gilded altar,Sacrifice a Dagannoth bone on a Gilded altar in a player owned house with both burners lit,Fremennik,3,Hard,80,false,1,Skill,6.7,CONSTRUCTION 75,
 15132,1162,"Smith 1,000 Adamant Dart Tips","Use an Anvil to smith 1,000 Adamant Dart Tips",Desert,3,Hard,80,false,1,Skill,18.7,SMITHING 74,
-13398,1163,Thermonuclear Smoke Devil Combat Achievements,Complete all of the Combat Achievements for the Thermonuclear Smoke Devil,Kandarin,3,Hard,80,false,2,Combat,0.1,,See Thermonuclear Smoke Devil § Combat AchievementsKnown issue: Completing all Combat Achievements doesn't currently complete this task (all)
+13398,1163,Thermonuclear Smoke Devil Combat Achievements,Complete all of the Combat Achievements for the Thermonuclear Smoke Devil,Kandarin,3,Hard,80,false,2,Combat,0.1,,See Thermonuclear Smoke Devil § Combat Achievements
 15393,1164,Thieve a Diamond from a Gem Stall in Tirannwn,Thieve a Diamond from a Gem Stall in Tirannwn,Tirannwn,3,Hard,80,false,1,Skill,77.1,THIEVING 75,
 15016,1165,Trade in 1000 Minnows,Trade in 1000 Minnows in the Fishing guild,Kandarin,3,Hard,80,false,1,Skill,4.2,FISHING 82,Angler's outfitCompletion of Fishing Contest
 14543,1166,Trade with Bardur,"Trade with Bardur, in Waterbirth island dungeon",Fremennik,3,Hard,80,false,6,Other,9.9,,
