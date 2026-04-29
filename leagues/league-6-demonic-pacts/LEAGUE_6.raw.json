@@ -6858,9 +6858,14 @@
       "points": 30,
       "pactTask": false,
       "completionPercent": 31.5,
-      "skills": [],
+      "skills": [
+        {
+          "skill": "WOODCUTTING",
+          "level": 1
+        }
+      ],
       "requirements": null,
-      "requirementsHtml": null
+      "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 1 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>"
     },
     "cache": {
       "action_name": "Chop some Rising Roots",
@@ -7053,9 +7058,14 @@
       "points": 30,
       "pactTask": false,
       "completionPercent": 20.6,
-      "skills": [],
+      "skills": [
+        {
+          "skill": "WOODCUTTING",
+          "level": 1
+        }
+      ],
       "requirements": null,
-      "requirementsHtml": null
+      "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 1 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>"
     },
     "cache": {
       "action_name": "Complete the Flowering Bush event",
@@ -7103,9 +7113,14 @@
       "points": 30,
       "pactTask": false,
       "completionPercent": 45.3,
-      "skills": [],
+      "skills": [
+        {
+          "skill": "WOODCUTTING",
+          "level": 1
+        }
+      ],
       "requirements": null,
-      "requirementsHtml": null
+      "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 1 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>"
     },
     "cache": {
       "action_name": "Complete the Pheasant Forestry Event",
@@ -7228,9 +7243,14 @@
       "points": 30,
       "pactTask": false,
       "completionPercent": 45.9,
-      "skills": [],
+      "skills": [
+        {
+          "skill": "WOODCUTTING",
+          "level": 1
+        }
+      ],
       "requirements": null,
-      "requirementsHtml": null
+      "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 1 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>"
     },
     "cache": {
       "action_name": "Complete the Ritual Forestry Event",
@@ -7253,9 +7273,14 @@
       "points": 30,
       "pactTask": false,
       "completionPercent": 22.1,
-      "skills": [],
+      "skills": [
+        {
+          "skill": "WOODCUTTING",
+          "level": 1
+        }
+      ],
       "requirements": null,
-      "requirementsHtml": null
+      "requirementsHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 1 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>"
     },
     "cache": {
       "action_name": "Complete the Struggling Sapling event",

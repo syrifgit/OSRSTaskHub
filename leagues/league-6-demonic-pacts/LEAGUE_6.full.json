@@ -4883,7 +4883,14 @@
     "pactTask": false,
     "category": 5,
     "categoryName": "Minigame",
-    "completionPercent": 31.5
+    "completionPercent": 31.5,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ],
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 1 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>"
   },
   {
     "name": "Churn some butter",
@@ -5018,7 +5025,14 @@
     "pactTask": false,
     "category": 5,
     "categoryName": "Minigame",
-    "completionPercent": 20.6
+    "completionPercent": 20.6,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ],
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 1 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>"
   },
   {
     "name": "Complete the Maze random event",
@@ -5048,7 +5062,14 @@
     "pactTask": false,
     "category": 5,
     "categoryName": "Minigame",
-    "completionPercent": 45.3
+    "completionPercent": 45.3,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ],
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 1 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>"
   },
   {
     "name": "Complete the Pillory random event",
@@ -5123,7 +5144,14 @@
     "pactTask": false,
     "category": 5,
     "categoryName": "Minigame",
-    "completionPercent": 45.9
+    "completionPercent": 45.9,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ],
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 1 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>"
   },
   {
     "name": "Complete the Struggling Sapling event",
@@ -5138,7 +5166,14 @@
     "pactTask": false,
     "category": 5,
     "categoryName": "Minigame",
-    "completionPercent": 22.1
+    "completionPercent": 22.1,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ],
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 1 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>"
   },
   {
     "name": "Complete the Surprise Exam random event",
