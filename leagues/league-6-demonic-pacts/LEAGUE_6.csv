@@ -822,7 +822,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 13605,820,Reach a Prayer Bonus of 30,Equip enough items to reach a Prayer Bonus of 30 or more,Global,3,Hard,80,false,2,Combat,11.4,,
 13613,821,Restore 75 Prayer Points at an Altar,Restore 75 or more Prayer Points at any altar,Global,3,Hard,80,false,2,Combat,38.1,PRAYER 75,
 15313,822,Smelt a Runite Bar,Use a Furnace to smelt a Runite Bar,Global,3,Hard,80,false,1,Skill,20.3,SMITHING 85,
-15333,823,Smith a Rune Item,Smith a Runite Item,Global,3,Hard,80,false,1,Skill,20.4,SMITHING 85,"rune dart tips, rune arrowtips, and rune javelin tips do not count towards this task"
+15333,823,Smith a Rune Item,Smith a Runite Item,Global,3,Hard,80,false,1,Skill,20.4,SMITHING 85,"rune dart tips, rune arrowtips, rune nails, and rune javelin tips do not count towards this task"
 15354,824,Steal From a Gem Stall,Steal from a Gem Stall,Global,3,Hard,80,false,1,Skill,59.1,THIEVING 75,
 13386,825,Amoxliatl Combat Achievements,Complete all of the Combat Achievements for Amoxliatl,Varlamore,3,Hard,80,false,2,Combat,6.1,,See Amoxliatl#Combat Achievements
 14575,826,Build all Quetzal landing sites,Build all Quetzal landing sites,Varlamore,3,Hard,80,false,6,Other,3.5,,

@@ -16829,8 +16829,8 @@
         "level": 85
       }
     ],
-    "wikiNotes": "rune dart tips, rune arrowtips, and rune javelin tips do not count towards this task",
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Smithing\" data-level=\"85\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 85 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span><br><a href=\"/w/Rune_dart_tip\" title=\"Rune dart tip\">rune dart tips</a>, <a href=\"/w/Rune_arrowtip\" class=\"mw-redirect\" title=\"Rune arrowtip\">rune arrowtips</a>, and <a href=\"/w/Rune_javelin_tip\" class=\"mw-redirect\" title=\"Rune javelin tip\">rune javelin tips</a> do not count towards this task"
+    "wikiNotes": "rune dart tips, rune arrowtips, rune nails, and rune javelin tips do not count towards this task",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Smithing\" data-level=\"85\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 85 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span><br><a href=\"/w/Rune_dart_tip\" title=\"Rune dart tip\">rune dart tips</a>, <a href=\"/w/Rune_arrowtip\" class=\"mw-redirect\" title=\"Rune arrowtip\">rune arrowtips</a>, <a href=\"/w/Rune_nails\" title=\"Rune nails\">rune nails</a>, and <a href=\"/w/Rune_javelin_tip\" class=\"mw-redirect\" title=\"Rune javelin tip\">rune javelin tips</a> do not count towards this task"
   },
   {
     "name": "Steal From a Gem Stall",
