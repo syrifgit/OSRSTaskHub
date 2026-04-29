@@ -180,7 +180,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14634,178,Order a Drink at The Old Nite,Order a drink at The Old Nite,Wilderness,1,Easy,10,false,6,Other,62.7,,
 14475,179,Pick Wheat in Catherby,Pick some wheat in the field by the Catherby Farming patches,Kandarin,1,Easy,10,false,6,Other,75.3,,
 14563,180,Pick a Pineapple on Karamja,Pick a Pineapple on Karamja,Karamja,1,Easy,10,false,6,Other,64.7,,
-14292,181,Pick a Winter Sq'irk,Pick a Winter Sq'irk in the Sorceress's Garden,Desert,1,Easy,10,false,5,Minigame,27.1,,
+14292,181,Pick a Winter Sq'irk,Pick a Winter Sq'irk in the Sorceress's Garden,Desert,1,Easy,10,false,5,Minigame,27.1,THIEVING 1,
 14481,182,Pick up Snapegrass,Pick up Snapegrass from Lunar Isle,Fremennik,1,Easy,10,false,6,Other,73,,
 14496,183,Pick up a cabbage in the Citharede Abbey,Pick up a Cabbage in the Citharede Abbey,Desert,1,Easy,10,false,6,Other,45.1,,
 14477,184,Receive a gift from Arnold,Talk to Arnold Lydspor and receive a gift,Kandarin,1,Easy,10,false,6,Other,55.4,,
@@ -309,7 +309,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14246,307,Equip an Elemental Battlestaff or Mystic Staff,Equip either an elemental battlestaff or an elemental mystic staff,Global,2,Medium,30,false,2,Combat,45,MAGIC 30; ATTACK 30,","
 14254,308,Equip some Black armour,"Equip either a Black Platebody, some Black Platelegs or a Black Full Helm",Global,2,Medium,30,false,6,Other,42.1,DEFENCE 10,
 14256,309,Equip some Steel armour,"Equip either a Steel Platebody, some Steel Platelegs or a Steel Full Helm",Global,2,Medium,30,false,6,Other,78.5,DEFENCE 5,
-14257,310,Equip the Forestry Basket,Equip the Forestry Basket,Global,2,Medium,30,false,5,Minigame,0.5,WOODCUTTING 75; SMITHING 75,","
+14257,310,Equip the Forestry Basket,Equip the Forestry Basket,Global,2,Medium,30,false,5,Minigame,0.5,WOODCUTTING 75; SMITHING 75,", Log basket: 5,000 Anima-infused bark 300 Oak logs 300 Willow logs Log brace: 3,000 Anima-infused bark 300 Maple logs 300 Yew logs"
 14407,311,Fill 15 Hard Clue Collection Log Slots,Fill 15 slots in the Hard Clue section of the Collection Log,Global,2,Medium,30,false,5,Minigame,11.3,,
 14408,312,Fill 20 Easy Clue Collection Log Slots,Fill 20 slots in the Easy Clue section of the Collection Log,Global,2,Medium,30,false,5,Minigame,23.4,,
 14409,313,Fill 20 Medium Clue Collection Log Slots,Fill 20 slots in the Medium Clue section of the Collection Log,Global,2,Medium,30,false,5,Minigame,10.9,,
@@ -337,9 +337,9 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14433,335,Gain a Unique Item From a Medium Clue,Gain a unique item from a Medium Clue Scroll Reward Casket,Global,2,Medium,30,false,5,Minigame,47.5,,
 14434,336,Gain a Unique Item From an Easy Clue,Gain a unique item from an Easy Clue Scroll Reward Casket,Global,2,Medium,30,false,5,Minigame,59.9,,
 13600,337,Get a Gem from a Gorak,Obtain a gem drop from a Gorak,Global,2,Medium,30,false,2,Combat,24.4,,
-14436,338,Give an Entling a haircut,Give an entling a haircut via Forestry,Global,2,Medium,30,false,5,Minigame,51.1,,
+14436,338,Give an Entling a haircut,Give an entling a haircut via Forestry,Global,2,Medium,30,false,5,Minigame,51.1,WOODCUTTING 1,
 14921,339,Harvest a Ranarr Weed,Harvest a Ranarr Weed from any Herb patch,Global,2,Medium,30,false,1,Skill,39.5,FARMING 32,
-14437,340,Have a Leprechaun send something to the bank,Have the Forestry leprechaun send something to your bank,Global,2,Medium,30,false,5,Minigame,18.7,,Use the right-click deposit option. Using items on the leprechaun to deposit will not count.
+14437,340,Have a Leprechaun send something to the bank,Have the Forestry leprechaun send something to your bank,Global,2,Medium,30,false,5,Minigame,18.7,WOODCUTTING 1,Use the right-click deposit option. Using items on the leprechaun to deposit will not count.
 14930,341,Land a hoop on a stick,Successfully land a hoop on a stick in the PoH minigame,Global,2,Medium,30,false,1,Skill,14.5,CONSTRUCTION 30,
 14934,342,Make 20 Stamina Potions,"Make a Stamina Potion, 20 times, at any dosage",Global,2,Medium,30,false,1,Skill,2.3,HERBLORE 77,
 14935,343,Make 30 Prayer Potions,Make 30 Prayer Potions,Global,2,Medium,30,false,1,Skill,43.8,HERBLORE 38,
@@ -714,7 +714,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14385,712,Turn in 10 Spring Sq'irkjuices to Osman,Turn in 10 Spring Sq'irkjuices to Osman in Al Kharid in one go,Desert,2,Medium,30,false,5,Minigame,2.6,THIEVING 25,
 13565,713,Turn in 100 Mole Claws to Wyson the Gardener,Turn in 100 Mole Claws to Wyson the Gardener in Falador,Asgarnia,2,Medium,30,false,2,Combat,0.8,,
 15148,714,Turn in a Pyramid Top to Simon Templeton,Turn in a Pyramid Top to Simon Templeton at the Agility Pyramid,Desert,2,Medium,30,false,1,Skill,52.9,AGILITY 30,
-14337,715,Turn in a Winter Sq'irkjuice to Osman,Turn in a Winter Sq'irkjuice to Osman in Al Kharid,Desert,2,Medium,30,false,5,Minigame,13.1,,
+14337,715,Turn in a Winter Sq'irkjuice to Osman,Turn in a Winter Sq'irkjuice to Osman in Al Kharid,Desert,2,Medium,30,false,5,Minigame,13.1,THIEVING 1,
 14400,716,Unlock Free Use of the Blast Furnace,Unlock free use of the Keldagrim Blast Furnace by speaking with the Foreman,Fremennik,2,Medium,30,false,5,Minigame,41.7,SMITHING 60,
 13568,717,Unlock a Gate in Taverley Dungeon,Unlock a gate in Taverley Dungeon using the Dusty Key,Asgarnia,2,Medium,30,false,2,Combat,50.4,,
 15297,718,Use Some Icy Basalt to Teleport to Weiss,Use some Icy Basalt to teleport to Weiss,Fremennik,2,Medium,30,false,1,Skill,21.8,MINING 72,
@@ -781,7 +781,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14224,779,Equip a Magic Shortbow,Equip a Magic Shortbow,Global,3,Hard,80,false,2,Combat,36.1,RANGED 50,
 14225,780,Equip a Mist Battlestaff,Equip a Mist battlestaff,Global,3,Hard,80,false,2,Combat,18.1,SLAYER 5; ATTACK 30; MAGIC 30,", , Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked. alternatively, a 1/3000 drop from waterfiends"
 14233,781,Equip a Rune Crossbow,Equip a Rune Crossbow,Global,3,Hard,80,false,2,Combat,26.3,RANGED 61,
-14238,782,Equip a two-handed Axe,Equip a two-handed woodcutting axe from Forestry,Global,3,Hard,80,false,5,Minigame,0.5,,
+14238,782,Equip a two-handed Axe,Equip a two-handed woodcutting axe from Forestry,Global,3,Hard,80,false,5,Minigame,0.5,WOODCUTTING 1,"Felling axe handle: 10,000 Anima-infused bark 500 Oak logs"
 14250,783,Equip an Ornament Kit Item,Equip any item that has an Ornament Kit attached to it,Global,3,Hard,80,false,5,Minigame,6.5,,
 14253,784,Equip one unique Echo Item,Equip one unique Echo Item,Global,3,Hard,80,true,2,Combat,36.7,,
 14255,785,Equip some Ranger Boots,Equip a pair of Ranger Boots,Global,3,Hard,80,false,5,Minigame,6.1,RANGED 40,
@@ -857,7 +857,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 15046,855,Fletch some Atlatl darts,Fletch some Atlatl darts,Varlamore,3,Hard,80,false,1,Skill,3.7,FLETCHING 74,
 6809,856,Fully Decorate a Magic Totem in the Auburn Valley,Fully decorate a Magic totem in the Auburn Valley,Varlamore,3,Hard,80,false,1,Skill,27.9,FLETCHING 80,
 15017,857,Fully decorate a Yew totem in the Auburn Valley,Fully decorate a Yew totem in the Auburn Valley,Varlamore,3,Hard,80,false,1,Skill,50.1,FLETCHING 65,
-13384,858,Hueycoatl Combat Achievements,Complete all of the Combat Achievements for Hueycoatl,Varlamore,3,Hard,80,false,2,Combat,0.2,,
+13384,858,Hueycoatl Combat Achievements,Complete all of the Combat Achievements for Hueycoatl,Varlamore,3,Hard,80,false,2,Combat,0.2,,See Hueycoatl#Combat Achievements
 15018,859,Make 100 Prayer Regeneration Potions,Make 100 Prayer Regeneration Potions,Varlamore,3,Hard,80,false,1,Skill,1.8,HERBLORE 60,
 15019,860,Make 50 Goading Potions,Make 50 Goading Potions,Varlamore,3,Hard,80,false,1,Skill,2.4,HERBLORE 60,
 15022,861,Make a Greenman carving,Make a Greenman carving,Varlamore,3,Hard,80,false,1,Skill,10.3,FLETCHING 79,"5 Ent branches, Greenman mask, Yew logs, and a Knife"
@@ -1173,7 +1173,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14947,1171,Use Your Portal Nexus to Teleport to Weiss,Use a Portal Nexus in your Player Owned House to teleport to Weiss,Fremennik,3,Hard,80,false,1,Skill,2.2,MINING 72; CONSTRUCTION 72,","
 13528,1172,Use a teleport anchoring scroll,Use a teleport anchoring scroll,Wilderness,3,Hard,80,false,2,Combat,3.8,,
 13537,1173,Use the Chivalry Prayer,Use the Chivalry prayer,Kandarin,3,Hard,80,false,2,Combat,52.4,PRAYER 60; DEFENCE 65,", Completion of Knight Waves or the Grimoire (Demonic Pacts League) relic"
-13435,1174,Zalcano Combat Achievements,Complete all of the Combat Achievements for Zalcano,Tirannwn,3,Hard,80,false,4,Achievement,6,,
+13435,1174,Zalcano Combat Achievements,Complete all of the Combat Achievements for Zalcano,Tirannwn,3,Hard,80,false,4,Achievement,6,,See Zalcano#Combat Achievements
 13372,1175,100 Combat Achievements,Complete 100 Combat Achievements,Global,4,Elite,200,false,4,Achievement,8.1,,
 13376,1176,150 Combat Achievements,Complete 150 Combat Achievements,Global,4,Elite,200,false,4,Achievement,1.7,,
 13378,1177,200 Combat Achievements,Complete 200 Combat Achievements,Global,4,Elite,200,false,4,Achievement,0.1,,
@@ -1182,7 +1182,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 13433,1180,50 Combat Achievements,Complete 50 Combat Achievements,Global,4,Elite,200,false,4,Achievement,23.8,,
 13434,1181,500 Collection log slots,Obtain 500 unique collection log slots,Global,4,Elite,200,false,4,Achievement,0.1,,
 14280,1182,75 Master Clue Scrolls,Open 75 Reward caskets for completing Master clue scrolls,Global,4,Elite,200,false,5,Minigame,0.1,,
-13447,1183,Abyssal Sire Combat Achievements,Complete all of the Combat Achievements for Abyssal Sire,Global,4,Elite,200,false,4,Achievement,2,,See Abyssal Sire § Combat Achievements
+13447,1183,Abyssal Sire Combat Achievements,Complete all of the Combat Achievements for Abyssal Sire,Global,4,Elite,200,false,4,Achievement,2,,See Abyssal_Sire#Combat Achievements
 14738,1184,Achieve Your First Level 90,Reach level 90 in any skill,Global,4,Elite,200,false,1,Skill,75.9,,
 14739,1185,Achieve Your First Level 95,Reach level 95 in any skill,Global,4,Elite,200,false,1,Skill,72.6,,
 13532,1186,Activate an Imbued Heart,Obtain and activate an Imbued heart,Global,4,Elite,200,false,2,Combat,8.7,SLAYER 5,Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked
@@ -1333,10 +1333,10 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14912,1331,Fully decorate a Redwood totem in the Auburn Valley,Fully decorate a Redwood totem in the Auburn Valley,Varlamore,4,Elite,200,false,1,Skill,13.3,FLETCHING 80,Note: Decorating a Magic totem counts for this task.
 13517,1332,"Obtain 40,000 Glory","Obtain 40,000 Glory in the Fortis Colosseum",Varlamore,4,Elite,200,false,2,Combat,7.5,,
 14542,1333,Open the Varlamore Moon Chest,Open the Varlamore Moon Chest,Varlamore,4,Elite,200,false,6,Other,12.6,,
-13355,1334,Perilous Moons Combat Achievements,Complete all of the Combat Achievements for Perilous Moons,Varlamore,4,Elite,200,false,4,Achievement,2.3,,
+13355,1334,Perilous Moons Combat Achievements,Complete all of the Combat Achievements for Perilous Moons,Varlamore,4,Elite,200,false,4,Achievement,2.3,,See Moons_of_Peril#Combat Achievements
 14909,1335,Purchase the Chugging Barrel,Purchase the Chugging Barrel from the Mixology shop,Varlamore,4,Elite,200,false,1,Skill,1.1,HERBLORE 60,
 14637,1336,Store 10k bowstrings inside a bowstring spool,"Store at least 10,000 bowstrings inside a bowstring spool",Varlamore,4,Elite,200,false,,,3.8,,
-13366,1337,Vardorvis Combat Achievements,Complete all of the Combat Achievements for Vardorvis,Varlamore,4,Elite,200,false,4,Achievement,0.3,,
+13366,1337,Vardorvis Combat Achievements,Complete all of the Combat Achievements for Vardorvis,Varlamore,4,Elite,200,false,4,Achievement,0.3,,See Vardorvis#Combat Achievements
 13343,1338,Alchemical Hydra Combat Achievements,Complete all of the Combat Achievements for Alchemical Hydra,Kourend,4,Elite,200,false,4,Achievement,4.2,,See Alchemical Hydra#Combat Achievements
 13351,1339,Araxxor Combat Achievements,Complete all of the Combat Achievements for Araxxor,Morytania,4,Elite,200,false,4,Achievement,2.4,,See Araxxor#Combat Achievements
 13518,1340,Attach a Theatre of Blood ornament kit,Attach a Sanguine or Holy ornament kit to a weapon,Morytania,4,Elite,200,false,2,Combat,3.4,,One of: Scythe of Vitur Ghrazi rapier Sanguinesti staff
@@ -1508,9 +1508,9 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 15364,1507,Fletch 200 Dragon Darts,Fletch 200 Dragon Darts,Desert,4,Elite,200,false,1,Skill,9.3,FLETCHING 95,
 14894,1508,Fletch 250 Redwood logs into arrow shafts,Fletch 250 Redwood logs into arrow shafts,Kourend,4,Elite,200,false,1,Skill,11.6,FLETCHING 90,"requires 250 arrow shafts made, not 250 redwood logs used"
 14297,1509,Floor 5 of the Hallowed Sepulchre,Complete floor 5 of the Hallowed Sepulchre in Darkmeyer,Morytania,4,Elite,200,false,5,Minigame,1.6,AGILITY 92,Completion of Sins of the Father
-13443,1510,Gauntlet Combat Achievements,Complete all of the Combat Achievements for the Gauntlet,Tirannwn,4,Elite,200,false,4,Achievement,5.2,,
+13443,1510,Gauntlet Combat Achievements,Complete all of the Combat Achievements for the Gauntlet,Tirannwn,4,Elite,200,false,4,Achievement,5.2,,See Gauntlet#Combat Achievements and Corrupted Gauntlet#Combat Achievements
 14299,1511,Get 1000 Target points,Achieve 1000 points in the Target minigame in the Ranging Guild,Kandarin,4,Elite,200,false,5,Minigame,1.9,RANGED 40,
-13340,1512,Grotesque Guardians Combat Achievements,Complete all of the Combat Achievements for Grotesque Guardians,Morytania,4,Elite,200,false,4,Achievement,4.4,,
+13340,1512,Grotesque Guardians Combat Achievements,Complete all of the Combat Achievements for Grotesque Guardians,Morytania,4,Elite,200,false,4,Achievement,4.4,,See Grotesque Guardians#Combat Achievements
 15377,1513,Grow a spirit tree on Karamja,Check the health of a Spirit tree you've grown on Karamja,Karamja,4,Elite,200,false,1,Skill,9.5,FARMING 83,
 13504,1514,Hit 150 with the Keris Partisan,Hit 150 damage or more with the Keris Partisan,Desert,4,Elite,200,false,2,Combat,0.4,ATTACK 65,Completion of Beneath Cursed Sands
 13523,1515,Imbue a God Cape,"Imbue either a Saradomin Cape, a Guthix Cape or a Zamorak Cape",Wilderness,4,Elite,200,true,2,Combat,67,MAGIC 75,Completion of Mage Arena II
@@ -1528,7 +1528,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14886,1527,Obtain a Zalcano Shard,Obtain a Zalcano Shard as a drop from Zalcano in Prifddinas,Tirannwn,4,Elite,200,false,1,Skill,2.3,,
 14559,1528,Pay Saniboch for Permanent Access,Pay Saniboch for Permanent Access into his dungeon,Karamja,4,Elite,200,false,6,Other,52,,"1,000,000"
 13345,1529,Phantom Muspah Combat Achievements,Complete all of the Combat Achievements for Phantom Muspah,Fremennik,4,Elite,200,false,4,Achievement,1,,See Phantom Muspah#Combat Achievements
-13341,1530,Phosani's Nightmare Combat Achievements,Complete all of the Combat Achievements for Phosani's Nightmare,Morytania,4,Elite,200,false,4,Achievement,0.1,,
+13341,1530,Phosani's Nightmare Combat Achievements,Complete all of the Combat Achievements for Phosani's Nightmare,Morytania,4,Elite,200,false,4,Achievement,0.1,,See Phosani's Nightmare#Combat Achievements
 15121,1531,Pickpocket a Diamond From a TzHaar,Pickpocket a Diamond from a TzHaar,Karamja,4,Elite,200,false,1,Skill,13.4,THIEVING 90,Fire cape
 14569,1532,Purchase an Onyx in Mor Ul Rek,Purchase an Onyx from an Ore and Gem Store in Mor Ul Rek,Karamja,4,Elite,200,false,6,Other,50.9,,
 14300,1533,Reach Level 5 in Any Barbarian Assault Role,Reach level 5 in any Barbarian Assault Role,Kandarin,4,Elite,200,false,5,Minigame,7.4,,
@@ -1536,14 +1536,14 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14339,1535,Sacrifice a Fire Cape to Access the Inferno,Sacrifice a Fire Cape to access the Inferno in Mor Ul Rek,Karamja,4,Elite,200,false,5,Minigame,18.8,,Completion of TzHaar Fight Cave
 15134,1536,"Smith 1,000 Rune Dart Tips","Use an Anvil to smith 1,000 Rune Dart Tips",Desert,4,Elite,200,false,1,Skill,11.5,SMITHING 89,
 13353,1537,The Leviathan Combat Achievements,Complete all of the Combat Achievements for The Leviathan,Desert,4,Elite,200,false,4,Achievement,0.2,,See The Leviathan#Combat Achievements
-13344,1538,The Nightmare Combat Achievements,Complete all of the Combat Achievements for The Nightmare,Morytania,4,Elite,200,false,4,Achievement,0.1,,
+13344,1538,The Nightmare Combat Achievements,Complete all of the Combat Achievements for The Nightmare,Morytania,4,Elite,200,false,4,Achievement,0.1,,See The Nightmare#Combat Achievements
 13359,1539,The Whisperer Combat Achievements,Complete all of the Combat Achievements for The Whisperer,Asgarnia,4,Elite,200,false,4,Achievement,0.4,,See The Whisperer#Combat Achievements
 14883,1540,Travel Between Your Spirit Trees,Travel between any two Spirit Trees that you've grown,Kandarin,4,Elite,200,false,1,Skill,7.8,FARMING 83; CONSTRUCTION 75; FARMING 88,and or
 14304,1541,Turn in 50 Summer Sq'irkjuices to Osman,Turn in 50 Summer Sq'irkjuices to Osman in Al Kharid,Desert,4,Elite,200,false,5,Minigame,3,THIEVING 65,
 15145,1542,Use a prayer altar to restore 90 prayer in Prifddinas,Use a prayer altar to restore 90 prayer points in Prifddinas,Tirannwn,4,Elite,200,true,1,Skill,49.2,PRAYER 90,
 13510,1543,Use the Piety Prayer,Use the Piety prayer,Kandarin,4,Elite,200,false,2,Combat,53.5,PRAYER 70; DEFENCE 70,", Completion of Knight Waves or Grimoire relic"
 13346,1544,Vorkath Combat Achievements,Complete all of the Combat Achievements for Vorkath,Fremennik,4,Elite,200,false,4,Achievement,1.1,,See Vorkath#Combat Achievements
-13356,1545,Zulrah Combat Achievements,Complete all of the Combat Achievements for Zulrah,Tirannwn,4,Elite,200,false,4,Achievement,13,,
+13356,1545,Zulrah Combat Achievements,Complete all of the Combat Achievements for Zulrah,Tirannwn,4,Elite,200,false,4,Achievement,13,,See Zulrah#Combat Achievements
 13446,1546,750 Collection log slots,Obtain 750 unique collection log slots,Global,5,Master,400,false,4,Achievement,0.1,,
 14744,1547,Build a Demonic Throne,Build a Demonic Throne in a Throne Room in your Player Owned House,Global,5,Master,400,false,1,Skill,0.6,CONSTRUCTION 99,
 13449,1548,Combat Achievements Elite Tier,Obtain enough points to unlock the Elite tier of combat achievements,Global,5,Master,400,false,4,Achievement,0.1,,"1,064 Combat Achievement points"

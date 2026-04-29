@@ -3338,6 +3338,13 @@
     "category": 5,
     "categoryName": "Minigame",
     "completionPercent": 27.1,
+    "skillRequirements": [
+      {
+        "skill": "THIEVING",
+        "level": 1
+      }
+    ],
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 1 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>",
     "location": {
       "x": 2892,
       "y": 5467,
@@ -5934,8 +5941,8 @@
         "level": 75
       }
     ],
-    "wikiNotes": ",",
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 75 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>, <span class=\"scp\" data-skill=\"Smithing\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 75 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span>"
+    "wikiNotes": ", Log basket: 5,000 Anima-infused bark 300 Oak logs 300 Willow logs Log brace: 3,000 Anima-infused bark 300 Maple logs 300 Yew logs",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 75 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>, <span class=\"scp\" data-skill=\"Smithing\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 75 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span><br><a href=\"/w/Log_basket\" title=\"Log basket\">Log basket</a>:\n<ul><li>5,000 <a href=\"/w/Anima-infused_bark\" title=\"Anima-infused bark\">Anima-infused bark</a></li>\n<li>300 <a href=\"/w/Oak_logs\" title=\"Oak logs\">Oak logs</a></li>\n<li>300 <a href=\"/w/Willow_logs\" title=\"Willow logs\">Willow logs</a></li></ul>\n<p><a href=\"/w/Log_brace\" title=\"Log brace\">Log brace</a>:\n</p>\n<ul><li>3,000 <a href=\"/w/Anima-infused_bark\" title=\"Anima-infused bark\">Anima-infused bark</a></li>\n<li>300 <a href=\"/w/Maple_logs\" title=\"Maple logs\">Maple logs</a></li>\n<li>300 <a href=\"/w/Yew_logs\" title=\"Yew logs\">Yew logs</a></li></ul>"
   },
   {
     "name": "Fill 15 Hard Clue Collection Log Slots",
@@ -6412,7 +6419,14 @@
     "pactTask": false,
     "category": 5,
     "categoryName": "Minigame",
-    "completionPercent": 51.1
+    "completionPercent": 51.1,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ],
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 1 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span>"
   },
   {
     "name": "Harvest a Ranarr Weed",
@@ -6450,8 +6464,14 @@
     "category": 5,
     "categoryName": "Minigame",
     "completionPercent": 18.7,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ],
     "wikiNotes": "Use the right-click deposit option. Using items on the leprechaun to deposit will not count.",
-    "wikiNotesHtml": "Use the right-click deposit option. Using items on the leprechaun to deposit will not count."
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 1 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span><br>Use the right-click deposit option. Using items on the leprechaun to deposit will not count."
   },
   {
     "name": "Land a hoop on a stick",
@@ -14769,6 +14789,13 @@
     "category": 5,
     "categoryName": "Minigame",
     "completionPercent": 13.1,
+    "skillRequirements": [
+      {
+        "skill": "THIEVING",
+        "level": 1
+      }
+    ],
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 1 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>",
     "location": {
       "x": 3286,
       "y": 3180,
@@ -16132,7 +16159,15 @@
     "pactTask": false,
     "category": 5,
     "categoryName": "Minigame",
-    "completionPercent": 0.5
+    "completionPercent": 0.5,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ],
+    "wikiNotes": "Felling axe handle: 10,000 Anima-infused bark 500 Oak logs",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Woodcutting\" data-level=\"1\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Woodcutting\" title=\"Woodcutting\"><img alt=\"Woodcutting\" src=\"/images/Woodcutting_icon.png?6ead4\" decoding=\"async\" loading=\"lazy\" width=\"18\" height=\"22\" class=\"mw-file-element\" data-file-width=\"18\" data-file-height=\"22\"></a></span> 1 <a href=\"/w/Woodcutting\" title=\"Woodcutting\">Woodcutting</a></span><br><a href=\"/w/Felling_axe_handle\" title=\"Felling axe handle\">Felling axe handle</a>:\n<ul><li>10,000 <a href=\"/w/Anima-infused_bark\" title=\"Anima-infused bark\">Anima-infused bark</a></li>\n<li>500 <a href=\"/w/Oak_logs\" title=\"Oak logs\">Oak logs</a></li></ul>"
   },
   {
     "name": "Equip an Ornament Kit Item",
@@ -17705,6 +17740,8 @@
     "category": 2,
     "categoryName": "Combat",
     "completionPercent": 0.2,
+    "wikiNotes": "See Hueycoatl#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Hueycoatl#Combat_Achievements\" class=\"mw-redirect\" title=\"Hueycoatl\">Hueycoatl#Combat Achievements</a>",
     "location": {
       "x": 1509,
       "y": 3290,
@@ -25099,7 +25136,9 @@
     "pactTask": false,
     "category": 4,
     "categoryName": "Achievement",
-    "completionPercent": 6
+    "completionPercent": 6,
+    "wikiNotes": "See Zalcano#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Zalcano#Combat_Achievements\" title=\"Zalcano\">Zalcano#Combat Achievements</a>"
   },
   {
     "name": "100 Combat Achievements",
@@ -25235,8 +25274,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 2,
-    "wikiNotes": "See Abyssal Sire § Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Abyssal_Sire#Combat_Achievements\" title=\"Abyssal Sire\">Abyssal Sire § Combat Achievements</a>",
+    "wikiNotes": "See Abyssal_Sire#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Abyssal_Sire#Combat_Achievements\" title=\"Abyssal Sire\">Abyssal_Sire#Combat Achievements</a>",
     "location": {
       "x": 3107,
       "y": 4791,
@@ -28376,6 +28415,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 2.3,
+    "wikiNotes": "See Moons_of_Peril#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Moons_of_Peril#Combat_Achievements\" title=\"Moons of Peril\">Moons_of_Peril#Combat Achievements</a>",
     "location": {
       "x": 1436,
       "y": 3124,
@@ -28436,6 +28477,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.3,
+    "wikiNotes": "See Vardorvis#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Vardorvis#Combat_Achievements\" title=\"Vardorvis\">Vardorvis#Combat Achievements</a>",
     "location": {
       "x": 1128,
       "y": 3417,
@@ -32448,6 +32491,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 5.2,
+    "wikiNotes": "See Gauntlet#Combat Achievements and Corrupted Gauntlet#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Gauntlet#Combat_Achievements\" class=\"mw-redirect\" title=\"Gauntlet\">Gauntlet#Combat Achievements</a> and <a href=\"/w/Corrupted_Gauntlet#Combat_Achievements\" class=\"mw-redirect\" title=\"Corrupted Gauntlet\">Corrupted Gauntlet#Combat Achievements</a>",
     "location": {
       "x": 3228,
       "y": 6116,
@@ -32495,6 +32540,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 4.4,
+    "wikiNotes": "See Grotesque Guardians#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Grotesque_Guardians#Combat_Achievements\" title=\"Grotesque Guardians\">Grotesque Guardians#Combat Achievements</a>",
     "location": {
       "x": 3428,
       "y": 3543,
@@ -32904,6 +32951,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.1,
+    "wikiNotes": "See Phosani's Nightmare#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Phosani%27s_Nightmare#Combat_Achievements\" title=\"Phosani's Nightmare\">Phosani's Nightmare#Combat Achievements</a>",
     "location": {
       "x": 3871,
       "y": 9952,
@@ -33070,6 +33119,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 0.1,
+    "wikiNotes": "See The Nightmare#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/The_Nightmare#Combat_Achievements\" title=\"The Nightmare\">The Nightmare#Combat Achievements</a>",
     "location": {
       "x": 3871,
       "y": 9952,
@@ -33246,6 +33297,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 13,
+    "wikiNotes": "See Zulrah#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Zulrah#Combat_Achievements\" title=\"Zulrah\">Zulrah#Combat Achievements</a>",
     "location": {
       "x": 2268,
       "y": 3073,
