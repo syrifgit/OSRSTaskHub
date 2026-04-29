@@ -471,7 +471,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 15397,469,Chop 100 Maples in Tirannwn,Chop 100 Maples in Tirannwn,Tirannwn,2,Medium,30,false,1,Skill,71.3,WOODCUTTING 45,
 15291,470,Chop 15 Yew Logs in Shayzien,Chop 15 Yew Logs in Shayzien,Kourend,2,Medium,30,false,1,Skill,62.7,WOODCUTTING 60,
 15317,471,Chop 25 Juniper Logs,Chop 25 Juniper Logs,Kourend,2,Medium,30,false,1,Skill,55.3,WOODCUTTING 42,
-15378,472,Chop a dense jungle,Fully clear a dense jungle in the Tai Bwo Wannai Cleanup,Karamja,2,Medium,30,false,1,Skill,22.9,WOODCUTTING 35,
+15378,472,Fully clear a dense jungle,Fully clear a dense jungle in the Tai Bwo Wannai Cleanup,Karamja,2,Medium,30,false,1,Skill,22.9,WOODCUTTING 35,
 14646,473,Commune a Pharoah's Sceptre to the Necropolis,Commune a Pharaoh's Sceptre to the Necropolis,Desert,2,Medium,30,false,6,Other,6.2,THIEVING 21,Completion of Beneath Cursed Sands
 15345,474,Complete 10 Farming Contracts,Complete 10 Farming Contracts for Guildmaster Jane in the Farming Guild,Kourend,2,Medium,30,false,1,Skill,17.3,FARMING 45,
 14707,475,Complete A Porcine of Interest,Complete the A Porcine of Interest quest,Asgarnia,2,Medium,30,false,3,Quest,88.3,,Known issue: Cannot be completed (all)
