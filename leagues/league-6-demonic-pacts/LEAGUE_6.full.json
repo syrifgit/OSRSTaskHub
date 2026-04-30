@@ -16353,7 +16353,8 @@
         "level": 75
       }
     ],
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Runecraft\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Runecraft\" title=\"Runecraft\"><img alt=\"Runecraft\" src=\"/images/Runecraft_icon.png?c278c\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 75 <a href=\"/w/Runecraft\" title=\"Runecraft\">Runecraft</a></span>"
+    "wikiNotes": "(cannot be boosted)",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Runecraft\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Runecraft\" title=\"Runecraft\"><img alt=\"Runecraft\" src=\"/images/Runecraft_icon.png?c278c\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 75 <a href=\"/w/Runecraft\" title=\"Runecraft\">Runecraft</a></span>(cannot be boosted)"
   },
   {
     "name": "Fill a Hard STASH Unit",

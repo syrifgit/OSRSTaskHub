@@ -792,7 +792,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14415,790,Fill 40 Medium Clue Collection Log Slots,Fill 40 slots in the Medium Clue section of the Collection Log,Global,3,Hard,80,false,5,Minigame,5,,
 14417,791,Fill 5 Master Clue Collection Log Slots,Fill 5 slots in the Master Clue section of the Collection Log,Global,3,Hard,80,false,5,Minigame,2.2,,
 14419,792,Fill 50 Easy Clue Collection Log Slots,Fill 50 slots in the Easy Clue section of the Collection Log,Global,3,Hard,80,false,5,Minigame,10.2,,
-14846,793,Fill a Giant Pouch,Fill a Giant Pouch with Essence,Global,3,Hard,80,false,1,Skill,1.9,RUNECRAFT 75,
+14846,793,Fill a Giant Pouch,Fill a Giant Pouch with Essence,Global,3,Hard,80,false,1,Skill,1.9,RUNECRAFT 75,(cannot be boosted)
 14847,794,Fill a Hard STASH Unit,Build a Hard STASH unit and fill it with the relevant items,Global,3,Hard,80,false,1,Skill,3.1,CONSTRUCTION 55,
 14857,795,Fletch 200 Magic Longbow (u),Fletch 200 Magic Longbow (u),Global,3,Hard,80,false,1,Skill,19.3,FLETCHING 85,
 14862,796,Fletch 50 Yew longbow (u),Fletch 50 Yew longbow (u),Global,3,Hard,80,false,1,Skill,51,FLETCHING 70,
