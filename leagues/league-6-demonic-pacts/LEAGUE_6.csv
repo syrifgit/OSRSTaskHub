@@ -416,7 +416,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14622,414,Enter a dark cave in Varlamore,"Enter a dark cave in varlamore, near the Hunter Guild",Varlamore,2,Medium,30,false,6,Other,54.8,,
 14263,415,Equip Earthbound Tecpatl,Equip the Earthbound Tecpatl,Varlamore,2,Medium,30,false,2,Combat,4.7,ATTACK 55,The Final Dawn
 14153,416,Equip Glacial Temotli,Equip the Glacial Temotli,Varlamore,2,Medium,30,false,2,Combat,47.8,SLAYER 48; ATTACK 55,","
-14173,417,Equip Pendant of Ates,Equip the Pendant of Ates,Varlamore,2,Medium,30,false,2,Combat,45.9,SLAYER 48,
+14173,417,Equip Pendant of Ates,Equip the Pendant of Ates,Varlamore,2,Medium,30,false,2,Combat,45.9,SLAYER 48,Pendant must be charged first.
 14262,418,Equip Sulphur Blades,Equip the Sulphur Blades,Varlamore,2,Medium,30,false,2,Combat,32.1,ATTACK 55; SLAYER 48,","
 14170,419,Equip a piece of Alchemists outfit,Equip a piece of Alchemists outfit from the Mixology shop,Varlamore,2,Medium,30,false,1,Skill,4.8,HERBLORE 60,Prescription goggles do not count for this task
 14171,420,Equip a piece of Hueycoatl armour,Equip a piece of Hueycoatl armour,Varlamore,2,Medium,30,false,2,Combat,8.7,CRAFTING 76; RANGED 70; DEFENCE 40,", ,"
