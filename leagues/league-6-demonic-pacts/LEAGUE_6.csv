@@ -785,7 +785,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14250,783,Equip an Ornament Kit Item,Equip any item that has an Ornament Kit attached to it,Global,3,Hard,80,false,5,Minigame,11.6,,
 14253,784,Equip one unique Echo Item,Equip one unique Echo Item,Global,3,Hard,80,true,2,Combat,49.9,,
 14255,785,Equip some Ranger Boots,Equip a pair of Ranger Boots,Global,3,Hard,80,false,5,Minigame,9.1,RANGED 40,
-14828,786,Ferment 100 Jugs of Wine,Successfully ferment 100 Jugs of Wine,Global,3,Hard,80,false,1,Skill,14.4,COOKING 35,
+14828,786,Ferment 100 Jugs of Wine,Successfully ferment 100 Jugs of Wine,Global,3,Hard,80,false,1,Skill,14.4,COOKING 35,Note: Fermenting Wines of Zamorak does not count
 14406,787,Fill 10 Elite Clue Collection Log Slots,Fill 10 slots in the Elite Clue section of the Collection Log,Global,3,Hard,80,false,5,Minigame,4.8,,
 14410,788,Fill 25 Elite Clue Collection Log Slots,Fill 25 slots in the Elite Clue section of the Collection Log,Global,3,Hard,80,false,5,Minigame,1,,
 14414,789,Fill 30 Hard Clue Collection Log Slots,Fill 30 slots in the Hard Clue section of the Collection Log,Global,3,Hard,80,false,5,Minigame,8.5,,

@@ -21868,8 +21868,8 @@
           "level": 35
         }
       ],
-      "requirements": null,
-      "requirementsHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"35\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 35 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span>"
+      "requirements": "Note: Fermenting Wines of Zamorak does not count",
+      "requirementsHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"35\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 35 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span><br><i>Note: Fermenting Wines of Zamorak does not count</i>"
     },
     "cache": {
       "action_name": "Ferment 100 Jugs of Wine",
