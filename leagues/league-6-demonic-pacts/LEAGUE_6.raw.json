@@ -13663,8 +13663,8 @@
           "level": 35
         }
       ],
-      "requirements": null,
-      "requirementsHtml": "<span class=\"scp\" data-skill=\"Agility\" data-level=\"35\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 35 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span>"
+      "requirements": "completion of Alfred Grimhand's Barcrawl",
+      "requirementsHtml": "<span class=\"scp\" data-skill=\"Agility\" data-level=\"35\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Agility\" title=\"Agility\"><img alt=\"Agility\" src=\"/images/Agility_icon.png?389e0\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 35 <a href=\"/w/Agility\" title=\"Agility\">Agility</a></span><br>completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Alfred_Grimhand%27s_Barcrawl\" title=\"Alfred Grimhand's Barcrawl\">Alfred Grimhand's Barcrawl</a>"
     },
     "cache": {
       "action_name": "Complete the Barbarian Outpost Agility Course",
