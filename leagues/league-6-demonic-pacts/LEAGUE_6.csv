@@ -1008,7 +1008,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 13804,1006,Defeat a Dust Devil in the Kharidian Desert,Defeat a Dust Devil in the Kharidian Desert,Desert,3,Hard,80,false,2,Combat,44.5,SLAYER 65,"Light source, and recommended gas mask, facemask, or Slayer helmet"
 13844,1007,Defeat a Hydra,Defeat a regular Hydra in the Mount Karuulm Slayer Dungeon,Kourend,3,Hard,80,false,2,Combat,29.9,SLAYER 95,"Protection from extreme heat, or elite Kourend & Kebos Diary"
 13660,1008,Defeat a Jubster while dressed like it,Defeat a Jubster underneath the Tower of Life while wearing a beret,Kandarin,3,Hard,80,false,2,Combat,1.5,,Completion of Tower of Life
-13819,1009,Defeat a Mithril Dragon,Defeat a Mithril Dragon in the Ancient Cavern,Kandarin,3,Hard,80,true,2,Combat,89.3,,
+13819,1009,Defeat a Mithril Dragon,Defeat a Mithril Dragon in the Ancient Cavern,Kandarin,3,Hard,80,true,2,Combat,89.3,,Partial completion of Barbarian Training
 13839,1010,Defeat a Nechryael in Tirannwn,Defeat a Nechryael in Tirannwn,Tirannwn,3,Hard,80,false,2,Combat,57.7,SLAYER 80,
 13829,1011,Defeat a Rock Crab in one hit,Defeat a Rock Crab by dealing 50 damage to it in one hit,Fremennik,3,Hard,80,false,2,Combat,20.1,,
 13639,1012,Defeat a Rock Lobster,Defeat a Rock Lobster,Fremennik,3,Hard,80,false,2,Combat,58,,

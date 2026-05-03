@@ -28204,8 +28204,8 @@
       "pactTask": true,
       "completionPercent": 89.3,
       "skills": [],
-      "requirements": null,
-      "requirementsHtml": null
+      "requirements": "Partial completion of Barbarian Training",
+      "requirementsHtml": "Partial completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Barbarian_Training\" title=\"Barbarian Training\">Barbarian Training</a>"
     },
     "cache": {
       "action_name": "Defeat a Mithril Dragon",
