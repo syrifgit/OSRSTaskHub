@@ -341,7 +341,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14921,339,Harvest a Ranarr Weed,Harvest a Ranarr Weed from any Herb patch,Global,2,Medium,30,false,1,Skill,47.4,FARMING 32,
 14437,340,Have a Leprechaun send something to the bank,Have the Forestry leprechaun send something to your bank,Global,2,Medium,30,false,5,Minigame,23.3,WOODCUTTING 1,Use the right-click deposit option. Using items on the leprechaun to deposit will not count.
 14930,341,Land a hoop on a stick,Successfully land a hoop on a stick in the PoH minigame,Global,2,Medium,30,false,1,Skill,18.1,CONSTRUCTION 30,
-14934,342,Make 20 Stamina Potions,"Make a Stamina Potion, 20 times, at any dosage",Global,2,Medium,30,false,1,Skill,6.1,HERBLORE 77,
+14934,342,Make 20 Stamina Potions,"Make a Stamina Potion, 20 times, at any dosage",Global,2,Medium,30,false,1,Skill,6.1,HERBLORE 77,Can be done with any dose amounts
 14935,343,Make 30 Prayer Potions,Make 30 Prayer Potions,Global,2,Medium,30,false,1,Skill,52.9,HERBLORE 38,
 14936,344,Make a 4 dose potion,Make a 4 dose potion that was originally supposed to be a 3 dose potion,Global,2,Medium,30,false,1,Skill,25.5,MAGIC 27; CRAFTING 34,","
 14937,345,Make a Meat Pizza,Make a Meat Pizza,Global,2,Medium,30,false,1,Skill,12.7,COOKING 45,

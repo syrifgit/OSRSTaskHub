@@ -9226,8 +9226,8 @@
           "level": 77
         }
       ],
-      "requirements": null,
-      "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"77\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 77 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span>"
+      "requirements": "Can be done with any dose amounts",
+      "requirementsHtml": "<span class=\"scp\" data-skill=\"Herblore\" data-level=\"77\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Herblore\" title=\"Herblore\"><img alt=\"Herblore\" src=\"/images/Herblore_icon.png?ffa9e\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"17\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"17\"></a></span> 77 <a href=\"/w/Herblore\" title=\"Herblore\">Herblore</a></span><br>Can be done with any dose amounts"
     },
     "cache": {
       "action_name": "Make 20 Stamina Potions",
