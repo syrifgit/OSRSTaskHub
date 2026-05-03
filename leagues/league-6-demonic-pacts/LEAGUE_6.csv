@@ -923,8 +923,8 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 15028,921,Complete the Rellekka Agility Course,Complete a lap of the Rellekka Rooftop Agility Course,Fremennik,3,Hard,80,false,1,Skill,50.8,AGILITY 80,
 15029,922,Complete the Seers' Village Agility Course,Complete a lap of the Seers' Village Rooftop Agility Course,Kandarin,3,Hard,80,false,1,Skill,76.9,AGILITY 60,
 15026,923,Complete the Shayzien Advanced Agility Course,Complete a lap of the Shayzien Advanced Agility Course,Kourend,3,Hard,80,false,1,Skill,37.5,AGILITY 45,Any crossbow and a mith grapple
-15274,924,Cook 100 Karambwans,Cook 100 Karambwan,Karamja,3,Hard,80,false,1,Skill,27.3,FISHING 30,Completion of Tai Bwo Wannai Trio
-15280,925,Cook 20 Karambwans in a row,Cook 20 Karambwans in a row without buring them,Karamja,3,Hard,80,false,1,Skill,26.6,COOKING 30,Completion of Tai Bwo Wannai Trio
+15274,924,Cook 100 Karambwans,Cook 100 Karambwan,Karamja,3,Hard,80,false,1,Skill,27.3,FISHING 30,Completion of Tai Bwo Wannai Trio or partial completion with Hotfoot Relic.
+15280,925,Cook 20 Karambwans in a row,Cook 20 Karambwans in a row without buring them,Karamja,3,Hard,80,false,1,Skill,26.6,COOKING 30,Completion of Tai Bwo Wannai Trio or partial completion with Hotfoot Relic.
 15283,926,Cook 20 Sharks in Darkmeyer,Cook 20 Sharks in Darkmeyer,Morytania,3,Hard,80,false,1,Skill,24.5,COOKING 80,Partial completion of Sins of the Father
 15030,927,Craft 100 Blood runes,Craft 100 Blood runes at the Kourend Blood Altar,Kourend,3,Hard,80,false,1,Skill,28.2,RUNECRAFT 77; MINING 38; CRAFTING 38,", ,"
 15210,928,Craft 50 Death Runes,Craft 50 Death Runes from Essence at the Death Altar,Tirannwn,3,Hard,80,false,1,Skill,8.6,RUNECRAFT 65,
