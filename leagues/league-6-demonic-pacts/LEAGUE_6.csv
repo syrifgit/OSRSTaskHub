@@ -1104,7 +1104,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14114,1102,Equip the Farmer's Outfit,"Equip a full set of the Farmer's outfit, purchased from the Tithe Farm minigame",Kourend,3,Hard,80,false,5,Minigame,32,FARMING 34,or Nature's Accord
 14116,1103,Equip the Lightbearer,Equip the Lightbearer,Desert,3,Hard,80,false,2,Combat,25.9,,Completion of Beneath Cursed Sands
 14120,1104,Equip the Pyromancer's Garb,"Equip a full set of Pyromancer's garb, rewarded from the Wintertodt",Kourend,3,Hard,80,false,5,Minigame,7.1,FIREMAKING 50,
-14547,1105,Feed Longramble,Deliver some Tangled Toads Legs to Longramble,Kandarin,3,Hard,80,false,6,Other,5.1,COOKING 40,
+14547,1105,Feed Longramble,Deliver some Tangled Toads Legs to Longramble,Kandarin,3,Hard,80,false,6,Other,5.1,COOKING 40,Partial completion of The Path of Glouphrie
 14609,1106,Find Every Memoriam Crystal,Find every Memoriam Crystal in Prifddinas and add them to the Memoriam Device,Tirannwn,3,Hard,80,false,6,Other,16.9,AGILITY 75,
 14358,1107,Find a Gout Tuber,Find a Gout Tuber in Tai Bwo Wannai,Karamja,3,Hard,80,false,5,Minigame,27.6,WOODCUTTING 35,
 15032,1108,Fletch 100 Maple Longbow (u) in Kandarin,Fletch 100 Maple Longbow (u) in Kandarin,Kandarin,3,Hard,80,false,1,Skill,69.4,FLETCHING 55,

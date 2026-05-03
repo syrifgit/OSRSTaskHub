@@ -31176,8 +31176,8 @@
           "level": 40
         }
       ],
-      "requirements": null,
-      "requirementsHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 40 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span>"
+      "requirements": "Partial completion of The Path of Glouphrie",
+      "requirementsHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"40\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 40 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span><br>Partial completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/The_Path_of_Glouphrie\" title=\"The Path of Glouphrie\">The Path of Glouphrie</a>"
     },
     "cache": {
       "action_name": "Feed Longramble",
