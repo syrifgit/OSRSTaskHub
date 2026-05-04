@@ -376,7 +376,9 @@
     "pactTask": false,
     "category": 1,
     "categoryName": "Skill",
-    "completionPercent": 84.1
+    "completionPercent": 84.1,
+    "wikiNotes": "A golden apron does not work.",
+    "wikiNotesHtml": "A <a href=\"/w/Golden_apron\" title=\"Golden apron\">golden apron</a> does not work."
   },
   {
     "name": "Craft Leather chaps",
@@ -554,7 +556,9 @@
     "pactTask": false,
     "category": 1,
     "categoryName": "Skill",
-    "completionPercent": 70.3
+    "completionPercent": 70.3,
+    "wikiNotes": "A moonlight potion will also work.",
+    "wikiNotesHtml": "A <a href=\"/w/Moonlight_potion\" title=\"Moonlight potion\">moonlight potion</a> will also work."
   },
   {
     "name": "Dye a cape Purple",
@@ -1490,7 +1494,9 @@
     "pactTask": false,
     "category": 6,
     "categoryName": "Other",
-    "completionPercent": 77.2
+    "completionPercent": 77.2,
+    "wikiNotes": "Nettle tea does not count.",
+    "wikiNotesHtml": "<a href=\"/w/Nettle_tea\" title=\"Nettle tea\">Nettle tea</a> does not count."
   },
   {
     "name": "Drink from a bird bath",
@@ -3365,8 +3371,8 @@
     "category": 6,
     "categoryName": "Other",
     "completionPercent": 75,
-    "wikiNotes": "Picking up snape grass on Waterbirth Island completes this task.",
-    "wikiNotesHtml": "Picking up snape grass on <a href=\"/w/Waterbirth_Island\" title=\"Waterbirth Island\">Waterbirth Island</a> completes this task.",
+    "wikiNotes": "Despite the task text stating it must be picked up from Lunar Isle, picking up snape grass on Waterbirth Island completes this task.",
+    "wikiNotesHtml": "Despite the task text stating it must be picked up from Lunar Isle, picking up snape grass on <a href=\"/w/Waterbirth_Island\" title=\"Waterbirth Island\">Waterbirth Island</a> completes this task.",
     "location": {
       "x": 2107,
       "y": 3916,
@@ -6406,7 +6412,9 @@
     "pactTask": false,
     "category": 2,
     "categoryName": "Combat",
-    "completionPercent": 34.7
+    "completionPercent": 34.7,
+    "wikiNotes": "Actually requires any roll on the gem drop table, not necessarily specifically a gem.",
+    "wikiNotesHtml": "Actually requires any roll on the <a href=\"/w/Gem_drop_table\" title=\"Gem drop table\">gem drop table</a>, not necessarily specifically a gem."
   },
   {
     "name": "Give an Entling a haircut",
@@ -8629,8 +8637,7 @@
         "level": 65
       }
     ],
-    "wikiNotes": "Known issue: Not tracked correctly (all)",
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"65\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 65 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span><br><span style=\"color: var(--color-destructive);\"><i><b>Known issue:</b></i> Not tracked correctly <sup>(<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://secure.runescape.com/m=news/leagues-vi-demonic-pacts---fixes--issues?oldschool=1\">all</a>)</sup></span>",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Thieving\" data-level=\"65\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Thieving\" title=\"Thieving\"><img alt=\"Thieving\" src=\"/images/Thieving_icon.png?973fe\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 65 <a href=\"/w/Thieving\" title=\"Thieving\">Thieving</a></span>",
     "location": {
       "x": 1685,
       "y": 3098,
@@ -16911,8 +16918,8 @@
         "level": 85
       }
     ],
-    "wikiNotes": "rune dart tips, rune arrowtips, rune nails, and rune javelin tips do not count towards this task",
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Smithing\" data-level=\"85\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 85 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span><br><a href=\"/w/Rune_dart_tip\" title=\"Rune dart tip\">rune dart tips</a>, <a href=\"/w/Rune_arrowtip\" class=\"mw-redirect\" title=\"Rune arrowtip\">rune arrowtips</a>, <a href=\"/w/Rune_nails\" title=\"Rune nails\">rune nails</a>, and <a href=\"/w/Rune_javelin_tip\" class=\"mw-redirect\" title=\"Rune javelin tip\">rune javelin tips</a> do not count towards this task"
+    "wikiNotes": "rune dart tips, rune arrowtips, rune nails, runite bolts (unf), and rune javelin tips do not count towards this task",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Smithing\" data-level=\"85\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 85 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span><br><a href=\"/w/Rune_dart_tip\" title=\"Rune dart tip\">rune dart tips</a>, <a href=\"/w/Rune_arrowtip\" class=\"mw-redirect\" title=\"Rune arrowtip\">rune arrowtips</a>, <a href=\"/w/Rune_nails\" title=\"Rune nails\">rune nails</a>, <a href=\"/w/Runite_bolts_(unf)\" title=\"Runite bolts (unf)\">runite bolts (unf)</a>, and <a href=\"/w/Rune_javelin_tip\" class=\"mw-redirect\" title=\"Rune javelin tip\">rune javelin tips</a> do not count towards this task"
   },
   {
     "name": "Steal From a Gem Stall",
@@ -19294,12 +19301,12 @@
     "completionPercent": 27.3,
     "skillRequirements": [
       {
-        "skill": "FISHING",
+        "skill": "COOKING",
         "level": 30
       }
     ],
     "wikiNotes": "Completion of Tai Bwo Wannai Trio or partial completion with Hotfoot Relic.",
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Fishing\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fishing\" title=\"Fishing\"><img alt=\"Fishing\" src=\"/images/Fishing_icon.png?15a98\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"23\" class=\"mw-file-element\" data-file-width=\"24\" data-file-height=\"23\"></a></span> 30 <a href=\"/w/Fishing\" title=\"Fishing\">Fishing</a></span><br>Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Tai_Bwo_Wannai_Trio\" title=\"Tai Bwo Wannai Trio\">Tai Bwo Wannai Trio</a> or partial completion with <a href=\"/w/Hotfoot_(Demonic_Pacts_League)\" title=\"Hotfoot (Demonic Pacts League)\">Hotfoot</a> Relic."
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 30 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span><br>Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Tai_Bwo_Wannai_Trio\" title=\"Tai Bwo Wannai Trio\">Tai Bwo Wannai Trio</a> or partial completion with <a href=\"/w/Hotfoot_(Demonic_Pacts_League)\" title=\"Hotfoot (Demonic Pacts League)\">Hotfoot</a> Relic."
   },
   {
     "name": "Cook 20 Karambwans in a row",

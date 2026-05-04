@@ -20,7 +20,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14790,18,Clean a Grimy Guam,Clean a Grimy Guam,Global,1,Easy,10,false,1,Skill,76.8,,
 14445,19,Complete the Leagues Tutorial,Complete the Leagues Tutorial and begin your adventure,Global,1,Easy,10,true,6,Other,98.4,,
 14797,20,Cook Shrimp,Cook Raw Shrimp,Global,1,Easy,10,false,1,Skill,89.6,,
-14798,21,Cook something with an apron,Cook something with an apron equipped,Global,1,Easy,10,false,1,Skill,84.1,,
+14798,21,Cook something with an apron,Cook something with an apron equipped,Global,1,Easy,10,false,1,Skill,84.1,,A golden apron does not work.
 14810,22,Craft Leather chaps,Craft Leather chaps,Global,1,Easy,10,false,1,Skill,70,CRAFTING 18,
 14816,23,Create an Antipoison,Create an Antipoison,Global,1,Easy,10,false,1,Skill,53.6,HERBLORE 5,
 14818,24,Cut a Ruby,Cut a Ruby,Global,1,Easy,10,false,1,Skill,88.3,CRAFTING 34,
@@ -30,7 +30,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 13906,28,Defeat a Rat,Defeat a Rat,Global,1,Easy,10,false,2,Combat,89.1,,
 13907,29,Defeat a scorpion,Defeat a scorpion,Global,1,Easy,10,false,6,Other,84,,
 13909,30,Defeat an Imp with an earth spell,Defeat an Imp with an earth spell,Global,1,Easy,10,false,2,Combat,81.5,MAGIC 9,
-14819,31,Drink a Strength Potion,Drink a Strength Potion,Global,1,Easy,10,false,1,Skill,70.3,,
+14819,31,Drink a Strength Potion,Drink a Strength Potion,Global,1,Easy,10,false,1,Skill,70.3,,A moonlight potion will also work.
 14452,32,Dye a cape Purple,Dye a cape Purple,Global,1,Easy,10,false,6,Other,80.1,,
 14453,33,Eat a Rabbit,Eat a cooked rabbit,Global,1,Easy,10,false,6,Other,87.1,,
 14454,34,Eat an Onion,"Eat an Onion, raw",Global,1,Easy,10,false,6,Other,90.7,,
@@ -85,7 +85,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 13631,83,Defeat a thief,Defeat a thief,Varlamore,1,Easy,10,false,2,Combat,80.7,,
 13633,84,Defeat an Icefiend in Varlamore,Defeat an Icefiend in Varlamore,Varlamore,1,Easy,10,false,2,Combat,77.2,,
 13634,85,Defeat an Imp in a basement,Defeat an Imp in the Kastori basement in Varlamore,Varlamore,1,Easy,10,false,2,Combat,77.8,,
-14530,86,Drink a cup of tea in Auburn Valley,Drink a cup of tea in Auburn Valley,Varlamore,1,Easy,10,false,6,Other,77.2,,
+14530,86,Drink a cup of tea in Auburn Valley,Drink a cup of tea in Auburn Valley,Varlamore,1,Easy,10,false,6,Other,77.2,,Nettle tea does not count.
 14531,87,Drink from a bird bath,Drink from a bird bath,Varlamore,1,Easy,10,false,6,Other,89,,
 14533,88,Drink some moon-lite,Drink some moon-lite,Varlamore,1,Easy,10,false,6,Other,86.3,,
 14534,89,Exit Civitas via the secret passage,Exit Civitas via the secret passage,Varlamore,1,Easy,10,false,6,Other,73.8,,
@@ -181,7 +181,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14475,179,Pick Wheat in Catherby,Pick some wheat in the field by the Catherby Farming patches,Kandarin,1,Easy,10,false,6,Other,78.4,,
 14563,180,Pick a Pineapple on Karamja,Pick a Pineapple on Karamja,Karamja,1,Easy,10,false,6,Other,70.4,,
 14292,181,Pick a Winter Sq'irk,Pick a Winter Sq'irk in the Sorceress's Garden,Desert,1,Easy,10,false,5,Minigame,29.2,THIEVING 1,
-14481,182,Pick up Snapegrass,Pick up Snapegrass from Lunar Isle,Fremennik,1,Easy,10,false,6,Other,75,,Picking up snape grass on Waterbirth Island completes this task.
+14481,182,Pick up Snapegrass,Pick up Snapegrass from Lunar Isle,Fremennik,1,Easy,10,false,6,Other,75,,"Despite the task text stating it must be picked up from Lunar Isle, picking up snape grass on Waterbirth Island completes this task."
 14496,183,Pick up a cabbage in the Citharede Abbey,Pick up a Cabbage in the Citharede Abbey,Desert,1,Easy,10,false,6,Other,47.4,,
 14477,184,Receive a gift from Arnold,Talk to Arnold Lydspor and receive a gift,Kandarin,1,Easy,10,false,6,Other,58.7,,
 14336,185,Receive an Agility Arena Ticket,Receive an Agility Arena Ticket from the Brimhaven Agility Arena,Karamja,1,Easy,10,false,5,Minigame,72.3,,
@@ -336,7 +336,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14432,334,Gain a Unique Item From a Master Clue,Gain a unique item from a Master Clue Scroll Reward Casket,Global,2,Medium,30,false,5,Minigame,13.8,,
 14433,335,Gain a Unique Item From a Medium Clue,Gain a unique item from a Medium Clue Scroll Reward Casket,Global,2,Medium,30,false,5,Minigame,56.2,,
 14434,336,Gain a Unique Item From an Easy Clue,Gain a unique item from an Easy Clue Scroll Reward Casket,Global,2,Medium,30,false,5,Minigame,66.6,,
-13600,337,Get a Gem from a Gorak,Obtain a gem drop from a Gorak,Global,2,Medium,30,false,2,Combat,34.7,,
+13600,337,Get a Gem from a Gorak,Obtain a gem drop from a Gorak,Global,2,Medium,30,false,2,Combat,34.7,,"Actually requires any roll on the gem drop table, not necessarily specifically a gem."
 14436,338,Give an Entling a haircut,Give an entling a haircut via Forestry,Global,2,Medium,30,false,5,Minigame,55.2,WOODCUTTING 1,
 14921,339,Harvest a Ranarr Weed,Harvest a Ranarr Weed from any Herb patch,Global,2,Medium,30,false,1,Skill,47.4,FARMING 32,
 14437,340,Have a Leprechaun send something to the bank,Have the Forestry leprechaun send something to your bank,Global,2,Medium,30,false,5,Minigame,23.3,WOODCUTTING 1,Use the right-click deposit option. Using items on the leprechaun to deposit will not count.
@@ -439,7 +439,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 15179,437,Steal 15 House Keys,Steal 15 House Keys,Varlamore,2,Medium,30,false,1,Skill,69,THIEVING 50,
 15189,438,Steal 25 Valuables,Steal 25 Valuables,Varlamore,2,Medium,30,false,1,Skill,68.7,THIEVING 50,
 15192,439,Steal a House Key,Steal a House Key,Varlamore,2,Medium,30,false,1,Skill,75.9,THIEVING 50,
-15211,440,Steal from the Fortis Spice Stall,Steal from the Fortis Spice Stall,Varlamore,2,Medium,30,false,1,Skill,66.5,THIEVING 65,Known issue: Not tracked correctly (all)
+15211,440,Steal from the Fortis Spice Stall,Steal from the Fortis Spice Stall,Varlamore,2,Medium,30,false,1,Skill,66.5,THIEVING 65,
 15218,441,Store some bowstrings inside a bowstring spool,Store some bowstrings inside a bowstring spool,Varlamore,2,Medium,30,false,1,Skill,40.1,FLETCHING 20,Vale Totems
 15227,442,Teleport to Cam Torum using a Calcified Moth,Teleport to Cam Torum using a Calcified Moth,Varlamore,2,Medium,30,false,1,Skill,48.3,MINING 41,
 15243,443,Teleport to Civitas illa Fortis,Teleport to Civitas illa Fortis using the standard spellbook spell,Varlamore,2,Medium,30,false,1,Skill,73.2,MAGIC 54,
@@ -822,7 +822,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 13605,820,Reach a Prayer Bonus of 30,Equip enough items to reach a Prayer Bonus of 30 or more,Global,3,Hard,80,false,2,Combat,23.1,,
 13613,821,Restore 75 Prayer Points at an Altar,Restore 75 or more Prayer Points at any altar,Global,3,Hard,80,false,2,Combat,51.8,PRAYER 75,
 15313,822,Smelt a Runite Bar,Use a Furnace to smelt a Runite Bar,Global,3,Hard,80,false,1,Skill,31.3,SMITHING 85; MINING 85,or with Hotfoot
-15333,823,Smith a Rune Item,Smith a Runite Item,Global,3,Hard,80,false,1,Skill,34.4,SMITHING 85,"rune dart tips, rune arrowtips, rune nails, and rune javelin tips do not count towards this task"
+15333,823,Smith a Rune Item,Smith a Runite Item,Global,3,Hard,80,false,1,Skill,34.4,SMITHING 85,"rune dart tips, rune arrowtips, rune nails, runite bolts (unf), and rune javelin tips do not count towards this task"
 15354,824,Steal From a Gem Stall,Steal from a Gem Stall,Global,3,Hard,80,false,1,Skill,66.7,THIEVING 75,
 13386,825,Amoxliatl Combat Achievements,Complete all of the Combat Achievements for Amoxliatl,Varlamore,3,Hard,80,false,2,Combat,13.5,,See Amoxliatl#Combat Achievements
 14575,826,Build all Quetzal landing sites,Build all Quetzal landing sites,Varlamore,3,Hard,80,false,6,Other,4.8,,
@@ -923,7 +923,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 15028,921,Complete the Rellekka Agility Course,Complete a lap of the Rellekka Rooftop Agility Course,Fremennik,3,Hard,80,false,1,Skill,50.8,AGILITY 80,
 15029,922,Complete the Seers' Village Agility Course,Complete a lap of the Seers' Village Rooftop Agility Course,Kandarin,3,Hard,80,false,1,Skill,76.9,AGILITY 60,
 15026,923,Complete the Shayzien Advanced Agility Course,Complete a lap of the Shayzien Advanced Agility Course,Kourend,3,Hard,80,false,1,Skill,37.5,AGILITY 45,Any crossbow and a mith grapple
-15274,924,Cook 100 Karambwans,Cook 100 Karambwan,Karamja,3,Hard,80,false,1,Skill,27.3,FISHING 30,Completion of Tai Bwo Wannai Trio or partial completion with Hotfoot Relic.
+15274,924,Cook 100 Karambwans,Cook 100 Karambwan,Karamja,3,Hard,80,false,1,Skill,27.3,COOKING 30,Completion of Tai Bwo Wannai Trio or partial completion with Hotfoot Relic.
 15280,925,Cook 20 Karambwans in a row,Cook 20 Karambwans in a row without buring them,Karamja,3,Hard,80,false,1,Skill,26.6,COOKING 30,Completion of Tai Bwo Wannai Trio or partial completion with Hotfoot Relic.
 15283,926,Cook 20 Sharks in Darkmeyer,Cook 20 Sharks in Darkmeyer,Morytania,3,Hard,80,false,1,Skill,24.5,COOKING 80,Partial completion of Sins of the Father
 15030,927,Craft 100 Blood runes,Craft 100 Blood runes at the Kourend Blood Altar,Kourend,3,Hard,80,false,1,Skill,28.2,RUNECRAFT 77; MINING 38; CRAFTING 38,", ,"
