@@ -3365,6 +3365,8 @@
     "category": 6,
     "categoryName": "Other",
     "completionPercent": 75,
+    "wikiNotes": "Picking up snape grass on Waterbirth Island completes this task.",
+    "wikiNotesHtml": "Picking up snape grass on <a href=\"/w/Waterbirth_Island\" title=\"Waterbirth Island\">Waterbirth Island</a> completes this task.",
     "location": {
       "x": 2107,
       "y": 3916,

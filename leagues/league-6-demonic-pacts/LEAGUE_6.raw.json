@@ -4800,8 +4800,8 @@
       "pactTask": false,
       "completionPercent": 75,
       "skills": [],
-      "requirements": null,
-      "requirementsHtml": null
+      "requirements": "Picking up snape grass on Waterbirth Island completes this task.",
+      "requirementsHtml": "Picking up snape grass on <a href=\"/w/Waterbirth_Island\" title=\"Waterbirth Island\">Waterbirth Island</a> completes this task."
     },
     "cache": {
       "action_name": "Pick up Snapegrass",

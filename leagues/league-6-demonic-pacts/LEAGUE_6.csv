@@ -181,7 +181,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14475,179,Pick Wheat in Catherby,Pick some wheat in the field by the Catherby Farming patches,Kandarin,1,Easy,10,false,6,Other,78.4,,
 14563,180,Pick a Pineapple on Karamja,Pick a Pineapple on Karamja,Karamja,1,Easy,10,false,6,Other,70.4,,
 14292,181,Pick a Winter Sq'irk,Pick a Winter Sq'irk in the Sorceress's Garden,Desert,1,Easy,10,false,5,Minigame,29.2,THIEVING 1,
-14481,182,Pick up Snapegrass,Pick up Snapegrass from Lunar Isle,Fremennik,1,Easy,10,false,6,Other,75,,
+14481,182,Pick up Snapegrass,Pick up Snapegrass from Lunar Isle,Fremennik,1,Easy,10,false,6,Other,75,,Picking up snape grass on Waterbirth Island completes this task.
 14496,183,Pick up a cabbage in the Citharede Abbey,Pick up a Cabbage in the Citharede Abbey,Desert,1,Easy,10,false,6,Other,47.4,,
 14477,184,Receive a gift from Arnold,Talk to Arnold Lydspor and receive a gift,Kandarin,1,Easy,10,false,6,Other,58.7,,
 14336,185,Receive an Agility Arena Ticket,Receive an Agility Arena Ticket from the Brimhaven Agility Arena,Karamja,1,Easy,10,false,5,Minigame,72.3,,
