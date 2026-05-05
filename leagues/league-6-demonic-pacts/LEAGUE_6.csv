@@ -854,7 +854,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14150,852,Equip full Guild Hunter Outfit,Equip full Guild Hunter Outfit,Varlamore,3,Hard,80,false,1,Skill,18.5,HUNTER 46,
 14151,853,Equip full Hueycoatl armour,Equip full Hueycoatl armour,Varlamore,3,Hard,80,false,2,Combat,3.1,CRAFTING 78; RANGED 70; DEFENCE 40,", ,"
 14152,854,Equip full Sunfire Fanatic,Equip a full set of Sunfire Fanatic armour,Varlamore,3,Hard,80,false,2,Combat,8,PRAYER 60; DEFENCE 40,","
-15046,855,Fletch some Atlatl darts,Fletch some Atlatl darts,Varlamore,3,Hard,80,false,1,Skill,7.2,FLETCHING 74,
+15046,855,Fletch some Atlatl darts,Fletch some Atlatl darts,Varlamore,3,Hard,80,false,1,Skill,7.2,FLETCHING 74; SLAYER 54,","
 6809,856,Fully Decorate a Magic Totem in the Auburn Valley,Fully decorate a Magic totem in the Auburn Valley,Varlamore,3,Hard,80,false,1,Skill,39.1,FLETCHING 80,
 15017,857,Fully decorate a Yew totem in the Auburn Valley,Fully decorate a Yew totem in the Auburn Valley,Varlamore,3,Hard,80,false,1,Skill,58,FLETCHING 65,
 13384,858,Hueycoatl Combat Achievements,Complete all of the Combat Achievements for Hueycoatl,Varlamore,3,Hard,80,false,2,Combat,1.3,,See Hueycoatl#Combat Achievements

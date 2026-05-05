@@ -17687,9 +17687,14 @@
       {
         "skill": "FLETCHING",
         "level": 74
+      },
+      {
+        "skill": "SLAYER",
+        "level": 54
       }
     ],
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"74\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 74 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>"
+    "wikiNotes": ",",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Fletching\" data-level=\"74\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Fletching\" title=\"Fletching\"><img alt=\"Fletching\" src=\"/images/Fletching_icon.png?15cda\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 74 <a href=\"/w/Fletching\" title=\"Fletching\">Fletching</a></span>, <span class=\"scp\" data-skill=\"Slayer\" data-level=\"54\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 54 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>"
   },
   {
     "name": "Fully Decorate a Magic Totem in the Auburn Valley",
