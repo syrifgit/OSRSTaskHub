@@ -2249,7 +2249,13 @@
     "area": "Desert",
     "tierName": "Easy",
     "tier": 1,
-    "category": null
+    "category": null,
+    "skillRequirements": [
+      {
+        "skill": "THIEVING",
+        "level": 1
+      }
+    ]
   },
   {
     "structId": 14481,
@@ -3288,7 +3294,13 @@
     "area": "Global",
     "tierName": "Medium",
     "tier": 2,
-    "category": null
+    "category": null,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ]
   },
   {
     "structId": 14443,
@@ -3389,7 +3401,13 @@
     "area": "Global",
     "tierName": "Medium",
     "tier": 2,
-    "category": null
+    "category": null,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ]
   },
   {
     "structId": 14446,
@@ -3411,7 +3429,13 @@
     "area": "Global",
     "tierName": "Medium",
     "tier": 2,
-    "category": null
+    "category": null,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ]
   },
   {
     "structId": 14447,
@@ -3466,7 +3490,13 @@
     "area": "Global",
     "tierName": "Medium",
     "tier": 2,
-    "category": null
+    "category": null,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ]
   },
   {
     "structId": 14289,
@@ -3477,7 +3507,13 @@
     "area": "Global",
     "tierName": "Medium",
     "tier": 2,
-    "category": null
+    "category": null,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ]
   },
   {
     "structId": 14451,
@@ -4414,7 +4450,13 @@
     "area": "Global",
     "tierName": "Medium",
     "tier": 2,
-    "category": null
+    "category": null,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ]
   },
   {
     "structId": 14921,
@@ -4442,7 +4484,13 @@
     "area": "Global",
     "tierName": "Medium",
     "tier": 2,
-    "category": null
+    "category": null,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ]
   },
   {
     "structId": 14930,
@@ -10041,7 +10089,13 @@
     "area": "Desert",
     "tierName": "Medium",
     "tier": 2,
-    "category": null
+    "category": null,
+    "skillRequirements": [
+      {
+        "skill": "THIEVING",
+        "level": 1
+      }
+    ]
   },
   {
     "structId": 14400,
@@ -11048,7 +11102,13 @@
     "area": "Global",
     "tierName": "Hard",
     "tier": 3,
-    "category": null
+    "category": null,
+    "skillRequirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ]
   },
   {
     "structId": 14250,
@@ -11576,6 +11636,10 @@
     "skillRequirements": [
       {
         "skill": "SMITHING",
+        "level": 85
+      },
+      {
+        "skill": "MINING",
         "level": 85
       }
     ]
@@ -12140,6 +12204,10 @@
       {
         "skill": "FLETCHING",
         "level": 74
+      },
+      {
+        "skill": "SLAYER",
+        "level": 54
       }
     ]
   },
@@ -13221,7 +13289,7 @@
     "category": null,
     "skillRequirements": [
       {
-        "skill": "FISHING",
+        "skill": "COOKING",
         "level": 30
       }
     ]
