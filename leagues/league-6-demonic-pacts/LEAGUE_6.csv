@@ -307,7 +307,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14232,305,Equip a piece of Zombie Outfit,Equip a piece of Zombie Outfit,Global,2,Medium,30,false,6,Other,35.1,,
 14245,306,Equip an Adamant Weapon,Equip any Adamant weapon,Global,2,Medium,30,false,2,Combat,80.9,ATTACK 30,
 14246,307,Equip an Elemental Battlestaff or Mystic Staff,Equip either an elemental battlestaff or an elemental mystic staff,Global,2,Medium,30,false,2,Combat,58.1,MAGIC 30; ATTACK 30,","
-14254,308,Equip some Black armour,"Equip either a Black Platebody, some Black Platelegs or a Black Full Helm",Global,2,Medium,30,false,6,Other,51,DEFENCE 10,
+14254,308,Equip some Black armour,"Equip either a Black Platebody, some Black Platelegs or a Black Full Helm",Global,2,Medium,30,false,2,Combat,51,DEFENCE 10,
 14256,309,Equip some Steel armour,"Equip either a Steel Platebody, some Steel Platelegs or a Steel Full Helm",Global,2,Medium,30,false,6,Other,81.4,DEFENCE 5,
 14257,310,Equip the Forestry Basket,Equip the Forestry Basket,Global,2,Medium,30,false,5,Minigame,1.4,WOODCUTTING 75; SMITHING 75,", Log basket: 5,000 Anima-infused bark 300 Oak logs 300 Willow logs Log brace: 3,000 Anima-infused bark 300 Maple logs 300 Yew logs"
 14407,311,Fill 15 Hard Clue Collection Log Slots,Fill 15 slots in the Hard Clue section of the Collection Log,Global,2,Medium,30,false,5,Minigame,18,,
@@ -477,7 +477,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14707,475,Complete A Porcine of Interest,Complete the A Porcine of Interest quest,Asgarnia,2,Medium,30,false,3,Quest,97.6,,Known issue: Cannot be completed (all)
 14722,476,Complete Fishing Contest,Complete the Fishing Contest Quest,Kandarin,2,Medium,30,false,3,Quest,32.7,FISHING 10,
 14695,477,Complete Haunted Mine,Complete the Haunted Mine quest,Morytania,2,Medium,30,false,3,Quest,33.3,CRAFTING 35,
-14657,478,Complete His Faithful Servants,Complete the miniquest His Faithful Servants,Morytania,2,Medium,30,false,6,Other,89.9,,
+14657,478,Complete His Faithful Servants,Complete the miniquest His Faithful Servants,Morytania,2,Medium,30,false,3,Quest,89.9,,
 14723,479,Complete Monk's Friend,Complete the Monk's Friend quest,Kandarin,2,Medium,30,false,3,Quest,28.3,,
 14720,480,Complete Royal Trouble,Complete the Royal Trouble quest,Fremennik,2,Medium,30,false,3,Quest,27.4,AGILITY 40; SLAYER 40,", Completion of Throne of Miscellania"
 14724,481,Complete Sea Slug,Complete the Sea Slug quest,Kandarin,2,Medium,30,false,3,Quest,33.9,FIREMAKING 30,

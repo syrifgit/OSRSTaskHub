@@ -5892,8 +5892,8 @@
     "tierName": "Medium",
     "points": 30,
     "pactTask": false,
-    "category": 6,
-    "categoryName": "Other",
+    "category": 2,
+    "categoryName": "Combat",
     "completionPercent": 51,
     "skillRequirements": [
       {
@@ -9539,8 +9539,8 @@
     "tierName": "Medium",
     "points": 30,
     "pactTask": false,
-    "category": 6,
-    "categoryName": "Other",
+    "category": 3,
+    "categoryName": "Quest",
     "completionPercent": 89.9
   },
   {

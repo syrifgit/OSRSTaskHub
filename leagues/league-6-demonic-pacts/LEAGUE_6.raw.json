@@ -8303,9 +8303,10 @@
     "cache": {
       "action_name": "Equip some Black armour",
       "action_description": "Equip either a Black Platebody, some Black Platelegs or a Black Full Helm",
+      "total_level": 1165,
       "league_tier": 2,
       "league_task_marker": 1,
-      "league_category": 6,
+      "league_category": 2,
       "league_area": 0
     }
   },
@@ -13196,7 +13197,7 @@
       "mine_ore": 3250,
       "league_tier": 2,
       "league_task_marker": 1,
-      "league_category": 6,
+      "league_category": 3,
       "league_area": 5
     }
   },
