@@ -25990,8 +25990,8 @@
           "level": 65
         }
       ],
-      "requirements": null,
-      "requirementsHtml": "<span class=\"scp\" data-skill=\"Runecraft\" data-level=\"65\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Runecraft\" title=\"Runecraft\"><img alt=\"Runecraft\" src=\"/images/Runecraft_icon.png?c278c\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 65 <a href=\"/w/Runecraft\" title=\"Runecraft\">Runecraft</a></span>"
+      "requirements": "Note: Soul shards count as essence.",
+      "requirementsHtml": "<span class=\"scp\" data-skill=\"Runecraft\" data-level=\"65\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Runecraft\" title=\"Runecraft\"><img alt=\"Runecraft\" src=\"/images/Runecraft_icon.png?c278c\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 65 <a href=\"/w/Runecraft\" title=\"Runecraft\">Runecraft</a></span>Note: Soul shards count as essence."
     },
     "cache": {
       "action_name": "Craft 50 Death Runes",
