@@ -603,7 +603,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14189,601,Equip a God Cape,"Equip either a Saradomin Cape, a Guthix Cape or a Zamorak Cape",Wilderness,2,Medium,30,false,2,Combat,82.9,MAGIC 60,Completion of Mage Arena I
 14205,602,Equip a Granite Shield in the Fremennik Province,Equip a Granite Shield while in the Fremennik Province,Fremennik,2,Medium,30,false,2,Combat,14.9,DEFENCE 50; STRENGTH 50,","
 14192,603,Equip a Helm of Neitiznot,Equip a Helm of Neitiznot,Fremennik,2,Medium,30,false,2,Combat,75.5,DEFENCE 55,
-14191,604,Equip a Marksman Chompy Hat,Equip a Marksman Chompy Hat,Kandarin,2,Medium,30,false,2,Combat,4.6,FLETCHING 5; COOKING 30; RANGED 30; CRAFTING 5,", , , Completion of Big Chompy Bird Hunting"
+14191,604,Equip a Marksman Chompy Hat,Equip a Marksman Chompy Hat,Kandarin,2,Medium,30,false,2,Combat,4.6,FLETCHING 5; COOKING 30; RANGED 30; CRAFTING 5,", , , Completion of Big Chompy Bird Hunting, 125 chompy bird kills"
 14165,605,Equip a Monkey Backpack,Equip a Monkey Backpack,Kandarin,2,Medium,30,false,1,Skill,51.7,,
 14184,606,Equip a Pearl Fishing Rod,"Equip a Pearl fishing rod, purchased from Alry on Molch Island",Kourend,2,Medium,30,false,1,Skill,5.7,HUNTER 35; FISHING 43,", 100 Molch pearls"
 14137,607,Equip a Piece of any Barrows Armour Set,Equip any piece of any Barrows armour set,Morytania,2,Medium,30,false,2,Combat,89.3,DEFENCE 70; ATTACK 70; RANGED 70; MAGIC 70; ATTACK 70,", , or , or and"
@@ -617,7 +617,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14167,615,Equip a full set of Yakhide Armour,Equip a full set of Yakhide Armour,Fremennik,2,Medium,30,false,1,Skill,47.6,CRAFTING 46; DEFENCE 20,","
 14200,616,Equip an Imcando Hammer,Equip an Imcando hammer,Asgarnia,2,Medium,30,false,6,Other,5.7,MINING 14,
 14087,617,Equip an Obsidian Cape,Equip an Obsidian Cape,Karamja,2,Medium,30,true,2,Combat,69.6,,
-14193,618,Equip an Ogre Forester Chompy Hat,Equip an Ogre Forester Chompy Hat,Kandarin,2,Medium,30,false,2,Combat,4.2,FLETCHING 5; COOKING 30; RANGED 30; CRAFTING 5,", , , Completion of Big Chompy Bird Hunting"
+14193,618,Equip an Ogre Forester Chompy Hat,Equip an Ogre Forester Chompy Hat,Kandarin,2,Medium,30,false,2,Combat,4.2,FLETCHING 5; COOKING 30; RANGED 30; CRAFTING 5,", , , Completion of Big Chompy Bird Hunting, 300 chompy bird kills"
 14197,619,Equip any spear (kp),Equip any spear poisoned by a karambwan,Karamja,2,Medium,30,false,2,Combat,24.4,,
 14133,620,Equip the Colossal Blade,Equip the Colossal Blade from Giant's Foundry,Desert,2,Medium,30,false,5,Minigame,12.1,SMITHING 15; ATTACK 60,","
 14185,621,Equip the Cursed Amulet of Magic,Equip the Cursed Amulet of Magic,Kourend,2,Medium,30,false,2,Combat,18.2,,
@@ -1095,7 +1095,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14080,1093,Equip an Ava's Assembler,Equip an Ava's Assembler,Fremennik,3,Hard,80,false,2,Combat,31.1,RANGED 70,
 14070,1094,Equip an Enchanted Slayer Staff,Equip an Enchanted Slayer Staff,Wilderness,3,Hard,80,false,2,Combat,46.8,MAGIC 75; SLAYER 55,","
 13970,1095,Equip an Odium Ward,Equip an Odium Ward,Wilderness,3,Hard,80,false,2,Combat,35.2,DEFENCE 60,
-14124,1096,Equip an Ogre Expert Chompy Hat,Equip an Ogre Expert Chompy Hat,Kandarin,3,Hard,80,false,2,Combat,2.9,FLETCHING 5; COOKING 30; RANGED 30; CRAFTING 5,", , , Completion of Big Chompy Bird Hunting"
+14124,1096,Equip an Ogre Expert Chompy Hat,Equip an Ogre Expert Chompy Hat,Kandarin,3,Hard,80,false,2,Combat,2.9,FLETCHING 5; COOKING 30; RANGED 30; CRAFTING 5,", , , Completion of Big Chompy Bird Hunting, 1,000 chompy bird kills"
 14057,1097,Equip any Full Barrows Armour Set,Equip a full set of any Barrows armour + weapon,Morytania,3,Hard,80,true,2,Combat,57.8,DEFENCE 70; ATTACK 70; RANGED 70; MAGIC 70; ATTACK 70,", one of or , or and"
 14157,1098,Equip any piece of Crystal Armour,"Equip either the Crystal Helmet, Body or Legs",Tirannwn,3,Hard,80,false,2,Combat,68.6,DEFENCE 70,Completion of The Gauntlet
 14264,1099,Equip some Holy Moleys,Equip some Holy Moleys,Asgarnia,3,Hard,80,false,6,Other,5.6,PRAYER 31,
@@ -1428,7 +1428,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14090,1426,Equip a Brimstone Ring,Equip a Brimstone ring,Kourend,4,Elite,200,false,2,Combat,20.6,SLAYER 95,
 13953,1427,Equip a Completed God Book,Equip a completed God Book,Fremennik,4,Elite,200,false,5,Minigame,2.6,,
 14007,1428,Equip a Crystal Grail,Equip a Crystal Grail,Tirannwn,4,Elite,200,false,2,Combat,14.6,,
-13941,1429,Equip a Dragon Archer Chompy Hat,Equip a Dragon Archer Chompy Hat,Kandarin,4,Elite,200,false,2,Combat,0.8,FLETCHING 5; RANGED 30,", 2,250 chompy bird kills"
+13941,1429,Equip a Dragon Archer Chompy Hat,Equip a Dragon Archer Chompy Hat,Kandarin,4,Elite,200,false,2,Combat,0.8,FLETCHING 5; COOKING 30; RANGED 30; CRAFTING 5,", , , Completion of Big Chompy Bird Hunting, 2,250 chompy bird kills"
 13950,1430,Equip a Dragon Chainbody in the Kharidian Desert,Equip a Dragon Chainbody in the Kharidian Desert,Desert,4,Elite,200,true,2,Combat,75.5,DEFENCE 60,
 13928,1432,Equip a Dragon Hunter Crossbow,Equip a Dragon Hunter Crossbow,Kourend,4,Elite,200,false,2,Combat,11.3,RANGED 70,
 13929,1433,Equip a Dragon Hunter Lance,Equip a Dragon hunter lance,Kourend,4,Elite,200,true,2,Combat,21.1,SLAYER 95; ATTACK 78,","
