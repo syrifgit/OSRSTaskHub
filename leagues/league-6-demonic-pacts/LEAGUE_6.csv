@@ -933,8 +933,8 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14608,931,Craft an Eternal Teleport Crystal,Use a Singing Bowl to craft an Eternal Teleport Crystal,Tirannwn,3,Hard,80,false,6,Other,81.7,SMITHING 80; CRAFTING 80,"and , or 150 crystal shards"
 15035,932,Create 10 Dynamite,Create 10 Dynamite,Kourend,3,Hard,80,false,1,Skill,8.5,MINING 42; WOODCUTTING 42,","
 15287,933,Create 100 Anti-venom Potions,"Make an Anti-venom potion, 100 times, at any dosage",Tirannwn,3,Hard,80,false,1,Skill,14.9,HERBLORE 87,
-15214,934,Create 25 Divine Super Attack Potions,"Make a Divine Super Attack potion, 25 times, at any dosage",Tirannwn,3,Hard,80,false,1,Skill,31,HERBLORE 70,
-15221,935,Create 25 Divine Super Strength Potions,"Make a Divine Super Strength potion, 25 times, at any dosage",Tirannwn,3,Hard,80,false,1,Skill,23.8,HERBLORE 70,
+15214,934,Create 25 Divine Super Attack Potions,"Make a Divine Super Attack potion, 25 times, at any dosage",Tirannwn,3,Hard,80,false,1,Skill,31,HERBLORE 70,Can be completed with any dosage of potion.
+15221,935,Create 25 Divine Super Strength Potions,"Make a Divine Super Strength potion, 25 times, at any dosage",Tirannwn,3,Hard,80,false,1,Skill,23.8,HERBLORE 70,Can be completed with any dosage of potion.
 15034,936,Create a Catherby Teleport Tablet,Create a Catherby Teleport Tablet,Fremennik,3,Hard,80,false,1,Skill,17.3,MAGIC 87,
 13533,937,Create an Amulet of Blood Fury,Create an Amulet of Blood Fury,Morytania,3,Hard,80,true,2,Combat,66.2,CRAFTING 90; MAGIC 87,", Completion of Sins of the Father"
 15328,938,Create the Colossal Rune Pouch,Create the Colossal Rune Pouch from Guardians of the Rift,Desert,3,Hard,80,false,1,Skill,19.8,RUNECRAFT 27; CRAFTING 56,","
@@ -1379,8 +1379,8 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 13512,1377,Craft a Toxic Blowpipe,Craft a Toxic Blowpipe,Tirannwn,4,Elite,200,true,2,Combat,58.6,FLETCHING 78,
 13513,1378,Craft a Toxic Trident,Craft a Toxic Trident,Tirannwn,4,Elite,200,false,2,Combat,39.8,CRAFTING 59,
 14896,1379,Craft a Wrath Rune,Craft a Wrath Rune at the Wrath Altar,Kandarin,4,Elite,200,false,1,Skill,19.6,RUNECRAFT 95,
-14897,1380,Create 100 Divine Ranging Potions,"Make a Divine Ranging Potion, 100 times, at any dosage",Tirannwn,4,Elite,200,false,1,Skill,12.6,HERBLORE 74,
-14899,1381,Create 100 Divine Super Combat Potions,"Make a Divine Super Combat Potion, 100 times, at any dosage",Tirannwn,4,Elite,200,false,1,Skill,6.8,HERBLORE 97,
+14897,1380,Create 100 Divine Ranging Potions,"Make a Divine Ranging Potion, 100 times, at any dosage",Tirannwn,4,Elite,200,false,1,Skill,12.6,HERBLORE 74,Can be completed with any dosage of potion.
+14899,1381,Create 100 Divine Super Combat Potions,"Make a Divine Super Combat Potion, 100 times, at any dosage",Tirannwn,4,Elite,200,false,1,Skill,6.8,HERBLORE 97,Can be completed with any dosage of potion.
 14905,1382,Create 50 Anti-venom+ Potions,Make 50 Anti-venom+ potions,Tirannwn,4,Elite,200,false,1,Skill,9.6,HERBLORE 94,
 15401,1383,Cross a Pillar shortcut in the Revenant Caves,Cross a Pillar shortcut in the Revenant Caves,Wilderness,4,Elite,200,false,1,Skill,66.1,AGILITY 65,
 13350,1384,Dagannoth Kings Combat Achievements,Complete all of the Combat Achievements for Dagannoth Kings,Fremennik,4,Elite,200,false,4,Achievement,11.2,,See Dagannoth Kings#Combat Achievements
