@@ -34922,7 +34922,7 @@
     "sortId": 1238,
     "wiki": {
       "name": "Obtain 25 Million XP in 5 non-combat skills",
-      "description": "Obtain 25 million experience in 5 different skills excluding Attack, Strength, Defence, Magic, Ranged & Hitpoints.",
+      "description": "Obtain 25 million experience in 5 different skills excluding Attack, Strength, Defence, Magic, Ranged, Hitpoints, and Prayer.",
       "areaKey": "general",
       "tierKey": "elite",
       "tier": 4,
@@ -34947,7 +34947,7 @@
     "sortId": 1239,
     "wiki": {
       "name": "Obtain 25 Million XP in a combat skill",
-      "description": "Obtain 25 million experience in either Attack, Strength, Defence, Magic, Ranged or Hitpoints.",
+      "description": "Obtain 25 million experience in either Attack, Strength, Defence, Magic, Ranged, Hitpoints, or Prayer.",
       "areaKey": "general",
       "tierKey": "elite",
       "tier": 4,
@@ -35482,7 +35482,7 @@
     "sortId": 1257,
     "wiki": {
       "name": "Obtain 35 Million XP in 3 non-combat skills",
-      "description": "Obtain 35 million experience in 3 different skills excluding Attack, Strength, Defence, Magic, Ranged and Hitpoints.",
+      "description": "Obtain 35 million experience in 3 different skills excluding Attack, Strength, Defence, Magic, Ranged, Hitpoints, and Prayer.",
       "areaKey": "general",
       "tierKey": "elite",
       "tier": 4,
