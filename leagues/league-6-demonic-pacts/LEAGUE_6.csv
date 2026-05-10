@@ -752,8 +752,8 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 13457,750,Complete all tasks for 1 boss,Complete all of the Combat Achievements available at 1 boss within the areas you have unlocked,Global,3,Hard,80,false,4,Achievement,43.5,,
 13459,751,Complete all tasks for 3 bosses,Complete all of the Combat Achievements available at 3 different bosses within the areas you have unlocked,Global,3,Hard,80,false,4,Achievement,23.1,,
 14793,752,Cook 100 Sharks,Cook 100 Raw Sharks,Global,3,Hard,80,false,1,Skill,42.5,COOKING 80,
-14792,753,Cook 100 pies,Cook 100 pies,Global,3,Hard,80,false,1,Skill,7.4,COOKING 10,NOTE: using the Bake Pie spell does not count towards the task.
-14795,754,Cook 25 Meat Pies,Cook 25 Meat Pies,Global,3,Hard,80,false,1,Skill,8.6,COOKING 20,NOTE: using the Bake Pie spell does not count towards the task.
+14792,753,Cook 100 pies,Cook 100 pies,Global,3,Hard,80,false,1,Skill,7.4,COOKING 10,
+14795,754,Cook 25 Meat Pies,Cook 25 Meat Pies,Global,3,Hard,80,false,1,Skill,8.6,COOKING 20,
 14799,755,Craft 100 Unpowered Orbs,Craft 100 Unpowered Orbs,Global,3,Hard,80,false,1,Skill,26.9,CRAFTING 46,
 14802,756,Craft 2500 Essence Into Runes,Use Runecrafting Altars to craft 2500 essence into runes of any type,Global,3,Hard,80,false,1,Skill,16.9,,
 14803,757,Craft 30 Blue Dragonhide Bodies,Craft 30 Blue Dragonhide Bodies,Global,3,Hard,80,false,1,Skill,10.1,CRAFTING 71,
