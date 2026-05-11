@@ -31601,7 +31601,7 @@
     "sortId": 1120,
     "wiki": {
       "name": "Have Drew create 500 buckets",
-      "description": "Create 500 buckets of sand at Drew's sandstorm machine.",
+      "description": "Create 500 buckets of sand at Drew's sandstorm machine at one time.",
       "areaKey": "desert",
       "tierKey": "hard",
       "tier": 3,
