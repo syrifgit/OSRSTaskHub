@@ -15722,6 +15722,7 @@
     "cache": {
       "action_name": "Defeat a Wallasalki",
       "action_description": "Defeat a Wallasalki",
+      "npc_kill_category": 5938,
       "league_tier": 2,
       "league_task_marker": 1,
       "league_category": 2,
