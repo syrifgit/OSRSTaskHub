@@ -21004,8 +21004,16 @@
         "level": 5
       },
       {
+        "skill": "COOKING",
+        "level": 30
+      },
+      {
         "skill": "RANGED",
         "level": 30
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 5
       }
     ]
   },
