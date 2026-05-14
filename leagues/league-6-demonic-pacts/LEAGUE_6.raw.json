@@ -21530,7 +21530,7 @@
     "sortId": 775,
     "wiki": {
       "name": "Equip a Full God Rune Set",
-      "description": "Equip a full set of God Rune Armour with all pieces aligned to the same god.",
+      "description": "Equip a full set of God Rune Armour (Full helm, platebody, and platelegs or plateskirt) with all pieces aligned to the same god.",
       "areaKey": "general",
       "tierKey": "hard",
       "tier": 3,
