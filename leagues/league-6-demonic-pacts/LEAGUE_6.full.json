@@ -25302,8 +25302,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 6.7,
-    "wikiNotes": "See Abyssal_Sire#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Abyssal_Sire#Combat_Achievements\" title=\"Abyssal Sire\">Abyssal_Sire#Combat Achievements</a>",
+    "wikiNotes": "See Abyssal Sire#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Abyssal_Sire#Combat_Achievements\" title=\"Abyssal Sire\">Abyssal Sire#Combat Achievements</a>",
     "location": {
       "x": 3107,
       "y": 4791,
@@ -28443,8 +28443,8 @@
     "category": 4,
     "categoryName": "Achievement",
     "completionPercent": 5.1,
-    "wikiNotes": "See Moons_of_Peril#Combat Achievements",
-    "wikiNotesHtml": "See <a href=\"/w/Moons_of_Peril#Combat_Achievements\" title=\"Moons of Peril\">Moons_of_Peril#Combat Achievements</a>",
+    "wikiNotes": "See Moons of Peril#Combat Achievements",
+    "wikiNotesHtml": "See <a href=\"/w/Moons_of_Peril#Combat_Achievements\" title=\"Moons of Peril\">Moons of Peril#Combat Achievements</a>",
     "location": {
       "x": 1436,
       "y": 3124,
@@ -30630,8 +30630,8 @@
         "level": 78
       }
     ],
-    "wikiNotes": ",",
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"95\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 95 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Attack\" data-level=\"78\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 78 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span>"
+    "wikiNotes": ", Unlocking Kandarin is not required, as the Dragon Hunter Lance is dropped in lieu of Hydra's claw from the Alchemical Hydra.",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Slayer\" data-level=\"95\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 95 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span>, <span class=\"scp\" data-skill=\"Attack\" data-level=\"78\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Attack\" title=\"Attack\"><img alt=\"Attack\" src=\"/images/Attack_icon.png?b4bce\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 78 <a href=\"/w/Attack\" title=\"Attack\">Attack</a></span><br>Unlocking Kandarin is not required, as the Dragon Hunter Lance is dropped in lieu of Hydra's claw from the <a href=\"/w/Alchemical_Hydra\" title=\"Alchemical Hydra\">Alchemical Hydra</a>."
   },
   {
     "name": "Equip a Dragon Warhammer",
