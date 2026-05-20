@@ -26662,7 +26662,7 @@
     "sortId": 950,
     "wiki": {
       "name": "Defeat Callisto",
-      "description": "Defeat Callisto in the Wilderness.",
+      "description": "Defeat Callisto or Artio in the Wilderness.",
       "areaKey": "wilderness",
       "tierKey": "hard",
       "tier": 3,
@@ -27502,7 +27502,7 @@
     "sortId": 982,
     "wiki": {
       "name": "Defeat Venenatis",
-      "description": "Defeat Venenatis in the Wilderness.",
+      "description": "Defeat Venenatis or Spindel in the Wilderness.",
       "areaKey": "wilderness",
       "tierKey": "hard",
       "tier": 3,
@@ -27602,7 +27602,7 @@
     "sortId": 986,
     "wiki": {
       "name": "Defeat Vet'ion",
-      "description": "Defeat Vet'ion in the Wilderness.",
+      "description": "Defeat Vet'ion or Calvar'ion in the Wilderness.",
       "areaKey": "wilderness",
       "tierKey": "hard",
       "tier": 3,
