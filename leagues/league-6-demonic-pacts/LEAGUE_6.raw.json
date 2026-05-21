@@ -22948,9 +22948,14 @@
       "points": 80,
       "pactTask": false,
       "completionPercent": 4.8,
-      "skills": [],
+      "skills": [
+        {
+          "skill": "HUNTER",
+          "level": 46
+        }
+      ],
       "requirements": null,
-      "requirementsHtml": null
+      "requirementsHtml": "<span class=\"scp\" data-skill=\"Hunter\" data-level=\"46\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Hunter\" title=\"Hunter\"><img alt=\"Hunter\" src=\"/images/Hunter_icon.png?8762f\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"23\" class=\"mw-file-element\" data-file-width=\"22\" data-file-height=\"23\"></a></span> 46 <a href=\"/w/Hunter\" title=\"Hunter\">Hunter</a></span>"
     },
     "cache": {
       "action_name": "Build all Quetzal landing sites",
