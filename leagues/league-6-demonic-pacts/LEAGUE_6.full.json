@@ -25384,8 +25384,14 @@
     "category": 2,
     "categoryName": "Combat",
     "completionPercent": 2.2,
+    "skillRequirements": [
+      {
+        "skill": "CONSTRUCTION",
+        "level": 87
+      }
+    ],
     "wikiNotes": "Check associated bosses",
-    "wikiNotesHtml": "Check associated bosses",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Construction\" data-level=\"87\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Construction\" title=\"Construction\"><img alt=\"Construction\" src=\"/images/Construction_icon.png?f9bf7\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 87 <a href=\"/w/Construction\" title=\"Construction\">Construction</a></span><br>Check associated bosses",
     "location": {
       "x": 2953,
       "y": 3224,

@@ -1186,7 +1186,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14738,1184,Achieve Your First Level 90,Reach level 90 in any skill,Global,4,Elite,200,false,1,Skill,79.9,,
 14739,1185,Achieve Your First Level 95,Reach level 95 in any skill,Global,4,Elite,200,false,1,Skill,77.5,,
 13532,1186,Activate an Imbued Heart,Obtain and activate an Imbued heart,Global,4,Elite,200,false,2,Combat,16.8,SLAYER 5,Unlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked
-13559,1187,Add a Jar to a Display Case,Add a Jar to a Display Case in your Player Owned House Achievement Gallery,Global,4,Elite,200,false,2,Combat,2.2,,Check associated bosses
+13559,1187,Add a Jar to a Display Case,Add a Jar to a Display Case in your Player Owned House Achievement Gallery,Global,4,Elite,200,false,2,Combat,2.2,CONSTRUCTION 87,Check associated bosses
 14765,1188,Catch 500 Chinchompas,Catch 500 Chinchompas,Global,4,Elite,200,false,1,Skill,33.4,HUNTER 53,
 13450,1189,Combat Achievements Hard Tier,Obtain enough points to unlock the Hard tier of combat achievements,Global,4,Elite,200,false,4,Achievement,19,,416 Combat Achievement points
 13451,1190,Combat Achievements Medium Tier,Obtain enough points to unlock the Medium tier of combat achievements,Global,4,Elite,200,false,4,Achievement,42.7,,161 Combat Achievement points

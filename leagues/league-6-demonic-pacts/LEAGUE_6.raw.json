@@ -33467,9 +33467,14 @@
       "points": 200,
       "pactTask": false,
       "completionPercent": 2.2,
-      "skills": [],
+      "skills": [
+        {
+          "skill": "CONSTRUCTION",
+          "level": 87
+        }
+      ],
       "requirements": "Check associated bosses",
-      "requirementsHtml": "Check associated bosses"
+      "requirementsHtml": "<span class=\"scp\" data-skill=\"Construction\" data-level=\"87\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Construction\" title=\"Construction\"><img alt=\"Construction\" src=\"/images/Construction_icon.png?f9bf7\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"25\"></a></span> 87 <a href=\"/w/Construction\" title=\"Construction\">Construction</a></span><br>Check associated bosses"
     },
     "cache": {
       "action_name": "Add a Jar to a Display Case",
