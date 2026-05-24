@@ -19047,7 +19047,7 @@
     "sortId": 688,
     "wiki": {
       "name": "Smelt a Steel Bar in Port Phasmatys",
-      "description": "Smelt a Steel Bar in a furnace in Port Phasmatys.",
+      "description": "Smelt a Steel Bar in Port Phasmatys.",
       "areaKey": "morytania",
       "tierKey": "medium",
       "tier": 2,
@@ -19060,8 +19060,8 @@
           "level": 30
         }
       ],
-      "requirements": null,
-      "requirementsHtml": "<span class=\"scp\" data-skill=\"Smithing\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 30 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span>"
+      "requirements": "Note: Task is to smelt a steel bar in a furnace in Port Phasmatys, Superheat Item does not work.",
+      "requirementsHtml": "<span class=\"scp\" data-skill=\"Smithing\" data-level=\"30\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Smithing\" title=\"Smithing\"><img alt=\"Smithing\" src=\"/images/Smithing_icon.png?d26c5\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"19\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"19\"></a></span> 30 <a href=\"/w/Smithing\" title=\"Smithing\">Smithing</a></span><br><i>Note: Task is to smelt a steel bar in a <a href=\"/w/Furnace\" title=\"Furnace\">furnace</a> in Port Phasmatys, <a href=\"/w/Superheat_Item\" title=\"Superheat Item\">Superheat Item</a> does not work.</i>"
     },
     "cache": {
       "action_name": "Smelt a Steel Bar in Port Phasmatys",

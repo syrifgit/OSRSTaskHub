@@ -687,7 +687,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14652,685,Sell 20 Iron Sheets,Sell 20 Iron Sheets to Franklin Caranos,Kandarin,2,Medium,30,false,6,Other,16.8,SMITHING 45,
 13558,686,Set Up a Dwarf Cannon,Set Up a Dwarf Cannon,Asgarnia,2,Medium,30,false,2,Combat,36.4,,
 14574,687,Sleep in Paramaya Inn,"Pay the barkeep to sleep in Paramaya Inn, in Shilo Village",Karamja,2,Medium,30,false,6,Other,56.5,,
-15131,688,Smelt a Steel Bar in Port Phasmatys,Smelt a Steel Bar in Port Phasmatys,Morytania,2,Medium,30,false,1,Skill,37.1,SMITHING 30,
+15131,688,Smelt a Steel Bar in Port Phasmatys,Smelt a Steel Bar in Port Phasmatys,Morytania,2,Medium,30,false,1,Skill,37.1,SMITHING 30,"Note: Task is to smelt a steel bar in a furnace in Port Phasmatys, Superheat Item does not work."
 15219,689,Smelt a mithril bar in a volcanic fissure,Smelt a Mithril bar in a volcanic Fissure,Kourend,2,Medium,30,false,1,Skill,33.6,SMITHING 50,
 15220,690,Smith Shayzien (1),Smith any piece of Shayzien (1),Kourend,2,Medium,30,false,1,Skill,23.5,SMITHING 45; MINING 65,","
 15222,691,Smith Steel in Kourend Castle,Smith Steel in Kourend Castle,Kourend,2,Medium,30,false,1,Skill,55.8,SMITHING 30,
