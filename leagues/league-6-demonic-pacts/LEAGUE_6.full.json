@@ -11013,7 +11013,7 @@
     "categoryName": "Combat",
     "completionPercent": 96.2,
     "wikiNotes": "Completion of Tower of LifeNote: Automatically completed on Kandarin region unlock.",
-    "wikiNotesHtml": "Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Tower_of_Life\" title=\"Tower of Life\">Tower of Life</a><i>Note: Automatically completed on Kandarin region unlock.</i>",
+    "wikiNotesHtml": "Completion of <span class=\"scp\" data-skill=\"Quest points\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Quest_points\" title=\"Quest points\"><img alt=\"Quest points\" src=\"/images/Quest_point_icon.png?dc356\" decoding=\"async\" loading=\"lazy\" width=\"21\" height=\"21\" class=\"mw-file-element\" data-file-width=\"21\" data-file-height=\"21\"></a></span> </span> <a href=\"/w/Tower_of_Life\" title=\"Tower of Life\">Tower of Life</a><br><i>Note: Automatically completed on Kandarin region unlock.</i>",
     "location": {
       "x": 2648,
       "y": 3219,
@@ -16252,8 +16252,8 @@
         "level": 35
       }
     ],
-    "wikiNotes": "Note: Fermenting Wines of Zamorak does not count",
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"35\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 35 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span><br><i>Note: Fermenting Wines of Zamorak does not count</i>"
+    "wikiNotes": "Note: Fermenting Wines of Zamorak does not count.",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Cooking\" data-level=\"35\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Cooking\" title=\"Cooking\"><img alt=\"Cooking\" src=\"/images/Cooking_icon.png?a0156\" decoding=\"async\" loading=\"lazy\" width=\"19\" height=\"21\" class=\"mw-file-element\" data-file-width=\"19\" data-file-height=\"21\"></a></span> 35 <a href=\"/w/Cooking\" title=\"Cooking\">Cooking</a></span><br><i>Note: Fermenting Wines of Zamorak does not count.</i>"
   },
   {
     "name": "Fill 10 Elite Clue Collection Log Slots",
@@ -32205,7 +32205,8 @@
         "level": 70
       }
     ],
-    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 70 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>"
+    "wikiNotes": "Note: Must be in powered staff mode.",
+    "wikiNotesHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"70\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 70 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span><br><i>Note: Must be in powered staff mode.</i>"
   },
   {
     "name": "Equip the Amulet of Rancour",
