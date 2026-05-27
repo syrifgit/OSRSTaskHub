@@ -11698,7 +11698,13 @@
     "area": "Varlamore",
     "tierName": "Hard",
     "tier": 3,
-    "category": null
+    "category": null,
+    "skillRequirements": [
+      {
+        "skill": "HUNTER",
+        "level": 46
+      }
+    ]
   },
   {
     "structId": 15036,
@@ -17357,7 +17363,13 @@
     "area": "Global",
     "tierName": "Elite",
     "tier": 4,
-    "category": null
+    "category": null,
+    "skillRequirements": [
+      {
+        "skill": "CONSTRUCTION",
+        "level": 87
+      }
+    ]
   },
   {
     "structId": 14765,
