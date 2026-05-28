@@ -20978,8 +20978,8 @@
       "pactTask": false,
       "completionPercent": 16.9,
       "skills": [],
-      "requirements": null,
-      "requirementsHtml": null
+      "requirements": "Aether runes do not work",
+      "requirementsHtml": "<a href=\"/w/Aether_rune\" title=\"Aether rune\">Aether runes</a> do not work"
     },
     "cache": {
       "action_name": "Craft 2500 Essence Into Runes",

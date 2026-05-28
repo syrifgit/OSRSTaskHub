@@ -15603,7 +15603,9 @@
     "pactTask": false,
     "category": 1,
     "categoryName": "Skill",
-    "completionPercent": 16.9
+    "completionPercent": 16.9,
+    "wikiNotes": "Aether runes do not work",
+    "wikiNotesHtml": "<a href=\"/w/Aether_rune\" title=\"Aether rune\">Aether runes</a> do not work"
   },
   {
     "name": "Craft 30 Blue Dragonhide Bodies",
