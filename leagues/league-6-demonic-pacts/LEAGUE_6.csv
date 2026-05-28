@@ -408,7 +408,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 13663,406,Defeat Amoxliatl 1 Time,Defeat the Amoxliatl in Varlamore,Varlamore,2,Medium,30,false,2,Combat,57.8,MINING 55; THIEVING 48; SLAYER 48; AGILITY 46,"The Heart of Darkness, , , ,"
 13662,407,Defeat Hueycoatl 1 Time,Defeat the Hueycoatl in Varlamore,Varlamore,2,Medium,30,true,2,Combat,69.7,,
 13665,408,Defeat a Dire Wolf,Defeat a Dire Wolf in Varlamore,Varlamore,2,Medium,30,false,2,Combat,71,,
-13666,409,Defeat a Jaguar without taking any damage from it,Defeat a fully grown Jaguar without taking any damage from it,Varlamore,2,Medium,30,false,2,Combat,74.5,,"the task only checks for full health when the jaguar dies. any jaguar, including jaguar warrior will count"
+13666,409,Defeat a Jaguar without taking any damage from it,Defeat a fully grown Jaguar without taking any damage from it,Varlamore,2,Medium,30,false,2,Combat,74.5,,"Jaguar warrior will count. If the jaguar has damaged ANY player (not just you) since it has respawned, it will not count. If it does not work, kill the same jaguar when it respawns."
 13667,410,Defeat a Oryx with melee,Defeat an Oryx in the Avium Savannah with melee,Varlamore,2,Medium,30,false,2,Combat,70.3,,
 13668,411,Defeat the Moons of Peril,Defeat the Moons of Peril,Varlamore,2,Medium,30,false,2,Combat,55.3,,
 13670,412,Defeat the Moons of Peril 10 times,Defeat the Moons of Peril 10 times,Varlamore,2,Medium,30,false,2,Combat,27.3,,

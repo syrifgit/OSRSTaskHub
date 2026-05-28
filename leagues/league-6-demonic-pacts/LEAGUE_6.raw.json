@@ -11151,8 +11151,8 @@
       "pactTask": false,
       "completionPercent": 74.5,
       "skills": [],
-      "requirements": "the task only checks for full health when the jaguar dies. any jaguar, including jaguar warrior will count",
-      "requirementsHtml": "the task only checks for full health when the jaguar dies. any jaguar, including <a href=\"/w/Jaguar_warrior\" title=\"Jaguar warrior\">jaguar warrior</a> will count"
+      "requirements": "Jaguar warrior will count. If the jaguar has damaged ANY player (not just you) since it has respawned, it will not count. If it does not work, kill the same jaguar when it respawns.",
+      "requirementsHtml": "<a href=\"/w/Jaguar_warrior\" title=\"Jaguar warrior\">Jaguar warrior</a> will count.\n<p>If the jaguar has damaged ANY player (not just you) since it has respawned, it will not count. If it does not work, kill the same jaguar when it respawns.\n</p>"
     },
     "cache": {
       "action_name": "Defeat a Jaguar without taking any damage from it",

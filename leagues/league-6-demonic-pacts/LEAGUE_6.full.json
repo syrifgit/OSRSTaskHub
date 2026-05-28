@@ -7924,8 +7924,8 @@
     "category": 2,
     "categoryName": "Combat",
     "completionPercent": 74.5,
-    "wikiNotes": "the task only checks for full health when the jaguar dies. any jaguar, including jaguar warrior will count",
-    "wikiNotesHtml": "the task only checks for full health when the jaguar dies. any jaguar, including <a href=\"/w/Jaguar_warrior\" title=\"Jaguar warrior\">jaguar warrior</a> will count"
+    "wikiNotes": "Jaguar warrior will count. If the jaguar has damaged ANY player (not just you) since it has respawned, it will not count. If it does not work, kill the same jaguar when it respawns.",
+    "wikiNotesHtml": "<a href=\"/w/Jaguar_warrior\" title=\"Jaguar warrior\">Jaguar warrior</a> will count.\n<p>If the jaguar has damaged ANY player (not just you) since it has respawned, it will not count. If it does not work, kill the same jaguar when it respawns.\n</p>"
   },
   {
     "name": "Defeat a Oryx with melee",
