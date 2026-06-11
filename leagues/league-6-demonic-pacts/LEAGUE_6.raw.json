@@ -30529,6 +30529,7 @@
     "cache": {
       "action_name": "Equip a Trident of the Seas",
       "action_description": "Equip a Trident of the Seas",
+      "total_level": 11905,
       "league_tier": 3,
       "league_task_marker": 1,
       "league_category": 2,
