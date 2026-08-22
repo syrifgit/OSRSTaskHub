@@ -11357,7 +11357,7 @@
     "sortId": 417,
     "wiki": {
       "name": "Equip Pendant of Ates",
-      "description": "Equip the Pendant of ates.",
+      "description": "Equip the Pendant of Ates.",
       "areaKey": "varlamore",
       "tierKey": "medium",
       "tier": 2,
@@ -11903,7 +11903,7 @@
     "dbRowId": 15171,
     "sortId": 435,
     "wiki": {
-      "name": "Pickpocket a knight of varlamore 20 times",
+      "name": "Pickpocket a knight of Varlamore 20 times",
       "description": "Pickpocket a Knight of Varlamore 20 times.",
       "areaKey": "varlamore",
       "tierKey": "medium",
@@ -29215,7 +29215,7 @@
     "sortId": 1045,
     "wiki": {
       "name": "Equip Boots of Brimstone",
-      "description": "Equip a pair of Boots of brimstone.",
+      "description": "Equip a pair of boots of brimstone.",
       "areaKey": "kourend",
       "tierKey": "hard",
       "tier": 3,
@@ -30523,8 +30523,8 @@
           "level": 87
         }
       ],
-      "requirements": ", or & to dismantle a Trident of the swamp",
-      "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 75 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Slayer\" data-level=\"87\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 87 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>or <span class=\"league-badge league-badge-wrapper\" data-league-area=\"tirannwn&amp;kandarin\"><span class=\"league-badge\" data-league-area=\"tirannwn\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Demonic_Pacts_League/Areas/Tirannwn\" title=\"Tirannwn\"><img alt=\"Tirannwn\" src=\"/images/Tirannwn_Area_Badge.png?4b9ee\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span></span>&amp;<span class=\"league-badge\" data-league-area=\"kandarin\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Demonic_Pacts_League/Areas/Kandarin\" title=\"Kandarin\"><img alt=\"Kandarin\" src=\"/images/Kandarin_Area_Badge.png?f8338\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span></span></span> to dismantle a <a href=\"/w/Trident_of_the_swamp\" class=\"mw-redirect\" title=\"Trident of the swamp\">Trident of the swamp</a>"
+      "requirements": ", or & to dismantle a trident of the swamp",
+      "requirementsHtml": "<span class=\"scp\" data-skill=\"Magic\" data-level=\"75\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Magic\" title=\"Magic\"><img alt=\"Magic\" src=\"/images/Magic_icon.png?334cf\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"23\" class=\"mw-file-element\" data-file-width=\"25\" data-file-height=\"23\"></a></span> 75 <a href=\"/w/Magic\" title=\"Magic\">Magic</a></span>, <span class=\"scp\" data-skill=\"Slayer\" data-level=\"87\" style=\"position:relative;display:inline-block;height:1em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Slayer\" title=\"Slayer\"><img alt=\"Slayer\" src=\"/images/Slayer_icon.png?cd34f\" decoding=\"async\" loading=\"lazy\" width=\"23\" height=\"24\" class=\"mw-file-element\" data-file-width=\"23\" data-file-height=\"24\"></a></span> 87 <a href=\"/w/Slayer\" title=\"Slayer\">Slayer</a></span><br>or <span class=\"league-badge league-badge-wrapper\" data-league-area=\"tirannwn&amp;kandarin\"><span class=\"league-badge\" data-league-area=\"tirannwn\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Demonic_Pacts_League/Areas/Tirannwn\" title=\"Tirannwn\"><img alt=\"Tirannwn\" src=\"/images/Tirannwn_Area_Badge.png?4b9ee\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span></span>&amp;<span class=\"league-badge\" data-league-area=\"kandarin\"><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"/w/Demonic_Pacts_League/Areas/Kandarin\" title=\"Kandarin\"><img alt=\"Kandarin\" src=\"/images/Kandarin_Area_Badge.png?f8338\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"30\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"30\"></a></span></span></span> to dismantle a <a href=\"/w/Trident_of_the_swamp\" class=\"mw-redirect\" title=\"Trident of the swamp\">trident of the swamp</a>"
     },
     "cache": {
       "action_name": "Equip a Trident of the Seas",
@@ -37585,7 +37585,7 @@
     "sortId": 1329,
     "wiki": {
       "name": "Equip the Eye of Ayak",
-      "description": "Equip the Eye of ayak.",
+      "description": "Equip the Eye of Ayak.",
       "areaKey": "varlamore",
       "tierKey": "elite",
       "tier": 4,

@@ -1083,7 +1083,7 @@ dbRowId,sortId,name,description,area,tier,tierName,points,pactTask,category,cate
 14049,1081,Equip a Saradomin Sword,Equip a Saradomin Sword,Asgarnia,3,Hard,80,false,2,Combat,47.2,ATTACK 70; AGILITY 70,","
 14060,1082,Equip a Seer's Ring,Equip a Seer's Ring,Fremennik,3,Hard,80,false,2,Combat,59.6,,
 14042,1083,Equip a Seercull,Equip a Seercull,Fremennik,3,Hard,80,false,2,Combat,52.5,RANGED 50,
-14122,1084,Equip a Trident of the Seas,Equip a Trident of the Seas,Kandarin,3,Hard,80,true,2,Combat,70,MAGIC 75; SLAYER 87,", or & to dismantle a Trident of the swamp"
+14122,1084,Equip a Trident of the Seas,Equip a Trident of the Seas,Kandarin,3,Hard,80,true,2,Combat,70,MAGIC 75; SLAYER 87,", or & to dismantle a trident of the swamp"
 14002,1085,Equip a Twinflame staff,Equip a Twinflame staff,Asgarnia,3,Hard,80,false,2,Combat,19.5,MAGIC 60,
 14123,1086,Equip a Warped Sceptre,Equip a Warped Sceptre,Kandarin,3,Hard,80,false,2,Combat,31.9,MAGIC 62; SLAYER 56,", Completion of The Path of Glouphrie"
 14061,1087,Equip a Warrior Ring,Equip a Warrior Ring,Fremennik,3,Hard,80,false,2,Combat,59,,
